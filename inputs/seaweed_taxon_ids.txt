@@ -1,0 +1,18 @@
+1	Agarum fimbriatum	Agarum fimbriatum W.H. Harvey
+2	Alaria marginata	Alaria marginata Postels & Ruprecht
+3	Costaria costata	Costaria costata (C. Agardh) D.A. Saunders
+4	Egregia menziesii	Egregia menziesii (Turner) Areschoug
+5	Eisenia arborea	Eisenia arborea Areschoug
+6	Laminaria ephemera	Laminaria ephemera Setchell
+7	Laminaria farlowii	Laminaria farlowii Setchell
+8	Laminaria setchellii	Laminaria setchellii P. C. Silva
+9	Laminaria sinclairii	Laminaria sinclairii (Harvey ex J.D. Hooker & Harvey) Farlow, Anderson, & Eaton
+10	Lessoniopsis littoralis	Lessoniopsis littoralis (Farlow & Setchell ex Tilden) Reinke
+11	Macrocystis pyrifera	Macrocystis pyrifera (Linnaeus) C. Agardh
+12	Nereocystis luetkeana	Nereocystis luetkeana (Mertens f.) Postels & Ruprecht
+13	Pelagophycus porra	Pelagophycus porra (Leman) Setchell
+14	Pleurophycus gardneri	Pleurophycus gardneri Setchell & Saunders ex Tilden
+15	Pterygophora californica	Pterygophora californica Ruprecht
+16	Postelsia palmaeformis	Postelsia palmaeformis Ruprecht
+17	Saccharina sessilis	Saccharina sessilis (C. Agardh) O. Kuntze
+18	Undaria pinnatifida	Undaria pinnatifida (Harvey) Suringar

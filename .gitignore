@@ -1,0 +1,12 @@
+#from fancybox.net
+fancybox*
+
+#content
+images/
+inputs/CALIFORNIA_SEAWEEDS.txt
+
+#generated files
+outputs/
+
+#from Mac OS X
+.DS_Store
