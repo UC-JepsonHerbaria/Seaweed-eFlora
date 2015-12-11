@@ -1,6 +1,9 @@
 #from fancybox.net
 fancybox*
 
+#config files
+config/config.php
+
 #content
 images/
 inputs/CALIFORNIA_SEAWEEDS.txt
