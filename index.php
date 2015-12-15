@@ -3,6 +3,7 @@
 <head><title>University Herbarium: Postelsia palmaeformis</title> 
 <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
 <link href="http://ucjeps.berkeley.edu/common/styles/dropdowns.css" rel="stylesheet" type="text/css" />
+<link href="common/css/seaweed.css" rel="stylesheet" type="text/css" />
 
 <!--JQueryUI stuff-->
 <meta charset="utf-8">
@@ -11,25 +12,12 @@
   <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>  
 <!--JQueryUI-->
 <!-- fancybox files -->
-        <link rel="stylesheet" href="fancybox/source/jquery.fancybox.css" type="text/css" media="screen" />
-        <script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js"></script>
-
-<style>
-a.internal {
-	color: #CC6600;
-	text-decoration: none;
-	}
-a.internal:hover {
-	color: #3366CC;
-	text-decoration: underline;
-}
-</style>
-
-
+	<link rel="stylesheet" href="fancybox/source/jquery.fancybox.css" type="text/css" media="screen" />
+	<script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js"></script>
 <!-- end fancybox -->
 
 
-
+<!-- google maps -->
 <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
 <script type="text/javascript">
 function initialize() {
@@ -50,7 +38,6 @@ function JumpToIt(list) {
         location=newPage
     }
 }
-
 </script>
 
 
@@ -84,201 +71,17 @@ function JumpToIt(list) {
         });
     </script>
 <!-- end fancybox-->
-
-<style type="text/css" media="screen">
-    #map_canvas {
-      margin-left: auto;
-      margin-right: auto;
-      display: block;
-      float: left;
-      width: 500px;
-      height: 445px;
-      padding: 10px;
-    }
-
-#wrapper {
-		width:1000px;
-		margin:0px auto;
-		border:1px solid #bbb;
-		padding:10px;
-	}
-
-body {
-		font-family:arial,helvetica,sans-serif;
-		font-size:12px;
-	}
-
-	#header {
-		border:1px solid #bbb; 
-		height:80px;
-		padding:10px;
-	}
-	#content {
-		margin-top:10px;
-		padding-bottom:10px;
-	}
-	#content div {
-		padding:10px;
-/*		border:1px solid #bbb; */
-		float:left;	
-	}
-	#content-left {
-		border:1px solid #bbb;
-		width:210px;
-	}
-	#content-main {
-		border:1px solid #bbb;
-		margin-left:10px;
-		width:570px;
-	}
-	#content-right {
-		border:1px solid #bbb;
-		margin-left:1px;
-		width:134px;
-	}
-
-	
-	
-	#footer {
-		float:left;
-		margin-top:10px;
-		margin-bottom:10px;
-		padding:10px;
-		border:1px solid #bbb;
-		width:978px;
-	}
-	#bottom {
-		clear:both;
-		text-align:right;
-	}
-
-/* for fancybox gallery */    
-.hidden {
-    display: none;
-}
-
-</style>
 </head>
 
 <body onload="initialize()">
 
 <div id="wrapper">
 <!-- Begin banner -->
-<table class="banner" width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tr>
-      <td colspan="5" align="center" valign="middle">&nbsp;</td>
-    </tr>
-
-  <tr>
-      <td rowspan="4" width="12" align="center" valign="middle"></td>
-      <td rowspan="3" width="120" align="center" valign="middle">
-        <a href="http://ucjeps.berkeley.edu/uc/"><img src="http://ucjeps.berkeley.edu/common/images/uclogo_250.png" alt="University Herbarium (UC)" width="80" height="79" border="0" /></a></td>
-    <td align="center">&nbsp;</td>
-    <td rowspan="3" width="120" align="center" valign="middle"></td>
-    <td rowspan="4" width="12" align="center" valign="middle"></td>
-  </tr>
-    <tr>
-
-    <td align="center" valign="middle"><span class="bannerTitle">The University Herbarium</span><br /></td>
-  </tr>
-
-    <tr>
-     <td align="center" valign="top"><a href="http://www.berkeley.edu" class="bannerTagLine">University of California, Berkeley</a></td>
-   </tr>
-
-     <tr>
-     <td colspan="3" align="center"></td>
-
-   </tr>
-     
-   <tr>
-       <td height="8" colspan="5" align="center">&nbsp;</td>
-     </tr>
-   <tr class="bannerBottomBorder">
-     	<td colspan="6" height="3"></td>
-  </tr>
-
-    <tr>
-
-    <td colspan="6"><img src="http://ucjeps.berkeley.edu/common/images/common_spacer.gif" alt="" width="1" height="1" border="0" /></td>
-  </tr>
-  </table>
+<?php include('common/php/seaweed_header.php'); ?>
 <!-- End banner -->
 
 <!-- Beginning of horizontal menu -->
-<table class=horizMenu width="100%" border="0" cellspacing="0" cellpadding="0">
-<tr>
-<td>
-<nav>
-	<ul>
-    	<li><a href="http://ucjeps.berkeley.edu/">Home</a></li>
-        <li><a href="http://ucjeps.berkeley.edu/main/collections.html">About &#x25BE;</a>
-        	<ul>
-            	<!--<li><a href="#">University Herbarium</a></li>
-                <li><a href="#">Jepson Herbarium</a></li></li>-->
-                <li><a href="http://ucjeps.berkeley.edu/main/collections.html#UC">About the Collections</a></li>
-                <li><a href="http://ucjeps.berkeley.edu/main/directory.html">People</a></li>
-                <li><a href="http://ucjeps.berkeley.edu/main/guidelines.html">Visiting the Herbaria</a></li>
-                <li><a href="http://ucjeps.berkeley.edu/main/volunteer.html">Volunteering</a></li>
-                <li><a href="http://ucjeps.berkeley.edu/main/policies.html">Policies</a></li>
-               <!-- <li><a href="http://ucjeps.berkeley.edu/main/questions.html">Herbaria FAQs</a></li>-->
-                <li><a href="http://ucjeps.berkeley.edu/history/">History</a></li>
-            </ul>
-        </li>
-        <li><a href="http://ucjeps.berkeley.edu/main/research/">Research &#x25BE;</a>
-        	<ul>
-            	<li><a href="http://ucjeps.berkeley.edu/main/research/faculty.html">Faculty Research Programs</a></li>
-                <li><a href="http://ucjeps.berkeley.edu/Herb_Pubs.html">Herbarium Publications</a></li>
-                <li><a href="http://ucjeps.berkeley.edu/jepsonflora/index.html">Jepson Flora Project</a></li>
-                <li><a href="http://ucjeps.berkeley.edu/CPD/algal_research.html">Silva Center for Phycological <br />Documentation</a></li>
-                <!--<li><a href="http://ucjeps.berkeley.edu/bryolab/Bryolab.html">Mishler Lab</a></li>-->
-                <!--<li><a href="http://ucjeps.berkeley.edu/Baldwin-Lab.html">Baldwin Lab</a></li>-->
-                <!--<li><a href="#">American-Iranian<br /> Botanical Program</a></li>-->
-            </ul>
-        </li>
-        <li><a href="http://ucjeps.berkeley.edu/main/databases.html">Databases &#x25BE;</a>
-        	<ul>
-            	<li><a href="http://ucjeps.berkeley.edu/specimens/">UC/JEPS Specimen Portal</a></li>
-                <li><a href="http://ucjeps.berkeley.edu/consortium/">Consortium of California Herbaria</a></li>
-                <li><a href="http://ucjeps.berkeley.edu/bryolab/UC_bryophytes.html">Bryophyte Specimen Database</a></li>
-                <li><a href="http://ucjeps.berkeley.edu/interchange/">Jepson Online Interchange</a></li>
-                <li><a href="http://ucjeps.berkeley.edu/INA.html">Index Nominum Algarum</a></li>
-            </ul>
-        </li>
-        <li><a href="http://ucjeps.berkeley.edu/efloras.html">eFloras &#x25BE;</a>
-        	<ul>
-            	<li><a href="http://ucjeps.berkeley.edu/IJM.html">Jepson eFlora</a></li>
-                <li><a href="http://ucjeps.berkeley.edu/CA_moss_eflora/">California Moss eFlora</a></li>
-				<li><a href="http://ucjeps.berkeley.edu/seaweedflora/">Seaweed Flora of California<br />(Upcoming)</a></li>
-              <li><a href="http://ucjeps.berkeley.edu/efc/">Ecological Flora of California</a></li>
-            </ul>
-        </li>
-        <li><a href="http://ucjeps.berkeley.edu/main/education.html">Education &amp; Outreach &#x25BE;</a>
-        	<ul>
-            	<li><a href="http://ucjeps.berkeley.edu/workshops/">Public Workshops</a></li>
-                <li><a href="http://ucjeps.berkeley.edu/main/opportunities.html">Academic Opportunities</a></li>
-                <li><a href="http://ucjeps.berkeley.edu/news/botanylunch/">Botany Lunch Seminar</a></li>
-                <!--<li><a href="#">Friends of the Jepson Herbarium</a></li>-->
-            </ul>
-        </li>
-        <li><a href="http://ucjeps.berkeley.edu/main/archives/index.html">Archives &#x25BE;</a>
-        	<ul>
-            	<li><a href="http://ucjeps.berkeley.edu/main/archives/archives_overview.html">Collections Overview</a></li>
-                <li><a href="http://ucjeps.berkeley.edu/archon/">Archives Database</a></li>
-                <li><a href="http://ucjeps.berkeley.edu/main/archives/images.html">Images</a></li>
-                <li><a href="http://ucjeps.berkeley.edu/images/fieldbooks/jepson_fieldbooks.html">Jepson Field Books</a></li>
-<!--                <li><a href="#">Inventory Report</a></li>
-                <li><a href="#">Archives Policies</a></li>
-                <li><a href="#">Library Collection</a></li> -->
-            </ul>
-        </li>
-        <li><a href="http://ucjeps.berkeley.edu/main/directory.html">Contact</a></li>
-        <li><a href="http://ucjeps.berkeley.edu/jeps/friends/index.html">Donate</a></li>
-    </ul>
-</nav>
-</td>
-</tr>
-</table>
+<?php include('common/php/globanav.php'); ?>
 <!-- End of horizontal menu -->
 <div id="content">
 <div id="content-left">
