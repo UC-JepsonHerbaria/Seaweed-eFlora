@@ -5,9 +5,20 @@ $URL_TaxonID = htmlspecialchars($_GET["tid"]);
 require 'config/config.php';
 $db = new SQLite3($database_location);
 
-$results = $db->query('SELECT ID, TaxonID, ScientificName, TaxonAuthor, NativeStatus, KeyCharacteristics, Status, Habitat, LifeHistory, Conservation, DistributionNotes, MACDescription, MACNotes, VerticalDistribution, Frequency, Substrate, Associates, Epiphytes, TypeLocality 
-						FROM eflora_taxa
-						WHERE TaxonID='.$URL_TaxonID.''); //16711 is the TaxonID for Calochortus amabilis, for example
+if (preg_match('/^[0-9]+/', $URL_TaxonID)) {
+	$results = $db->query('SELECT ID, TaxonID, ScientificName, TaxonAuthor, NativeStatus, KeyCharacteristics, Status, Habitat, LifeHistory, Conservation, DistributionNotes, MACDescription, MACNotes, VerticalDistribution, Frequency, Substrate, Associates, Epiphytes, TypeLocality 
+							FROM eflora_taxa
+							WHERE TaxonID='.$URL_TaxonID.';'); //16711 is the TaxonID for Calochortus amabilis, for example
+}
+else { //Else, process URL_TaxonID as a string and check if there's a matching name
+	$URL_Name = ucwords($URL_TaxonID);
+	$URL_Name = str_replace("-", " ", $URL_Name);
+	$URL_Name = str_replace("_", " ", $URL_Name);
+	$results = $db->query('SELECT ID, TaxonID, ScientificName, TaxonAuthor, NativeStatus, KeyCharacteristics, Status, Habitat, LifeHistory, Conservation, DistributionNotes, MACDescription, MACNotes, VerticalDistribution, Frequency, Substrate, Associates, Epiphytes, TypeLocality 
+							FROM eflora_taxa
+							WHERE ScientificName IN ("'.$URL_Name.'");'); //16711 is the TaxonID for Calochortus amabilis, for example
+}
+
 
 while ($row = $results->fetchArray()) {
 
