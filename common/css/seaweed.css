@@ -1,0 +1,83 @@
+/* use this class for links inside jquery ui tabs to style them correctly*/
+a.internal {
+	color: #CC6600;
+	text-decoration: none;
+	}
+a.internal:hover {
+	color: #3366CC;
+	text-decoration: underline;
+}
+
+
+/* for fancybox gallery */    
+.hidden {
+    display: none;
+}
+
+/* google map canvas */
+    #map_canvas {
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      float: left;
+      width: 500px;
+      height: 445px;
+      padding: 10px;
+    }
+
+/* all this stuff is used for the divs right now
+it will be replaced with bootstrap css or similar */
+
+#wrapper {
+		width:1000px;
+		margin:0px auto;
+		border:1px solid #bbb;
+		padding:10px;
+	}
+
+body {
+		font-family:arial,helvetica,sans-serif;
+		font-size:12px;
+	}
+
+	#header {
+		border:1px solid #bbb; 
+		height:80px;
+		padding:10px;
+	}
+	#content {
+		margin-top:10px;
+		padding-bottom:10px;
+	}
+	#content div {
+		padding:10px;
+/*		border:1px solid #bbb; */
+		float:left;	
+	}
+	#content-left {
+		border:1px solid #bbb;
+		width:210px;
+	}
+	#content-main {
+		border:1px solid #bbb;
+		margin-left:10px;
+		width:570px;
+	}
+	#content-right {
+		border:1px solid #bbb;
+		margin-left:1px;
+		width:134px;
+	}
+	
+	#footer {
+		float:left;
+		margin-top:10px;
+		margin-bottom:10px;
+		padding:10px;
+		border:1px solid #bbb;
+		width:978px;
+	}
+	#bottom {
+		clear:both;
+		text-align:right;
+	}
