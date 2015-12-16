@@ -23,14 +23,11 @@ CREATE TABLE eflora_taxa (
 	TypeLocality TEXT
 );
 
-/*DROP TABLE eflora_illustrations;
+DROP TABLE eflora_media;
 
-CREATE TABLE eflora_illustrations (
+CREATE TABLE eflora_media (
 	ID INTEGER PRIMARY KEY,
 	TaxonID INTEGER,
 	FileName TEXT,
-	ImageType TEXT,
-	ImageRank TEXT
+	MediaType TEXT
 );
-
-*/
