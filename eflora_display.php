@@ -8,7 +8,7 @@ $db = new SQLite3($database_location);
 if (preg_match('/^[0-9]+/', $URL_TaxonID)) {
 	$results = $db->query('SELECT ID, TaxonID, ScientificName, TaxonAuthor, NativeStatus, KeyCharacteristics, Status, Habitat, LifeHistory, Conservation, DistributionNotes, MACDescription, MACNotes, VerticalDistribution, Frequency, Substrate, Associates, Epiphytes, TypeLocality 
 							FROM eflora_taxa
-							WHERE TaxonID='.$URL_TaxonID.';'); //16711 is the TaxonID for Calochortus amabilis, for example
+							WHERE TaxonID='.$URL_TaxonID.';'); //10 is the TaxonID for Lessoniopsis littoralis, for example
 }
 else { //Else, process URL_TaxonID as a string and check if there's a matching name
 	$URL_Name = ucwords($URL_TaxonID);
@@ -16,7 +16,7 @@ else { //Else, process URL_TaxonID as a string and check if there's a matching n
 	$URL_Name = str_replace("_", " ", $URL_Name);
 	$results = $db->query('SELECT ID, TaxonID, ScientificName, TaxonAuthor, NativeStatus, KeyCharacteristics, Status, Habitat, LifeHistory, Conservation, DistributionNotes, MACDescription, MACNotes, VerticalDistribution, Frequency, Substrate, Associates, Epiphytes, TypeLocality 
 							FROM eflora_taxa
-							WHERE ScientificName IN ("'.$URL_Name.'");'); //16711 is the TaxonID for Calochortus amabilis, for example
+							WHERE ScientificName IN ("'.$URL_Name.'");');
 }
 
 
@@ -40,16 +40,21 @@ $Substrate = $row['Substrate'];
 $Associates = $row['Associates'];
 $Epiphytes = $row['Epiphytes'];
 $TypeLocality = $row['TypeLocality'];
-
 //var_dump($row); 
 /*var_dump prints the whole row in a databased format
 which is useful for seeing what you're getting
 but is pretty ugly
 */
-
 }
 
+//get the audio clip from the media table
+$results = $db->query('SELECT ID, FileName 
+						FROM eflora_media
+						WHERE TaxonID='.$URL_TaxonID.' AND MediaType LIKE "Audio";'); //10 is the TaxonID for Lessoniopsis littoralis, for example
 
+while ($row = $results->fetchArray()) {
+	$AudioFile= $row['FileName'];
+}
 
 //query to images table will go here
 //$results = $db->query('SELECT [...] 
@@ -71,6 +76,7 @@ if (!$ID){ //if TaxonID (pulled from URL) did not match a line in the database..
 ?>
 
 
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head><title>University Herbarium: California Seaweed eFlora: <?php echo "$ScientificName"?></title> 
 <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
@@ -149,8 +155,17 @@ function JumpToIt(list) {
 
 <div id="content">
 <div id="content-left">
+
+
 	<?php
-	echo "<h2><a href='http://ucjeps.berkeley.edu/cgi-bin/porp_cgi.pl?139507'><i>".$ScientificName."</i> ".$TaxonAuthor."</a></h2>";
+	echo "<h2><a href='http://ucjeps.berkeley.edu/cgi-bin/porp_cgi.pl?139507'><i>".$ScientificName."</i> ".$TaxonAuthor."</a>";
+	if (isset($AudioFile)){ // AudioFile is included as part of the heading
+		echo '<audio controls>';
+		echo '<source src="audio/'.$AudioFile.'" type="audio/ogg">';
+		echo 'Your browser does not support the audio element.';
+		echo '</audio>';
+	}
+	echo "</h2>";
 	echo "<img width='210px' src='images/postelsia1.jpg'>";
 	if (isset($KeyCharacteristics)){ //print KeyCharacteristics block, if any
 		$KeyCharacteristics = str_replace("|",'</li><li>',$KeyCharacteristics); //process lists by turning the pipe delimiter into list tags
