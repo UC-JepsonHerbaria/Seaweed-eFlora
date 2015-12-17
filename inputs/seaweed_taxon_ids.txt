@@ -16,3 +16,4 @@
 16	Postelsia palmaeformis	Postelsia palmaeformis Ruprecht
 17	Saccharina sessilis	Saccharina sessilis (C. Agardh) O. Kuntze
 18	Undaria pinnatifida	Undaria pinnatifida (Harvey) Suringar
+19	Dictyoneurum californicum	Dictyoneurum californicum Ruprecht
