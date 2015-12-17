@@ -30,6 +30,11 @@ audio {
 	width: 200px; display: block; margin:5px;
 }
 
+
+tabs.img {
+	max-width: 500px;
+}
+
 /* all this stuff is used for the divs right now
 it will be replaced with bootstrap css or similar */
 

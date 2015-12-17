@@ -56,14 +56,9 @@ while ($row = $results->fetchArray()) {
 	$AudioFile= $row['FileName'];
 }
 
-//query to images table will go here
-//$results = $db->query('SELECT [...] 
-//						FROM eflora_images
-//						WHERE TaxonID='.$TaxonID.'');
-
-//while ($row = $results->fetchArray()) {
-	//assign everything
-//}
+$illustration_results = $db->query('SELECT FileName
+									from eflora_media
+									WHERE TaxonID='.$URL_TaxonID.' AND MediaType LIKE "Illustration";');
 
 
 //Before doing anything, if the TID isn't recognized, give a plain error screen
@@ -225,6 +220,13 @@ function JumpToIt(list) {
 			?>
 		</div>
 		<div id="tabs-3"> <!-- illustrations tab -->
+			<p>Illustrations are from <a href="http://ucjeps.berkeley.edu/guide/">DeCew's Guide to the Seaweeds of British Columbia, Washington, Oregon, and Northern California</a>, unless otherwise stated.</p>
+			<?php
+		    	while ($row = $illustration_results->fetchArray()) {
+					$illu_name = $row['FileName'];
+					echo '<img style="max-width:528px;" src="http://ucjeps.berkeley.edu/guide/'.$illu_name.'"><br><br>';
+				}
+			?>
 		</div>
 		<div id="tabs-4"> <!-- MAC Tab -->
 			<?php
