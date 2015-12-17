@@ -219,7 +219,7 @@ function JumpToIt(list) {
 		  </ul>
 		<div id="tabs-1"> <!-- map tab -->
 			<p><div id="map_canvas"></div></p>
-			<p>UC specimens and range limits for <?php echo "$ScientificName"; ?></p>
+			<p>UC specimens and range limits for <i><?php echo "$ScientificName"; ?></i></p>
 			<?php 
 				$name_for_pnw_link = str_replace(" ", '&Species1=', $ScientificName);
     			echo '<p><a class="internal" href="http://www.pnwherbaria.org/data/results.php?DisplayAs=WebPage&ExcludeCultivated=Y&GroupBy=ungrouped&SortBy=Year&SortOrder=DESC&SearchAllHerbaria=Y&QueryCount=1&IncludeSynonyms1=Y&Genus1='.$name_for_pnw_link.'&Zoom=4&Lat=55&Lng=-135&PolygonCount=0">Map from Pacific Northwest Herbaria</a>';
