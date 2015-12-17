@@ -273,7 +273,7 @@ function JumpToIt(list) {
 		if (isset($Substrate)) { echo '<p><b>Substrate:</b> '.$Substrate.'</p>'; }
 		if (isset($TypeLocality)) { 
 			$TypeLocality = str_replace("|", '</p><p>', $TypeLocality);
-			echo '<p><b>Type locality (first collection site):</b> '.$TypeLocality.'</p>'; 
+			echo '<p><b>Type locality:</b> '.$TypeLocality.'</p>'; 
 		}
 		// Phenology: Link to DeCew's guide
 	?>
