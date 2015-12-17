@@ -56,9 +56,13 @@ while ($row = $results->fetchArray()) {
 	$AudioFile= $row['FileName'];
 }
 
+//get illustration and photo results
 $illustration_results = $db->query('SELECT FileName
 									from eflora_media
 									WHERE TaxonID='.$URL_TaxonID.' AND MediaType LIKE "Illustration";');
+$photo_results = $db->query('SELECT FileName
+							from eflora_media
+							WHERE TaxonID='.$URL_TaxonID.' AND MediaType LIKE "Photo";');
 
 
 //Before doing anything, if the TID isn't recognized, give a plain error screen
@@ -161,20 +165,25 @@ function JumpToIt(list) {
 		echo '</audio>';
 	}
 	echo "</h2>";
-	echo "<img width='210px' src='images/postelsia1.jpg'>";
 	if (isset($KeyCharacteristics)){ //print KeyCharacteristics block, if any
 		$KeyCharacteristics = str_replace("|",'</li><li>',$KeyCharacteristics); //process lists by turning the pipe delimiter into list tags
 		echo "<h3>Key Characteristics</h3>";
 		echo '<ul><li>'.$KeyCharacteristics.'</li></ul>';
 	}
+	
+	//load image gallery, if any
+	if ($row = $photo_results->fetchArray()) { //this if statement loads the first image, which is not hidden
+		echo '<h3>Image Gallery (click for more)</h3>';
+		$photo_name = $row['FileName'];
+		echo '<a href="images/'.$photo_name.'" class="fancybox" rel="gallery"><img width=210px src="images/'.$photo_name.'" /></a>';
+	}
+	echo '<div class="hidden">';
+	while ($row = $photo_results->fetchArray()) { //this while statement loops through the remaining images, which are not hidden
+		$photo_name = $row['FileName'];
+		echo '<a href="images/'.$photo_name.'" class="fancybox" rel="gallery"><img width=210px src="images/'.$photo_name.'" /></a>';
+	}
+	echo '</div>';
 	?>
-	<!-- images not supported yet, so all Postelsia for now -->
-	<h3>Image Gallery (click for more)</h3>
-	<a href="images/Postelsia3.jpg" class="fancybox" rel="gallery" title="Postelsia3 caption"><img width=210px src="images/Postelsia3.jpg" /></a>
-	<div class="hidden"> <!-- other images are hidden, but are still in the "gallery" slide show-->
-		<a href="images/Postelsia4.jpg" class="fancybox" rel="gallery" title="Postelsia4 caption"><img height=200px src="images/Postelsia4.jpg" /></a>
-		<a href="images/Postelsia5.jpg" class="fancybox" rel="gallery" title="Postelsia5 caption"><img height=200px src="images/Postelsia5.jpg" /></a>
-	</div>
 	
 	<h3>Database links</h3>
 	<ul>

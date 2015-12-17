@@ -38,6 +38,7 @@ while(<IN>){
 	#get all values from the paragraph
 	my $scientific_name=&get_taxon_name($_);
 	
+	my @photo_array=&get_array($_, "PHOTO");
 	my @illustration_array=&get_array($_, "ILLUSTRATION");
 	my @audio_array=&get_array($_, "OGG");
 
@@ -46,7 +47,12 @@ while(<IN>){
 		warn "no taxon id for scientific name $scientific_name\n add $scientific_name to seaweed_taxon_ids.txt\n";
 		next;
 	} 
-
+	
+	foreach my $element (@photo_array){ ####How to handle media rank? Maybe we just sort by ID because that's the order it goes in
+		print OUT "INSERT INTO eflora_media(TaxonID, FileName, MediaType)\n";
+		print OUT "VALUES($taxon_id, $element, 'Photo')\n";
+		print OUT ";\n";
+	}
 	foreach my $element (@illustration_array){ ####How to handle media rank? Maybe we just sort by ID because that's the order it goes in
 		print OUT "INSERT INTO eflora_media(TaxonID, FileName, MediaType)\n";
 		print OUT "VALUES($taxon_id, $element, 'Illustration')\n";
