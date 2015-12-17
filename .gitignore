@@ -7,6 +7,7 @@ config/config.php
 #content
 images/
 inputs/CALIFORNIA_SEAWEEDS.txt
+inputs/specimen_gallery_ids.txt
 audio/
 
 #generated files
