@@ -63,6 +63,9 @@ $illustration_results = $db->query('SELECT FileName
 $photo_results = $db->query('SELECT FileName
 							from eflora_media
 							WHERE TaxonID='.$URL_TaxonID.' AND MediaType LIKE "Photo";');
+$specimen_results = $db->query('SELECT FileName
+								from eflora_media
+								WHERE TaxonID='.$URL_TaxonID.' AND MediaType LIKE "Specimen";');
 
 
 //Before doing anything, if the TID isn't recognized, give a plain error screen
@@ -187,7 +190,7 @@ function JumpToIt(list) {
 		echo '<a href="images/'.$photo_name.'" class="fancybox" rel="gallery"><img width=210px src="images/'.$photo_name.'" /></a>';
 	}
 	echo '<div class="hidden">';
-	while ($row = $photo_results->fetchArray()) { //this while statement loops through the remaining images, which are not hidden
+	while ($row = $photo_results->fetchArray()) { //this while statement loops through the remaining images, which are hidden
 		$photo_name = $row['FileName'];
 		echo '<a href="images/'.$photo_name.'" class="fancybox" rel="gallery"><img width=210px src="images/'.$photo_name.'" /></a>';
 	}
@@ -265,7 +268,6 @@ function JumpToIt(list) {
 
 <div id="content-right">
 	<?php
-		
 		echo '<p><a href="http://www.algaebase.org/search/?species='.$name4CSpace.'"><b>Classification & Synonyms: Algaebase</b></a></p>';
 		echo '<p><b>'.$NativeStatus.'</b></p>';
 		if (isset($VerticalDistribution)) { echo '<p><b>Vertical Distribution:</b> '.$VerticalDistribution.'</p>'; }
@@ -276,6 +278,19 @@ function JumpToIt(list) {
 			echo '<p><b>Type locality:</b> '.$TypeLocality.'</p>'; 
 		}
 		// Phenology: Link to DeCew's guide
+		
+		//load image gallery, if any
+		if ($row = $specimen_results->fetchArray()) { //this if statement loads the first image, which is not hidden
+			echo '<h3>Specimen Gallery (click for more)</h3>';
+			$specimen_name = $row['FileName'];
+			echo '<a href="images/specimens/'.$specimen_name.'" class="fancybox" rel="gallery2" title="'.$specimen_name.'"><img width=134px src="images/specimens/'.$specimen_name.'" /></a>';
+		}
+		echo '<div class="hidden">';
+		while ($row = $specimen_results->fetchArray()) { //this while statement loops through the remaining images, which are hidden
+			$specimen_name = $row['FileName'];
+			echo '<a href="images/specimens/'.$specimen_name.'" class="fancybox" rel="gallery2" title="'.$specimen_name.'"><img width=134px src="images/specimens/'.$specimen_name.'" /></a>';
+		}
+		echo '</div>';
 	?>
 </div>
 </div>
