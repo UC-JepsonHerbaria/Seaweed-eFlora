@@ -23,6 +23,7 @@ else { //Else, process URL_TaxonID as a string and check if there's a matching n
 while ($row = $results->fetchArray()) {
 
 $ID = $row['ID'];
+$URL_TaxonID = $row['TaxonID']; //reassign as TaxonID if name was used in URL, for queries to media table
 $ScientificName = $row['ScientificName'];
 $TaxonAuthor = $row['TaxonAuthor'];
 $NativeStatus = $row['NativeStatus'];
