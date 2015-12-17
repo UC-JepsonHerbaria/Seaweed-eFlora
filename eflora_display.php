@@ -93,7 +93,14 @@ if (!$ID){ //if TaxonID (pulled from URL) did not match a line in the database..
 
 <!-- google maps files and scripts -->
 <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
-<script type="text/javascript">
+
+<?php 
+// TID is passed to JS by using PHP to echo the value of $TaxonID to a JS variable TaxID 
+// Apparently there are better ways to do this using AJAX
+$name4GoogleMap = str_replace(" ", '_', $ScientificName);
+?>
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript"> 
 function initialize() {
   var myOptions = {
     mapTypeId: google.maps.MapTypeId.ROADMAP
@@ -101,7 +108,9 @@ function initialize() {
 
   var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
 
-  var pmlLayer = new google.maps.KmlLayer("http://herbaria4.herb.berkeley.edu/SW_coords/Alaria_marginata.kml?53498", { });
+	var MapName = "<?php echo $name4GoogleMap;?>";
+
+  var pmlLayer = new google.maps.KmlLayer("http://herbaria4.herb.berkeley.edu/SW_coords/"+MapName+".kml", { });
   pmlLayer.setMap(map);
 
 }
@@ -257,7 +266,7 @@ function JumpToIt(list) {
 <div id="content-right">
 	<?php
 		
-		echo '<p><a href="http://www.algaebase.org/search/?species="'.$name4CSpace.'><b>Classification & Synonyms: Algaebase</b></a></p>';
+		echo '<p><a href="http://www.algaebase.org/search/?species='.$name4CSpace.'"><b>Classification & Synonyms: Algaebase</b></a></p>';
 		echo '<p><b>'.$NativeStatus.'</b></p>';
 		if (isset($VerticalDistribution)) { echo '<p><b>Vertical Distribution:</b> '.$VerticalDistribution.'</p>'; }
 		if (isset($Frequency)) { echo '<p><b>Frequency:</b> '.$Frequency.'</p>'; }
