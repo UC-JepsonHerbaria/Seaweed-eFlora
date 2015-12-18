@@ -127,6 +127,18 @@ function JumpToIt(list) {
 }
 </script>
 
+<?php //for inside the jquery ui tabs. For some reason it is not working from this style in seaweed.css?>
+<style> 
+a.internal {
+	color: #CC6600;
+	text-decoration: none;
+	}
+a.internal:hover {
+	color: #3366CC;
+	text-decoration: underline;
+}
+</style>
+
 <!-- Google analytics -->
 <!-- goes here, once it is made -->
 
@@ -221,9 +233,14 @@ function JumpToIt(list) {
 		<div id="tabs-1"> <!-- map tab -->
 			<p><div id="map_canvas"></div></p>
 			<p>UC specimens and range limits for <i><?php echo "$ScientificName"; ?></i></p>
+			<UL>
+<li>Blue markers: specimen records
+<li>Yellow marker: Type locality, if present
+<li>Red markers: endpoints of range from literature
+</UL>
 			<?php 
 				$name_for_pnw_link = str_replace(" ", '&Species1=', $ScientificName);
-    			echo '<p><a class="internal" href="http://www.pnwherbaria.org/data/results.php?DisplayAs=WebPage&ExcludeCultivated=Y&GroupBy=ungrouped&SortBy=Year&SortOrder=DESC&SearchAllHerbaria=Y&QueryCount=1&IncludeSynonyms1=Y&Genus1='.$name_for_pnw_link.'&Zoom=4&Lat=55&Lng=-135&PolygonCount=0">Map from Pacific Northwest Herbaria</a>';
+    			echo '<p><a class="internal" href="http://www.pnwherbaria.org/data/results.php?DisplayAs=WebPage&ExcludeCultivated=Y&GroupBy=ungrouped&SortBy=Year&SortOrder=DESC&SearchAllHerbaria=Y&QueryCount=1&IncludeSynonyms1=Y&Genus1='.$name_for_pnw_link.'&Zoom=4&Lat=55&Lng=-135&PolygonCount=0">View map from the Consortium of Pacific Northwest Herbaria</a>';
 				if(isset($DistributionNotes)){
 					$DistributionNotes = str_replace("|",'</p><p>',$DistributionNotes);
 					echo '<p><b>Notes: </b>'.$DistributionNotes.'</p>';
