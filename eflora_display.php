@@ -255,7 +255,7 @@ a.internal:hover {
 				if (isset($Conservation)) { echo '<p><b>Conservation:</b> '.$Conservation.'</p>'; }
 				if (isset($Associates)) { echo '<p><b>Associated Taxa:</b> '.$Associates.'</p>'; }
 				if (isset($Epiphytes)) { echo '<p><b>Status:</b> '.$Epiphytes.'</p>'; }
-				// GENBANK LINK to be imported from Dick Moe's SW table
+				echo '<p><b><a class="internal" href="http://www.ncbi.nlm.nih.gov/nuccore/?term='.$name4Smithso.'">Search Sequences in GenBank</a></b></p>'; // GENBANK LINK to be imported from Dick Moe's SW table
 			?>
 		</div>
 		<div id="tabs-3"> <!-- illustrations tab -->
