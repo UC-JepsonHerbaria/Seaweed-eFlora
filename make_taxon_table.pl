@@ -7,6 +7,7 @@ use BerkeleyDB::Hash; #I don't think I need for anything
 #declare input files
 my $taxon_id_file = "inputs/seaweed_taxon_ids.txt";
 my $content_file = "inputs/CALIFORNIA_SEAWEEDS.txt";
+my @content_files = ("CALIFORNIA_SEAWEEDS.txt", "GREEN_species_pages.txt");
 
 #declare taxonID hash
 my %TID;
@@ -28,44 +29,48 @@ $/="";
 my $output_file = "outputs/load_taxon_table.sql";
 open(OUT, ">outputs/load_taxon_table.sql") || die;
 
-open(IN, $content_file) || die "couldn't find content file $content_file\n";
-while(<IN>){
-	next if m/^#/;
-	
-	#Escape single quotes for SQL insert
-	s/'/''/g;
-	
-	#get all values from the paragraph
-	my $scientific_name=&get_taxon_name($_);
-	my $taxon_author=&basic_get($_, "TAXON AUTHOR");
-	my $native_status=&get_native_status($_);
-	my $key_characteristics=&basic_get($_, "KEY CHARACTERISTICS");
-	my $status=&basic_get($_, "STATUS");
-	my $habitat=&basic_get($_, "HABITAT");
-	my $life_history=&basic_get($_, "LIFE HISTORY");
-	my $conservation=&basic_get($_, "CONSERVATION");
-	my $distribution_notes=&basic_get($_, "DISTRIBUTION NOTES");
-	my $MAC_description=&basic_get($_, "MAC DESCRIPTION");
-	my $MAC_notes=&basic_get($_, "MAC NOTES");
-	my $vertical_distribution=&basic_get($_, "VERTICAL DISTRIBUTION");
-	my $frequency=&basic_get($_, "FREQUENCY");
-	my $substrate=&basic_get($_, "SUBSTRATE");
-	my $associates=&basic_get($_, "ASSOCIATES");
-	my $epiphytes=&basic_get($_, "EPIPHYTES");
-	my $type_locality=&basic_get($_, "TYPE LOCALITY");
+foreach my $filename (@content_files) {
+warn "now processing file $filename";
+	open(IN, "inputs/$filename") || die "couldn't find content file $filename\n";
+	while(<IN>){
+		next if m/^#/;
+		
+		#Escape single quotes for SQL insert
+		s/'/''/g;
+		
+		#get all values from the paragraph
+		my $scientific_name=&get_taxon_name($_);
+		my $taxon_author=&basic_get($_, "TAXON AUTHOR");
+		my $native_status=&get_native_status($_);
+		my $key_characteristics=&basic_get($_, "KEY CHARACTERISTICS");
+		my $status=&basic_get($_, "STATUS");
+		my $habitat=&basic_get($_, "HABITAT");
+		my $life_history=&basic_get($_, "LIFE HISTORY");
+		my $conservation=&basic_get($_, "CONSERVATION");
+		my $distribution_notes=&basic_get($_, "DISTRIBUTION NOTES");
+		my $MAC_description=&basic_get($_, "MAC DESCRIPTION");
+		my $MAC_notes=&basic_get($_, "MAC NOTES");
+		my $vertical_distribution=&basic_get($_, "VERTICAL DISTRIBUTION");
+		my $frequency=&basic_get($_, "FREQUENCY");
+		my $substrate=&basic_get($_, "SUBSTRATE");
+		my $associates=&basic_get($_, "ASSOCIATES");
+		my $epiphytes=&basic_get($_, "EPIPHYTES");
+		my $type_locality=&basic_get($_, "TYPE LOCALITY");
 
-	my $taxon_id = $TID{$scientific_name};
-	unless ($taxon_id){
-		warn "no taxon id for scientific name $scientific_name\n add $scientific_name to seaweed_taxon_ids.txt\n";
-		next;
-	} 
+		my $taxon_id = $TID{$scientific_name};
+		unless ($taxon_id){
+			warn "no taxon id for scientific name $scientific_name\n add $scientific_name to seaweed_taxon_ids.txt\n";
+			next;
+		} 
 
-	$scientific_name = "'$scientific_name'";
+		$scientific_name = "'$scientific_name'";
 
-	print OUT "INSERT INTO eflora_taxa(TaxonID, ScientificName, TaxonAuthor, NativeStatus, KeyCharacteristics, Status, Habitat, LifeHistory, Conservation, DistributionNotes, MACDescription, MACNotes, VerticalDistribution, Frequency, Substrate, Associates, Epiphytes, TypeLocality)\n";
-	print OUT "VALUES($taxon_id, $scientific_name, $taxon_author, $native_status, $key_characteristics, $status, $habitat, $life_history, $conservation, $distribution_notes, $MAC_description, $MAC_notes, $vertical_distribution, $frequency, $substrate, $associates, $epiphytes, $type_locality)\n";
-	print OUT ";\n";
+		print OUT "INSERT INTO eflora_taxa(TaxonID, ScientificName, TaxonAuthor, NativeStatus, KeyCharacteristics, Status, Habitat, LifeHistory, Conservation, DistributionNotes, MACDescription, MACNotes, VerticalDistribution, Frequency, Substrate, Associates, Epiphytes, TypeLocality)\n";
+		print OUT "VALUES($taxon_id, $scientific_name, $taxon_author, $native_status, $key_characteristics, $status, $habitat, $life_history, $conservation, $distribution_notes, $MAC_description, $MAC_notes, $vertical_distribution, $frequency, $substrate, $associates, $epiphytes, $type_locality)\n";
+		print OUT ";\n";
+	}
 }
+
 close(IN);
 close(OUT);
 
