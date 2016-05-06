@@ -6,7 +6,7 @@ use BerkeleyDB::Hash; #I don't think I need for anything
 
 #declare input files
 my $taxon_id_file = "inputs/seaweed_taxon_ids.txt";
-my $content_file = "inputs/CALIFORNIA_SEAWEEDS.txt";
+my $content_file = "inputs/KELP_species_pages.txt";
 my $specimen_gallery_file = "inputs/specimen_gallery_ids.txt";
 
 #declare taxonID hash
