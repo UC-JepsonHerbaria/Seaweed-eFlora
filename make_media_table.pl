@@ -2,8 +2,6 @@
 use warnings;
 use strict;
 
-use BerkeleyDB::Hash; #I don't think I need for anything
-
 #declare input files
 my $taxon_id_file = "inputs/seaweed_taxon_ids.txt";
 my @treatment_files = ("KELP_species_pages.txt", "GREEN_species_pages.txt");
@@ -73,10 +71,10 @@ foreach my $filename (@treatment_files) {
 		#get all values from the paragraph
 		my $scientific_name=&get_taxon_name($_);
 		
-		my @photo_array=&get_photo_array($_); #get the array of DP numbers
+		my @photo_array=&get_array($_, "PHOTO"); #get the array of DP numbers
 		my @illustration_array=&get_array($_, "ILLUSTRATION");
 		my @audio_array=&get_array($_, "OGG");
-		my @specimen_array=&get_specimen_id_array($_);
+		my @specimen_array=&get_array($_, "SPEC");
 	
 		my $taxon_id = $TID{$scientific_name};
 		unless ($taxon_id){
@@ -92,12 +90,12 @@ foreach my $filename (@treatment_files) {
 		}
 		foreach my $element (@illustration_array){ ####How to handle media rank? Maybe we just sort by ID because that's the order it goes in
 			print OUT "INSERT INTO eflora_media(TaxonID, FileName, MediaType)\n";
-			print OUT "VALUES($taxon_id, $element, 'Illustration')\n";
+			print OUT "VALUES($taxon_id, \'$element\', 'Illustration')\n";
 			print OUT ";\n";
 		}
 		foreach my $element (@audio_array){
 			print OUT "INSERT INTO eflora_media(TaxonID, FileName, MediaType)\n";
-			print OUT "VALUES($taxon_id, $element, 'Audio')\n";
+			print OUT "VALUES($taxon_id, \'$element\', 'Audio')\n";
 			print OUT ";\n";
 		}
 		foreach my $element (@specimen_array){ #for each specimen ID, insert the UC number as FileName and the constructed image URL as MediaURL
@@ -116,34 +114,6 @@ sub get_array {
 	my @output_array;
 	foreach my $line (@lines){
 		if ($line =~ /$tag[0-9]?: *(.*)/){
-			unless ($1 eq ""){
-				push (@output_array, "\'$1\'");
-			}
-		}
-	}
-	return @output_array;
-}
-
-sub get_photo_array {
-	my($paragraph) = @_;
-	my @lines = split (/\n/,$paragraph);
-	my @output_array;
-	foreach my $line (@lines){
-		if ($line =~ /PHOTO[0-9]?: *(.*)/){
-			unless ($1 eq ""){
-				push (@output_array, $1);
-			}
-		}
-	}
-	return @output_array;
-}
-
-sub get_specimen_id_array {
-	my($paragraph) = @_;
-	my @lines = split (/\n/,$paragraph);
-	my @output_array;
-	foreach my $line (@lines){
-		if ($line =~ /SPEC[0-9]?: *(.*)/){
 			unless ($1 eq ""){
 				push (@output_array, $1);
 			}
