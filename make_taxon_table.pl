@@ -89,7 +89,7 @@ sub basic_get {
 sub get_native_status {
     my $par = shift; 
     my @lines=split(/\n/,$par); 
-    if( $lines[0]=~/^NATIVE|NON-NATIVE/){ 
+    if( $lines[0]=~/^NATIVE|NON-NATIVE|CRYPTOGENIC|\[NATIVE STATUS\]|\[\?\]/){ 
         return "\'$lines[0]\'"; 
     }
     else {
@@ -102,7 +102,7 @@ sub get_taxon_name {
 	#NOTE: name is returned without SQL quotes, so it can be matched to the taxon ID file. Quotes are added after
     my $par = shift; #each paragraph is separated by a blank line
     my @lines=split(/\n/,$par); #the array of lines within a paragraph are values separated by a new line
-    if( $lines[0]=~/^NATIVE|NON-NATIVE/){ #if the first line starts with...
+    if( $lines[0]=~/^NATIVE|NON-NATIVE|CRYPTOGENIC|\[NATIVE STATUS\]|\[\?\]/){ #if the first line starts with...
         return $lines[1]; #the name is the contents of the second line
     }
     else{

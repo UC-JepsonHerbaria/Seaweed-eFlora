@@ -17,7 +17,7 @@
 17	Saccharina sessilis	Saccharina sessilis (C. Agardh) O. Kuntze
 18	Undaria pinnatifida	Undaria pinnatifida (Harvey) Suringar
 19	Dictyoneurum californicum	Dictyoneurum californicum Ruprecht
-20	Acrosiphonia coalita 	Acrosiphonia coalita (Ruprecht) R.F. Scagel, D.J. Garbary, L. Golden & M.J. Hawkes
+20	Acrosiphonia coalita	Acrosiphonia coalita (Ruprecht) R.F. Scagel, D.J. Garbary, L. Golden & M.J. Hawkes
 21	Blidingia minima	Blidingia minima (Nägeli ex Kützing) Kylin
 22	Blidingia minima var. vexata	Blidingia minima var. vexata (Setchell & Gardner) J. Norris
 23	Bryopsis corticulans	Bryopsis corticulans Setchell
