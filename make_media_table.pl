@@ -7,8 +7,7 @@ use BerkeleyDB::Hash; #I don't think I need for anything
 #declare input files
 my $taxon_id_file = "inputs/seaweed_taxon_ids.txt";
 my $content_file = "inputs/KELP_species_pages.txt";
-my $specimen_gallery_file = "inputs/specimen_gallery_ids.txt";
-my $cspace_blob_file = "inputs/cspace_specimen_image_ids.txt";
+my $cspace_specimen_file = "inputs/4solr.ucjeps.public.csv";
 
 #declare hashes
 my %TID;
@@ -24,10 +23,12 @@ while(<IN>){
 close(IN);
 
 #generate image blob id hash
-open (IN, $cspace_blob_file) || die "couldn't find cspace image blob file $cspace_blob_file\n";
+open (IN, $cspace_specimen_file) || die "couldn't find cspace specimen file $cspace_specimen_file\n";
 while(<IN>){
 	chomp;
-	my ($accession_number, $blob)=split(/\t/);
+	my (@fields)=split(/\t/);
+	my $accession_number=$fields[2];
+	my $blob=$fields[59]; ###NOTE! These field declarations are fragile, since the 4solr files can get changed
 	$BLOB_ID{$accession_number}=$blob;
 }
 close(IN);
@@ -53,8 +54,7 @@ while(<IN>){
 	my @photo_array=&get_array($_, "PHOTO");
 	my @illustration_array=&get_array($_, "ILLUSTRATION");
 	my @audio_array=&get_array($_, "OGG");
-	#my @specimen_array=&get_specimen_array($_);
-	my @specimen_array=&get_specimen_cspace_URL($_);
+	my @specimen_array=&get_specimen_id_array($_);
 
 	my $taxon_id = $TID{$scientific_name};
 	unless ($taxon_id){
@@ -77,9 +77,9 @@ while(<IN>){
 		print OUT "VALUES($taxon_id, $element, 'Audio')\n";
 		print OUT ";\n";
 	}
-	foreach my $element (@specimen_array){
-		print OUT "INSERT INTO eflora_media(TaxonID, FileName, MediaType)\n";
-		print OUT "VALUES($taxon_id, $element, 'Specimen')\n";
+	foreach my $element (@specimen_array){ #for each specimen ID, insert the UC number as FileName and the constructed image URL as MediaURL
+		print OUT "INSERT INTO eflora_media(TaxonID, FileName, MediaType, MediaURL)\n";
+		print OUT "VALUES($taxon_id, \'$element\', 'Specimen', \'https://webapps.cspace.berkeley.edu/ucjeps/imageserver/blobs/$BLOB_ID{$element}/derivatives/Medium/content\')\n";
 		print OUT ";\n";
 	}
 }
@@ -98,28 +98,16 @@ sub get_array {
 	return @output_array;
 }
 
-sub get_specimen_array {
+sub get_specimen_id_array {
 	my($paragraph, $tag) = @_;
 	my @lines = split (/\n/,$paragraph);
 	my @output_array;
 	foreach my $line (@lines){
 		if ($line =~ /SPEC: *(.*)/){
-			push (@output_array, "\'$1.JPG\'");
+			push (@output_array, $1);
 		}
 	}
 	return @output_array;
-}
-
-sub get_specimen_cspace_URL {
-	my($paragraph, $tag) = @_;
-	my @lines = split (/\n/,$paragraph);
-	my @output_array;
-	foreach my $line (@lines){
-		if ($line =~ /SPEC: *(.*)/){
-			push (@output_array, "\'https://webapps.cspace.berkeley.edu/ucjeps/imageserver/blobs/$BLOB_ID{$1}/derivatives/Medium/content\'");
-		}			
-	}
-	return @output_array;	
 }
 
 sub get_taxon_name {

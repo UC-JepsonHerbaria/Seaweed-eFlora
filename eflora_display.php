@@ -64,7 +64,7 @@ $illustration_results = $db->query('SELECT FileName
 $photo_results = $db->query('SELECT FileName
 							from eflora_media
 							WHERE TaxonID='.$URL_TaxonID.' AND MediaType LIKE "Photo";');
-$specimen_results = $db->query('SELECT FileName
+$specimen_results = $db->query('SELECT FileName, MediaURL
 								from eflora_media
 								WHERE TaxonID='.$URL_TaxonID.' AND MediaType LIKE "Specimen";');
 
@@ -300,17 +300,15 @@ a.internal:hover {
 		//load image gallery, if any
 		if ($row = $specimen_results->fetchArray()) { //this if statement loads the first image, which is not hidden
 			echo '<h3>Specimen Gallery (click for more)</h3>';
-			#$specimen_name = $row['FileName'];
-			#echo '<a href="images/specimens/'.$specimen_name.'" class="fancybox" rel="gallery2" title="'.$specimen_name.'"><img width=134px src="images/specimens/'.$specimen_name.'" /></a>';
-			$specimen_image_URL = $row['FileName'];
-			echo '<a href="'.$specimen_image_URL.'" class="fancybox" rel="gallery2" title="'.$specimen_image_URL.'"><img width=134px src="'.$specimen_image_URL.'" /></a>';
+			$specimen_name = $row['FileName'];
+			$specimen_image_URL = $row['MediaURL'];
+			echo '<a href="'.$specimen_image_URL.'" class="fancybox" rel="gallery2" title="'.$specimen_name.'"><img width=134px src="'.$specimen_image_URL.'" /></a>';
 		}
 		echo '<div class="hidden">';
 		while ($row = $specimen_results->fetchArray()) { //this while statement loops through the remaining images, which are hidden
-			#$specimen_name = $row['FileName'];
-			#echo '<a href="images/specimens/'.$specimen_name.'" class="fancybox" rel="gallery2" title="'.$specimen_name.'"><img width=134px src="images/specimens/'.$specimen_name.'" /></a>';
-			$specimen_image_URL = $row['FileName'];
-			echo '<a href="'.$specimen_image_URL.'" class="fancybox" rel="gallery2" title="'.$specimen_image_URL.'"><img width=134px src="'.$specimen_image_URL.'" /></a>';
+			$specimen_name = $row['FileName'];
+			$specimen_image_URL = $row['MediaURL'];
+			echo '<a href="'.$specimen_image_URL.'" class="fancybox" rel="gallery2" title="'.$specimen_name.'"><img width=134px src="'.$specimen_image_URL.'" /></a>';
 		}
 		echo '</div>';
 	?>

@@ -29,5 +29,9 @@ CREATE TABLE eflora_media (
 	ID INTEGER PRIMARY KEY,
 	TaxonID INTEGER,
 	FileName TEXT,
-	MediaType TEXT
+	MediaType TEXT,
+	MediaURL TEXT,
+	Title TEXT,
+	Creator TEXT,
+	CopyrightHolder TEXT
 );
