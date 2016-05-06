@@ -42,6 +42,7 @@ while(<IN>){
 	my @photo_array=&get_array($_, "PHOTO");
 	my @illustration_array=&get_array($_, "ILLUSTRATION");
 	my @audio_array=&get_array($_, "OGG");
+	my @specimen_array=&get_specimen_array($_);
 
 	my $taxon_id = $TID{$scientific_name};
 	unless ($taxon_id){
@@ -64,32 +65,37 @@ while(<IN>){
 		print OUT "VALUES($taxon_id, $element, 'Audio')\n";
 		print OUT ";\n";
 	}
-}
-close(IN);
-
-#process specimen IDs for specimen gallery file
-#images must be named after the specimen ID, with the suffix ".JPG";
-open(IN, $specimen_gallery_file) || die "couldn't find specimen id file $specimen_gallery_file\n";
-while(<IN>){
-	next if m/^#/;
-	
-	my $scientific_name=&get_taxon_name($_);
-	
-	my @specimen_array=&get_specimens($_);
-	
-	my $taxon_id = $TID{$scientific_name};
-	unless ($taxon_id){
-		warn "no taxon id for scientific name $scientific_name\n add $scientific_name to seaweed_taxon_ids.txt\n";
-		next;
-	}
 	foreach my $element (@specimen_array){
 		print OUT "INSERT INTO eflora_media(TaxonID, FileName, MediaType)\n";
 		print OUT "VALUES($taxon_id, $element, 'Specimen')\n";
 		print OUT ";\n";
 	}
 }
-
 close(IN);
+
+#process specimen IDs for specimen gallery file
+#images must be named after the specimen ID, with the suffix ".JPG";
+#open(IN, $specimen_gallery_file) || die "couldn't find specimen id file $specimen_gallery_file\n";
+#while(<IN>){
+#	next if m/^#/;
+#	
+#	my $scientific_name=&get_taxon_name($_);
+#	
+#	my @specimen_array=&get_specimens($_);
+#	
+#	my $taxon_id = $TID{$scientific_name};
+#	unless ($taxon_id){
+#		warn "no taxon id for scientific name $scientific_name\n add $scientific_name to seaweed_taxon_ids.txt\n";
+#		next;
+#	}
+#	foreach my $element (@specimen_array){
+#		print OUT "INSERT INTO eflora_media(TaxonID, FileName, MediaType)\n";
+#		print OUT "VALUES($taxon_id, $element, 'Specimen')\n";
+#		print OUT ";\n";
+#	}
+#}
+#
+#close(IN);
 close(OUT);
 
 
@@ -105,15 +111,28 @@ sub get_array {
 	return @output_array;
 }
 
-sub get_specimens {
-	my($paragraph) = @_;
+sub get_specimen_array {
+	my($paragraph, $tag) = @_;
 	my @lines = split (/\n/,$paragraph);
 	my @output_array;
-	foreach my $line (@lines[1 .. $#lines]){ #foreach line except the first one in the paragraph, which is the taxon name
-		push (@output_array, "\'$line.JPG'");
+	foreach my $line (@lines){
+		if ($line =~ /SPEC: *(.*)/){
+			push (@output_array, "\'$1.JPG\'");
+		}
 	}
 	return @output_array;
 }
+
+
+#sub get_specimens {
+#	my($paragraph) = @_;
+#	my @lines = split (/\n/,$paragraph);
+#	my @output_array;
+#	foreach my $line (@lines[1 .. $#lines]){ #foreach line except the first one in the paragraph, which is the taxon name
+#		push (@output_array, "\'$line.JPG'");
+#	}
+#	return @output_array;
+#}
 
 sub get_taxon_name {
 	#NOTE: name is returned without SQL quotes, so it can be matched to the taxon ID file. Quotes are added after
