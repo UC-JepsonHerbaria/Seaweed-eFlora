@@ -61,10 +61,10 @@ while ($row = $results->fetchArray()) {
 $illustration_results = $db->query('SELECT FileName
 									from eflora_media
 									WHERE TaxonID='.$URL_TaxonID.' AND MediaType LIKE "Illustration";');
-$photo_results = $db->query('SELECT FileName
+$photo_results = $db->query('SELECT FileName, MediaURL, Creator
 							from eflora_media
 							WHERE TaxonID='.$URL_TaxonID.' AND MediaType LIKE "Photo";');
-$specimen_results = $db->query('SELECT FileName, MediaURL
+$specimen_results = $db->query('SELECT FileName, MediaURL, Creator
 								from eflora_media
 								WHERE TaxonID='.$URL_TaxonID.' AND MediaType LIKE "Specimen";');
 
@@ -200,12 +200,18 @@ a.internal:hover {
 	if ($row = $photo_results->fetchArray()) { //this if statement loads the first image, which is not hidden
 		echo '<h3>Image Gallery (click for more)</h3>';
 		$photo_name = $row['FileName'];
-		echo '<a href="images/'.$photo_name.'" class="fancybox" rel="gallery"><img width=210px src="images/'.$photo_name.'" /></a>';
+		$photo_URL = $row['MediaURL'];
+		$photo_creator = $row['Creator'];
+#		echo '<a href="images/'.$photo_name.'" class="fancybox" rel="gallery"><img width=210px src="images/'.$photo_name.'" /></a>';
+		echo '<a href="'.$photo_URL.'" class="fancybox" rel="gallery" title="Photo by '.$photo_creator.', &copy; UC Regents"><img width=210px src="'.$photo_URL.'" /></a>';
 	}
 	echo '<div class="hidden">';
 	while ($row = $photo_results->fetchArray()) { //this while statement loops through the remaining images, which are hidden
 		$photo_name = $row['FileName'];
-		echo '<a href="images/'.$photo_name.'" class="fancybox" rel="gallery"><img width=210px src="images/'.$photo_name.'" /></a>';
+		$photo_URL = $row['MediaURL'];
+		$photo_creator = $row['Creator'];
+#		echo '<a href="images/'.$photo_name.'" class="fancybox" rel="gallery"><img width=210px src="images/'.$photo_name.'" /></a>';
+		echo '<a href="'.$photo_URL.'" class="fancybox" rel="gallery" title="Photo by '.$photo_creator.', &copy; UC Regents"><img width=210px src="'.$photo_URL.'" /></a>';
 	}
 	echo '</div>';
 	?>

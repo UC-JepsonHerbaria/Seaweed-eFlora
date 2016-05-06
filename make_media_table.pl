@@ -8,10 +8,14 @@ use BerkeleyDB::Hash; #I don't think I need for anything
 my $taxon_id_file = "inputs/seaweed_taxon_ids.txt";
 my @treatment_files = ("KELP_species_pages.txt", "GREEN_species_pages.txt");
 my $cspace_specimen_file = "inputs/4solr.ucjeps.public.csv";
+my $cspace_media_file = "inputs/4solr.ucjeps.media.csv";
 
 #declare hashes
 my %TID;
 my %BLOB_ID;
+my %IMG_CREATOR;
+my %IMG_COPYRIGHT;
+my %IMG_NAME;
 
 #generate taxonID hash
 open(IN, $taxon_id_file) || die "couldn't find taxon id file $taxon_id_file\n";
@@ -22,7 +26,7 @@ while(<IN>){
 }
 close(IN);
 
-#generate image blob id hash
+#generate specimen image blob id hash
 open (IN, $cspace_specimen_file) || die "couldn't find cspace specimen file $cspace_specimen_file\n";
 while(<IN>){
 	chomp;
@@ -32,6 +36,21 @@ while(<IN>){
 	$BLOB_ID{$accession_number}=$blob;
 }
 close(IN);
+
+#generate hashes from cspace media datastore
+open (IN, $cspace_media_file) || die "couldn't find cspace media file $cspace_media_file\n";
+while(<IN>){
+	chomp;
+	my (@fields)=split(/\t/);
+	my $DP_number=$fields[9];
+	my $photographer=$fields[5];
+	my $blob=$fields[7];
+	my $name=$fields[4]; 
+	$BLOB_ID{$DP_number}=$blob; #use same hash as specimen images, since no overlap between UC and DP numbers
+	$IMG_CREATOR{$DP_number}=$photographer;
+	$IMG_NAME{$DP_number}=$name; #not used right now, but loading it in the database just in case.
+}
+
 
 #this function indicates the record delimiter. In this case, an empty line
 #as such, it needs to be designated after the other files are processed
@@ -54,7 +73,7 @@ foreach my $filename (@treatment_files) {
 		#get all values from the paragraph
 		my $scientific_name=&get_taxon_name($_);
 		
-		my @photo_array=&get_array($_, "PHOTO");
+		my @photo_array=&get_photo_array($_); #get the array of DP numbers
 		my @illustration_array=&get_array($_, "ILLUSTRATION");
 		my @audio_array=&get_array($_, "OGG");
 		my @specimen_array=&get_specimen_id_array($_);
@@ -66,8 +85,9 @@ foreach my $filename (@treatment_files) {
 		} 
 		
 		foreach my $element (@photo_array){ ####How to handle media rank? Maybe we just sort by ID because that's the order it goes in
-			print OUT "INSERT INTO eflora_media(TaxonID, FileName, MediaType)\n";
-			print OUT "VALUES($taxon_id, $element, 'Photo')\n";
+			warn "printing photo record for element $element\n";
+			print OUT "INSERT INTO eflora_media(TaxonID, FileName, MediaType, MediaURL, Creator)\n";
+			print OUT "VALUES($taxon_id, \'$element\', 'Photo', \'https://webapps.cspace.berkeley.edu/ucjeps/imageserver/blobs/$BLOB_ID{$element}/derivatives/Medium/content\', \'$IMG_CREATOR{$element}\')\n";
 			print OUT ";\n";
 		}
 		foreach my $element (@illustration_array){ ####How to handle media rank? Maybe we just sort by ID because that's the order it goes in
@@ -96,19 +116,37 @@ sub get_array {
 	my @output_array;
 	foreach my $line (@lines){
 		if ($line =~ /$tag[0-9]?: *(.*)/){
-			push (@output_array, "\'$1\'");
+			unless ($1 eq ""){
+				push (@output_array, "\'$1\'");
+			}
+		}
+	}
+	return @output_array;
+}
+
+sub get_photo_array {
+	my($paragraph) = @_;
+	my @lines = split (/\n/,$paragraph);
+	my @output_array;
+	foreach my $line (@lines){
+		if ($line =~ /PHOTO[0-9]?: *(.*)/){
+			unless ($1 eq ""){
+				push (@output_array, $1);
+			}
 		}
 	}
 	return @output_array;
 }
 
 sub get_specimen_id_array {
-	my($paragraph, $tag) = @_;
+	my($paragraph) = @_;
 	my @lines = split (/\n/,$paragraph);
 	my @output_array;
 	foreach my $line (@lines){
 		if ($line =~ /SPEC[0-9]?: *(.*)/){
-			push (@output_array, $1);
+			unless ($1 eq ""){
+				push (@output_array, $1);
+			}
 		}
 	}
 	return @output_array;
