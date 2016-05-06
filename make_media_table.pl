@@ -8,9 +8,11 @@ use BerkeleyDB::Hash; #I don't think I need for anything
 my $taxon_id_file = "inputs/seaweed_taxon_ids.txt";
 my $content_file = "inputs/KELP_species_pages.txt";
 my $specimen_gallery_file = "inputs/specimen_gallery_ids.txt";
+my $cspace_blob_file = "inputs/cspace_specimen_image_ids.txt";
 
-#declare taxonID hash
+#declare hashes
 my %TID;
+my %BLOB_ID;
 
 #generate taxonID hash
 open(IN, $taxon_id_file) || die "couldn't find taxon id file $taxon_id_file\n";
@@ -18,6 +20,15 @@ while(<IN>){
 	chomp;	
 	my ($code,$name,$name_with_author)=split(/\t/);
 	$TID{$name}=$code;
+}
+close(IN);
+
+#generate image blob id hash
+open (IN, $cspace_blob_file) || die "couldn't find cspace image blob file $cspace_blob_file\n";
+while(<IN>){
+	chomp;
+	my ($accession_number, $blob)=split(/\t/);
+	$BLOB_ID{$accession_number}=$blob;
 }
 close(IN);
 
@@ -42,7 +53,8 @@ while(<IN>){
 	my @photo_array=&get_array($_, "PHOTO");
 	my @illustration_array=&get_array($_, "ILLUSTRATION");
 	my @audio_array=&get_array($_, "OGG");
-	my @specimen_array=&get_specimen_array($_);
+	#my @specimen_array=&get_specimen_array($_);
+	my @specimen_array=&get_specimen_cspace_URL($_);
 
 	my $taxon_id = $TID{$scientific_name};
 	unless ($taxon_id){
@@ -72,32 +84,7 @@ while(<IN>){
 	}
 }
 close(IN);
-
-#process specimen IDs for specimen gallery file
-#images must be named after the specimen ID, with the suffix ".JPG";
-#open(IN, $specimen_gallery_file) || die "couldn't find specimen id file $specimen_gallery_file\n";
-#while(<IN>){
-#	next if m/^#/;
-#	
-#	my $scientific_name=&get_taxon_name($_);
-#	
-#	my @specimen_array=&get_specimens($_);
-#	
-#	my $taxon_id = $TID{$scientific_name};
-#	unless ($taxon_id){
-#		warn "no taxon id for scientific name $scientific_name\n add $scientific_name to seaweed_taxon_ids.txt\n";
-#		next;
-#	}
-#	foreach my $element (@specimen_array){
-#		print OUT "INSERT INTO eflora_media(TaxonID, FileName, MediaType)\n";
-#		print OUT "VALUES($taxon_id, $element, 'Specimen')\n";
-#		print OUT ";\n";
-#	}
-#}
-#
-#close(IN);
 close(OUT);
-
 
 sub get_array {
 	my($paragraph, $tag) = @_;
@@ -123,16 +110,17 @@ sub get_specimen_array {
 	return @output_array;
 }
 
-
-#sub get_specimens {
-#	my($paragraph) = @_;
-#	my @lines = split (/\n/,$paragraph);
-#	my @output_array;
-#	foreach my $line (@lines[1 .. $#lines]){ #foreach line except the first one in the paragraph, which is the taxon name
-#		push (@output_array, "\'$line.JPG'");
-#	}
-#	return @output_array;
-#}
+sub get_specimen_cspace_URL {
+	my($paragraph, $tag) = @_;
+	my @lines = split (/\n/,$paragraph);
+	my @output_array;
+	foreach my $line (@lines){
+		if ($line =~ /SPEC: *(.*)/){
+			push (@output_array, "\'https://webapps.cspace.berkeley.edu/ucjeps/imageserver/blobs/$BLOB_ID{$1}/derivatives/Medium/content\'");
+		}			
+	}
+	return @output_array;	
+}
 
 sub get_taxon_name {
 	#NOTE: name is returned without SQL quotes, so it can be matched to the taxon ID file. Quotes are added after
