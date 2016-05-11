@@ -5,7 +5,7 @@ use strict;
 #declare input files
 my $taxon_id_file = "inputs/seaweed_taxon_ids.txt";
 my @treatment_files = ("KELP_species_pages.txt", "GREEN_species_pages.txt");
-my $cspace_specimen_file = "inputs/4solr.ucjeps.public.csv";
+my $cspace_specimen_file = "inputs/4solr_algae.csv";
 my $cspace_media_file = "inputs/4solr.ucjeps.media.csv";
 
 #declare hashes
@@ -71,11 +71,11 @@ foreach my $filename (@treatment_files) {
 		#get all values from the paragraph
 		my $scientific_name=&get_taxon_name($_);
 		
-		my @photo_array=&get_array($_, "PHOTO"); #get the array of DP numbers
+		my @photo_array=&get_cspace_array($_, "PHOTO"); #get the array of DP numbers
 		my @illustration_array=&get_array($_, "ILLUSTRATION");
 		my @audio_array=&get_array($_, "OGG");
-		my @specimen_array=&get_array($_, "SPEC");
-	
+		my @specimen_array=&get_cspace_array($_, "SPEC");
+
 		my $taxon_id = $TID{$scientific_name};
 		unless ($taxon_id){
 			warn "no taxon id for scientific name $scientific_name\n add $scientific_name to seaweed_taxon_ids.txt\n";
@@ -83,7 +83,7 @@ foreach my $filename (@treatment_files) {
 		} 
 		
 		foreach my $element (@photo_array){ ####How to handle media rank? Maybe we just sort by ID because that's the order it goes in
-			warn "printing photo record for element $element\n";
+			#warn "printing photo record for element $element\n";
 			print OUT "INSERT INTO eflora_media(TaxonID, FileName, MediaType, MediaURL, Creator)\n";
 			print OUT "VALUES($taxon_id, \'$element\', 'Photo', \'https://webapps.cspace.berkeley.edu/ucjeps/imageserver/blobs/$BLOB_ID{$element}/derivatives/Medium/content\', \'$IMG_CREATOR{$element}\')\n";
 			print OUT ";\n";
@@ -113,9 +113,32 @@ sub get_array {
 	my @lines = split (/\n/,$paragraph);
 	my @output_array;
 	foreach my $line (@lines){
+		$line=~s/ *$//;
 		if ($line =~ /$tag[0-9]?: *(.*)/){
+			my $content=$1;
+			unless ($content eq ""){
+				push (@output_array, $content);
+			}
+		}
+	}
+	return @output_array;
+}
+
+sub get_cspace_array {
+#same as get_array, but checks if the blob_id exists in the CSpace %BLOB_ID hash
+#if no DP number exists, log it
+	my($paragraph, $tag) = @_;
+	my @lines = split (/\n/,$paragraph);
+	my @output_array;
+	foreach my $line (@lines){
+		$line=~s/ *$//;
+		if ($line =~ /$tag[0-9]?: *(.*)/){
+			my $content=$1;
 			unless ($1 eq ""){
-				push (@output_array, $1);
+				if ($BLOB_ID{$content}) {
+					push (@output_array, $content);
+				}
+				else { &log_issue("image for '$content' apparently not in database"); }
 			}
 		}
 	}
@@ -132,4 +155,13 @@ sub get_taxon_name {
     else{
         return $lines[0]; 
     }
+}
+
+sub log_issue {
+#prints the inputted message to the designated log file
+	my $log_file = 'outputs/log.txt';
+	no strict "refs";
+	open($log_file, '>>', $log_file);
+	print $log_file "logging: @_\n";
+	close $log_file;
 }

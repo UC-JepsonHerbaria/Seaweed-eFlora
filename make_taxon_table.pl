@@ -57,6 +57,7 @@ warn "now processing file $filename";
 		my $taxon_id = $TID{$scientific_name};
 		unless ($taxon_id){
 			warn "no taxon id for scientific name $scientific_name\n add $scientific_name to seaweed_taxon_ids.txt\n";
+			&log_issue("no taxon id for scientific name $scientific_name\n add $scientific_name to seaweed_taxon_ids.txt");
 			next;
 		} 
 
@@ -76,7 +77,9 @@ close(OUT);
 sub basic_get {
 		my($paragraph, $tag) = @_;
 		if($paragraph =~ /$tag: *(.*)/){
-			return "\'$1\'";
+			my $content=$1;
+			$content=~s/ *$//;
+			return "\'$content\'";
 		}
 		else {
 			return "NULL";
@@ -91,6 +94,7 @@ sub get_native_status {
     }
     else {
     	warn "no/strange native status for paragraph starting with $lines[0]\n$lines[1]\n";
+    	&log_issue("no/strange native status for paragraph starting with $lines[0]\n$lines[1]");
     	return "NULL";
     }
 }
@@ -105,4 +109,13 @@ sub get_taxon_name {
     else{
         return "NULL"; 
     }
+}
+
+sub log_issue {
+#prints the inputted message to the designated log file
+	my $log_file = 'outputs/log.txt';
+	no strict "refs";
+	open($log_file, '>>', $log_file);
+	print $log_file "logging: @_\n";
+	close $log_file;
 }
