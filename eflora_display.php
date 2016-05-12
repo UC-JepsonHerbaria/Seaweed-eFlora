@@ -61,10 +61,10 @@ while ($row = $results->fetchArray()) {
 $illustration_results = $db->query('SELECT FileName
 									from eflora_media
 									WHERE TaxonID='.$URL_TaxonID.' AND MediaType LIKE "Illustration";');
-$photo_results = $db->query('SELECT FileName, MediaURL, Creator
+$photo_results = $db->query('SELECT FileName, MediaURL, Creator, ThumbURL
 							from eflora_media
 							WHERE TaxonID='.$URL_TaxonID.' AND MediaType LIKE "Photo";');
-$specimen_results = $db->query('SELECT FileName, MediaURL, Creator
+$specimen_results = $db->query('SELECT FileName, MediaURL, Creator, ThumbURL
 								from eflora_media
 								WHERE TaxonID='.$URL_TaxonID.' AND MediaType LIKE "Specimen";');
 
@@ -202,8 +202,9 @@ a.internal:hover {
 		$photo_name = $row['FileName'];
 		$photo_URL = $row['MediaURL'];
 		$photo_creator = $row['Creator'];
+		$thumb_URL = $row['ThumbURL'];
 #		echo '<a href="images/'.$photo_name.'" class="fancybox" rel="gallery"><img width=210px src="images/'.$photo_name.'" /></a>';
-		echo '<a href="'.$photo_URL.'" class="fancybox" rel="gallery" title="Photo by '.$photo_creator.', &copy; UC Regents"><img width=210px src="'.$photo_URL.'" /></a>';
+		echo '<a href="'.$photo_URL.'" class="fancybox" rel="gallery" title="Photo by '.$photo_creator.', &copy; UC Regents"><img width=210px src="'.$thumb_URL.'" /></a>';
 	}
 	echo '<div class="hidden">';
 	while ($row = $photo_results->fetchArray()) { //this while statement loops through the remaining images, which are hidden
@@ -211,7 +212,7 @@ a.internal:hover {
 		$photo_URL = $row['MediaURL'];
 		$photo_creator = $row['Creator'];
 #		echo '<a href="images/'.$photo_name.'" class="fancybox" rel="gallery"><img width=210px src="images/'.$photo_name.'" /></a>';
-		echo '<a href="'.$photo_URL.'" class="fancybox" rel="gallery" title="Photo by '.$photo_creator.', &copy; UC Regents"><img width=210px src="'.$photo_URL.'" /></a>';
+		echo '<a href="'.$photo_URL.'" class="fancybox" rel="gallery" title="Photo by '.$photo_creator.', &copy; UC Regents"><img width=210px src="'.$thumb_URL.'" /></a>';
 	}
 	echo '</div>';
 	?>
@@ -309,13 +310,14 @@ a.internal:hover {
 			echo '<h3>Specimen Gallery (click for more)</h3>';
 			$specimen_name = $row['FileName'];
 			$specimen_image_URL = $row['MediaURL'];
-			echo '<a href="'.$specimen_image_URL.'" class="fancybox" rel="gallery2" title="'.$specimen_name.'"><img width=134px src="'.$specimen_image_URL.'" /></a>';
+			$specimen_thumb_URL = $row['ThumbURL'];
+			echo '<a href="'.$specimen_image_URL.'" class="fancybox" rel="gallery2" title="'.$specimen_name.'"><img width=134px src="'.$specimen_thumb_URL.'" /></a>';
 		}
 		echo '<div class="hidden">';
 		while ($row = $specimen_results->fetchArray()) { //this while statement loops through the remaining images, which are hidden
 			$specimen_name = $row['FileName'];
 			$specimen_image_URL = $row['MediaURL'];
-			echo '<a href="'.$specimen_image_URL.'" class="fancybox" rel="gallery2" title="'.$specimen_name.'"><img width=134px src="'.$specimen_image_URL.'" /></a>';
+			echo '<a href="'.$specimen_image_URL.'" class="fancybox" rel="gallery2" title="'.$specimen_name.'"><img width=134px src="'.$specimen_thumb_URL.'" /></a>';
 		}
 		echo '</div>';
 	?>

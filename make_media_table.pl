@@ -84,8 +84,8 @@ foreach my $filename (@treatment_files) {
 		
 		foreach my $element (@photo_array){ ####How to handle media rank? Maybe we just sort by ID because that's the order it goes in
 			#warn "printing photo record for element $element\n";
-			print OUT "INSERT INTO eflora_media(TaxonID, FileName, MediaType, MediaURL, Creator)\n";
-			print OUT "VALUES($taxon_id, \'$element\', 'Photo', \'https://webapps.cspace.berkeley.edu/ucjeps/imageserver/blobs/$BLOB_ID{$element}/derivatives/Medium/content\', \'$IMG_CREATOR{$element}\')\n";
+			print OUT "INSERT INTO eflora_media(TaxonID, FileName, MediaType, MediaURL, ThumbURL, Creator)\n";
+			print OUT "VALUES($taxon_id, \'$element\', 'Photo', \'https://webapps.cspace.berkeley.edu/ucjeps/imageserver/blobs/$BLOB_ID{$element}/derivatives/OriginalJpeg/content\', \'https://webapps.cspace.berkeley.edu/ucjeps/imageserver/blobs/$BLOB_ID{$element}/derivatives/Medium/content\', \'$IMG_CREATOR{$element}\')\n";
 			print OUT ";\n";
 		}
 		foreach my $element (@illustration_array){ ####How to handle media rank? Maybe we just sort by ID because that's the order it goes in
@@ -99,8 +99,8 @@ foreach my $filename (@treatment_files) {
 			print OUT ";\n";
 		}
 		foreach my $element (@specimen_array){ #for each specimen ID, insert the UC number as FileName and the constructed image URL as MediaURL
-			print OUT "INSERT INTO eflora_media(TaxonID, FileName, MediaType, MediaURL)\n";
-			print OUT "VALUES($taxon_id, \'$element\', 'Specimen', \'https://webapps.cspace.berkeley.edu/ucjeps/imageserver/blobs/$BLOB_ID{$element}/derivatives/Medium/content\')\n";
+			print OUT "INSERT INTO eflora_media(TaxonID, FileName, MediaType, MediaURL, ThumbURL)\n";
+			print OUT "VALUES($taxon_id, \'$element\', 'Specimen', \'https://webapps.cspace.berkeley.edu/ucjeps/imageserver/blobs/$BLOB_ID{$element}/derivatives/OriginalJpeg/content\', \'https://webapps.cspace.berkeley.edu/ucjeps/imageserver/blobs/$BLOB_ID{$element}/derivatives/Medium/content\')\n";
 			print OUT ";\n";
 		}
 	}

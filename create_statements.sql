@@ -31,7 +31,9 @@ CREATE TABLE eflora_media (
 	FileName TEXT,
 	MediaType TEXT,
 	MediaURL TEXT,
+	ThumbURL,
 	Title TEXT,
+	Locality TEXT,
 	Creator TEXT,
 	CopyrightHolder TEXT
 );
