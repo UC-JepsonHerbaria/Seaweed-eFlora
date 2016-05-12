@@ -182,7 +182,7 @@ a.internal:hover {
 
 
 	<?php
-	echo "<h2><a href='http://ucjeps.berkeley.edu/cgi-bin/porp_cgi.pl?139507'><i>".$ScientificName."</i> ".$TaxonAuthor."</a>";
+	echo "<h2><a href='http://ucjeps.berkeley.edu/cgi-bin/porp_cgi.pl?139507'><i><b>".$ScientificName."</b></i> ".$TaxonAuthor."</a>";
 	if (isset($AudioFile)){ // AudioFile is included as part of the heading
 		echo '<audio controls>';
 		echo '<source src="audio/'.$AudioFile.'" type="audio/ogg">';
@@ -241,7 +241,7 @@ a.internal:hover {
 			<p>UC specimens and range limits for <i><?php echo "$ScientificName"; ?></i></p>
 			<UL>
 <li>Blue markers: specimen records
-<li>Yellow marker: Type locality, if present
+<li>Yellow marker: type locality, if present
 <li>Red markers: endpoints of range from literature
 </UL>
 			<?php 
@@ -260,7 +260,8 @@ a.internal:hover {
 				if (isset($LifeHistory)) { echo '<p><b>Life History:</b> '.$LifeHistory.'</p>'; }
 				if (isset($Conservation)) { echo '<p><b>Conservation:</b> '.$Conservation.'</p>'; }
 				if (isset($Associates)) { echo '<p><b>Associated Taxa:</b> '.$Associates.'</p>'; }
-				if (isset($Epiphytes)) { echo '<p><b>Status:</b> '.$Epiphytes.'</p>'; }
+				if (isset($Epiphytes)) { echo '<p><b>Epiphytes:</b> '.$Epiphytes.'</p>'; }
+				//Similar species tab
 				echo '<p><b><a class="internal" href="http://www.ncbi.nlm.nih.gov/nuccore/?term='.$name4Smithso.'">Search Sequences in GenBank</a></b></p>'; // GENBANK LINK to be imported from Dick Moe's SW table
 			?>
 		</div>
