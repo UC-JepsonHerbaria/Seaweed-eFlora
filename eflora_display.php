@@ -61,7 +61,7 @@ while ($row = $results->fetchArray()) {
 $illustration_results = $db->query('SELECT FileName
 									from eflora_media
 									WHERE TaxonID='.$URL_TaxonID.' AND MediaType LIKE "Illustration";');
-$photo_results = $db->query('SELECT FileName, MediaURL, Creator, ThumbURL
+$photo_results = $db->query('SELECT FileName, MediaURL, Creator, ThumbURL, Locality
 							from eflora_media
 							WHERE TaxonID='.$URL_TaxonID.' AND MediaType LIKE "Photo";');
 $specimen_results = $db->query('SELECT FileName, MediaURL, Creator, ThumbURL
@@ -76,6 +76,7 @@ if (!$ID){ //if TaxonID (pulled from URL) did not match a line in the database..
 	echo "</html>";
 	die();
 }
+
 ?>
 
 
@@ -182,7 +183,8 @@ a.internal:hover {
 
 
 	<?php
-	echo "<h2><a href='http://ucjeps.berkeley.edu/cgi-bin/porp_cgi.pl?139507'><i><b>".$ScientificName."</b></i> ".$TaxonAuthor."</a>";
+	$Name4INA = str_replace(" ", "+", $ScientificName);
+	echo "<h2><a href='http://ucjeps.berkeley.edu/cgi-bin/search_ina.pl?lookfor=".$Name4INA."'><i><b>".$ScientificName."</b></i></h2> <b>".$TaxonAuthor."</b></a>";
 	if (isset($AudioFile)){ // AudioFile is included as part of the heading
 		echo '<audio controls>';
 		echo '<source src="audio/'.$AudioFile.'" type="audio/ogg">';
@@ -203,16 +205,25 @@ a.internal:hover {
 		$photo_URL = $row['MediaURL'];
 		$photo_creator = $row['Creator'];
 		$thumb_URL = $row['ThumbURL'];
+		$photo_locality = $row['Locality'];
+		if (isset($photo_locality)){
+			$photo_locality = $photo_locality.': ';
+		}		
 #		echo '<a href="images/'.$photo_name.'" class="fancybox" rel="gallery"><img width=210px src="images/'.$photo_name.'" /></a>';
-		echo '<a href="'.$photo_URL.'" class="fancybox" rel="gallery" title="Photo by '.$photo_creator.', &copy; UC Regents"><img width=210px src="'.$thumb_URL.'" /></a>';
+		echo '<a href="'.$photo_URL.'" class="fancybox" rel="gallery" title="'.$photo_locality.'Photo by '.$photo_creator.', &copy; UC Regents"><img width=210px src="'.$thumb_URL.'" /></a>';
 	}
 	echo '<div class="hidden">';
 	while ($row = $photo_results->fetchArray()) { //this while statement loops through the remaining images, which are hidden
 		$photo_name = $row['FileName'];
 		$photo_URL = $row['MediaURL'];
 		$photo_creator = $row['Creator'];
+		$thumb_URL = $row['ThumbURL'];
+		$photo_locality = $row['Locality'];
+		if (isset($photo_locality)){
+			$photo_locality = $photo_locality.': ';
+		}	
 #		echo '<a href="images/'.$photo_name.'" class="fancybox" rel="gallery"><img width=210px src="images/'.$photo_name.'" /></a>';
-		echo '<a href="'.$photo_URL.'" class="fancybox" rel="gallery" title="Photo by '.$photo_creator.', &copy; UC Regents"><img width=210px src="'.$thumb_URL.'" /></a>';
+		echo '<a href="'.$photo_URL.'" class="fancybox" rel="gallery" title="'.$photo_locality.'Photo by '.$photo_creator.', &copy; UC Regents"><img width=210px src="'.$thumb_URL.'" /></a>';
 	}
 	echo '</div>';
 	?>

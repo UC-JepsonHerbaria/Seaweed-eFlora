@@ -14,6 +14,7 @@ my %BLOB_ID;
 my %IMG_CREATOR;
 my %IMG_COPYRIGHT;
 my %IMG_NAME;
+my %IMG_LOCALITY;
 
 #generate taxonID hash
 open(IN, $taxon_id_file) || die "couldn't find taxon id file $taxon_id_file\n";
@@ -44,9 +45,14 @@ while(<IN>){
 	my $photographer=$fields[5];
 	my $blob=$fields[7];
 	my $name=$fields[4]; 
+	my $locality=$fields[22];
+	foreach ($photographer){ s/'/''/g; } #Escaping single quotes for SQL insert
+	foreach ($locality){ s/'/''/g; }
+	
 	$BLOB_ID{$DP_number}=$blob; #use same hash as specimen images, since no overlap between UC and DP numbers
 	$IMG_CREATOR{$DP_number}=$photographer;
 	$IMG_NAME{$DP_number}=$name; #not used right now, but loading it in the database just in case.
+	$IMG_LOCALITY{$DP_number}=$locality;
 }
 
 
@@ -84,8 +90,8 @@ foreach my $filename (@treatment_files) {
 		
 		foreach my $element (@photo_array){ ####How to handle media rank? Maybe we just sort by ID because that's the order it goes in
 			#warn "printing photo record for element $element\n";
-			print OUT "INSERT INTO eflora_media(TaxonID, FileName, MediaType, MediaURL, ThumbURL, Creator)\n";
-			print OUT "VALUES($taxon_id, \'$element\', 'Photo', \'https://webapps.cspace.berkeley.edu/ucjeps/imageserver/blobs/$BLOB_ID{$element}/derivatives/OriginalJpeg/content\', \'https://webapps.cspace.berkeley.edu/ucjeps/imageserver/blobs/$BLOB_ID{$element}/derivatives/Medium/content\', \'$IMG_CREATOR{$element}\')\n";
+			print OUT "INSERT INTO eflora_media(TaxonID, FileName, MediaType, MediaURL, ThumbURL, Creator, Locality)\n";
+			print OUT "VALUES($taxon_id, \'$element\', 'Photo', \'https://webapps.cspace.berkeley.edu/ucjeps/imageserver/blobs/$BLOB_ID{$element}/derivatives/OriginalJpeg/content\', \'https://webapps.cspace.berkeley.edu/ucjeps/imageserver/blobs/$BLOB_ID{$element}/derivatives/Medium/content\', \'$IMG_CREATOR{$element}\', \'$IMG_LOCALITY{$element}\')\n";
 			print OUT ";\n";
 		}
 		foreach my $element (@illustration_array){ ####How to handle media rank? Maybe we just sort by ID because that's the order it goes in
