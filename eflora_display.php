@@ -192,7 +192,7 @@ a.internal:hover {
 		echo '</audio>';
 	}
 	echo "</h2>";
-	if (isset($KeyCharacteristics)){ //print KeyCharacteristics block, if any
+	if ($KeyCharacteristics){ //print KeyCharacteristics block, if any
 		$KeyCharacteristics = str_replace("|",'</li><li>',$KeyCharacteristics); //process lists by turning the pipe delimiter into list tags
 		echo "<h3>Key Characteristics</h3>";
 		echo '<ul><li>'.$KeyCharacteristics.'</li></ul>';
@@ -259,7 +259,7 @@ a.internal:hover {
 			<?php 
 				$name_for_pnw_link = str_replace(" ", '&Species1=', $ScientificName);
     			echo '<p><a class="internal" href="http://www.pnwherbaria.org/data/results.php?DisplayAs=WebPage&ExcludeCultivated=Y&GroupBy=ungrouped&SortBy=Year&SortOrder=DESC&SearchAllHerbaria=Y&QueryCount=1&IncludeSynonyms1=Y&Genus1='.$name_for_pnw_link.'&Zoom=4&Lat=55&Lng=-135&PolygonCount=0">View map from the Consortium of Pacific Northwest Herbaria</a>';
-				if(isset($DistributionNotes)){
+				if($DistributionNotes){
 					$DistributionNotes = str_replace("|",'</p><p>',$DistributionNotes);
 					echo '<p><b>Notes: </b>'.$DistributionNotes.'</p>';
 				}
@@ -267,12 +267,12 @@ a.internal:hover {
 		</div>
 		<div id="tabs-2"> <!-- notes tab -->
 			<?php
-				if (isset($Status)) { echo '<p><b>Status:</b> '.$Status.'</p>'; }
-				if (isset($Habitat)) { echo '<p><b>Habitat:</b> '.$Habitat.'</p>'; }
-				if (isset($LifeHistory)) { echo '<p><b>Life History:</b> '.$LifeHistory.'</p>'; }
-				if (isset($Conservation)) { echo '<p><b>Conservation:</b> '.$Conservation.'</p>'; }
-				if (isset($Associates)) { echo '<p><b>Associated Taxa:</b> '.$Associates.'</p>'; }
-				if (isset($Epiphytes)) { echo '<p><b>Epiphytes:</b> '.$Epiphytes.'</p>'; }
+				if ($Status) { echo '<p><b>Status:</b> '.$Status.'</p>'; }
+				if ($Habitat) { echo '<p><b>Habitat:</b> '.$Habitat.'</p>'; }
+				if ($LifeHistory) { echo '<p><b>Life History:</b> '.$LifeHistory.'</p>'; }
+				if ($Conservation) { echo '<p><b>Conservation:</b> '.$Conservation.'</p>'; }
+				if ($Associates) { echo '<p><b>Associated Taxa:</b> '.$Associates.'</p>'; }
+				if ($Epiphytes) { echo '<p><b>Epiphytes:</b> '.$Epiphytes.'</p>'; }
 				//Similar species tab
 				echo '<p><b><a class="internal" href="http://www.ncbi.nlm.nih.gov/nuccore/?term='.$name4Smithso.'">Search Sequences in GenBank</a></b></p>'; // GENBANK LINK to be imported from Dick Moe's SW table
 			?>
@@ -288,12 +288,12 @@ a.internal:hover {
 		</div>
 		<div id="tabs-4"> <!-- MAC Tab -->
 			<?php
-				if (isset($MACDescription)) {
+				if ($MACDescription) {
 					$MACDescription = str_replace("|",'</p><p>',$MACDescription);
 					echo '<p>'.$MACDescription.'</p>';
 					echo '<p>Excerpt from Abbott, I. A., & Hollenberg, G. J. (1976). <i><a href="http://www.sup.org/books/title/?id=2401">Marine algae of California</a></i>. Stanford University Press, Stanford, California. xii [xiii] + 827 pp., 701 figs.<p>';
 				}
-				if (isset($MACNotes)) {
+				if ($MACNotes) {
 					echo '<p><b>Notes:</b> '.$MACNotes.'</p>';
 				}
 			?>
@@ -307,10 +307,10 @@ a.internal:hover {
 	<?php
 		echo '<p><a href="http://www.algaebase.org/search/?species='.$name4CSpace.'"><b>Classification & Synonyms: Algaebase</b></a></p>';
 		echo '<p><b>'.$NativeStatus.'</b></p>';
-		if (isset($VerticalDistribution)) { echo '<p><b>Vertical Distribution:</b> '.$VerticalDistribution.'</p>'; }
-		if (isset($Frequency)) { echo '<p><b>Frequency:</b> '.$Frequency.'</p>'; }
-		if (isset($Substrate)) { echo '<p><b>Substrate:</b> '.$Substrate.'</p>'; }
-		if (isset($TypeLocality)) { 
+		if ($VerticalDistribution) { echo '<p><b>Vertical Distribution:</b> '.$VerticalDistribution.'</p>'; }
+		if ($Frequency) { echo '<p><b>Frequency:</b> '.$Frequency.'</p>'; }
+		if ($Substrate) { echo '<p><b>Substrate:</b> '.$Substrate.'</p>'; }
+		if ($TypeLocality) { 
 			$TypeLocality = str_replace("|", '</p><p>', $TypeLocality);
 			echo '<p><b>Type locality:</b> '.$TypeLocality.'</p>'; 
 		}
