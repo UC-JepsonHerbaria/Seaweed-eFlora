@@ -6,7 +6,7 @@ require 'config/config.php';
 $db = new SQLite3($database_location);
 
 if (preg_match('/^[0-9]+/', $URL_TaxonID)) {
-	$results = $db->query('SELECT ID, TaxonID, ScientificName, TaxonAuthor, NativeStatus, KeyCharacteristics, Status, Habitat, LifeHistory, Conservation, DistributionNotes, MACDescription, MACNotes, VerticalDistribution, Frequency, Substrate, Associates, Epiphytes, TypeLocality 
+	$results = $db->query('SELECT ID, TaxonID, ScientificName, TaxonAuthor, NativeStatus, KeyCharacteristics, Status, Habitat, LifeHistory, Conservation, DistributionNotes, MACDescription, MACNotes, VerticalDistribution, Frequency, Substrate, Associates, Epiphytes, TypeLocality, SimilarSpecies 
 							FROM eflora_taxa
 							WHERE TaxonID='.$URL_TaxonID.';'); //10 is the TaxonID for Lessoniopsis littoralis, for example
 }
@@ -14,7 +14,7 @@ else { //Else, process URL_TaxonID as a string and check if there's a matching n
 	$URL_Name = ucwords($URL_TaxonID);
 	$URL_Name = str_replace("-", " ", $URL_Name);
 	$URL_Name = str_replace("_", " ", $URL_Name);
-	$results = $db->query('SELECT ID, TaxonID, ScientificName, TaxonAuthor, NativeStatus, KeyCharacteristics, Status, Habitat, LifeHistory, Conservation, DistributionNotes, MACDescription, MACNotes, VerticalDistribution, Frequency, Substrate, Associates, Epiphytes, TypeLocality 
+	$results = $db->query('SELECT ID, TaxonID, ScientificName, TaxonAuthor, NativeStatus, KeyCharacteristics, Status, Habitat, LifeHistory, Conservation, DistributionNotes, MACDescription, MACNotes, VerticalDistribution, Frequency, Substrate, Associates, Epiphytes, TypeLocality, SimilarSpecies 
 							FROM eflora_taxa
 							WHERE ScientificName IN ("'.$URL_Name.'");');
 }
@@ -41,6 +41,7 @@ $Substrate = $row['Substrate'];
 $Associates = $row['Associates'];
 $Epiphytes = $row['Epiphytes'];
 $TypeLocality = $row['TypeLocality'];
+$SimilarSpecies = $row['SimilarSpecies'];
 //var_dump($row); 
 /*var_dump prints the whole row in a databased format
 which is useful for seeing what you're getting
@@ -273,7 +274,7 @@ a.internal:hover {
 				if ($Conservation) { echo '<p><b>Conservation:</b> '.$Conservation.'</p>'; }
 				if ($Associates) { echo '<p><b>Associated Taxa:</b> '.$Associates.'</p>'; }
 				if ($Epiphytes) { echo '<p><b>Epiphytes:</b> '.$Epiphytes.'</p>'; }
-				//Similar species tab
+				if ($SimilarSpecies) { echo '<p><b>Similar Species:</b> '.$SimilarSpecies.'</p>'; }
 				echo '<p><b><a class="internal" href="http://www.ncbi.nlm.nih.gov/nuccore/?term='.$name4Smithso.'">Search Sequences in GenBank</a></b></p>'; // GENBANK LINK to be imported from Dick Moe's SW table
 			?>
 		</div>

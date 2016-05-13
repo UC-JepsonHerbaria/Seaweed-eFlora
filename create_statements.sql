@@ -20,7 +20,8 @@ CREATE TABLE eflora_taxa (
 	Substrate TEXT,
 	Associates TEXT,
 	Epiphytes TEXT,
-	TypeLocality TEXT
+	TypeLocality TEXT,
+	SimilarSpecies TEXT
 );
 
 DROP TABLE eflora_media;
