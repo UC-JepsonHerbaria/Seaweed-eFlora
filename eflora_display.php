@@ -59,7 +59,7 @@ while ($row = $results->fetchArray()) {
 }
 
 //get illustration and photo results
-$illustration_results = $db->query('SELECT FileName
+$illustration_results = $db->query('SELECT FileName, IsDecew
 									from eflora_media
 									WHERE TaxonID='.$URL_TaxonID.' AND MediaType LIKE "Illustration";');
 $photo_results = $db->query('SELECT FileName, MediaURL, Creator, ThumbURL, Locality
@@ -279,11 +279,18 @@ a.internal:hover {
 			?>
 		</div>
 		<div id="tabs-3"> <!-- illustrations tab -->
-			<p>Illustrations are from <a href="http://ucjeps.berkeley.edu/guide/">DeCew's Guide to the Seaweeds of British Columbia, Washington, Oregon, and Northern California</a>, unless otherwise stated.</p>
+			<!--<p>Illustrations are from <a href="http://ucjeps.berkeley.edu/guide/">DeCew's Guide to the Seaweeds of British Columbia, Washington, Oregon, and Northern California</a>, unless otherwise stated.</p>-->
 			<?php
 		    	while ($row = $illustration_results->fetchArray()) {
 					$illu_name = $row['FileName'];
-					echo '<img style="max-width:528px;" src="http://ucjeps.berkeley.edu/guide/'.$illu_name.'"><br><br>';
+					$IsDecew = $row['IsDecew'];
+					echo '<img style="max-width:528px;" src="images/'.$illu_name.'"><br>';
+					//Add Decew citation if from Decew
+					if ($IsDecew) {
+						echo "<p>Illustration from <a href='http://ucjeps.berkeley.edu/guide/'>DeCew's Guide to the Seaweeds of British Columbia, Washington, Oregon, and Northern California</a></p>";
+					}
+					
+					//echo '<br>';
 				}
 			?>
 		</div>

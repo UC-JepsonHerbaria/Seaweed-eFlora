@@ -36,5 +36,6 @@ CREATE TABLE eflora_media (
 	Title TEXT,
 	Locality TEXT,
 	Creator TEXT,
-	CopyrightHolder TEXT
+	CopyrightHolder TEXT,
+	IsDecew INTEGER
 );

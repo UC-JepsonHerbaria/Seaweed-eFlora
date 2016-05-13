@@ -88,15 +88,22 @@ foreach my $filename (@treatment_files) {
 			next;
 		} 
 		
-		foreach my $element (@photo_array){ ####How to handle media rank? Maybe we just sort by ID because that's the order it goes in
+		foreach my $element (@photo_array){ ####Media rank is handled by sorting by ID, since that's the order it goes in
 			#warn "printing photo record for element $element\n";
 			print OUT "INSERT INTO eflora_media(TaxonID, FileName, MediaType, MediaURL, ThumbURL, Creator, Locality)\n";
 			print OUT "VALUES($taxon_id, \'$element\', 'Photo', \'https://webapps.cspace.berkeley.edu/ucjeps/imageserver/blobs/$BLOB_ID{$element}/derivatives/OriginalJpeg/content\', \'https://webapps.cspace.berkeley.edu/ucjeps/imageserver/blobs/$BLOB_ID{$element}/derivatives/Medium/content\', \'$IMG_CREATOR{$element}\', \'$IMG_LOCALITY{$element}\')\n";
 			print OUT ";\n";
 		}
-		foreach my $element (@illustration_array){ ####How to handle media rank? Maybe we just sort by ID because that's the order it goes in
-			print OUT "INSERT INTO eflora_media(TaxonID, FileName, MediaType)\n";
-			print OUT "VALUES($taxon_id, \'$element\', 'Illustration')\n";
+		foreach my $element (@illustration_array){
+			#check if is DeCew
+			my $IsDecew;
+			if ($element=~/(^C-|^P-|R-).*gif$/) { #illustrations in this format are from DeCew's Guide so get the DeCew citation on the website
+				$IsDecew=1;
+			}
+			else {$IsDecew=0;}
+			
+			print OUT "INSERT INTO eflora_media(TaxonID, FileName, MediaType, IsDecew)\n";
+			print OUT "VALUES($taxon_id, \'$element\', 'Illustration', $IsDecew)\n";
 			print OUT ";\n";
 		}
 		foreach my $element (@audio_array){
