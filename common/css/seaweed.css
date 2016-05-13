@@ -68,6 +68,9 @@ body {
 		border:1px solid #bbb;
 		width:210px;
 	}
+	#content-left ul {
+		padding-left: 20px; 
+	}
 	#content-main {
 		border:1px solid #bbb;
 		margin-left:10px;
