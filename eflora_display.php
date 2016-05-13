@@ -342,9 +342,8 @@ a.internal:hover {
 	?>
 </div>
 </div>
-<div id="footer">
-
-</div>
-<div id="bottom"></div>
+<!--<div id="footer">
+</div>-->
+<div id="bottom"><?php include('common/php/treatment_footer.php'); ?></div>
 </div>
 </body></html>

@@ -89,5 +89,6 @@ body {
 	}
 	#bottom {
 		clear:both;
-		text-align:right;
+		/* text-align:right; */
+		text-align:left;
 	}
