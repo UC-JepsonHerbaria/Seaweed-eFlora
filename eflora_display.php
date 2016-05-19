@@ -302,6 +302,7 @@ a.internal:hover {
 					echo '<p>Excerpt from Abbott, I. A., & Hollenberg, G. J. (1976). <i><a href="http://www.sup.org/books/title/?id=2401">Marine algae of California</a></i>. Stanford University Press, Stanford, California. xii [xiii] + 827 pp., 701 figs.<p>';
 				}
 				if ($MACNotes) {
+					$MACNotes = str_replace("|",'</p><p>',$MACNotes);
 					echo '<p><b>Notes:</b> '.$MACNotes.'</p>';
 				}
 			?>
