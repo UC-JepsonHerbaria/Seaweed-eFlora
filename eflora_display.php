@@ -268,13 +268,34 @@ a.internal:hover {
 		</div>
 		<div id="tabs-2"> <!-- notes tab -->
 			<?php
-				if ($Status) { echo '<p><b>Status:</b> '.$Status.'</p>'; }
-				if ($Habitat) { echo '<p><b>Habitat:</b> '.$Habitat.'</p>'; }
-				if ($LifeHistory) { echo '<p><b>Life History:</b> '.$LifeHistory.'</p>'; }
-				if ($Conservation) { echo '<p><b>Conservation:</b> '.$Conservation.'</p>'; }
-				if ($Associates) { echo '<p><b>Associated Taxa:</b> '.$Associates.'</p>'; }
-				if ($Epiphytes) { echo '<p><b>Epiphytes:</b> '.$Epiphytes.'</p>'; }
-				if ($SimilarSpecies) { echo '<p><b>Similar Species:</b> '.$SimilarSpecies.'</p>'; }
+				if ($Status) {
+					$Status = str_replace("|",'</p><p>',$Status);
+					echo '<p><b>Status:</b> '.$Status.'</p>'; 
+				}
+				if ($Habitat) {
+					$Habitat = str_replace("|",'</p><p>',$Habitat);
+					echo '<p><b>Habitat:</b> '.$Habitat.'</p>';
+				}
+				if ($LifeHistory) {
+					$LifeHistory = str_replace("|",'</p><p>',$LifeHistory);
+					echo '<p><b>Life History:</b> '.$LifeHistory.'</p>';
+				}
+				if ($Conservation) {
+					$Conservation = str_replace("|",'</p><p>',$Conservation);
+					echo '<p><b>Conservation:</b> '.$Conservation.'</p>';
+				}
+				if ($Associates) {
+					$Associates = str_replace("|",'</p><p>',$Associates);
+					echo '<p><b>Associated Taxa:</b> '.$Associates.'</p>';
+				}
+				if ($Epiphytes) {
+					$Epiphytes = str_replace("|",'</p><p>',$Epiphytes);
+					echo '<p><b>Epiphytes:</b> '.$Epiphytes.'</p>';
+				}
+				if ($SimilarSpecies) {
+					$SimilarSpecies = str_replace("|",'</p><p>',$SimilarSpecies);
+					echo '<p><b>Similar Species:</b> '.$SimilarSpecies.'</p>';
+				}
 				echo '<p><b><a class="internal" href="http://www.ncbi.nlm.nih.gov/nuccore/?term='.$name4Smithso.'">Search Sequences in GenBank</a></b></p>'; // GENBANK LINK to be imported from Dick Moe's SW table
 			?>
 		</div>
@@ -314,7 +335,7 @@ a.internal:hover {
 
 <div id="content-right">
 	<?php
-		echo '<p><a href="http://www.algaebase.org/search/?species='.$name4CSpace.'"><b>Classification & Synonyms: Algaebase</b></a></p>';
+		echo '<p><a href="http://www.algaebase.org/search/?species='.$name4CSpace.'"><b>Classification: Algaebase</b></a></p>';
 		echo '<p><b>'.$NativeStatus.'</b></p>';
 		if ($VerticalDistribution) { echo '<p><b>Vertical Distribution:</b> '.$VerticalDistribution.'</p>'; }
 		if ($Frequency) { echo '<p><b>Frequency:</b> '.$Frequency.'</p>'; }
