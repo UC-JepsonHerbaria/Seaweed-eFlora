@@ -87,27 +87,32 @@ function openwindowphylo()
 
 <table align="center" width="100%">
 <tbody><tr>
-<td width="50%" valign="top">
+<td width="50%" height="" valign="top">
 <form action="search_eflora.php" method="POST">
 <b>Scientific Name<br></b>		<input type="text" id="query_text" name="query"></input>
 		<input type="submit" value="Current and former names for California seaweeds" />
 </form>
-<br><br><br>
 
 <td width="25%" align="center" valign="top">
-<form action="non_native_list.html">
+<form action="pages/non_native_list.html">
         <input type="submit" value="Non-native species">
         
 </form>
 </td>
 <td width="25%" align="center" valign="top">
-<form action="new_species.html">
+<form action="pages/new_species.html">
         <input type="submit" value="Species reported since 1976">
         
 </form>
 
-Voucher-based species lists
-<FORM><SELECT WIDTH=20 onChange="JumpToIt(this)"><OPTION VALUE="None">Select a county
+
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td colspan="2" align="center">
+<FORM>Voucher-based species lists: <SELECT WIDTH=20 onChange="JumpToIt(this)"><OPTION VALUE="None">Select a county
 <OPTION VALUE="#">Del Norte
 <OPTION VALUE="#">Humboldt
 <OPTION VALUE="#">Mendocino
@@ -123,9 +128,9 @@ Voucher-based species lists
 <OPTION VALUE="#">Los Angeles
 <OPTION VALUE="#">Orange
 <OPTION VALUE="#">San Diego
-</SELECT></FORM>
+</SELECT>
+<br><a href="javascript: openwindowmap()">map of coastal counties</a></FORM>
 
-<a href="javascript: openwindowmap()">map of coastal counties</a>
 </td>
 </tr>
 
