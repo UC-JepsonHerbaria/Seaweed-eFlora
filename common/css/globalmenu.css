@@ -3,11 +3,14 @@
 /*  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, Sans-Serif; */
 font-family: Verdana, Arial, Helvetica, sans-serif;
   font-size: 13px;
- font-weight: bold; 
+  font-weight: bold; 
   line-height: 15px;
-/*  text-transform: uppercase; */
-  text-align: center; /*left*/
-  
+  /*  text-transform: uppercase; */
+  text-align: center;
+  /*the following two are to make sure the menu appears above other items
+  The main culprit being jquery tabs */
+  z-index: 10;
+  position: relative;
 }
 #cssglobalmenu > ul {
   width: auto;
