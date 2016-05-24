@@ -91,6 +91,7 @@ function openwindowphylo()
 <form action="search_eflora.php" method="POST">
 <b>Scientific Name<br></b>		<input type="text" id="query_text" name="query"></input>
 		<input type="submit" value="Current and former names for California seaweeds" />
+
 </form>
 
 <td width="25%" align="center" valign="top">
@@ -110,7 +111,9 @@ function openwindowphylo()
 </tr>
 
 <tr>
-<td></td>
+<td>
+<?php include('common/php/eflora_index_bar.php'); ?>  
+</td>
 <td colspan="2" align="center">
 <FORM>Voucher-based species lists: <SELECT WIDTH=20 onChange="JumpToIt(this)"><OPTION VALUE="None">Select a county
 <OPTION VALUE="#">Del Norte
@@ -133,7 +136,7 @@ function openwindowphylo()
 
 </td>
 </tr>
-
+<tr><td colspan="3">&nbsp;</td></tr>
 <tr>
 <td valign="top" width="50%">
 <h4 class="pageMajorHeading">Evolutionary history of the three great algal phyla</h4>
