@@ -1,6 +1,6 @@
 <div id='cssglobalmenu'>
 <ul>
-	<li class='active'><a href='http://ucjeps.berkeley.edu/seaweedflora/'><span>Home</span></a></li>
+	<li class='active'><a href='http://herbaria4.herb.berkeley.edu/seaweedflora/'><span>Home</span></a></li>
 	<li class=''><a href='#'><span>Keys</span></a></li>
 	<li class=''><a href='http://ucjeps.berkeley.edu/californiaseaweeds.html'><span>Current Names</span></a></li>
 	<li class=''><a href="#">References</a></li>

@@ -49,6 +49,28 @@ but is pretty ugly
 */
 }
 
+//get previous and next info based on ID
+$previousID = $ID-1;
+$nextID = $ID+1;
+
+$results = $db->query('SELECT TaxonID, ScientificName
+						FROM eflora_taxa
+						WHERE ID='.$previousID.'');
+
+while ($row = $results->fetchArray()) {
+	$previousTaxonID = $row['TaxonID'];
+	$previousName = $row['ScientificName'];
+}
+
+$results = $db->query('SELECT TaxonID, ScientificName
+						FROM eflora_taxa
+						WHERE ID='.$nextID.'');
+
+while ($row = $results->fetchArray()) {
+	$nextTaxonID = $row['TaxonID'];
+	$nextName = $row['ScientificName'];
+}
+
 //get the audio clip from the media table
 $results = $db->query('SELECT ID, FileName 
 						FROM eflora_media
@@ -87,6 +109,8 @@ if (!$ID){ //if TaxonID (pulled from URL) did not match a line in the database..
 <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
 <link href="http://ucjeps.berkeley.edu/common/styles/dropdowns.css" rel="stylesheet" type="text/css" />
 <link href="common/css/seaweed.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="common/css/globalmenu.css">
+<script src="common/js/globalmenu.js"></script>
 
 <!--jquery/jquery-ui script files-->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
@@ -99,6 +123,20 @@ if (!$ID){ //if TaxonID (pulled from URL) did not match a line in the database..
 
 <!-- google maps files and scripts -->
 <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+
+<!-- Google analytics -->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-27128382-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
 
 <?php 
 // TID is passed to JS by using PHP to echo the value of $TaxonID to a JS variable TaxID 
@@ -178,6 +216,30 @@ a.internal:hover {
 <!-- Beginning of horizontal menu -->
 <?php include('common/php/globalnav.php'); ?> 
 <!-- End of horizontal menu -->
+
+<!-- Top matter -->
+<table align="center" width="100%"><tr><td>
+<?php echo '<a href="eflora_display.php?tid='.$previousTaxonID.'"><IMG SRC="http://ucjeps.berkeley.edu/icons/left.gif" BORDER=2 ALT="Previous taxon"></a>'?>
+</td>
+<td width=40%>
+<span class="pageName"><a href="http://herbaria4.berkeley.edu/seaweedflora/">California Seaweeds eFlora</a></span>
+
+
+</td>
+<td width=55%>
+<!--eFlora index-->
+
+<?php include('common/php/eflora_index_bar.php'); ?>
+<!--end eFlora index-->
+</td>
+<td align="right">
+<?php echo '<a href="eflora_display.php?tid='.$nextTaxonID.'"><IMG SRC="http://ucjeps.berkeley.edu/icons/right.gif" BORDER=2 ALT="Next taxon"></a>'?>
+</td></tr>
+</table>
+
+
+<?php include($_SERVER['DOCUMENT_ROOT'].'/seaweedflora/common/php/seaweed_menu.php'); ?>
+<!-- end top matter-->
 
 <div id="content">
 <div id="content-left">
