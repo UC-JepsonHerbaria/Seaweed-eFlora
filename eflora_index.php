@@ -29,7 +29,7 @@ $db = new SQLite3($database_location);
 
 <body onload="initialize()">
 <!-- Begin banner -->
-<?php include($_SERVER['DOCUMENT_ROOT'].'/header_uc.php'); ?>
+<?php include($_SERVER['DOCUMENT_ROOT'].'/common/php/header_uc.php'); ?>
 <!-- End banner -->
 
 <!-- Beginning of horizontal menu -->
