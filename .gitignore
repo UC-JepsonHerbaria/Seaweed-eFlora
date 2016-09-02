@@ -8,6 +8,7 @@ config/config.php
 images/
 inputs/*species_pages.txt
 inputs/4solr*
+inputs/names_synonyms*
 audio/
 
 #generated files
