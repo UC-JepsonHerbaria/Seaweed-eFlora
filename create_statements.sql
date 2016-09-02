@@ -22,7 +22,13 @@ CREATE TABLE eflora_taxa (
 	Epiphytes TEXT,
 	TypeLocality TEXT,
 	SimilarSpecies TEXT,
-	AcceptedNameTID INTEGER
+	AcceptedNameTID INTEGER,
+	NameStatus TEXT,
+	DescriptionDate TEXT,
+	MajorGroup TEXT,
+	Additions TEXT
+);
+
 );
 
 DROP TABLE eflora_media;
