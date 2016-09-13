@@ -27,6 +27,11 @@ CREATE TABLE eflora_taxa (
 	DescriptionDate TEXT,
 	MajorGroup TEXT,
 	Additions TEXT
+<<<<<<< HEAD
+=======
+);
+
+>>>>>>> b22a983eaf97fa60fc9fb98c7c662f48a5b306d5
 );
 
 DROP TABLE eflora_media;
