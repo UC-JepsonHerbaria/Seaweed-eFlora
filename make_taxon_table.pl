@@ -22,6 +22,9 @@ close(IN);
 
 #parse synonymy file
 #declare hashes
+my %MAJGRP;
+my %DATE;
+my %ADDITIONS;
 
 #parse synonymy csv file
 my $csv = Text::CSV->new({ sep_char => ',', quote_char => '"'});
@@ -44,19 +47,28 @@ while(<IN>){
 		$syn_additions,
 		$syn_non_native)=@columns;
 		
+		#skip all non-accepted names
+		next unless $syn_name_status=~/accepted/i;
+		
 		$syn_scientific_name_author=~s/ *$//;
 		my $syn_scientific_name=&strip_name($syn_scientific_name_author);
 		
+		#checks that all names in the synonymy file are represented in the taxon id file
+		#this may be superfluous as only accepted names are processed in this script
 		my $syn_taxon_id = $TID{$syn_scientific_name};
 		unless ($syn_taxon_id){
 			warn "no taxon id for scientific name $syn_scientific_name\n add $syn_scientific_name to seaweed_taxon_ids.txt\n";
 			&log_issue("no taxon id\t$syn_scientific_name\t$syn_scientific_name_author");
 			next;
 		} 
+	
+		#assign values to hashes
+		$MAJGRP{$syn_scientific_name}=$syn_major_group;
+		$DATE{$syn_scientific_name}=$syn_date;
+		$ADDITIONS{$syn_scientific_name}=$syn_additions;
 	}
 	else{ warn "synonymy file parsing error $_\n"; }
 }
-die;
 
 #this function indicates the record delimiter. In this case, an empty line
 #as such, it needs to be designated after the other files are processed
@@ -94,6 +106,16 @@ warn "now processing file $filename";
 		my $epiphytes=&basic_get($_, "EPIPHYTES");
 		my $type_locality=&basic_get($_, "TYPE LOCALITY");
 
+		#assign additional values from synonym file
+		my $major_group = my $date = my $additions = "";
+		if ($MAJGRP{$scientific_name}) { $major_group = "'$MAJGRP{$scientific_name}'"; }
+		else { $major_group = "NULL"; }
+		if ($DATE{$scientific_name}) { $date = "'$DATE{$scientific_name}'"; }
+		else { $date = "NULL"; }
+		if ($ADDITIONS{$scientific_name}) { $additions = "'$ADDITIONS{$scientific_name}'"; }
+		else { $additions = "NULL"; }
+
+		#assign taxon id
 		my $taxon_id = $TID{$scientific_name};
 		unless ($taxon_id){
 			warn "no taxon id for scientific name $scientific_name\n add $scientific_name to seaweed_taxon_ids.txt\n";
@@ -101,10 +123,15 @@ warn "now processing file $filename";
 			next;
 		} 
 
+
 		$scientific_name = "'$scientific_name'";
 
-		print OUT "INSERT INTO eflora_taxa(TaxonID, ScientificName, TaxonAuthor, NativeStatus, KeyCharacteristics, Status, Habitat, LifeHistory, Conservation, DistributionNotes, MACDescription, MACNotes, VerticalDistribution, Frequency, Substrate, Associates, Epiphytes, TypeLocality)\n";
-		print OUT "VALUES($taxon_id, $scientific_name, $taxon_author, $native_status, $key_characteristics, $status, $habitat, $life_history, $conservation, $distribution_notes, $MAC_description, $MAC_notes, $vertical_distribution, $frequency, $substrate, $associates, $epiphytes, $type_locality)\n";
+		#all names with a treatment paragraph are accepted names
+		my $name_status="'accepted name'";
+
+		#print SQL insert statement to output
+		print OUT "INSERT INTO eflora_taxa(TaxonID, ScientificName, TaxonAuthor, NativeStatus, KeyCharacteristics, Status, Habitat, LifeHistory, Conservation, DistributionNotes, MACDescription, MACNotes, VerticalDistribution, Frequency, Substrate, Associates, Epiphytes, TypeLocality, NameStatus, DescriptionDate, MajorGroup, Additions)\n";
+		print OUT "VALUES($taxon_id, $scientific_name, $taxon_author, $native_status, $key_characteristics, $status, $habitat, $life_history, $conservation, $distribution_notes, $MAC_description, $MAC_notes, $vertical_distribution, $frequency, $substrate, $associates, $epiphytes, $type_locality, $name_status, $date, $major_group, $additions)\n";
 		print OUT ";\n";
 	}
 }
