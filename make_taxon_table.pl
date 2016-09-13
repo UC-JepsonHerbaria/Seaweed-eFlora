@@ -24,8 +24,9 @@ close(IN);
 #declare hashes
 
 #parse synonymy csv file
-my $csv = Text::CSV->new({ sep_char => ',', quote_char => '"', escape_char => '\\'});
+my $csv = Text::CSV->new({ sep_char => ',', quote_char => '"'});
 open(IN, $synonymy_file) || die "couldn't find synonymy file file $synonymy_file\n";
+my $header_line=<IN>;   #skip header line
 while(<IN>){
 	chomp;
 	if ($csv->parse($_)) {
@@ -34,15 +35,24 @@ while(<IN>){
 			warn "$#columns bad field number $_\n";
 			&log_issue("$#columns bad field number $_\n");
 		}
-		(my $syn_major_group,
-		my $syn_scientific_name,
-		my $syn_date,
-		my $syn_name_status,
-		my $syn_accepted_name,
-		my $syn_MAC_name,
-		my $syn_additions,
-		my $syn_non_native)=@columns;
-		print join ("\t",$syn_major_group,$syn_scientific_name,$syn_date,$syn_name_status,$syn_MAC_name,$syn_additions,$syn_non_native), "\n";
+		my ($syn_major_group,
+		$syn_scientific_name_author,
+		$syn_date,
+		$syn_name_status,
+		$syn_accepted_name,
+		$syn_MAC_name,
+		$syn_additions,
+		$syn_non_native)=@columns;
+		
+		$syn_scientific_name_author=~s/ *$//;
+		my $syn_scientific_name=&strip_name($syn_scientific_name_author);
+		
+		my $syn_taxon_id = $TID{$syn_scientific_name};
+		unless ($syn_taxon_id){
+			warn "no taxon id for scientific name $syn_scientific_name\n add $syn_scientific_name to seaweed_taxon_ids.txt\n";
+			&log_issue("no taxon id\t$syn_scientific_name\t$syn_scientific_name_author");
+			next;
+		} 
 	}
 	else{ warn "synonymy file parsing error $_\n"; }
 }
