@@ -48,3 +48,2749 @@
 48	Prasiola meridionalis	Prasiola meridionalis Setchell & Gardner
 49	Ulva expansa	Ulva expansa (Setchell) Setchell & N.L.Gardner
 50	Dictyoneurum reticulatum	Dictyoneurum reticulatum (D. A. Saunders) P. C. Silva
+51	Acanthocladia muricata	Acanthocladia muricata (Endlicher) Ruprecht
+52	Acinetospora nicholsoniae	Acinetospora nicholsoniae Hollenberg
+53	Acrochaete apiculata	Acrochaete apiculata (Setchell & N.L. Gardner) C.J. O'Kelly
+54	Acrochaete cingens	Acrochaete cingens (Setchell & N.L. Gardner) C.J. O'Kelly
+55	Acrochaete codicola	Acrochaete codicola (Setchell & N.L. Gardner) C.J. O'Kelly
+56	Acrochaete geniculata	Acrochaete geniculata (N.L. Gardner) C.J. O'Kelly
+57	Acrochaete ramosa	Acrochaete ramosa (N.L. Gardner) C.J. O'Kelly
+58	Acrochaete viridis	Acrochaete viridis (Reinke) R. Nielsen
+59	Acrochaetium alcyonidii	Acrochaetium alcyonidii C-C.Jao
+60	Acrochaetium alcyonidii var. cylindricum	Acrochaetium alcyonidii var. cylindricum C-C.Jao
+61	Acrochaetium amphiroae	Acrochaetium amphiroae (K.M. Drew) Papenfuss
+62	Acrochaetium angustum	Acrochaetium angustum (K.M. Drew) Papenfuss
+63	Acrochaetium arcuatum	Acrochaetium arcuatum (K.M. Drew) Tseng
+64	Acrochaetium bonnemaisoniae	Acrochaetium bonnemaisoniae (Batters) J. Feldmann & G. Feldmann
+65	Acrochaetium catenulatum	Acrochaetium catenulatum M.A. Howe
+66	Acrochaetium coccineum	Acrochaetium coccineum (K.M. Drew) Papenfuss
+67	Acrochaetium compactum	Acrochaetium compactum C.-C.Jao
+68	Acrochaetium crassipes	Acrochaetium crassipes (B&oslash;rgesen) B&oslash;rgesen
+69	Acrochaetium daviesii	Acrochaetium daviesii (Dillwyn) Na*:geli
+70	Acrochaetium desmarestiae	Acrochaetium desmarestiae Kylin
+71	Acrochaetium gymnogongri	Acrochaetium gymnogongri (K.M. Drew) Papenfuss
+72	Acrochaetium gymnogongri	Acrochaetium gymnogongri Setchell & N.L. Gardner (invalid)
+73	Acrochaetium hirsutum	Acrochaetium hirsutum (K.M.Drew) P.W.Gabrielson
+74	Acrochaetium macounii	Acrochaetium macounii (Collins) Hamel
+75	Acrochaetium microscopicum	Acrochaetium microscopicum (Na*:geli ex Ku*:tzing) Na*:geli
+76	Acrochaetium pacificum	Acrochaetium pacificum Kylin
+77	Acrochaetium pectinatum	Acrochaetium pectinatum (Kylin) Hamel
+78	Acrochaetium plumosum	Acrochaetium plumosum (K.M. Drew) G.M. Smith
+79	Acrochaetium porphyrae	Acrochaetium porphyrae (K.M. Drew) G.M. Smith
+80	Acrochaetium radicans	Acrochaetium radicans (Harvey) Hamel
+81	Acrochaetium rhizoideum	Acrochaetium rhizoideum (K.M. Drew) C.C. Jao
+82	Acrochaetium rosulatum	Acrochaetium rosulatum (Rosenvinge) Papenfuss
+83	Acrochaetium subimmersum	Acrochaetium subimmersum (Setchell & N.L. Gardner) Papenfuss
+84	Acrochaetium tenuissimum	Acrochaetium tenuissimum (Collins) Papenfuss
+85	Acrochaetium thuretii	Acrochaetium thuretii (Bornet) Collins & Hervey
+86	Acrochaetium trifilum	Acrochaetium trifilum (Buffham) Batters
+87	Acrochaetium vagum	Acrochaetium vagum (K.M.Drew) C.-C. Jao
+88	Acrochaetium variabile	Acrochaetium variabile (K.M. Drew) G.M. Smith
+89	Acrochaetium virgatulum f. tenuissimum	Acrochaetium virgatulum f. tenuissimum (Collins) Collins
+90	Acrosiphonia mertensii	Acrosiphonia mertensii Yendo
+91	Acrosiphonia saxatilis	Acrosiphonia saxatilis (Ruprecht) Vinogradova
+92	Acrosorium ciliolatum	Acrosorium ciliolatum (Harvey) Kylin
+93	Acrosorium uncinatum	Acrosorium uncinatum (Turner) Kylin
+94	Acrosorium uncinatum var. venulosum	Acrosorium uncinatum var. venulosum (Zanardini) C.F. Boudouresque, M. Perret-Boudouresque, & M. Knoepffler-Peguy
+95	Acrosorium venulosum	Acrosorium venulosum (Zanardini) Kylin
+96	Actinococcus chiton	Actinococcus chiton M.A. Howe
+97	Adenocystis californica	Adenocystis californica Ruprecht
+98	Aeodes lanceolata	Aeodes lanceolata Okamura
+99	Agardhiella coulteri	Agardhiella coulteri (Harv.) Setchell
+100	Agardhiella gaudichaudii	Agardhiella gaudichaudii (Montagne) Silva & Papenfuss
+101	Agardhinella implexa	Agardhinella implexa (Dillwyn) Gaillon(invalid)
+102	Agarum costatum	Agarum costatum (C. Agardh) Gaillon
+103	Aglaophyllum ciliolatum	Aglaophyllum ciliolatum (Harvey) Ku*:tzing
+104	Aglaothamnion byssoides	Aglaothamnion byssoides (Arnott ex Harvey) C.F.Boudouresque & M.M.Perret-Boudouresque
+105	Aglaothamnion cordatum	Aglaothamnion cordatum (Bo*/rgesen) Feldmann-Mazoyer
+106	Aglaothamnion endovagum	Aglaothamnion endovagum (Setchell & Gardner) Abbott
+107	Aglaothamnion furcellariae	Aglaothamnion furcellariae (J.Agardh) Feldmann-Mazoyer
+108	Aglaothamnion tenuissimum	Aglaothamnion tenuissimum (Bonnemaison) Feldmann-Mazoyer
+109	Ahnfeltia fastigiata	Ahnfeltia fastigiata (Endlicher) V.F. Makienko
+110	Ahnfeltia gigartinoides	Ahnfeltia gigartinoides J. Agardh
+111	Ahnfeltia plicata	Ahnfeltia plicata (Hudson) Fries
+112	Ahnfeltia plicata var. fastigiata	Ahnfeltia plicata var. fastigiata (Endlicher) Harvey
+113	Ahnfeltiopsis gigartinoides	Ahnfeltiopsis gigartinoides (J. Agardh) P.C. Silva & T.C. DeCew
+114	Ahnfeltiopsis leptophylla	Ahnfeltiopsis leptophylla (J. Agardh) P.C. Silva & T.C. DeCew
+115	Ahnfeltiopsis linearis	Ahnfeltiopsis linearis (C. Agardh) P.C. Silva & T.C. DeCew
+116	Alaria curtipes	Alaria curtipes Saunders
+117	Alaria fragilis f. bullata	Alaria fragilis f. bullata Saunders
+118	Alaria marginata f. nana	Alaria marginata f. nana (H.F.Schrader) F.S.Collins
+119	Alaria marginata var. musiformis	Alaria marginata var. musiformis Postels & Ruprecht
+120	Alaria nana	Alaria nana H.F.Schrader
+121	Alaria taeniata	Alaria taeniata Kjellman
+122	Alaria tenuifolia f. amplior	Alaria tenuifolia f. amplior Setchell & N.L.Gardner
+123	Alaria tenuifolia	Alaria tenuifolia Setchell
+124	Alaria valida f. longipes	Alaria valida f. longipes Setchell & Gardner
+125	Alaria valida	Alaria valida Kjellman & Setchell
+126	Alsidium dasyphyllum	Alsidium dasyphyllum P.Crouan & H.Crouan
+127	Amphiroa algeriensis	Amphiroa algeriensis K&uuml;tzing
+128	Amphiroa aspergillum	Amphiroa aspergillum (J.E. Gray) C.L. Anderson
+129	Amphiroa aspergillum f. nana	Amphiroa aspergillum f. nana Setchell & Gardner
+130	Amphiroa beauvoisii	Amphiroa beauvoisii Lamouroux
+131	Amphiroa californica	Amphiroa californica Decaisne
+132	Amphiroa chiloensis	Amphiroa chiloensis Decaisne
+133	Amphiroa complanata	Amphiroa complanata K&uuml;tzing
+134	Amphiroa compressa var. tenuis	Amphiroa compressa var. tenuis Taylor
+135	Amphiroa darwinii	Amphiroa darwinii Harvey
+136	Amphiroa drouetii	Amphiroa drouetii E.Y.Dawson
+137	Amphiroa dubia	Amphiroa dubia K&uuml;tzing
+138	Amphiroa epiphlegnoides	Amphiroa epiphlegnoides J.Agardh ex Harvey
+139	Amphiroa franciscana var. robusta	Amphiroa franciscana var. robusta E.Y.Dawson
+140	Amphiroa linearis	Amphiroa linearis K&uuml;tzing
+141	Amphiroa mexicana	Amphiroa mexicana W.R.Taylor
+142	Amphiroa orbigniana	Amphiroa orbigniana Decaisne
+143	Amphiroa parthenopea	Amphiroa parthenopea Zanardini
+144	Amphiroa peninsularis	Amphiroa peninsularis W.R.Taylor
+145	Amphiroa polysona	Amphiroa polysona Montagne
+146	Amphiroa polyzona	Amphiroa polyzona Montagne
+147	Amphiroa pustulata	Amphiroa pustulata Martens
+148	Amphiroa tuberculosa	Amphiroa tuberculosa (Postels & Ruprecht) Endlicher
+149	Amphiroa tuberculosa f. californica	Amphiroa tuberculosa f. californica (Decaisne) Setchell & Gardner
+150	Amphiroa tuberculosa f. frondescens	Amphiroa tuberculosa f. frondescens (Postels & Ruprecht) Setchell & Gardner
+151	Amphiroa tuberculosa f. orbigniana	Amphiroa tuberculosa f. orbigniana (Decaisne) Setchell & Gardner
+152	Amphiroa tuberculosa	Amphiroa tuberculosa Yendo
+153	Amphiroa vertebralis	Amphiroa vertebralis Decaisne
+154	Amphiroa zonata	Amphiroa zonata Yendo
+155	Amplisiphonia pacifica	Amplisiphonia pacifica  G.J. Hollenberg
+156	Analipus japonicus	Analipus japonicus (W.H. Harvey) M.J. Wynne
+157	Anatheca furcata	Anatheca furcata Setchell & Gardner
+158	Anisocladella pacifica	Anisocladella pacifica Kylin
+159	Annulina albida	Annulina albida Nees
+160	Anotrichium furcellatum	Anotrichium furcellatum (J. Agardh) Baldock
+161	Anotrichium okamurae	Anotrichium okamurae Baldock
+162	Antithamnion breviramosum	Antithamnion breviramosum E.Y .Dawson
+163	Antithamnion breviramosum var. simplex	Antithamnion breviramosum var. simplex E.Y. Dawson
+164	Antithamnion defectum	Antithamnion defectum Kylin
+165	Antithamnion dendroideum	Antithamnion dendroideum G.M. Smith & G.J. Hollenberg
+166	Antithamnion floccosum f. pacificum	Antithamnion floccosum f. pacificum (Harvey) Setchell & Gardner
+167	Antithamnion gardneri	Antithamnion gardneri G.De Toni
+168	Antithamnion glanduliferum	Antithamnion glanduliferum Kylin
+169	Antithamnion hubbsii	Antithamnion hubbsii E.Y.Dawson
+170	Antithamnion kylinii	Antithamnion kylinii N.L. Gardner
+171	Antithamnion miharae	Antithamnion miharae Tokida
+172	Antithamnion nigricans	Antithamnion nigricans Gardner
+173	Antithamnion occidentale	Antithamnion occidentale Kylin
+174	Antithamnion pacificum	Antithamnion pacificum (Harvey) Kylin
+175	Antithamnion spirographidis	Antithamnion spirographidis Schiffner
+176	Antithamnion tenuissimum	Antithamnion tenuissimum N.L.Gardner
+177	Antithamnion ternatum	Antithamnion ternatum A.B. Joly & Cordeiro
+178	Antithamnion uncinatum	Antithamnion uncinatum Gardner
+179	Antithamnionella breviramosa	Antithamnionella breviramosa (E.Y.Dawson) Wollaston
+180	Antithamnionella glandulifera	Antithamnionella glandulifera (Kylin) E.M.Wollaston
+181	Antithamnionella miharae	Antithamnionella miharae (Tokida) Itono
+182	Antithamnionella nigricans	Antithamnionella nigricans (N.L. Gardner) A. Athanasiadis
+183	Antithamnionella pacifica	Antithamnionella pacifica (Harvey) E.M. Wollaston
+184	Antithamnionella pacifica var. uncinata	Antithamnionella pacifica var. uncinata (Gardner) Wollaston
+185	Antithamnionella simplex	Antithamnionella simplex (E.Y. Dawson) Skelton & G.R .South
+186	Antithamnionella spirographidis	Antithamnionella spirographidis (Schiffner) E.M.Wollaston
+187	Apoglossum decipiens	Apoglossum decipiens (J. Agardh) J. Agardh
+188	Apoglossum gregarium	Apoglossum gregarium (E.Y.Dawson) M.J.Wynne
+189	Apona californica	Apona californica (J. Agardh) Kuntze
+190	Apona codicola	Apona codicola (J.Agardh) Kuntze
+191	Arachnophyllum delilei	Arachnophyllum delilei Montagne
+192	Arthrocardia darwinii	Arthrocardia darwinii (Harvey) Weber-van Bosse
+193	Arthrocardia epiphlegnoides	Arthrocardia epiphlegnoides (J.Agardh ex Harvey) Weber-van Bosse
+194	Arthrocardia frondescens	Arthrocardia frondescens (Postels & Ruprecht) Areschoug
+195	Arthrocardia silvae	Arthrocardia silvae H.W. Johansen
+196	Arthrocardia tuberculosa	Arthrocardia tuberculosa (Postels & Ruprecht) Weber-van Bosse
+197	Arthrocardia vertebralis	Arthrocardia vertebralis (Decaisne) Weber-van Bosse
+198	Ascocyclus balticus	Ascocyclus balticus Reinke
+199	Ascocyclus magni	Ascocyclus magni Waern
+200	Ascocyclus magnusii	Ascocyclus magnusii Sauvageau
+201	Ascophylla fastigiata	Ascophylla fastigiata (J. Agardh) Kuntze
+202	Asparagopsis armata	Asparagopsis armata Harvey
+203	Asparagopsis delilei	Asparagopsis delilei Montagne
+204	Asparagopsis hamifera	Asparagopsis hamifera (Hariot) Okamura
+205	Asparagopsis sanfordiana	Asparagopsis sanfordiana Harvey
+206	Asparagopsis taxiformis	Asparagopsis taxiformis (Delile) Trevisan
+207	Asperococcus cancellatus	Asperococcus cancellatus (Bory de Saint-Vincent) Sonder
+208	Asperococcus clathratus	Asperococcus clathratus (C. Agardh) J. Agardh
+209	Asperococcus sinuosus	Asperococcus sinuosus (Mertens ex Roth) Bory de Saint-Vincent
+210	Asperococcus ulvoides	Asperococcus ulvoides (Postels & Ruprecht) Ruprecht
+211	Asterocolax gardneri	Asterocolax gardneri (Setchell) J. Feldmann & G. Feldmann
+212	Asterocytis ornata	Asterocytis ornata (C. Agardh) G. Hamel
+213	Asterocytis ramosa	Asterocytis ramosa (Thwaites) Gobi ex F.Schmitz
+214	Asterocytis smaragdina	Asterocytis smaragdina (Reinsch) Forti
+215	Asymmetria expansa	Asymmetria expansa (Setchell & Gardner) Setchell & Gardner
+216	Audouinella amphiroae	Audouinella amphiroae (K.M. Drew) D.J. Garbary
+217	Audouinella arcuata	Audouinella arcuata (K.M. Drew) Garbary, Hansen, & Scagel
+218	Audouinella bonnemaisoniae	Audouinella bonnemaisoniae (Batters) Dixon
+219	Audouinella catenulata	Audouinella catenulata (Howe) Garbary
+220	Audouinella coccinea	Audouinella coccinea (K.M. Drew) D.J. Garbary, G.I. Hansen, & R.F. Scagel
+221	Audouinella concrescens	Audouinella concrescens (K.M. Drew) P.S. Dixon
+222	Audouinella daviesii	Audouinella daviesii (Dillwyn) W.J. Woelkerling
+223	Audouinella desmarestiae	Audouinella desmarestiae (Kylin) D.J. Garbary, G.I. Hansen, & R.F. Scagel
+224	Audouinella macounii	Audouinella macounii (Collins) D.J. Garbary, G.I. Hansen, & R.F. Scagel
+225	Audouinella microscopica	Audouinella microscopica (Na*:geli ex Ku*:tzing) Woelkerling
+226	Audouinella pacifica	Audouinella pacifica (Kylin) Garbary
+227	Audouinella pectinata	Audouinella pectinata (Kylin) Papenfuss
+228	Audouinella plumosa	Audouinella plumosa (K.M. Drew) Garbary
+229	Audouinella plumosa	Audouinella plumosa (K.M. Drew) Garbary
+230	Audouinella plumosa var. variabilis	Audouinella plumosa var. variabilis (K.M. Drew) D.J. Garbary, G.I. Hansen, & R.F. Scagel
+231	Audouinella rhizoidea	Audouinella rhizoidea (K.M. Drew) D.J. Garbary x
+232	Audouinella rosulata	Audouinella rosulata (Rosenvinge) Dixon
+233	Audouinella siliculosa	Audouinella siliculosa (Dillwyn) Bory
+234	Audouinella subimmersa	Audouinella subimmersa (Setchell & N.L. Gardner) D.J. Garbary & J. Rueness
+235	Audouinella tenuissima	Audouinella tenuissima (Collins) Garbary  (invalid)
+236	Audouinella thuretii	Audouinella thuretii (Bornet) Woelkerling
+237	Audouinella trifila	Audouinella trifila (Buffham) P.S.Dixon
+238	Audouinella vaga	Audouinella vaga (Drew) Garbary, Hansen & Scagel
+239	Audouinella variabilis	Audouinella variabilis (K.M. Drew) D.J. Garbary
+240	Baillouviana plumosa	Baillouviana plumosa (Harvey & Bailey) Kuntze
+241	Bangia	Bangia
+242	Bangia alsidii	Bangia alsidii Zanardini
+243	Bangia carnea	Bangia carnea (Dillwyn) Harvey
+244	Bangia ciliaris subsp. pulchella	Bangia ciliaris subsp. pulchella (Harvey) De Toni
+245	Bangia delilei	Bangia delilei (Montagne) Zanardini
+246	Bangia elegans	Bangia elegans Chauvin
+247	Bangia laetevirens	Bangia laetevirens Harvey
+248	Bangia maxima	Bangia maxima Gardner
+249	Bangia pulchella	Bangia pulchella Harvey
+250	Bangia vermicularis	Bangia vermicularis Harvey
+251	Battersia plumigera	Battersia plumigera (Holmes) S.G.A. Draisma, W.F. Prud'homme van Reine & H. Kawai
+252	Battersia racemosa	Battersia racemosa (Greville) S.G.A. Draisma, W.F. Prud'homme van Reine & H. Kawai
+253	Baylesia plumosa	Baylesia plumosa Setchell
+254	Besa leptophylla	Besa leptophylla (J. Agardh) M.S. Calderon & K. A. Miller
+255	Besa papillaeformis	Besa papillaeformis Setchell
+256	Besa stipitata	Besa stipitata G.J. Hollenberg & I.A. Abbott
+257	Binghamia californica	Binghamia californica  J.Agardh
+258	Binghamia forkii	Binghamia forkii (E.Y.Dawson) P.C.Silva
+259	Binghamiella californica	Binghamiella californica (J. Agardh) Setchell & Dawson
+260	Binghamiella forkii	Binghamiella forkii E.Y.Dawson
+261	Binghamiopsis caespitosa	Binghamiopsis caespitosa I.K. Lee, J.A. West, & M.H. Hommersand
+262	Blidingia dawsonii	Blidingia dawsonii (G.J. Hollenberg & I.A. Abbott) S.C. Lindstrom, L.A. Hanic, & L. Golden
+263	Blidingia marginata subsp. subsalsa	Blidingia marginata subsp. subsalsa (Kjellman) Bliding
+264	Blidingia minima f. subsalsa	Blidingia minima f. subsalsa (Kjellman) K.L. Vinogradova  (invalid)
+265	Blidingia minima var. subsalsa	Blidingia minima var. subsalsa (Kjellman) R.F. Scagel
+266	Blidingia nana	Blidingia nana (Sommerfelt) Bliding
+267	Blidingia subsalsa	Blidingia subsalsa (Kjellman) P. Kornmann & P.-H. Sahling  (invalid)
+268	Blidingia subsalsa	Blidingia subsalsa (Kjellman) R.F. Scagel et al.
+269	Blinksia californica	Blinksia californica G.J. Hollenberg & I.A. Abbott
+270	Blossevillea expansa	Blossevillea expansa (C.Agardh) Trevisan
+271	Boanema scoparium	Boanema scoparium Ercegovic
+272	Bolbocoleon piliferum	Bolbocoleon piliferum Pringsheim
+273	Bonnemaisonia californica	Bonnemaisonia californica Buffham
+274	Bonnemaisonia geniculata	Bonnemaisonia geniculata N.L. Gardner
+275	Bonnemaisonia hamifera	Bonnemaisonia hamifera Hariot
+276	Bonnemaisonia intricata	Bonnemaisonia intricata (C.Agardh) P.C .Silva
+277	Bonnemaisonia nootkana	Bonnemaisonia nootkana (Esper) P.C. Silva
+278	Bornetia californica	Bornetia californica I.A. Abbott
+279	Boryna intricata	Boryna intricata (C. Agardh) Bory
+280	Bossea angustata	Bossea angustata W.R.Taylor
+281	Bossea californica	Bossea californica (Decaisne) Manza
+282	Bossea cooperi	Bossea cooperi E.Y.Dawson & P.C.Silva
+283	Bossea corymbifera	Bossea corymbifera Manza
+284	Bossea dichotoma	Bossea dichotoma Manza
+285	Bossea frondifera	Bossea frondifera Manza
+286	Bossea gardneri	Bossea gardneri Manza
+287	Bossea insularis	Bossea insularis E.Y.Dawson & P.C.Silva
+288	Bossea interrupta	Bossea interrupta Manza
+289	Bossea ligulata	Bossea ligulata E.Y.Dawson
+290	Bossea orbigniana	Bossea orbigniana (Decaisne) Manza
+291	Bossea pachyclada	Bossea pachyclada W.R.Taylor
+292	Bossea plumosa	Bossea plumosa Manza
+293	Bossea sagittata	Bossea sagittata E.Y.Dawson & P.C.Silva
+294	Bossiella californica	Bossiella californica (Decaisne) P.C. Silva
+295	Bossiella californica subsp. schmittii	Bossiella californica subsp. schmittii (Manza) H.W. Johansen
+296	Bossiella chiloensis	Bossiella chiloensis (Decaisne) H.W .Johansen
+297	Bossiella cooperi	Bossiella cooperi (E.Y.Dawson & P.C.Silva) P.C.Silva
+298	Bossiella corymbifera	Bossiella corymbifera (Manza) P.C.Silva
+299	Bossiella dichotoma	Bossiella dichotoma (Manza) P.C. Silva
+300	Bossiella dichotoma var. gardneri	Bossiella dichotoma var. gardneri (Manza) E.Y.Dawson
+301	Bossiella frondescens	Bossiella frondescens (Postels & Ruprecht) E.Y. Dawson
+302	Bossiella frondifera	Bossiella frondifera P.W. Gabrielson, K.A. Miller, P.T. Martone, & K.R. Hind
+303	Bossiella gardneri	Bossiella gardneri (Manza) P.C.Silva
+304	Bossiella heteroforma	Bossiella heteroforma K.R. Hind, P.W. Gabrielson & G.W. Saunders
+305	Bossiella insularis	Bossiella insularis (E.Y.Dawson & Silva) P.C.Silva
+306	Bossiella interrupta	Bossiella interrupta (Manza) P.C.Silva
+307	Bossiella ligulata	Bossiella ligulata (E.Y.Dawson) P.C.Silva
+308	Bossiella orbigniana	Bossiella orbigniana (Decaisne) P.C. Silva
+309	Bossiella orbigniana subsp. dichotoma	Bossiella orbigniana subsp. dichotoma (Manza) H.W. Johansen
+310	Bossiella pachyclada	Bossiella pachyclada (W.R.Taylor) P.C.Silva
+311	Bossiella plumosa	Bossiella plumosa (Manza) P.C. Silva
+312	Bossiella sagittata	Bossiella sagittata (E.Y.Dawson & P.C.Silva) P.C.Silva
+313	Bossiella schmittii	Bossiella schmittii (Manza) H.W. Johansen
+314	Bostrychia floccosa	Bostrychia floccosa (Esper) Montagne
+315	Botryocladia hancockii	Botryocladia hancockii E.Y. Dawson
+316	Botryocladia neushulii	Botryocladia neushulii E.Y. Dawson
+317	Botryocladia pseudodichotoma	Botryocladia pseudodichotoma (Farlow) Kylin
+318	Botryoglossum farlowianum	Botryoglossum farlowianum (J. Agardh) De Toni
+319	Botryoglossum farlowianum var. anomalum	Botryoglossum farlowianum var. anomalum Hollenberg & Abbott
+320	Botryoglossum ruprechtianum	Botryoglossum ruprechtianum (J. Agardh) De Toni
+321	Botryoglossum violaceum	Botryoglossum violaceum (J. Agardh) De Toni
+322	Botrytella pacifica	Botrytella pacifica (Hollenberg) G.I. Hansen
+323	Branchioglossum bipinnatifidum	Branchioglossum bipinnatifidum (Montagne) Wynne
+324	Branchioglossum brattstroemii	Branchioglossum brattstroemii Levring
+325	Branchioglossum macdougalii	Branchioglossum macdougalii N.L.Gardner
+326	Branchioglossum undulatum	Branchioglossum undulatum E.Y. Dawson
+327	Branchioglossum woodii	Branchioglossum woodii (J.Agardh) Kylin
+328	Bryopsis arbuscula	Bryopsis arbuscula C. Agardh 1823 (illeg.)
+329	Bryopsis pennatula	Bryopsis pennatula J. Agardh
+330	Bryopsis plumosa var. hypnoides	Bryopsis plumosa var. hypnoides (Lamouroux) K&uuml;tzing
+331	Byssus purpurea	Byssus purpurea Lightfoot
+332	Calliarthron cheilosporioides	Calliarthron cheilosporioides Manza
+333	Calliarthron regenerans	Calliarthron regenerans Manza
+334	Calliarthron schmittii	Calliarthron schmittii Manza
+335	Calliarthron setchelliae	Calliarthron setchelliae Manza
+336	Calliarthron tuberculosum	Calliarthron tuberculosum (Postels & Ruprecht) E. Y. Dawson
+337	Calliarthron vertebrale	Calliarthron vertebrale (Decaisne) Manza
+338	Callilithophytum parcum	Callilithophytum parcum (Setchell & Foslie) P.W.Gabrielson, W.H.Adey, G.P.Johnson & Hern&aacute;ndez-Kant&uuml;n
+339	Callithamnion acutum	Callithamnion acutum Kylin
+340	Callithamnion arachnoideum	Callithamnion arachnoideum C.Agardh
+341	Callithamnion arnottii	Callithamnion arnottii Trevisan
+342	Callithamnion biseriatum	Callithamnion biseriatum Kylin
+343	Callithamnion byssoides	Callithamnion byssoides Arnott ex Harvey
+344	Callithamnion californicum	Callithamnion californicum N.L.Gardner
+345	Callithamnion catalinense	Callithamnion catalinense  E.Y. Dawson
+346	Callithamnion cordatum	Callithamnion cordatum Bo*/rgesen
+347	Callithamnion dasyoides	Callithamnion dasyoides J. Agardh
+348	Callithamnion daviesii	Callithamnion daviesii (Dillwyn) Lyngbye
+349	Callithamnion endovagum	Callithamnion endovagum Setchell & Gardner
+350	Callithamnion floccosum var. pacificum	Callithamnion floccosum var. pacificum Harvey
+351	Callithamnion furcellariae	Callithamnion furcellariae J.Agardh
+352	Callithamnion heteromorphum	Callithamnion heteromorphum J. Agardh
+353	Callithamnion hiemale	Callithamnion hiemale Kjellman
+354	Callithamnion lanuginosum	Callithamnion lanuginosum (Dillwyn) Lyngbye
+355	Callithamnion lejolisea	Callithamnion lejolisea Farlow
+356	Callithamnion microscopicum	Callithamnion microscopicum Na*:geli ex Ku*:tzing
+357	Callithamnion paschale	Callithamnion paschale B&oslash;rgesen
+358	Callithamnion pikeanum	Callithamnion pikeanum Harvey
+359	Callithamnion pubes	Callithamnion pubes C.Agardh
+360	Callithamnion purpureum	Callithamnion purpureum Harvey
+361	Callithamnion radicans	Callithamnion radicans Harvey
+362	Callithamnion ramellosum	Callithamnion ramellosum Sonder
+363	Callithamnion ramosissimum	Callithamnion ramosissimum N.L. Gardner
+364	Callithamnion rothii var. purpureum	Callithamnion rothii var. purpureum Harvey
+365	Callithamnion rupicola	Callithamnion rupicola C.L. Anderson
+366	Callithamnion rupicolum	Callithamnion rupicolum C.L. Anderson
+367	Callithamnion squarrulosum	Callithamnion squarrulosum Harvey
+368	Callithamnion subulatum	Callithamnion subulatum Harvey
+369	Callithamnion tenuissimum	Callithamnion tenuissimum (Bonnemaison) Zanardini
+370	Callithamnion vancouverianum	Callithamnion vancouverianum J. Agardh
+371	Callocolax fungiformis	Callocolax fungiformis Kylin
+372	Callocolax globulosis	Callocolax globulosis E.Y.Dawson
+373	Callonema elegans	Callonema elegans (Chauvin) Reinsch
+374	Callonema smaragdinum	Callonema smaragdinum Reinsch
+375	Callophylis firma	Callophylis firma (Kylin) Norris
+376	Callophyllis australis	Callophyllis australis J. Agardh (invalid)
+377	Callophyllis crenulata	Callophyllis crenulata Setchell
+378	Callophyllis dissecta	Callophyllis dissecta Setchell & Swezy
+379	Callophyllis edentata	Callophyllis edentata Kylin
+380	Callophyllis flabellulata	Callophyllis flabellulata W. H. Harvey
+381	Callophyllis heanophylla	Callophyllis heanophylla Setchell
+382	Callophyllis linearis	Callophyllis linearis (Kylin) Abbott & R.E. Norris
+383	Callophyllis obtusifolia	Callophyllis obtusifolia J. Agardh
+384	Callophyllis odonthalioides	Callophyllis odonthalioides Setchell
+385	Callophyllis pinnata	Callophyllis pinnata Setchell & Swezy
+386	Callophyllis rhynchocarpa	Callophyllis rhynchocarpa Ruprecht
+387	Callophyllis schneideri	Callophyllis schneideri B.E. Clarkston & G.W. Saunders
+388	Callophyllis thompsonii	Callophyllis thompsonii Setchell
+389	Callophyllis variegata	Callophyllis variegata (Bory de Saint-Vincent) K&uuml;tzing
+390	Callophyllis violacea	Callophyllis violacea J. Agardh
+391	Calosiphonia californica	Calosiphonia californica J. Agardh
+392	Campylaephora californica	Campylaephora californica (Farlow) T.O. Cho
+393	Capillaria pedunculata	Capillaria pedunculata (Hudson) Stackhouse
+394	Capsicarpella elongata	Capsicarpella elongata Bory
+395	Capsosiphon fulvescens	Capsosiphon fulvescens (C. Agardh) Setchell & Gardner
+396	Carpocaulon nidificum	Carpocaulon nidificum (Harvey) Kuntze
+397	Carpopeltis bushiae	Carpopeltis bushiae (Farlow) Kylin
+398	Carpopeltis cornea	Carpopeltis cornea (Okamura) Okamura
+399	Castagnea crassa	Castagnea crassa (Suringar) Kuckuck
+400	Caulacanthus okamurae	Caulacanthus okamurae Yamada
+401	Caulacanthus ustulatus	Caulacanthus ustulatus (Mertens ex Turner) K&uuml;tzing
+402	Caulacanthus ustulatus	Caulacanthus ustulatus (Turner) Ku*:tzing
+403	Caulerpa pennata	Caulerpa pennata Lamouroux
+404	Caulerpa taxifolia	Caulerpa taxifolia (Vahl) C. Agardh
+405	Centroceras clavulatum	Centroceras clavulatum (C. Agardh) Montagne
+406	Centroceras clavulatum var. brachyacanthum	Centroceras clavulatum var. brachyacanthum (K&uuml;tzing) P.Crouan & H.Crouan
+407	Centroceras clavulatum var. cryptacanthum	Centroceras clavulatum var. cryptacanthum (K&uuml;tzing) Grunow
+408	Centroceras clavulatum var. macracanthum	Centroceras clavulatum var. macracanthum (K&uuml;tzing) Grunow
+409	Centroceras clavulatum var. oxyacanthum	Centroceras clavulatum var. oxyacanthum (K&uuml;tzing) Grunow
+410	Centroceras eatonianum	Centroceras eatonianum Farlow
+411	Centroceras oregonense	Centroceras oregonense J.Agardh
+412	Ceramicola rubra	Ceramicola rubra Oersted
+413	Ceramium affine	Ceramium affine  Setchell & N.L. Gardner
+414	Ceramium avalonae	Ceramium avalonae E.Y. Dawson
+415	Ceramium brodiei	Ceramium brodiei (Dillwyn) C. Agardh
+416	Ceramium californicum	Ceramium californicum J. Agardh
+417	Ceramium camouii	Ceramium camouii E.Y. Dawson
+418	Ceramium caudatum	Ceramium caudatum Setchell & N.L. Gardner
+419	Ceramium ceramicola	Ceramium ceramicola (Lyngbye) Hornemann
+420	Ceramium clarionense	Ceramium clarionense Setchell & N.L. Gardner
+421	Ceramium clavulatum	Ceramium clavulatum C. Agardh
+422	Ceramium clavulatum var. borbonicum	Ceramium clavulatum var. borbonicum (C.Agardh) C.Agardh
+423	Ceramium codicola	Ceramium codicola J. Agardh
+424	Ceramium codiophilum	Ceramium codiophilum Setchell & N.L.Gardner
+425	Ceramium cryptacanthum	Ceramium cryptacanthum (K&uuml;tzing) Sonder
+426	Ceramium daviesii	Ceramium daviesii (Dillwyn) C. Agardh
+427	Ceramium diaphanum var. borbonicum	Ceramium diaphanum var. borbonicum C.Agardh
+428	Ceramium eatonianum	Ceramium eatonianum (Farlow) De Toni
+429	Ceramium equisetoides	Ceramium equisetoides E.Y. Dawson
+430	Ceramium filamentosum	Ceramium filamentosum (Wulfen) C. Agardh
+431	Ceramium gardneri	Ceramium gardneri Kylin
+432	Ceramium granulosum	Ceramium granulosum (J.E. Smith) C. Agardh 1817
+433	Ceramium hyalacanthum	Ceramium hyalacanthum (K&uuml;tzing) Sonder
+434	Ceramium interruptum	Ceramium interruptum Setchell & N.L. Gardner
+435	Ceramium intricatum	Ceramium intricatum C. Agardh
+436	Ceramium kondoi	Ceramium kondoi Yendo
+437	Ceramium pacificum	Ceramium pacificum (Collins) Kylin
+438	Ceramium procumbens	Ceramium procumbens Setchell & N.L. Gardner
+439	Ceramium rubrum var. pacificum	Ceramium rubrum var. pacificum Collins
+440	Ceramium serpens	Ceramium serpens Setchell & N.L. Gardner
+441	Ceramium siliculosum	Ceramium siliculosum (Dillwyn) C. Agardh
+442	Ceramium sinicola	Ceramium sinicola Setchell & N.L. Gardner
+443	Ceramium sinicola var. interruptum	Ceramium sinicola var. interruptum Dawson
+444	Ceramium sungminbooi	Ceramium sungminbooi J.R. Hughey & G.H. Boo
+445	Ceramium taylorii	Ceramium taylorii E.Y. Dawson
+446	Ceramium tenuissimum	Ceramium tenuissimum Bonnemaison
+447	Ceramium viscainoense	Ceramium viscainoense E.Y. Dawson
+448	Ceramium washingtoniense	Ceramium washingtoniense Kylin
+449	Ceramium zacae	Ceramium zacae Setchell & N.L. Gardner
+450	Ceramium zebrinum	Ceramium zebrinum J.Agardh
+451	Ceratothamnion pikeanum	Ceratothamnion pikeanum (Harvey) J. Agardh
+452	Chaetolithon deformans	Chaetolithon deformans (Solms-Laubach) Foslie
+453	Chaetomorpha antennina	Chaetomorpha antennina (Bory de Saint-Vincent) Ku*:tzing
+454	Chaetomorpha baltica	Chaetomorpha baltica K&uuml;tzing
+455	Chaetomorpha californica	Chaetomorpha californica Collins
+456	Chaetomorpha chlorotica	Chaetomorpha chlorotica (Montagne) K&uuml;tzing
+457	Chaetomorpha clavata var. torta	Chaetomorpha clavata var. torta Farlow ex Collins
+458	Chaetomorpha crassa	Chaetomorpha crassa (C.Agardh) K&uuml;tzing
+459	Chaetomorpha crassa f. genuina	Chaetomorpha crassa f. genuina Schiffner
+460	Chaetomorpha crassa f. tenuior	Chaetomorpha crassa f. tenuior Schiffner
+461	Chaetomorpha linum f. aerea	Chaetomorpha linum f. aerea (Dillwyn) Collins
+462	Chaetomorpha linum f. brachyarthra	Chaetomorpha linum f. brachyarthra (K&uuml;tzing) B&oslash;rgesen
+463	Chaetomorpha linum var. brachyarthra	Chaetomorpha linum var. brachyarthra Schiffner
+464	Chaetomorpha media	Chaetomorpha media (C.Agardh) K&uuml;tzing
+465	Chaetomorpha princeps	Chaetomorpha princeps (K&uuml;tzing) K&uuml;tzing
+466	Chaetomorpha reticulata	Chaetomorpha reticulata K&uuml;tzing
+467	Chaetomorpha rigida	Chaetomorpha rigida K&uuml;tzing
+468	Chaetomorpha stricta	Chaetomorpha stricta Schiffner
+469	Chaetomorpha sutoria	Chaetomorpha sutoria (Berkeley) Harvey
+470	Chaetomorpha torta	Chaetomorpha torta (Farlow ex Collins) Yendo
+471	Chaetomorpha urbica	Chaetomorpha urbica (Zanardini) K&uuml;tzing
+472	Chaetomorpha vasta	Chaetomorpha vasta K&uuml;tzing
+473	Chaetomorpha wormskioldii	Chaetomorpha wormskioldii (Mertens ex Hornemann) Kjellman
+474	Chaetomorphopsis pacifica	Chaetomorphopsis pacifica H.L.Lyon
+475	Chaetophora marina	Chaetophora marina Lyngbye
+476	Chaetophora rubra	Chaetophora rubra (Hudson) C.Agardh
+477	Champia intricata	Champia intricata Cremades
+478	Champia parvula	Champia parvula (C. Agardh) Harvey
+479	Champia parvula	Champia parvula (C. Agardh) Harvey
+480	Champia recta	Champia recta Noda
+481	Chantransia bonnemaisoniae	Chantransia bonnemaisoniae (Batters) Levring
+482	Chantransia catenulata	Chantransia catenulata (Howe) De Toni
+483	Chantransia daviesii	Chantransia daviesii (Dillwyn) Thuret
+484	Chantransia efflorescens var. thuretii	Chantransia efflorescens var. thuretii Bornet
+485	Chantransia macounii	Chantransia macounii Collins
+486	Chantransia microscopica	Chantransia microscopica (Na*:geli ex Ku*:tzing) Ardissone & Strafforello
+487	Chantransia pacifica	Chantransia pacifica (Kylin) Levring
+488	Chantransia pectinata	Chantransia pectinata Kylin
+489	Chantransia penetrans	Chantransia penetrans Levring
+490	Chantransia radicans	Chantransia radicans (Harvey) De Toni
+491	Chantransia sericea	Chantransia sericea (Hudson) Chevallier
+492	Chantransia tenuissima	Chantransia tenuissima (Collins) Kylin
+493	Chantransia thuretii	Chantransia thuretii (Bornet) Kylin
+494	Chantransia thuretii var. agama	Chantransia thuretii var. agama Rosenvinge
+495	Chantransia trifila	Chantransia trifila Buffham
+496	Chantransia virgatula f. tenuissima	Chantransia virgatula f. tenuissima Collins
+497	Cheilosporum californicum	Cheilosporum californicum (Decaisne) Yendo
+498	Cheilosporum chiloense	Cheilosporum chiloense (Decaisne) De Toni
+499	Cheilosporum darwinii	Cheilosporum darwinii (Harvey) De Toni
+500	Cheilosporum frondescens	Cheilosporum frondescens (Postels & Ruprecht) Yendo
+501	Cheilosporum macmillanii	Cheilosporum macmillanii Yendo
+502	Cheilosporum orbignianum	Cheilosporum orbignianum (Decaisne) De Toni
+503	Cheilosporum tuberculosum	Cheilosporum tuberculosum (Postels & Ruprecht) Yendo
+504	Chiharaea americana	Chiharaea americana (E.Y. Dawson & R.L. Steele) P.T. Martone, S.C. Lindstrom, K.A. Miller & P.W. Gabrielson
+505	Chiharaea americana f. bodegensis	Chiharaea americana f. bodegensis (H.W.Johansen) K.Hind & G.W.Saunders
+506	Chiharaea bodegensis	Chiharaea bodegensis H.W. Johansen
+507	Chiharaea rhododactyla	Chiharaea rhododactyla K. Hind & G.W. Saunders
+508	Chiharaea silvae	Chiharaea silvae (H.W. Johansen) P.T. Martone, S.C. Lindstrom, K.A. Miller & P.W. Gabrielson
+509	Chlanidophora abyssicola	Chlanidophora abyssicola Setchell & Gardner
+510	Chlorangium marinus	Chlorangium marinus (Cienkowski)
+511	Chlorochytrium cohnii var. porphyrae	Chlorochytrium cohnii var. porphyrae (Setchell & Gardner) Bristol
+512	Chlorochytrium inclusum	Chlorochytrium inclusum Kjellman
+513	Chlorochytrium porphyrae	Chlorochytrium porphyrae Setchell & Gardner
+514	Chloronitum aereum	Chloronitum aereum (Dillwyn) Gaillon
+515	Chloronitum sericeum	Chloronitum sericeum (Hudson) Gaillon
+516	Chloropelta caespitosa	Chloropelta caespitosa C.E. Tanner
+517	Chondracanthus armatus	Chondracanthus armatus Hughey
+518	Chondracanthus bajacalifornicus	Chondracanthus bajacalifornicus  J.R. Hughey & M.H. Hommersand
+519	Chondracanthus canaliculatus	Chondracanthus canaliculatus (Harvey) M.D. Guiry
+520	Chondracanthus corymbiferus	Chondracanthus corymbiferus (K&uuml;tzing) M.D. Guiry
+521	Chondracanthus exasperatus	Chondracanthus exasperatus (Harvey & Bailey) J. Hughey
+522	Chondracanthus harveyanus	Chondracanthus harveyanus (K&uuml;tzing) M.D. Guiry
+523	Chondracanthus kjeldsenii	Chondracanthus kjeldsenii  J.R. Hughey & M.H. Hommersand
+524	Chondracanthus serratus	Chondracanthus serratus (N.L. Gardner) J.R. Hughey & M.H. Hommersand
+525	Chondracanthus spinosus	Chondracanthus spinosus (K&uuml;tzing) M.D. Guiry
+526	Chondracanthus tepidus	Chondracanthus tepidus (Hollenberg) M.D. Guiry
+527	Chondracanthus volans	Chondracanthus volans (C.Agardh) N. Schubert, E. Garcia-Mendoza & I. Pacheco-Ruiz
+528	Chondria acrorhizophora	Chondria acrorhizophora Setchell & Gardner
+529	Chondria arcuata	Chondria arcuata G.J. Hollenberg
+530	Chondria californica	Chondria californica (Collins) Kylin
+531	Chondria cuscutoides	Chondria cuscutoides E.Y.Dawson
+532	Chondria dasyphylla	Chondria dasyphylla (Woodward) C. Agardh
+533	Chondria decipiens	Chondria decipiens Kylin
+534	Chondria nidifica	Chondria nidifica Harvey
+535	Chondria oppositiclada	Chondria oppositiclada E.Y. Dawson
+536	Chondria ovalis var. subarticulata	Chondria ovalis var. subarticulata (Turner) C. Agardh
+537	Chondria parvula	Chondria parvula C. Agardh
+538	Chondria subopposita	Chondria subopposita (J.Agardh) De Toni
+539	Chondria taxiformis	Chondria taxiformis (Delile) Steudel
+540	Chondria tenuissima f. californica	Chondria tenuissima f. californica F.S. Collins
+541	Chondriopsis dasyphylla	Chondriopsis dasyphylla (Woodward) J. Agardh
+542	Chondriopsis nidifica	Chondriopsis nidifica (Harvey) J.Agardh
+543	Chondriopsis subopposita	Chondriopsis subopposita J. Agardh
+544	Chondroclonium canaliculatum	Chondroclonium canaliculatum (Harvey) K&uuml;tzing
+545	Chondrus affinis	Chondrus affinis Harvey
+546	Chondrus fastigiatus	Chondrus fastigiatus Endlicher
+547	Chondrus incisus	Chondrus incisus Ruprecht
+548	Chondrus linearis	Chondrus linearis (C. Agardh) Greville
+549	Chorda filum var. lomentaria	Chorda filum var. lomentaria (Lyngbye) K&uuml;tzing
+550	Chorda lomentaria	Chorda lomentaria Lyngbye
+551	Chordaria abietina	Chordaria abietina Ruprecht mscr.
+552	Chordaria andersonii	Chordaria andersonii (Farlow) Kuckuck
+553	Chordaria viridis	Chordaria viridis (M&uuml;ller) C. Agardh
+554	Choreocolax polysiphoniae	Choreocolax polysiphoniae Reinsch
+555	Choreonema thuretii	Choreonema thuretii (Bornet) F. Schmitz
+556	Chromastrum arcuatum	Chromastrum arcuatum (K.M. Drew) Papenfuss
+557	Chromastrum catenulatum	Chromastrum catenulatum (Howe) Stegenga & Mulder  (inval.)
+558	Chromastrum hirsutum	Chromastrum hirsutum (K.M.Drew) Papenfuss
+559	Chromastrum microscopicum	Chromastrum microscopicum (Na*:geli ex Ku*:tzing) Papenfuss
+560	Chromastrum porphyrae	Chromastrum porphyrae (K.M. Drew) Papenfuss
+561	Chromastrum tenuissimum	Chromastrum tenuissimum (Collins) H. Stegenga & T.C.M. Kemperman  (invalid)
+562	Chromastrum vagum	Chromastrum vagum (Drew) Stegenga & Mulder
+563	Chroodactylon ornatum	Chroodactylon ornatum (C. Agardh) Basson
+564	Chroodactylon ramosum	Chroodactylon ramosum (Thwaites) Hansgirg
+565	Chrysymenia pseudodichotoma	Chrysymenia pseudodichotoma Farlow
+566	Chylocladia japonica	Chylocladia japonica (Harvey) Okamura
+567	Chylocladia ovalis f. subarticulata	Chylocladia ovalis f. subarticulata (Turner) Kylin
+568	Chylocladia ovalis var. coulteri	Chylocladia ovalis var. coulteri (Harvey) C. L. Anderson
+569	Chylocladia ovata var. subarticulata	Chylocladia ovata var. subarticulata (Turner) Batters
+570	Chylocladia parvula	Chylocladia parvula (C. Agardh) W. Hooker
+571	Chylocladia saccata	Chylocladia saccata J. Agardh
+572	Chylocladia subarticulata	Chylocladia subarticulata (Turner) Yates
+573	Cladophora albida	Cladophora albida (Nees) Ku*:tzing
+574	Cladophora amphibia	Cladophora amphibia Collins
+575	Cladophora coalita	Cladophora coalita (Ruprecht) Harvey
+576	Cladophora densa	Cladophora densa Harvey
+577	Cladophora elmorei	Cladophora elmorei E.Y. Dawson
+578	Cladophora hemisphaerica	Cladophora hemisphaerica Gardner in Collins
+579	Cladophora microcladioides f. stricta	Cladophora microcladioides f. stricta Collins
+580	Cladophora sakaii	Cladophora sakaii Abbott
+581	Cladophora saxatilis	Cladophora saxatilis (Ruprecht) De Toni
+582	Cladophora sericea	Cladophora sericea (Hudson) Ku*:tzing
+583	Cladophora wormskioldii	Cladophora wormskioldii (Mertens ex Hornemann) Ku*:tzing
+584	Cladosiphon floridanus	Cladosiphon floridanus W.R. Taylor
+585	Clarionea masonii	Clarionea masonii Setchell & Gardner
+586	Clathromorphum muricatum	Clathromorphum muricatum (Foslie) Foslie
+587	Clathromorphum parcum	Clathromorphum parcum (Setchell & Foslie) W.H.Adey
+588	Clathromorphum reclinatum	Clathromorphum reclinatum (Foslie) W.H.Adey
+589	Clavatella difformis	Clavatella difformis (Linaeus) Fries
+590	Clavatella nostoc-marina	Clavatella nostoc-marina Bory de Saint-Vincent
+591	Codiolum cylindricum	Codiolum cylindricum Foslie
+592	Codiolum gregarium	Codiolum gregarium A.Braun
+593	Codiolum nordenskjoldianum	Codiolum nordenskjoldianum Kjellman
+594	Codiolum penicilliforme	Codiolum penicilliforme (Roth) P.C. Silva
+595	Codiolum polyrhizum	Codiolum polyrhizum Lagerheim
+596	Codiolum polyrhizum	Codiolum polyrhizum Lagerheim
+597	Codium cuneatum	Codium cuneatum Setchell & Gardner
+598	Codium fragile	Codium fragile (Suringar) Hariot
+599	Codium fragile subsp. tomentosoides	Codium fragile subsp. tomentosoides (van Goor) P.C. Silva
+600	Codium fragile var. californicum	Codium fragile var. californicum (J. Agardh) Collins
+601	Codium mucronatum f. californicum	Codium mucronatum f. californicum J. Agardh
+602	Codium mucronatum var. tomentosoides	Codium mucronatum var. tomentosoides van Goor
+603	Coeloseira compressa	Coeloseira compressa G.J. Hollenberg
+604	Coeloseira parva	Coeloseira parva G.J. Hollenberg
+605	Coilodesme californica	Coilodesme californica (Ruprecht) F.R. Kjellman
+606	Coilodesme corrugata	Coilodesme corrugata Setchell & Gardner
+607	Coilodesme plana	Coilodesme plana Hollenberg & Abbott
+608	Coilodesme rigida	Coilodesme rigida Setchell & Gardner
+609	Colacodasya californica	Colacodasya californica G.J. Hollenberg
+610	Colacodasya verruciformis	Colacodasya verruciformis Setchell & McFadden
+611	Colaconema amphiroae	Colaconema amphiroae (K.M. Drew) P.W. Gabrielson
+612	Colaconema bonnemaisoniae	Colaconema bonnemaisoniae Batters
+613	Colaconema coccineum	Colaconema coccineum (K.M. Drew) P.W. Gabrielson
+614	Colaconema daviesii	Colaconema daviesii (Dillwyn) H. Stegenga
+615	Colaconema deliseae	Colaconema deliseae Levring
+616	Colaconema desmarestiae	Colaconema desmarestiae (Kylin) P.W. Gabrielson
+617	Colaconema gymnogongri	Colaconema gymnogongri (K.M. Drew) P.W. Gabrielson
+618	Colaconema macounii	Colaconema macounii (Collins) P.W. Gabrielson
+619	Colaconema pectinatum	Colaconema pectinatum (Kylin) J.T. Harper & G.W. Saunders
+620	Colaconema plumosum	Colaconema plumosum (K.M. Drew) Woelkerling
+621	Colaconema plumosum var. variabile	Colaconema plumosum var. variabile (K.M. Drew) P.W. Gabrielson
+622	Colaconema porphyrae	Colaconema porphyrae (K.M. Drew) Woelkerling
+623	Colaconema rhizoideum	Colaconema rhizoideum (K.M. Drew) P.W. Gabrielson
+624	Colaconema subimmersum	Colaconema subimmersum (Setchell & N.L. Gardner) P.W. Gabrielson
+625	Colaconema tenuissimum	Colaconema tenuissimum (Collins) Woelkerling
+626	Colaconema thuretii	Colaconema thuretii (Bornet) P.W.Gabrielson
+627	Colaconema variabile	Colaconema variabile (K.M. Drew) J.N. Norris
+628	Collinsia californica	Collinsia californica J. Agardh
+629	Collinsiella tuberculata	Collinsiella tuberculata Setchell & Gardner x
+630	Collinsiella tuberculata	Collinsiella tuberculata Setchell & N.L. Gardner
+631	Colophermum granulosum	Colophermum granulosum (J.E. Smith) Kuntze 1891
+632	Colpomenia bullosa	Colpomenia bullosa (D.A. Saunders) C.K. Tseng & P.L. Cheng
+633	Colpomenia bullosa	Colpomenia bullosa (D.A. Saunders) Y. Yamada
+634	Colpomenia claytoniae	Colpomenia claytoniae ('claytonii') S.M. Boo, K.M. Lee, G.Y. Cho & W. Nelson
+635	Colpomenia expansa	Colpomenia expansa (DeA. Saunders) Y.P. Lee
+636	Colpomenia peregrina	Colpomenia peregrina (Sauvageau) Hamel
+637	Colpomenia peregrina	Colpomenia peregrina Sauvageau
+638	Colpomenia sinuosa	Colpomenia sinuosa (Mertens ex Roth) Derb&eacute; s & Solier
+639	Colpomenia sinuosa	Colpomenia sinuosa (Mertens ex Roth) Derb&eacute;s & Solier
+640	Colpomenia sinuosa f. expansa	Colpomenia sinuosa f. expansa DeA. Saunders
+641	Colpomenia sinuosa f. tuberculata	Colpomenia sinuosa f. tuberculata (Saunders) Setchell & Gardner
+642	Colpomenia sinuosa var. peregrina	Colpomenia sinuosa var. peregrina Sauvageau
+643	Colpomenia tuberculata	Colpomenia tuberculata Saunders
+644	Compsonema fructuosum	Compsonema fructuosum  Setchell & N.L. Gardner
+645	Compsonema intricatum	Compsonema intricatum Setchell & N.L. Gardner
+646	Compsonema serpens	Compsonema serpens Setchell & N.L. Gardner
+647	Compsonema sporangiiferum	Compsonema sporangiiferum Setchell & N.L. Gardner
+648	Compsonema streblonematoides	Compsonema streblonematoides W.A. Setchell & N.L. Gardner
+649	Conferva aerea	Conferva aerea Dillwyn
+650	Conferva antennina	Conferva antennina Bory de Saint-Vincent
+651	Conferva brachyarthra	Conferva brachyarthra K&uuml;tzing
+652	Conferva brodiei	Conferva brodiei Dillwyn
+653	Conferva carnea	Conferva carnea Dillwyn
+654	Conferva ceramicola	Conferva ceramicola Lyngbye
+655	Conferva chlorotica	Conferva chlorotica Montagne
+656	Conferva clathrata	Conferva clathrata Roth
+657	Conferva coalita	Conferva coalita Ruprecht
+658	Conferva collabens	Conferva collabens C.Agardh
+659	Conferva compressa	Conferva compressa (Linnaeus) Roth (illeg.)
+660	Conferva crassa	Conferva crassa C.Agardh
+661	Conferva crinita	Conferva crinita Roth
+662	Conferva cristata	Conferva cristata Roth  (illeg.)
+663	Conferva daviesii	Conferva daviesii Dillwyn
+664	Conferva denudata	Conferva denudata Dillwyn
+665	Conferva flacca	Conferva flacca Dillwyn
+666	Conferva flaccida	Conferva flaccida Hornemann
+667	Conferva flexuosa	Conferva flexuosa Roth
+668	Conferva fucicola	Conferva fucicola Velley
+669	Conferva fucorum	Conferva fucorum Roth
+670	Conferva granulosa	Conferva granulosa J.E. Smith
+671	Conferva implexa	Conferva implexa Dillwyn
+672	Conferva intestinalis	Conferva intestinalis (Linnaeus) Roth
+673	Conferva intricata	Conferva intricata Clemente
+674	Conferva isogona	Conferva isogona Smith
+675	Conferva lanuginosa	Conferva lanuginosa Dillwyn
+676	Conferva linoides	Conferva linoides C. Agardh
+677	Conferva linoides	Conferva linoides S.F.Gray
+678	Conferva linum	Conferva linum O.F. M&uuml;ller
+679	Conferva media	Conferva media C.Agardh
+680	Conferva ornata	Conferva ornata C. Agardh
+681	Conferva penicilliformis	Conferva penicilliformis Roth
+682	Conferva percursa	Conferva percursa C. Agardh
+683	Conferva princeps	Conferva princeps K&uuml;tzing
+684	Conferva purpurea	Conferva purpurea Dillwyn
+685	Conferva ramosa	Conferva ramosa S.F. Gray (illeg.)
+686	Conferva rigida	Conferva rigida C.Agardh
+687	Conferva riparia	Conferva riparia Roth
+688	Conferva saxatilis	Conferva saxatilis Ruprecht
+689	Conferva sericea	Conferva sericea Hudson
+690	Conferva siliculosa	Conferva siliculosa Dillwyn
+691	Conferva sutoria	Conferva sutoria Berkeley
+692	Conferva tortuosa	Conferva tortuosa Dillwyn
+693	Conferva urbica	Conferva urbica Zanardini
+694	Conferva vasta	Conferva vasta K&uuml;tzing
+695	Conferva wormskioldii	Conferva wormskioldii Mertens ex Hornemann
+696	Conferva youngana	Conferva youngana Dillwyn
+697	Constantinea simplex	Constantinea simplex Setchell
+698	Corallina adhaerens	Corallina adhaerens (Lamouroux) Ku*:tzing 1858
+699	Corallina bathybentha	Corallina bathybentha E.Y. Dawson
+700	Corallina calliptera	Corallina calliptera K&uuml;tzing
+701	Corallina chilensis	Corallina chilensis Decaisne
+702	Corallina clavigera	Corallina clavigera K&uuml;tzing
+703	Corallina crispata	Corallina crispata J.V.Lamouroux
+704	Corallina cuvieri	Corallina cuvieri J.V.Lamouroux
+705	Corallina cuvieri var. calliptera	Corallina cuvieri var. calliptera (K&uuml;tzing) Grunow
+706	Corallina cuvieri var. crispata	Corallina cuvieri var. crispata (Lamouroux) Areschoug
+707	Corallina cuvieri var. denudata	Corallina cuvieri var. denudata Sonder
+708	Corallina cuvieri var. turneri	Corallina cuvieri var. turneri (J.V.Lamouroux ) K&uuml;tzing
+709	Corallina decussatodichotoma	Corallina decussatodichotoma Yendo
+710	Corallina delicatula	Corallina delicatula (Doty) E.Y.Dawson
+711	Corallina densa	Corallina densa (Collins) Doty
+712	Corallina denudata	Corallina denudata Sonder
+713	Corallina filicula var. ramosissima	Corallina filicula var. ramosissima (Postels & Ruprecht) Ku*:tzing
+714	Corallina frondescens	Corallina frondescens Postels & Ruprecht
+715	Corallina gracilis f. densa	Corallina gracilis f. densa F.S.Collins
+716	Corallina gracilis	Corallina gracilis J.V.Lamouroux
+717	Corallina gracilis var. lycopodioides	Corallina gracilis var. lycopodioides W.R.Taylor
+718	Corallina natalensis	Corallina natalensis (Harvey) K&uuml;tzing
+719	Corallina officinalis f. multiramosa	Corallina officinalis f. multiramosa Setchell & Gardner
+720	Corallina officinalis var. chilensis	Corallina officinalis var. chilensis (Decaisne) Ku*:tzing
+721	Corallina pedunculata	Corallina pedunculata (J.V.Lamouroux) K&uuml;tzing
+722	Corallina pilifera	Corallina pilifera J.V.Lamouroux
+723	Corallina pinnatifolia	Corallina pinnatifolia (Manza) Dawson
+724	Corallina plumifera	Corallina plumifera K&uuml;tzing
+725	Corallina plumosa	Corallina plumosa Lamarck
+726	Corallina polysticha	Corallina polysticha E.Y. Dawson
+727	Corallina rosea	Corallina rosea Lamarck
+728	Corallina tenella	Corallina tenella Ku*:tzing
+729	Corallina trichocarpa	Corallina trichocarpa K&uuml;tzing
+730	Corallina tuberculosa	Corallina tuberculosa Postels & Ruprecht
+731	Corallina turneri	Corallina turneri J.V.Lamouroux
+732	Corallina vancouveriensis f. densa	Corallina vancouveriensis f. densa Yendo
+733	Corallina vancouveriensis var. aculeata	Corallina vancouveriensis var. aculeata (Yendo) Dawson
+734	Corallina vancouveriensis var. lycopodioides	Corallina vancouveriensis var. lycopodioides (W.R.Taylor) E.Y.Dawson
+735	Corallina vancouveriensis	Corallina vancouveriensis Yendo
+736	Corallina verrucosa	Corallina verrucosa (Lamouroux) K&uuml;tzing
+737	Corallophila eatoniana	Corallophila eatoniana (Farlow) T.O. Cho, H.-G. Choi, G. Hansen, & S.M. Boo
+738	Cordylecladia andersonii	Cordylecladia andersonii Grunow
+739	Coriophyllum expansum	Coriophyllum expansum Setchell & N.L. Gardner
+740	Cornea capillacea	Cornea capillacea (S.G. Gmelin) Stackhouse
+741	Cornicularia cuvieri	Cornicularia cuvieri (J.V.Lamouroux) V.J.Chapman & P.G.Parkinson
+742	Cornicularia gracilis	Cornicularia gracilis (J.V.Lamouroux) V.J.Chapman & P.G.Parkinson
+743	Cornicularia pilifera	Cornicularia pilifera (J.V.Lamouroux) V.J.Chapman & P.G.Parkinson
+744	Cornicularia rosea	Cornicularia rosea (Lamarck) V.J. Chapman & P.G. Parkinson
+745	Corradoria pinnata var. taxifolia	Corradoria pinnata var. taxifolia (Vahl) Trevisan
+746	Corynephora marina	Corynephora marina (Lyngbye) C. Agardh
+747	Corynospora furcellata	Corynospora furcellata (J. Agardh) Levring (tech. inval.)
+748	Costaria reticulata	Costaria reticulata D.A. Saunders
+749	Cruoria profunda	Cruoria profunda E.Y.Dawson
+750	Cruoria welwitschii	Cruoria welwitschii Ruprecht
+751	Cruoriella armorica var. de-zwaanii	Cruoriella armorica var. de-zwaanii Weber-van Bosse
+752	Cruoriella codana	Cruoriella codana Rosenvinge
+753	Cruoriella dubyi	Cruoriella dubyi (P. Crouan & H. Crouan) Schmitz
+754	Cruoriopsis aestuarii	Cruoriopsis aestuarii G.J. Hollenberg
+755	Crypropleura corallinara	Crypropleura corallinara
+756	Cryptonemia angustata	Cryptonemia angustata (Setchell & N.L. Gardner) E.Y. Dawson
+757	Cryptonemia borealis	Cryptonemia borealis Kylin
+758	Cryptonemia obovata	Cryptonemia obovata J. Agardh
+759	Cryptonemia ovalifolia	Cryptonemia ovalifolia Kylin
+760	Cryptopleura corallinara	Cryptopleura corallinara (Nott) Gardner
+761	Cryptopleura crispa	Cryptopleura crispa Kylin
+762	Cryptopleura dichotoma	Cryptopleura dichotoma N.L. Gardner
+763	Cryptopleura farlowiana	Cryptopleura farlowiana (J.Agardh) ver Steeg & Josslyn
+764	Cryptopleura lobulifera	Cryptopleura lobulifera (J. Agardh) Kylin
+765	Cryptopleura rosacea	Cryptopleura rosacea I.A. Abbott
+766	Cryptopleura ruprechtiana	Cryptopleura ruprechtiana (J. Agardh) Kylin
+767	Cryptopleura violacea	Cryptopleura violacea (J. Agardh) Kylin
+768	Cryptosiphonia woodii	Cryptosiphonia woodii (J. Agardh) J. Agardh
+769	Cumagloia andersonii	Cumagloia andersonii (Farlow) Setchell & N.L. Gardner
+770	Cumathamnion decipiens	Cumathamnion decipiens (J. Agardh) M.J. Wynne & G.W. Saunders
+771	Cumathamnion sympodophyllum	Cumathamnion sympodophyllum M.J. Wynne & K. Daniels
+772	Cutleria cylindrica	Cutleria cylindrica Okamura
+773	Cylindrocarpus rugosus	Cylindrocarpus rugosus Okamura
+774	Cystoclonium gaudichaudii	Cystoclonium gaudichaudii (Montagne) K&uuml;tzing
+775	Cystoseira douglasii	Cystoseira douglasii Harvey
+776	Cystoseira expansa	Cystoseira expansa C.Agardh
+777	Cystoseira neglecta	Cystoseira neglecta Setchell & Gardner
+778	Cystoseira osmundacea	Cystoseira osmundacea (Turner) C. Agardh
+779	Cystoseira osmundacea f. expansa	Cystoseira osmundacea f. expansa (C.Agardh) Setchell
+780	Cystoseira setchellii	Cystoseira setchellii N.L. Gardner
+781	Dasya abyssicola	Dasya abyssicola Dawson
+782	Dasya binghamiae	Dasya binghamiae A.J.K. Millar
+783	Dasya californica	Dasya californica Gardner
+784	Dasya delilei	Dasya delilei Montagne
+785	Dasya plumosa	Dasya plumosa Harvey & Bailey
+786	Dasya sessilis	Dasya sessilis Yamada
+787	Dasya sinicola	Dasya sinicola (Setchell & Gardner) Dawson
+788	Dasya sinicola var. abyssicola	Dasya sinicola var. abyssicola (Dawson) Dawson
+789	Dasya sinicola var. californica	Dasya sinicola var. californica (Gardner) Dawson
+790	Dasyopsis densa	Dasyopsis densa G.M.Smith
+791	Dasyopsis plumosa	Dasyopsis plumosa (Harvey & Bailey) Schmitz
+792	Dasyphylla woodwardii	Dasyphylla woodwardii Stackhouse
+793	Dasysiphonia japonica	Dasysiphonia japonica (Yendo) H.-S. Kim
+794	Dasysiphonia japonica	Dasysiphonia japonica (Yendo) H.-S.Kim
+795	Delesseria bipinnatifida	Delesseria bipinnatifida Montagne
+796	Delesseria californica	Delesseria californica J. Agardh
+797	Delesseria decipens	Delesseria decipens J. Agardh
+798	Delesseria ovifolia	Delesseria ovifolia Ku*:tzing
+799	Delesseria woodii	Delesseria woodii J.Agardh
+800	Derbesia pacifica	Derbesia pacifica Jao
+801	Derbesia prolifica	Derbesia prolifica W.R. Taylor
+802	Dermatolithon ascripticium	Dermatolithon ascripticium (Foslie) Setchell & Mason
+803	Dermatolithon dispar	Dermatolithon dispar (Foslie) Foslie
+804	Dermocorynus occidentalis	Dermocorynus occidentalis G.J. Hollenberg
+805	Desmarestia dudresnayi subsp. tabacoides	Desmarestia dudresnayi subsp. tabacoides (Okamura) 1.F. Peters, E.C. Yang, F.C. K&uuml;pper, & Prud'homme van Reine
+806	Desmarestia filamentosa	Desmarestia filamentosa Dawson
+807	Desmarestia herbacea	Desmarestia herbacea (Turner) Lamouroux
+808	Desmarestia kurilensis	Desmarestia kurilensis Yamada
+809	Desmarestia latifrons	Desmarestia latifrons (Ruprecht) K&uuml;tzing
+810	Desmarestia ligulata	Desmarestia ligulata (Lightfoot) Lamouroux
+811	Desmarestia ligulata var. firma	Desmarestia ligulata var. firma (C. Agardh) J. Agardh
+812	Desmarestia ligulata var. herbacea	Desmarestia ligulata var. herbacea (Turner) J. Agardh
+813	Desmarestia media var. tenuis	Desmarestia media var. tenuis Setchell & N.L.Gardner
+814	Desmarestia munda	Desmarestia munda Setchell & Gardner
+815	Desmarestia pacifica	Desmarestia pacifica Setchell & N.L.Gardner
+816	Desmarestia tabacoides	Desmarestia tabacoides Okamura
+817	Desmarestia viridis	Desmarestia viridis (M&uuml;ller) Lamouroux
+818	Desmia herbacea	Desmia herbacea (Turner) Postels & Ruprecht
+819	Dichloria viridis	Dichloria viridis (M&uuml;ller) Greville
+820	Dictyoneuropsis reticulata	Dictyoneuropsis reticulata (D.A. Saunders) G.M. Smith
+821	Dictyopteris johnstonei	Dictyopteris johnstonei N.L.Gardner
+822	Dictyopteris undulata	Dictyopteris undulata E. M. Holmes
+823	Dictyopteris zonarioides	Dictyopteris zonarioides Farlow
+824	Dictyosiphon tortilis	Dictyosiphon tortilis Gobi
+825	Dictyota binghamiae	Dictyota binghamiae J. Agardh
+826	Dictyota coriacea	Dictyota coriacea (Holmes) I.K. Hwang, H.S. Kim, & W.J. Lee
+827	Dictyota flabellata	Dictyota flabellata (Collins) Setchell & Gardner
+828	Dictyota hesperia	Dictyota hesperia Setchell & N.L.Gardner
+829	Dictyota johnstonii	Dictyota johnstonii Setchell & N.L.Gardner
+830	Dilophus flabellatus	Dilophus flabellatus Collins
+831	Dilsea californica	Dilsea californica (J. Agardh) O. Kuntze
+832	Dilsea pygmaea	Dilsea pygmaea (Setchell) Setchell
+833	Diploderma amplissimum	Diploderma amplissimum Kjellman 1883
+834	Diplonema percursum	Diplonema percursum (C. Agardh) Kjellman
+835	Diplura simulans	Diplura simulans G.J. Hollenberg
+836	Drouetia rotata	Drouetia rotata Dawson
+837	Dudresnaya colombiana	Dudresnaya colombiana W.R. Taylor
+838	Dumontia decapitata	Dumontia decapitata Postels & Ruprecht
+839	Dumontia fucicola	Dumontia fucicola Postels & Ruprecht
+840	Dumontia furcata	Dumontia furcata Postels & Ruprecht
+841	Durvillaea porra	Durvillaea porra (Leman) Gaillon
+842	Ecballocystis tuberculata	Ecballocystis tuberculata (Setchell & Gardner) Wille
+843	Ectocarpus acuminatus	Ectocarpus acuminatus DeA. Saunders
+844	Ectocarpus acutus	Ectocarpus acutus Setchell & N.L. Gardner
+845	Ectocarpus aecidioides	Ectocarpus aecidioides Rosenvinge
+846	Ectocarpus arabicus	Ectocarpus arabicus Figari & De Notaris
+847	Ectocarpus arabicus	Ectocarpus arabicus K&uuml;tzing
+848	Ectocarpus chantransioides	Ectocarpus chantransioides Setchell & N.L. Gardner
+849	Ectocarpus chitonicola	Ectocarpus chitonicola DeA. Saunders
+850	Ectocarpus commensalis	Ectocarpus commensalis Setchell & N.L.Gardner
+851	Ectocarpus confervoides f. irregularis	Ectocarpus confervoides f. irregularis Collins
+852	Ectocarpus confervoides f. parvus	Ectocarpus confervoides f. parvus Setchell & Gardner
+853	Ectocarpus confervoides f. siliculosus	Ectocarpus confervoides f. siliculosus (Dillwyn) Kjellman
+854	Ectocarpus confervoides f. variabilis	Ectocarpus confervoides f. variabilis D.A.Saunders
+855	Ectocarpus confervoides var. arctus	Ectocarpus confervoides var. arctus (K&uuml;tzing) Lily Newton
+856	Ectocarpus confervoides var. corticulatus	Ectocarpus confervoides var. corticulatus Saunders
+857	Ectocarpus confervoides var. siliculosus	Ectocarpus confervoides var. siliculosus (Dillwyn) Farlow
+858	Ectocarpus coniger var. arabicus	Ectocarpus coniger var. arabicus Nasr
+859	Ectocarpus corticulatus	Ectocarpus corticulatus DeA. Saunders
+860	Ectocarpus cylindricus	Ectocarpus cylindricus De A.Saunders
+861	Ectocarpus cylindricus var. codiophilus	Ectocarpus cylindricus var. codiophilus Setchell & N.L.Gardner
+862	Ectocarpus dimorphus	Ectocarpus dimorphus P.C.Silva
+863	Ectocarpus elegans	Ectocarpus elegans Thuret
+864	Ectocarpus eramosus	Ectocarpus eramosus Setchell & N.L.Gardner
+865	Ectocarpus flocculiformis	Ectocarpus flocculiformis Setchell & N.L.Gardner
+866	Ectocarpus fructuosus	Ectocarpus fructuosus Setchell & N.L.Gardner
+867	Ectocarpus gonodioides	Ectocarpus gonodioides Setchell & N.L. Gardner
+868	Ectocarpus granulosoides	Ectocarpus granulosoides Setchell & N.L.Gardner
+869	Ectocarpus granulosus	Ectocarpus granulosus (J.E. Smith) S.F. Gray
+870	Ectocarpus granulosus f. corticulatus	Ectocarpus granulosus f. corticulatus (Saunders) Collins
+871	Ectocarpus granulosus var. refractus	Ectocarpus granulosus var. refractus Batters
+872	Ectocarpus guadelupensis	Ectocarpus guadelupensis  P.Crouan & H.Crouan
+873	Ectocarpus hemisphericus	Ectocarpus hemisphericus Saunders
+874	Ectocarpus irregularis	Ectocarpus irregularis K&uuml;tzing
+875	Ectocarpus isopodicola	Ectocarpus isopodicola E.Y. Dawson
+876	Ectocarpus izuensis	Ectocarpus izuensis Segawa
+877	Ectocarpus lebelii var. agigensis	Ectocarpus lebelii var. agigensis Celan
+878	Ectocarpus mesogloiae	Ectocarpus mesogloiae Setchell & N.L.Gardner
+879	Ectocarpus mitchelliae	Ectocarpus mitchelliae Harvey
+880	Ectocarpus mucronatus	Ectocarpus mucronatus De A.Saunders
+881	Ectocarpus nanus	Ectocarpus nanus Levring
+882	Ectocarpus oviger	Ectocarpus oviger Harvey
+883	Ectocarpus paradoxus var. pacificus	Ectocarpus paradoxus var. pacificus DeA. Saunders
+884	Ectocarpus parksii	Ectocarpus parksii Setchell & N.L.Gardner
+885	Ectocarpus parvus	Ectocarpus parvus (DeA. Saunders) G.J. Hollenberg
+886	Ectocarpus recurvatus	Ectocarpus recurvatus Kuckuck
+887	Ectocarpus sandrianus	Ectocarpus sandrianus Zanardini
+888	Ectocarpus saundersii	Ectocarpus saundersii Setchell & Gardner
+889	Ectocarpus siliculosus	Ectocarpus siliculosus (Dillwyn) Lyngbye
+890	Ectocarpus siliculosus f. fluviatilis	Ectocarpus siliculosus f. fluviatilis (K&uuml;tzing) Kuylenstierna
+891	Ectocarpus siliculosus var. parvus	Ectocarpus siliculosus var. parvus D.A.Saunders
+892	Ectocarpus simplex	Ectocarpus simplex P.Crouan & H.Crouan
+893	Ectocarpus simpliciusculus var. vitiensis	Ectocarpus simpliciusculus var. vitiensis Askenasy
+894	Ectocarpus simulans	Ectocarpus simulans Setchell & N.L. Gardner
+895	Ectocarpus taoniae	Ectocarpus taoniae Setchell & N.L. Gardner
+896	Ectocarpus variabilis	Ectocarpus variabilis (De A.Saunders) G.M.Smith
+897	Ectocarpus virescens	Ectocarpus virescens Thuret ex Sauvageau
+898	Ectosperma marina	Ectosperma marina (Lyngbye) Bory
+899	Egregia laevigata f. borealis	Egregia laevigata f. borealis Setchell
+900	Egregia laevigata	Egregia laevigata Setchell
+901	Egregia laevigata subsp. borealis	Egregia laevigata subsp. borealis (Setchell) P. C. Silva
+902	Egregia menziesii subsp. insularis	Egregia menziesii subsp. insularis P. C. Silva
+903	Elachista fucicola	Elachista fucicola (Velley) Areschoug
+904	Elachista fucicola f. lubrica	Elachista fucicola f. lubrica (Ruprecht) Printz
+905	Elachista fucicola var. lubrica	Elachista fucicola var. lubrica (Ruprecht) Rosenvinge
+906	Elachista globosa	Elachista globosa &Oslash;rsted
+907	Elachista grevillei	Elachista grevillei Arnott ex Harvey
+908	Elachista lubrica	Elachista lubrica Ruprecht
+909	Elachista nigra	Elachista nigra Takamatsu
+910	Elachista orbicularis	Elachista orbicularis (Ohta) Skinner
+911	Encoelium clathratum	Encoelium clathratum C. Agardh
+912	Encoelium sinuosum	Encoelium sinuosum (Mertens ex Roth) C. Agardh
+913	Encoelium vesicatum	Encoelium vesicatum (Harvey) K&uuml;tzing
+914	Endarachne binghamiae	Endarachne binghamiae J.Agardh
+915	Endocladia muricata	Endocladia muricata (Endlicher) J. Agardh
+916	Endoderma viride	Endoderma viride (Reinke) De Toni
+917	Endophyton ramosum	Endophyton ramosum N.L. Gardner
+918	Endoplura aurea	Endoplura aurea Hollenberg
+919	Endosiphonia thuretii	Endosiphonia thuretii (Bornet) Ardissone
+920	Enteromorpha ahlneriana	Enteromorpha ahlneriana Bliding
+921	Enteromorpha angusta	Enteromorpha angusta (Setchell & Gardner) M.S. Doty
+922	Enteromorpha bertolonii	Enteromorpha bertolonii Montagne
+923	Enteromorpha bertolonii var. lanceolata	Enteromorpha bertolonii var. lanceolata (Linnaeus) Grunow
+924	Enteromorpha bulbosa var. japonica	Enteromorpha bulbosa var. japonica Yoshida et al.
+925	Enteromorpha chlorotica	Enteromorpha chlorotica J.Agardh
+926	Enteromorpha clathrata	Enteromorpha clathrata (Roth) Greville
+927	Enteromorpha clathrata f. gracilis	Enteromorpha clathrata f. gracilis (Le Jolis) V.J.Chapman
+928	Enteromorpha clathrata f. linkiana	Enteromorpha clathrata f. linkiana (Greville) V.J.Chapman
+929	Enteromorpha clathrata var. crinita	Enteromorpha clathrata var. crinita (Nees) Hauck
+930	Enteromorpha clathrata var. gracilis	Enteromorpha clathrata var. gracilis (Le Jolis) Batters
+931	Enteromorpha clathrata var. linkiana	Enteromorpha clathrata var. linkiana (Greville) Areschoug
+932	Enteromorpha clathrata var. mucosa	Enteromorpha clathrata var. mucosa P.Crouan & H.Crouan
+933	Enteromorpha clathrata var. prostrata	Enteromorpha clathrata var. prostrata (Le Jolis) Batters
+934	Enteromorpha clathrata var. ramulosa	Enteromorpha clathrata var. ramulosa (J.E.Smith) Rabenhorst
+935	Enteromorpha clathrata var. uncinata	Enteromorpha clathrata var. uncinata (Lyngbye) Greville
+936	Enteromorpha clathrata var. usneoides	Enteromorpha clathrata var. usneoides (J.Agardh) V.J.Chapman
+937	Enteromorpha coarctata	Enteromorpha coarctata Kjellman
+938	Enteromorpha complanata	Enteromorpha complanata K&uuml;tzing
+939	Enteromorpha complanata var. crinita	Enteromorpha complanata var. crinita (Nees) K&uuml;tzing
+940	Enteromorpha compressa	Enteromorpha compressa (Linnaeus) Nees
+941	Enteromorpha compressa f. complanata	Enteromorpha compressa f. complanata (K&uuml;tzing) J.Agardh
+942	Enteromorpha compressa f. prolifera	Enteromorpha compressa f. prolifera (O.F. M&uuml;) Ahlner
+943	Enteromorpha compressa f. typica	Enteromorpha compressa f. typica Kjellman [nomen]
+944	Enteromorpha compressa f. valde-elongata	Enteromorpha compressa var. [torta] f. valde-elongata Schiffner
+945	Enteromorpha compressa var. complanata	Enteromorpha compressa var. complanata (K&uuml;tzing) Rabenhorst
+946	Enteromorpha compressa var. genuina	Enteromorpha compressa var. genuina K&uuml;tzing
+947	Enteromorpha compressa var. intestinalis	Enteromorpha compressa var. intestinalis (Linnaeus) G. Hamel
+948	Enteromorpha compressa var. lingulata	Enteromorpha compressa var. lingulata (J.Agardh) Hauck
+949	Enteromorpha compressa var. minima	Enteromorpha compressa var. minima (N&uuml;geli ex K&uuml;tzing) G. Hamel
+950	Enteromorpha compressa var. prolifera	Enteromorpha compressa var. prolifera (O.F. M&uuml;) Greville
+951	Enteromorpha compressa var. trichodes	Enteromorpha compressa var. trichodes K&uuml;tzing
+952	Enteromorpha compressa var. usneoides	Enteromorpha compressa var. usneoides (Bonnemaison ex J.Agardh) Bliding
+953	Enteromorpha crinita	Enteromorpha crinita Nees
+954	Enteromorpha crispata	Enteromorpha crispata (Bertoloni) Piccone
+955	Enteromorpha flexuosa	Enteromorpha flexuosa  (Wulfen) J. Agardh
+956	Enteromorpha gelatinosa	Enteromorpha gelatinosa K&uuml;tzing
+957	Enteromorpha grevillei	Enteromorpha grevillei Thuret
+958	Enteromorpha intestinalis	Enteromorpha intestinalis (Linnaeus) Nees
+959	Enteromorpha intestinalis f. bullosa	Enteromorpha intestinalis f. bullosa Le Jolis
+960	Enteromorpha intestinalis f. genuina	Enteromorpha intestinalis f. genuina Ahlner [invalid]
+961	Enteromorpha intestinalis f. maxima	Enteromorpha intestinalis f. maxima J.Agardh
+962	Enteromorpha intestinalis f. prolifera	Enteromorpha intestinalis f. prolifera (O.F. M&uuml;) Hauck
+963	Enteromorpha intestinalis var. asexualis	Enteromorpha intestinalis var. asexualis Bliding
+964	Enteromorpha intestinalis var. compressa	Enteromorpha intestinalis var. compressa (Linnaeus) Rosenvinge
+965	Enteromorpha intestinalis var. genuina	Enteromorpha intestinalis var. genuina Schiffner [nomen]
+966	Enteromorpha intestinalis var. maxima	Enteromorpha intestinalis var. maxima (J.Agardh) Lily Newton
+967	Enteromorpha intestinalis var. minima	Enteromorpha intestinalis var. minima (N&uuml;geli ex K&uuml;tzing) Rosenvinge
+968	Enteromorpha lanceolata var. crispata	Enteromorpha lanceolata var. crispata (Bertoloni) Rabenhorst
+969	Enteromorpha lingulata f. genuina	Enteromorpha lingulata f. genuina Schiffner
+970	Enteromorpha lingulata	Enteromorpha lingulata J.Agardh
+971	Enteromorpha lingulata var. elongata	Enteromorpha lingulata var. elongata Schiffner
+972	Enteromorpha linkiana	Enteromorpha linkiana Greville
+973	Enteromorpha linza	Enteromorpha linza (Linnaeus) J. Agardh
+974	Enteromorpha linza f. crispata	Enteromorpha linza f. crispata (Bertoloni) J.Agardh
+975	Enteromorpha linza var. crispata	Enteromorpha linza var. crispata (Bertoloni) Hylm&uuml;
+976	Enteromorpha micrococca f. subsalsa	Enteromorpha micrococca f. subsalsa Kjellman
+977	Enteromorpha minima f. elongata	Enteromorpha minima f. elongata Schiffner
+978	Enteromorpha minima	Enteromorpha minima N&uuml;geli ex K&uuml;tzing
+979	Enteromorpha minima var. capillaris	Enteromorpha minima var. capillaris Schiffner
+980	Enteromorpha minima var. elongata	Enteromorpha minima var. elongata Schiffner
+981	Enteromorpha minima var. subsalsa	Enteromorpha minima var. subsalsa (Kjellman) M.S. Doty
+982	Enteromorpha muscoides	Enteromorpha muscoides (Clemente) Cremades
+983	Enteromorpha nana	Enteromorpha nana (Sommerfelt) Sj&uuml;stedt
+984	Enteromorpha nana var. minima	Enteromorpha nana var. minima (N&uuml;geli ex K&uuml;tzing) Sj&uuml;stedt
+985	Enteromorpha nana var. subsalsa	Enteromorpha nana var. subsalsa (Kjellman) Sjo*:stedt
+986	Enteromorpha paradoxa var. tenuissima	Enteromorpha paradoxa var. tenuissima K&uuml;tzing
+987	Enteromorpha percursa	Enteromorpha percursa (C. Agardh) Greville
+988	Enteromorpha percursa f. simpliciuscula	Enteromorpha percursa f. simpliciuscula J. Agardh  (invalid)
+989	Enteromorpha polyclados	Enteromorpha polyclados (K&uuml;tzing) K&uuml;tzing
+990	Enteromorpha procera	Enteromorpha procera K. Ahlner
+991	Enteromorpha prolifera	Enteromorpha prolifera (O.F. M&uuml;) J. Agardh
+992	Enteromorpha prolifera var. crinita	Enteromorpha prolifera var. crinita (Nees) V.J.Chapman
+993	Enteromorpha ramulosa	Enteromorpha ramulosa (Smith) Carmichael
+994	Enteromorpha ramulosa f. minima	Enteromorpha ramulosa f. minima Schiffner
+995	Enteromorpha ramulosa var. robusta	Enteromorpha ramulosa var. robusta Hauck
+996	Enteromorpha ramulosa var. spinosa	Enteromorpha ramulosa var. spinosa K&uuml;tzing
+997	Enteromorpha ramulosa var. tenerrima	Enteromorpha ramulosa var. tenerrima Schiffner
+998	Enteromorpha salina	Enteromorpha salina K&uuml;tzing
+999	Enteromorpha salina var. polyclados	Enteromorpha salina var. polyclados K&uuml;tzing
+1000	Enteromorpha spinescens	Enteromorpha spinescens K&uuml;tzing
+1001	Enteromorpha tubulosa var. ramosa	Enteromorpha tubulosa var. ramosa Schiffner
+1002	Enteromorpha tubulosa var. vermiculata	Enteromorpha tubulosa var. vermiculata Schiffner
+1003	Enteromorpha usneoides	Enteromorpha usneoides Bonnemaison ex J.Agardh
+1004	Enteromorpha vexata	Enteromorpha vexata (Setchell & Gardner) M.S. Doty
+1005	Enteromorpha vulgaris var. compressa	Enteromorpha vulgaris var. compressa (Linnaeus) Edmondston
+1006	Enteromorpha vulgaris var. lacustris	Enteromorpha vulgaris var. lacustris Edmondston
+1007	Enteromorpha welwitschii	Enteromorpha welwitschii J.Agardh
+1008	Enteronia clathrata	Enteronia clathrata (Roth) Chevallier
+1009	Enteronia compressa	Enteronia compressa (Linnaeus) Chevallier
+1010	Enteronia linza	Enteronia linza (Linnaeus) Chevallier
+1011	Enteronia simplex	Enteronia simplex Chevallier
+1012	Entocladia cingens	Entocladia cingens Setchell & N.L. Gardner
+1013	Entocladia codicola	Entocladia codicola Setchell & N.L. Gardner
+1014	Entocladia viridis	Entocladia viridis Reinke
+1015	Entoderma viride	Entoderma viride (Reinke) Wille
+1016	Entonema aecidioides	Entonema aecidioides (Rosenvinge) Kylin
+1017	Epilithon marginatum	Epilithon marginatum (Setchell & Foslie) Setchell & Foslie
+1018	Epilithon mediocre	Epilithon mediocre (Foslie) Foslie
+1019	Erythrocladia irregularis f. subintegra	Erythrocladia irregularis f. subintegra (Rosenvinge) D.J. Garbary, G.I. Hansen, & R.F. Scagel
+1020	Erythrocladia irregularis	Erythrocladia irregularis Rosenvinge
+1021	Erythrocladia subintegra	Erythrocladia subintegra Rosenvinge
+1022	Erythroclathrus rivularis	Erythroclathrus rivularis Liebman
+1023	Erythrocystis grevillei	Erythrocystis grevillei J. Agardh
+1024	Erythrocystis saccata	Erythrocystis saccata (J. Agardh) P.C. Silva
+1025	Erythrodermis haematis	Erythrodermis haematis (G.J. Hollenberg) Denizot
+1026	Erythroglossum bipinnatifidum	Erythroglossum bipinnatifidum (Montagne) J. Agardh
+1027	Erythroglossum californicum	Erythroglossum californicum (J. Agardh) J. Agardh
+1028	Erythropeltis subintegra	Erythropeltis subintegra (Rosenvinge) P. Kornmann & P.H. Sahling
+1029	Erythrotrichia australis	Erythrotrichia australis Levring
+1030	Erythrotrichia boryana	Erythrotrichia boryana (Montagne) Berthold
+1031	Erythrotrichia carnea	Erythrotrichia carnea (Dillwyn) J. Agardh
+1032	Erythrotrichia ceramicola	Erythrotrichia ceramicola (Lyngbye) Areschoug
+1033	Erythrotrichia filibasalis	Erythrotrichia filibasalis Noda
+1034	Erythrotrichia parksii	Erythrotrichia parksii N.L.Gardner
+1035	Erythrotrichia porphyroides	Erythrotrichia porphyroides N.L. Gardner
+1036	Erythrotrichia pulvinata	Erythrotrichia pulvinata N.L.Gardner
+1037	Erythrotrichia tetraseriata	Erythrotrichia tetraseriata N.L.Gardner
+1038	Erythrotrichia welwitschii	Erythrotrichia welwitschii (Ruprecht) Batters
+1039	Eudesme crassa	Eudesme crassa (Suringar) Okamura
+1040	Euhymenia dubyi	Euhymenia dubyi (Chauvin ex Duby) Ku*:tzing
+1041	Falkenbergia hillebrandii	Falkenbergia hillebrandii (Bornet) Falkenberg
+1042	Falkenbergia olens	Falkenbergia olens A.H.S.Lucas
+1043	Falkenbergia rufolanosa	Falkenbergia rufolanosa (Harvey) F.Schmitz
+1044	Falkenbergia vagabunda	Falkenbergia vagabunda (Harvey) Falkenberg
+1045	Farlowia compressa	Farlowia compressa J. Agardh
+1046	Farlowia conferta	Farlowia conferta (Setchell) Abbott
+1047	Farlowia crassa	Farlowia crassa J.Agardh
+1048	Farlowia mollis	Farlowia mollis (Harvey & Bailey) Farlow & Setchell
+1049	Fasciaria fascia	Fasciaria fascia (O.F. M&uuml;ller) J.E. Gray
+1050	Fasciata attenuata	Fasciata attenuata S.F. Gray
+1051	Fauchea californica	Fauchea californica (J. Agardh) Farlow
+1052	Fauchea fryeana	Fauchea fryeana Setchell
+1053	Fauchea galapagensis	Fauchea galapagensis W.R. Taylor
+1054	Fauchea gardneri	Fauchea gardneri Setchell
+1055	Fauchea laciniata f. pygmaea	Fauchea laciniata f. pygmaea Setchell & N.L.Gardner
+1056	Fauchea laciniata f. typica	Fauchea laciniata f. typica Dawson
+1057	Fauchea laciniata	Fauchea laciniata J. Agardh
+1058	Fauchea media	Fauchea media Kylin
+1059	Fauchea pygmaea	Fauchea pygmaea (Setchell & Gardner) Kylin
+1060	Fauchea rhizophylla	Fauchea rhizophylla W.R. Taylor
+1061	Faucheocolax attenuata	Faucheocolax attenuata Setchell
+1062	Faucheocolax attenuatus	Faucheocolax attenuatus Setchell
+1063	Feldmannia acuminata	Feldmannia acuminata (DeA. Saunders) G.J. Hollenberg & I.A. Abbott
+1064	Feldmannia chitonicola	Feldmannia chitonicola (DeA. Saunders) Levring
+1065	Feldmannia cylindrica	Feldmannia cylindrica (Saunders) Hollenberg & I.A.Abbott
+1066	Feldmannia globifera	Feldmannia globifera (K&uuml;tzing) G. Hamel
+1067	Feldmannia hemispherica	Feldmannia hemispherica (Saunders) Hollenberg
+1068	Feldmannia irregularis	Feldmannia irregularis (K&uuml;tzing ) G. Hamel
+1069	Feldmannia mitchelliae	Feldmannia mitchelliae (Harvey) H.-S.Kim
+1070	Feldmannia paradoxa var. cylindrica	Feldmannia paradoxa var. cylindrica (D.A.Saunders) H.-S.Kim & I.K.Lee [invalid]
+1071	Feldmannia rhizoidea	Feldmannia rhizoidea G.J. Hollenberg & I.A. Abbott
+1072	Feldmannia simplex	Feldmannia simplex (P.Crouan & H.Crouan) Hamel
+1073	Fistularia compressa	Fistularia compressa (Linnaeus) Greville
+1074	Fistularia intestinalis	Fistularia intestinalis (Linnaeus) Greville
+1075	Fistularia intestinalis var. compressa	Fistularia intestinalis var. compressa (Linnaeus) J.P. Jones & Kingston
+1076	Fosliella ascripticia	Fosliella ascripticia (Foslie) G.M. Smith
+1077	Fosliella dispar	Fosliella dispar (Foslie) G.M. Smith
+1078	Fosliella nicholsii	Fosliella nicholsii (Setchell & L.R. Mason) G.M. Smith
+1079	Fosliella paschalis	Fosliella paschalis (Lemoine) Setchell & Gardner
+1080	Fredericqia chiton	Fredericqia chiton (M.A. Howe) C.A. Maggs, L. Le Gall, F. Mineur, J. Provan & G.W. Saunders
+1081	Fredericqia decewii	Fredericqia decewii C.A. Maggs, L. Le Gall, F. Mineur, J. Provan & G.W. Saunders
+1082	Fryeella gardneri	Fryeella gardneri (Setchell) Kylin
+1083	Fryeella gardneri var. prostrata	Fryeella gardneri var. prostrata Dawson & Neushul
+1084	Fucodium compressum	Fucodium compressum J. Agardh
+1085	Fucodium fastigiatum	Fucodium fastigiatum J. Agardh
+1086	Fucus acicularis var. ustulatus	Fucus acicularis var. ustulatus Turner
+1087	Fucus anceps	Fucus anceps Harvey & Ward ex Carruthers
+1088	Fucus areschougii f. nanus	Fucus areschougii f. nanus Kjellman
+1089	Fucus areschougii	Fucus areschougii Kjellman
+1090	Fucus areschougii var. borealis	Fucus areschougii var. borealis (Kjellman) Kjellman
+1091	Fucus capillaceus	Fucus capillaceus S.G. Gmelin
+1092	Fucus cartilagineus	Fucus cartilagineus Linnaeus
+1093	Fucus coccineus	Fucus coccineus Hudson
+1094	Fucus compressus	Fucus compressus C. Agardh  [illeg.]
+1095	Fucus corneus var. capillaceus	Fucus corneus var. capillaceus (S.G. Gmelin) Turner
+1096	Fucus corneus var. pinnatus	Fucus corneus var. pinnatus (Hudson) Goodenough & Woodward
+1097	Fucus dasyphyllus	Fucus dasyphyllus Woodward
+1098	Fucus distichus f. abbreviatus	Fucus distichus f. abbreviatus (Gardner) Hollenberg & Abbott
+1099	Fucus distichus f. anceps	Fucus distichus f. anceps (Harvey & Ward ex Carruthurs) Petrov
+1100	Fucus distichus f. robustior	Fucus distichus f. robustior (J.Agardh) Kjellman
+1101	Fucus distichus f. tenuior	Fucus distichus f. tenuior (J.Agardh) Kjellman
+1102	Fucus distichus	Fucus distichus Linnaeus
+1103	Fucus distichus f. abbreviatus	Fucus distichus subsp. [edentatus] f. abbreviatus (N.L.Gardner) Hollenberg & I.A.Abbott
+1104	Fucus distichus subsp. anceps	Fucus distichus subsp. anceps (Harvey & Ward ex Carruthers) H.T.Powell
+1105	Fucus distichus subsp. edentatus	Fucus distichus subsp. edentatus (De la Pylaie) Powell
+1106	Fucus distichus var. miclonensis	Fucus distichus var. miclonensis (De La Pylaie) Kleen
+1107	Fucus distichus var. robustior	Fucus distichus var. robustior J.Agardh
+1108	Fucus distichus var. tenuior	Fucus distichus var. tenuior J.Agardh
+1109	Fucus elminthoides	Fucus elminthoides Velley in Withering
+1110	Fucus fascia	Fucus fascia O.F. M&uuml;ller
+1111	Fucus fastigiatus	Fucus fastigiatus J. Agardh
+1112	Fucus filamentosus	Fucus filamentosus Wulfen
+1113	Fucus floccosus	Fucus floccosus Esper
+1114	Fucus fuecii f. elenkinii	Fucus fuecii f. elenkinii E.S.Sinova
+1115	Fucus fuecii f. ruprechtii	Fucus fuecii f. ruprechtii E.S.Sinova
+1116	Fucus fuecii f. typicus	Fucus fuecii f. typicus E.S.Sinova
+1117	Fucus fungiformis	Fucus fungiformis Gunnerus
+1118	Fucus furcatus	Fucus furcatus C. Agardh  (illeg.)
+1119	Fucus gardneri f. abbreviatus	Fucus gardneri f. abbreviatus (Gardner) Scagel
+1120	Fucus gardneri f. angustus	Fucus gardneri f. angustus (Gardner) Scagel
+1121	Fucus gardneri f. contortus	Fucus gardneri f. contortus (Gardner) Scagel
+1122	Fucus gardneri f. cornutus	Fucus gardneri f. cornutus (Gardner) Scagel
+1123	Fucus gardneri f. elongatus	Fucus gardneri f. elongatus (Gardner) Scagel
+1124	Fucus gardneri f. latifrons	Fucus gardneri f. latifrons (Gardner) Scagel
+1125	Fucus gardneri f. linearis	Fucus gardneri f. linearis (Gardner) Scagel
+1126	Fucus gardneri f. nigricans	Fucus gardneri f. nigricans (Gardner) Scagel
+1127	Fucus gardneri f. reflexus	Fucus gardneri f. reflexus (Gardner) Scagel
+1128	Fucus gardneri f. rigidus	Fucus gardneri f. rigidus (Gardner) Scagel
+1129	Fucus gardneri f. variabilis	Fucus gardneri f. variabilis (Gardner) Scagel
+1130	Fucus gardneri	Fucus gardneri P.C. Silva
+1131	Fucus giganteus	Fucus giganteus Gaudichaud
+1132	Fucus harveyanus	Fucus harveyanus Decaisne
+1133	Fucus herbaceus	Fucus herbaceus Turner
+1134	Fucus horneri	Fucus horneri Turner
+1135	Fucus inflatus f. distichus	Fucus inflatus f. distichus (Linnaeus) B&oslash;rgesen
+1136	Fucus inflatus f. linearis	Fucus inflatus f. linearis (Oeder) B&oslash;rgesen
+1137	Fucus inflatus var. linearis	Fucus inflatus var. linearis (Oeder) Rosenvinge
+1138	Fucus laceratus var. uncinatus	Fucus laceratus var. uncinatus Turner
+1139	Fucus larix	Fucus larix Turner
+1140	Fucus ligulatus	Fucus ligulatus Lightfoot
+1141	Fucus luetkeanus	Fucus luetkeanus ('L&uuml;tkeanus') Mertens f.
+1142	Fucus menziesii	Fucus menziesii Turner
+1143	Fucus nitens	Fucus nitens N.L.Gardner
+1144	Fucus osmundaceus	Fucus osmundaceus Turner
+1145	Fucus ovalis var. subarticulatus	Fucus ovalis var. subarticulatus ('sub-articulatus') Turner
+1146	Fucus pedunculatus	Fucus pedunculatus Hudson
+1147	Fucus pinnatus	Fucus pinnatus Hudson
+1148	Fucus platycarpus f. spiralis	Fucus platycarpus f. spiralis (L.) Thuret
+1149	Fucus platycarpus var. spiralis	Fucus platycarpus var. spiralis (L.) Rosenvinge
+1150	Fucus plicatus	Fucus plicatus Hudson
+1151	Fucus pyrifer	Fucus pyrifer ('pyriferus') Linnaeus
+1152	Fucus sherardii f. spiralis	Fucus sherardii f. spiralis (L.) J.E. Areschoug
+1153	Fucus spiralis f. arenicola	Fucus spiralis f. arenicola Hamel
+1154	Fucus spiralis f. borealis	Fucus spiralis f. borealis Kjellman
+1155	Fucus spiralis f. nanus	Fucus spiralis f. nanus (Kjellman) Batters
+1156	Fucus spiralis	Fucus spiralis L.
+1157	Fucus spiralis var. nanus	Fucus spiralis var. nanus (Kjellman) S.M.Baker & Bohling
+1158	Fucus spiralis var. nanus	Fucus spiralis var. nanus (Stackhouse) Batters
+1159	Fucus spiralis var. typicus	Fucus spiralis var. typicus B&oslash;rgesen
+1160	Fucus taxifolius	Fucus taxifolius Vahl
+1161	Fucus taxiformis	Fucus taxiformis Delile
+1162	Fucus valentiae	Fucus valentiae Turner
+1163	Fucus verrucosus	Fucus verrucosus Hudson
+1164	Fucus vesiculosus f. spiralis	Fucus vesiculosus f. spiralis (L.) Batters
+1165	Fucus vesiculosus var. spiralis	Fucus vesiculosus var. spiralis (L.) Roth
+1166	Fucus vesiculosus var. spiralis	Fucus vesiculosus var. spiralis (Linnaeus) C.Agardh
+1167	Fucus viridis	Fucus viridis M&uuml;ller
+1168	Fuscaria floccosa	Fuscaria floccosa (Esper) Ruprecht
+1169	Fuscaria larix	Fuscaria larix (Turner) Ruprecht
+1170	Fuscifolium papenfussii	Fuscifolium papenfussii (Krishnamurthy) S.C. Lindstrom
+1171	Gardneriella tuberifera	Gardneriella tuberifera Kylin
+1172	Gastridium ovale	Gastridium ovale Lyngbye
+1173	Gastridium parvulum	Gastridium parvulum (C. Agardh) Greville
+1174	Gastroclonium compressum	Gastroclonium compressum (G.J. Hollenberg) C.F. Chang & B.M. Xia
+1175	Gastroclonium coulteri	Gastroclonium coulteri (Harvey) Kylin
+1176	Gastroclonium parvum	Gastroclonium parvum (G.J. Hollenberg) C.F. Chang & B.M. Xia
+1177	Gayella constricta	Gayella constricta Setchell & Gardner
+1178	Gayliella taylorii	Gayliella taylorii (E.Y. Dawson) T.O. Cho & S.M. Boo
+1179	Gayralia oxysperma	Gayralia oxysperma (Ku*:tzing) Vinogradova ex Scagel et al.
+1180	Gelidiocolax mammillata	Gelidiocolax mammillata Fan & G.F. Papenfuss
+1181	Gelidiocolax mammillatus	Gelidiocolax mammillatus Fan & G.F. Papenfuss
+1182	Gelidiocolax microsphaerica	Gelidiocolax microsphaerica N.L. Gardner
+1183	Gelidiocolax microsphaericus	Gelidiocolax microsphaericus N.L. Gardner
+1184	Gelidium arborescens	Gelidium arborescens Gardner
+1185	Gelidium caloglossoides	Gelidium caloglossoides Howe
+1186	Gelidium capillaceum	Gelidium capillaceum (S.G. Gmelin) Meneghini
+1187	Gelidium cartilagineum var. robustum	Gelidium cartilagineum var. robustum N.L. Gardner
+1188	Gelidium chungii	Gelidium chungii Setchell & N.L.Gardner [nomen]
+1189	Gelidium contortum	Gelidium contortum N.H.Loomis
+1190	Gelidium corneum f. clavatum	Gelidium corneum f. clavatum Ardissone
+1191	Gelidium corneum var. capillaceum	Gelidium corneum var. capillaceum (S.G. Gmelin) Greville
+1192	Gelidium coulteri	Gelidium coulteri Harvey
+1193	Gelidium crinale f. luxurians	Gelidium crinale f. luxurians Collins
+1194	Gelidium densum	Gelidium densum N.L.Gardner
+1195	Gelidium dictichum	Gelidium dictichum N.H.Loomis
+1196	Gelidium gardneri	Gelidium gardneri N.H.Loomis
+1197	Gelidium grubbae	Gelidium grubbae Fan
+1198	Gelidium lanceolatum	Gelidium lanceolatum Harvey
+1199	Gelidium muricatum	Gelidium muricatum Endlicher
+1200	Gelidium nudifrons	Gelidium nudifrons Gardner
+1201	Gelidium okamurae	Gelidium okamurae Setchell & N.L.Gardner
+1202	Gelidium papenfussii	Gelidium papenfussii N.H.Loomis
+1203	Gelidium polystichum	Gelidium polystichum Gardner
+1204	Gelidium pulchrum	Gelidium pulchrum Gardner
+1205	Gelidium purpurascens	Gelidium purpurascens Gardner
+1206	Gelidium pusillum	Gelidium pusillum (Stackhouse) Le Jolis
+1207	Gelidium pyramidale	Gelidium pyramidale N.L.Gardner
+1208	Gelidium ramuliferum	Gelidium ramuliferum Gardner
+1209	Gelidium robustum	Gelidium robustum (N.L. Gardner) G.J. Hollenberg & I.A. Abbott
+1210	Gelidium setchellii	Gelidium setchellii N.L.Gardner
+1211	Gelidium sternbergii	Gelidium sternbergii (C. Agardh) Greville
+1212	Gelidium ustulatum	Gelidium ustulatum (Turner) J. Agardh
+1213	Gelidium vagum	Gelidium vagum Okamura
+1214	Giffordia elegans	Giffordia elegans (Thuret) Knoeppfler-Peguy
+1215	Giffordia granulosa	Giffordia granulosa (J.E. Smith) Hamel
+1216	Giffordia granulosoides	Giffordia granulosoides (Setchell & N.L.Gardner) Hollenberg & I.A.Abbott
+1217	Giffordia hincksiae var. californica	Giffordia hincksiae var. californica Hollenberg & Abbott
+1218	Giffordia irregularis	Giffordia irregularis (Ku*:tzing) Joly
+1219	Giffordia mitchelliae	Giffordia mitchelliae (Harvey) Hamel
+1220	Giffordia oviger	Giffordia oviger (Harvey) Hollenberg & I.A.Abbott
+1221	Giffordia recurvata	Giffordia recurvata Kuckuck ex Cardinal
+1222	Giffordia sandriana	Giffordia sandriana (Zanardini) Hamel
+1223	Giffordia saundersii	Giffordia saundersii (Setchell & Gardner) Hollenberg & Abbott
+1224	Gigartina affinis	Gigartina affinis (Harvey) D.H. Kim
+1225	Gigartina agardhii	Gigartina agardhii Setchell & Gardner
+1226	Gigartina armata	Gigartina armata J.Agardh
+1227	Gigartina armata var. echinata	Gigartina armata var. echinata (N.L.Gardner) E.Y.Dawson
+1228	Gigartina asperifolia	Gigartina asperifolia J.Agardh
+1229	Gigartina binghamiae	Gigartina binghamiae J.Agardh
+1230	Gigartina boryi	Gigartina boryi Setchell & N.L.Gardner
+1231	Gigartina californica	Gigartina californica J.Agardh
+1232	Gigartina canaliculata	Gigartina canaliculata Harvey
+1233	Gigartina cordata var. splendens	Gigartina cordata var. splendens (Setchell & Gardner) D.H. Kim
+1234	Gigartina coriacea	Gigartina coriacea (E.Y. Dawson) D.H. Kim
+1235	Gigartina cornea var. capillacea	Gigartina cornea var. capillacea (S.G. Gmelin) S.F. Gray
+1236	Gigartina cornucopiae	Gigartina cornucopiae (Postels & Ruprecht) D.H. Kim
+1237	Gigartina corymbifera	Gigartina corymbifera (K&uuml;tzing) J. Agardh
+1238	Gigartina cristata	Gigartina cristata (Setchell) Setchell & N.L.Gardner
+1239	Gigartina dasyphylla	Gigartina dasyphylla (Woodward) Lamouroux
+1240	Gigartina dichotoma	Gigartina dichotoma Gardner
+1241	Gigartina eatoniana	Gigartina eatoniana J.Agardh
+1242	Gigartina echinata	Gigartina echinata N.L.Gardner
+1243	Gigartina exasperata	Gigartina exasperata Harvey & Bailey
+1244	Gigartina farlowiana	Gigartina farlowiana J.Agardh
+1245	Gigartina fastigiata	Gigartina fastigiata Postels & Ruprecht
+1246	Gigartina flaccida	Gigartina flaccida (Setchell & Gardner) D.H. Kim
+1247	Gigartina gaudichaudii	Gigartina gaudichaudii Montagne
+1248	Gigartina harveyana	Gigartina harveyana (K&uuml;tzing) Setchell & Gardner
+1249	Gigartina heterocarpa	Gigartina heterocarpa (Postels & Ruprecht) D.H. Kim
+1250	Gigartina jardinii	Gigartina jardinii J. Agardh
+1251	Gigartina lemaneiformis	Gigartina lemaneiformis (`lemanaeformis') Bory de Saint-Vincent
+1252	Gigartina leptorhynchos f. cylindrica	Gigartina leptorhynchos f. cylindrica E.Y.Dawson
+1253	Gigartina leptorhynchos	Gigartina leptorhynchos J. Agardh
+1254	Gigartina linearis	Gigartina linearis (Setchell & N.L.Gardner) D.H.Kim
+1255	Gigartina mamillosa f. cristata	Gigartina mamillosa f. cristata (Setchell) Setchell
+1256	Gigartina mamillosa var. latissima	Gigartina mamillosa var. latissima Harvey
+1257	Gigartina microphylla	Gigartina microphylla (Harvey) Harvey
+1258	Gigartina mollis	Gigartina mollis Harvey & Bailey
+1259	Gigartina montereiensis	Gigartina montereiensis Parkinson
+1260	Gigartina muricata	Gigartina muricata Postels & Ruprecht [illeg.]
+1261	Gigartina ornithorhynchos	Gigartina ornithorhynchos J. Agardh
+1262	Gigartina papillata	Gigartina papillata (C. Agardh) J. Agardh
+1263	Gigartina papillata	Gigartina papillata (C. Agardh) J. Agardh
+1264	Gigartina papillata f. cristata	Gigartina papillata f. cristata Setchell
+1265	Gigartina papillata f. latissima	Gigartina papillata f. latissima (Harvey) Kylin
+1266	Gigartina pedunculata	Gigartina pedunculata (Hudson) Lamouroux
+1267	Gigartina radula f. exasperata	Gigartina radula f. exasperata (Harvey & Bailey) Farlow
+1268	Gigartina radula f. microphylla	Gigartina radula f. microphylla (Harvey) Setchell
+1269	Gigartina radula var. exasperata	Gigartina radula var. exasperata (Harvey & Bailey) Setchell
+1270	Gigartina rosea	Gigartina rosea (Kylin) D.H. Kim
+1271	Gigartina serrata	Gigartina serrata N.L. Gardner
+1272	Gigartina spinosa	Gigartina spinosa (K&uuml;tzing) Harvey
+1273	Gigartina tepida	Gigartina tepida G.J. Hollenberg
+1274	Gigartina ustulata	Gigartina ustulata (Turner) Greville
+1275	Gigartina velifera	Gigartina velifera J. Agardh
+1276	Gigartina viridis	Gigartina viridis (M&uuml;ller) Lyngbye
+1277	Gigartina volans	Gigartina volans (C. Agardh) J. Agardh
+1278	Gloiocladia fryeana	Gloiocladia fryeana (Setchell) N. S&aacute;nchez & C. Rodr&iacute;guez-Prieto
+1279	Gloiocladia galapagensis	Gloiocladia galapagensis (W.E. Taylor) N. Sa*'nchez & C. Rodri*'guez-Prieto
+1280	Gloiocladia laciniata	Gloiocladia laciniata (J. Agardh) N. S&aacute;nchez & C. Rodr&iacute;guez-Prieto
+1281	Gloiopeltis coliformis	Gloiopeltis coliformis Harvey
+1282	Gloiopeltis furcata	Gloiopeltis furcata (Postels & Ruprecht) J. Agardh
+1283	Gloiopeltis intricata	Gloiopeltis intricata Suringar
+1284	Gloiopeltis minuta	Gloiopeltis minuta Kylin
+1285	Gloiophloea confusa	Gloiophloea confusa Setchell
+1286	Gloiosiphonia californica	Gloiosiphonia californica (Farlow) J. Agardh
+1287	Gloiosiphonia capillaris	Gloiosiphonia capillaris (Hudson) Carmichael
+1288	Gloiosiphonia verticillaris	Gloiosiphonia verticillaris farlow
+1289	Gloiosiphonia verticillaris	Gloiosiphonia verticillaris Farlow
+1290	Glossophora coriacea	Glossophora coriacea Holmes
+1291	Glossophorella coriacea	Glossophorella coriacea (Holmes) M. Nizamuddin
+1292	Gomontia bornetii	Gomontia bornetii Setchell & N.L.Gardner
+1293	Gomontia caudata	Gomontia caudata Setchell & N.L.Gardner
+1294	Gomontia habrorhiza	Gomontia habrorhiza Setchell & N.L.Gardner
+1295	Gomontia manxiana	Gomontia manxiana Chodat
+1296	Gomontia polyrhiza	Gomontia polyrhiza (Lagerheim) Bornet & Flahault
+1297	Gomontia polyrhiza	Gomontia polyrhiza (Lagerheim) Bornet & Flahault
+1298	Gonimophyllum skottsbergii	Gonimophyllum skottsbergii Setchell
+1299	Goniolithon proboscideum	Goniolithon proboscideum (Foslie) Foslie
+1300	Goniolithon setchellii	Goniolithon setchellii (Foslie) Foslie
+1301	Goniotrichopsis sublittoralis	Goniotrichopsis sublittoralis G.M. Smith
+1302	Goniotrichum alsidii	Goniotrichum alsidii (Zanardini) Howe
+1303	Goniotrichum coerulescens	Goniotrichum coerulescens Zanardini
+1304	Goniotrichum cornu-cervi	Goniotrichum cornu-cervi (Reinsch) Hauck
+1305	Goniotrichum dichotomum	Goniotrichum dichotomum K&uuml;tzing
+1306	Goniotrichum elegans	Goniotrichum elegans (Chauvin) Zanardini
+1307	Goniotrichum elegans var. alsidii	Goniotrichum elegans var. alsidii (Zanardini) Zanardini
+1308	Goniotrichum ramosum	Goniotrichum ramosum (Thwaites) Hauck
+1309	Gononema aecidioides	Gononema aecidioides (Rosenvinge) P.M. Pedersen
+1310	Gracilaria andersonii	Gracilaria andersonii (Grunow) Kylin
+1311	Gracilaria chorda	Gracilaria chorda E.M. Holmes 1895
+1312	Gracilaria claviformis	Gracilaria claviformis (E.Y.Dawson) Papenfuss
+1313	Gracilaria cunninghamii	Gracilaria cunninghamii J. Agardh
+1314	Gracilaria lemaneiformis	Gracilaria lemaneiformis (`lemanaeformis') (Bory de Saint-Vincent) Greville
+1315	Gracilaria linearis	Gracilaria linearis Kylin
+1316	Gracilaria pacifica	Gracilaria pacifica I.A. Abbott
+1317	Gracilaria papenfussii	Gracilaria papenfussii I.A. Abbott
+1318	Gracilaria robusta	Gracilaria robusta Setchell
+1319	Gracilaria sjoestedtii	Gracilaria sjoestedtii Kylin
+1320	Gracilaria textorii var. cunninghamii	Gracilaria textorii var. cunninghamii (J. Agardh) Dawson
+1321	Gracilaria turgida	Gracilaria turgida E.Y. Dawson
+1322	Gracilaria veleroae	Gracilaria veleroae E.Y. Dawson
+1323	Gracilaria vermiculophylla	Gracilaria vermiculophylla (H. Ohmi) G.F. Papenfuss
+1324	Gracilaria verrucosa	Gracilaria verrucosa (Hudson) Papenfuss
+1325	Gracilariophila gardneri	Gracilariophila gardneri Setchell
+1326	Gracilariophila oryzoides	Gracilariophila oryzoides Setchell & Wilson
+1327	Gracilariopsis andersonii	Gracilariopsis andersonii (Grunow) Dawson
+1328	Gracilariopsis chorda	Gracilariopsis chorda (Holmes) Ohmi
+1329	Gracilariopsis claviformis	Gracilariopsis claviformis E.Y.Dawson
+1330	Gracilariopsis lemaneiformis	Gracilariopsis lemaneiformis (`lemanaeformis') (Bory de Saint-Vincent) Dawson, Acleto, & Foldvik
+1331	Gracilariopsis sjoestedtii	Gracilariopsis sjoestedtii (Kylin) Dawson
+1332	Gracilariopsis vermiculophylla	Gracilariopsis vermiculophylla Ohmi
+1333	Grammita brodiei	Grammita brodiei (Dillwyn) Bonnemaison
+1334	Grateloupia americana	Grateloupia americana S. Kawaguchi & H.W. Wang
+1335	Grateloupia asiatica	Grateloupia asiatica S. Kawaguchi & H.W. Wang
+1336	Grateloupia californica	Grateloupia californica Kylin
+1337	Grateloupia cutleriae f. maxima	Grateloupia cutleriae f. maxima N.L. Gardner
+1338	Grateloupia doryphora	Grateloupia doryphora (Montagne) Howe
+1339	Grateloupia filicina	Grateloupia filicina  (J.V.Lamouroux) C.Agardh
+1340	Grateloupia filicina f. prolongata	Grateloupia filicina f. prolongata (J. Agardh) Tseng
+1341	Grateloupia lanceolata	Grateloupia lanceolata (Okamura) S. Kawaguchi
+1342	Grateloupia maxima	Grateloupia maxima (N.L. Gardner) Kylin
+1343	Grateloupia prolongata	Grateloupia prolongata
+1344	Grateloupia prolongata	Grateloupia prolongata J. Agardh
+1345	Grateloupia setchellii	Grateloupia setchellii Kylin
+1346	Grateloupia simplex	Grateloupia simplex (G.J. Hollenberg & I.A. Abbott) S. Kawaguchi & H.W. Wang
+1347	Grateloupia sternbergii	Grateloupia sternbergii (C. Agardh) J. Agardh
+1348	Grateloupia turuturu	Grateloupia turuturu Yamada
+1349	Griffithsia ardissonei	Griffithsia ardissonei Zanardini
+1350	Griffithsia furcellata	Griffithsia furcellata J. Agardh
+1351	Griffithsia multiramosa var. balboensis	Griffithsia multiramosa var. balboensis Hollenberg
+1352	Griffithsia pacifica	Griffithsia pacifica Kylin
+1353	Gymnogongrus chiton	Gymnogongrus chiton (M.A. Howe) P.C. Silva & DeCew
+1354	Gymnogongrus crustiformis	Gymnogongrus crustiformis E.Y. Dawson
+1355	Gymnogongrus fastigiatus	Gymnogongrus fastigiatus (Endlicher) Ruprecht
+1356	Gymnogongrus gigartinoides	Gymnogongrus gigartinoides (J. Agardh) K&uuml;tzing
+1357	Gymnogongrus leptophyllus	Gymnogongrus leptophyllus J. Agardh
+1358	Gymnogongrus linearis	Gymnogongrus linearis (C. Agardh) J. Agardh
+1359	Gymnogongrus martinensis	Gymnogongrus martinensis Setchell & N.L. Gardner
+1360	Gymnogongrus platyphyllus	Gymnogongrus platyphyllus Gardner
+1361	Gymnothamnion elegans	Gymnothamnion elegans (Schousboe ex C.Agardh) J.Agardh
+1362	Haematocelis epiphytica	Haematocelis epiphytica Baardseth
+1363	Haematocelis rubens	Haematocelis rubens J. Agardh
+1364	Haematocelis rubens	Haematocelis rubens J.Agardh
+1365	Haematocelis zonalis	Haematocelis zonalis E.Y. Dawson & Neushul
+1366	Haematophloea crouaniorum	Haematophloea crouaniorum P.Crouan & H.Crouan
+1367	Hafgygia andersonii	Hafgygia andersonii (`andersoni') Areschoug
+1368	Hafgygia sinclairii	Hafgygia sinclairii (Harvey) Areschoug
+1369	Halicystis ovalis	Halicystis ovalis (Lyngbye) Areschoug
+1370	Halidrys dioica	Halidrys dioica Gardner
+1371	Halidrys horneri	Halidrys horneri (Turner) Gaillon
+1372	Halidrys osmundacea	Halidrys osmundacea (Turner) Harvey
+1373	Halidrys spiralis	Halidrys spiralis (L.) Stackhouse
+1374	Haliptilon crispatum	Haliptilon crispatum (J.V.Lamouroux) Garbary & H.W.Johansen
+1375	Haliptilon cuvieri	Haliptilon cuvieri (J.V.Lamouroux) H.W.Johansen & P.C.Silva
+1376	Haliptilon gracile	Haliptilon gracile (J.V.Lamouroux) H.W.Johansen
+1377	Haliptilon piliferum	Haliptilon piliferum (J.V.Lamouroux) Garbary & Johansen
+1378	Haliptilon plumiferum	Haliptilon plumiferum (K&uuml;tzing) Garbary & H.W.Johansen
+1379	Haliptilon roseum	Haliptilon roseum (`rosea') (Lamarck) Garbary & Johansen
+1380	Haliptilon trichocarpa	Haliptilon trichocarpa (K&uuml;tzing) Garbary & Johansen
+1381	Haliptilon turneri	Haliptilon turneri (J.V.Lamouroux) Garbary & H.W.Johansen
+1382	Haliptylon gracilis	Haliptylon gracilis (Lamouroux) Johansen
+1383	Haliseris undulata	Haliseris undulata (E.M. Holmes) Okamura
+1384	Haliseris undulata f. plana	Haliseris undulata f. plana Okamura
+1385	Halochlorococcum porphyrae	Halochlorococcum porphyrae (Setchell & Gardner) J.A. West
+1386	Halorhipis winstonii	Halorhipis winstonii (C.L. Anderson) De A. Saunders
+1387	Halorhipis winstonii	Halorhipis winstonii (C.L. Anderson) Saunders
+1388	Halosaccion americanum	Halosaccion americanum I.K. Lee
+1389	Halosaccion decapitatum	Halosaccion decapitatum (Postels & Ruprecht) Ruprecht
+1390	Halosaccion fucicola	Halosaccion fucicola (Postels & Ruprecht) K&uuml;tzing
+1391	Halosaccion glandiforme	Halosaccion glandiforme (Gmelin) F.J. Ruprecht
+1392	Halosaccion glandiforme f. simplex	Halosaccion glandiforme f. simplex Ruprecht [nomen]
+1393	Halosaccion glandiforme f. soboliferum	Halosaccion glandiforme f. soboliferum Ruprecht [nomen]
+1394	Halosaccion glandiforme var. crassum	Halosaccion glandiforme var. crassum Ruprecht
+1395	Halosaccion glandiforme var. genuinum	Halosaccion glandiforme var. genuinum Ruprecht
+1396	Halosaccion glandiforme var. menziesii	Halosaccion glandiforme var. menziesii Ruprecht
+1397	Halosaccion japonicum	Halosaccion japonicum W.H. Harvey
+1398	Halymenia californica	Halymenia californica G.M. Smith & G.J. Hollenberg
+1399	Halymenia coccinea	Halymenia coccinea (Harvey) I.A. Abbott
+1400	Halymenia dubyi	Halymenia dubyi Chauvin ex Duby
+1401	Halymenia hollenbergii	Halymenia hollenbergii I.A. Abbott
+1402	Halymenia schizymenioides	Halymenia schizymenioides G.J. Hollenberg & I.A. Abbott
+1403	Halymenia templetonii	Halymenia templetonii (Setchell & N.L.Gardner) I.A.Abbott
+1404	Hapalospongidion gelatinosum	Hapalospongidion gelatinosum DeA. Saunders
+1405	Haplogloia andersonii	Haplogloia andersonii (Farlow) Levring
+1406	Haplosiphon lomentaria	Haplosiphon lomentaria (Lyngbye) Trevisan
+1407	Hapterophycus canaliculatus	Hapterophycus canaliculatus Setchell & N.L. Gardner
+1408	Haraldiophyllum nottii	Haraldiophyllum nottii (R.E.Norris & M.J.Wynne) M.J.Wynne
+1409	Hecatonema primarium	Hecatonema primarium (W.A. Setchell & N.L. Gardner) S. Loiseaux
+1410	Hecatonema streblonematoides	Hecatonema streblonematoides (Setchell & Gardner) Loiseaux
+1411	Hedophyllum sessile	Hedophyllum sessile (C. Agardh) Setchell
+1412	Helminthocladia australis f. californica	Helminthocladia australis f. californica J. Agardh
+1413	Helminthocladia australis	Helminthocladia australis Harvey
+1414	Helminthocladia australis var. californica	Helminthocladia australis var. californica J.Agardh
+1415	Helminthocladia batrachopus	Helminthocladia batrachopus J. Agardh
+1416	Helminthocladia californica	Helminthocladia californica (J. Agardh) Kylin
+1417	Helminthocladia gracilis	Helminthocladia gracilis N.L.Gardner
+1418	Helminthocladia macrocephala	Helminthocladia macrocephala Yamada
+1419	Helminthocladia papenfussii	Helminthocladia papenfussii Kylin
+1420	Helminthocladia tumens	Helminthocladia tumens (J.Agardh) J.Agardh
+1421	Helminthora stricta	Helminthora stricta N.L. Gardner
+1422	Helminthora tumens	Helminthora tumens J.Agardh
+1423	Herposiphonia hollenbergii	Herposiphonia hollenbergii E.Y. Dawson
+1424	Herposiphonia littoralis	Herposiphonia littoralis G.J. Hollenberg
+1425	Herposiphonia parva	Herposiphonia parva Hollenberg
+1426	Herposiphonia plumula	Herposiphonia plumula (J. Agardh) Falkenberg
+1427	Herposiphonia plumula var. parva	Herposiphonia plumula var. parva (Hollenberg) Hollenberg
+1428	Herposiphonia secunda	Herposiphonia secunda (C. Agardh) Ambronn
+1429	Herposiphonia tenella f. secunda	Herposiphonia tenella f. secunda (C. Agardh) Hollenberg
+1430	Herposiphonia verticillata	Herposiphonia verticillata (Harvey) Kylin
+1431	Herpothamnion intricatum	Herpothamnion intricatum (C.Agardh) N_geli
+1432	Hesperophycus californicus	Hesperophycus californicus P.C. Silva
+1433	Hesperophycus harveyanus	Hesperophycus harveyanus (Decaisne) Setchell & Gardner
+1434	Heterochordaria abietina	Heterochordaria abietina (Ruprecht) S. & G.
+1435	Heteroderma nicholsii	Heteroderma nicholsii Setchell & L.R. Mason
+1436	Heteronema andersoniana	Heteronema andersoniana (J. Agardh) Kylin
+1437	Heterosiphonia asymmetrica	Heterosiphonia asymmetrica Hollenberg
+1438	Heterosiphonia densiuscula	Heterosiphonia densiuscula  Kylin
+1439	Heterosiphonia erecta	Heterosiphonia erecta  N.L. Gardner
+1440	Heterosiphonia japonica	Heterosiphonia japonica Yendo
+1441	Heterosiphonia sinicola	Heterosiphonia sinicola Setchell & Gardner
+1442	Hildenbrandia canariensis var. dawsonii	Hildenbrandia canariensis var. dawsonii Ardre*'
+1443	Hildenbrandia dawsonii	Hildenbrandia dawsonii (Ardre*') Hollenberg
+1444	Hildenbrandia dubyi	Hildenbrandia dubyi (P. Crouan & H. Crouan) Ku*:tzing
+1445	Hildenbrandia nardi	Hildenbrandia nardi Zanardini
+1446	Hildenbrandia nardiana	Hildenbrandia nardiana Zanardini
+1447	Hildenbrandia occidentalis	Hildenbrandia occidentalis Setchell
+1448	Hildenbrandia occidentalis var. lusitanica	Hildenbrandia occidentalis var. lusitanica Ardr_
+1449	Hildenbrandia occidentalis var. yessoensis	Hildenbrandia occidentalis var. yessoensis (Yendo) Ardr_
+1450	Hildenbrandia prototypus	Hildenbrandia prototypus Nardo
+1451	Hildenbrandia rubra	Hildenbrandia rubra (Sommerfelt) Meneghini
+1452	Hildenbrandia sanjuanensis	Hildenbrandia sanjuanensis Hollenberg
+1453	Hildenbrandia yessoensis	Hildenbrandia yessoensis Yendo
+1454	Hincksia granulosa	Hincksia granulosa (J.E. Smith) P. Silva
+1455	Hincksia hincksiae var. californica	Hincksia hincksiae var. californica (Hollenberg & Abbott) P.C. Silva
+1456	Hincksia irregularis	Hincksia irregularis (Ku*:tzing) C. Amsler
+1457	Hincksia mitchelliae	Hincksia mitchelliae (Harvey) P.C.Silva
+1458	Hincksia recurvata	Hincksia recurvata (Cardinal) Athanasiadis
+1459	Hincksia sandriana	Hincksia sandriana (Zanardini) P.C.Silva
+1460	Hincksia saundersii	Hincksia saundersii (Setchell & Gardner) P.C. Silva
+1461	Hollenbergia nigricans	Hollenbergia nigricans (N.L. Gardner) E.M. Wollaston
+1462	Hollenbergia subulata	Hollenbergia subulata (Harvey) E.M. Wollaston
+1463	Holmesia californica	Holmesia californica (E.Y. Dawson) E.Y. Dawson
+1464	Hormidium flaccum	Hormidium flaccum (Dillwyn) Ku*:tzing
+1465	Hormidium implexum	Hormidium implexum Ku*:tzing
+1466	Hormiscia doliifera	Hormiscia doliifera Setchell & Gardner
+1467	Hormiscia flacca	Hormiscia flacca (Dillwyn) Oersted
+1468	Hormiscia gregaria	Hormiscia gregaria (A.K.H. Braun) P.C. Silva
+1469	Hormiscia implexa	Hormiscia implexa (Ku*:tzing) Rabenhorst
+1470	Hormiscia penicilliformis	Hormiscia penicilliformis (Roth) Fries
+1471	Hormiscia wormskioldii	Hormiscia wormskioldii (Mertens ex Hornemann) Fries
+1472	Hormospora elegans	Hormospora elegans (Chauvin) J.E.Gray
+1473	Hormospora ramosa	Hormospora ramosa Thwaites
+1474	Hormotrichum fasciculare	Hormotrichum fasciculare K&uuml;tzing
+1475	Hormotrichum flaccum	Hormotrichum flaccum (Dillwyn) Ku*:tzing
+1476	Hormotrichum penicilliforme	Hormotrichum penicilliforme (Roth) K&uuml;tzing
+1477	Hormotrichum wormskioldii	Hormotrichum wormskioldii (Mertens ex Hornemann) Ku*:tzing
+1478	Hutchinsia brodiei	Hutchinsia brodiei (Dillwyn) C. Agardh
+1479	Hutchinsia denudata	Hutchinsia denudata (Dillwyn) S.F. Gray
+1480	Hutchinsia filamentosa	Hutchinsia filamentosa (Wulfen) C. Agardh
+1481	Hutchinsia pennata	Hutchinsia pennata C. Agardh
+1482	Hutchinsia pennata	Hutchinsia pennata C. Agardh
+1483	Hutchinsia secunda	Hutchinsia secunda C. Agardh
+1484	Hyalina latifrons	Hyalina latifrons (Ruprecht) Kuntze
+1485	Hyalina viridis	Hyalina viridis (M&uuml;ller) Kuntze
+1486	Hydroclathrus cancellatus	Hydroclathrus cancellatus Bory de Saint-Vincent
+1487	Hydroclathrus clathratus	Hydroclathrus clathratus (C. Agardh) Howe
+1488	Hydroclathrus sinuosus	Hydroclathrus sinuosus (Mertens ex Roth) Zanardini
+1489	Hydrolapatha bipinnatifida	Hydrolapatha bipinnatifida (Montagne) Kuntze
+1490	Hydrolapatha decipiens	Hydrolapatha decipiens (J. Agardh) Kuntze
+1491	Hydrolapatha ovifolia	Hydrolapatha ovifolia (Ku*:tzing) Kuntze
+1492	Hydrolithon decipiens	Hydrolithon decipiens (Foslie) W.H. Adey
+1493	Hydrolithon setchellii	Hydrolithon setchellii (Foslie) Setchell & Mason
+1494	Hydrosolen compressus	Hydrosolen compressus (Linnaeus) Martius
+1495	Hydrosolen intestinalis	Hydrosolen intestinalis (Linnaeus) Martius
+1496	Hymenena cuneifolia	Hymenena cuneifolia M.S. Doty
+1497	Hymenena flabelligera	Hymenena flabelligera (J. Agardh) J.H. Kylin
+1498	Hymenena fryeana	Hymenena fryeana Kylin
+1499	Hymenena kylinii	Hymenena kylinii N.L.Gardner
+1500	Hymenena latissima	Hymenena latissima Harvey
+1501	Hymenena multiloba	Hymenena multiloba (J. Agardh) J.H. Kylin
+1502	Hymenena setchellii	Hymenena setchellii Gardner
+1503	Hymenena smithii	Hymenena smithii Kylin
+1504	Hypnea adunca	Hypnea adunca J.Agardh
+1505	Hypnea californica	Hypnea californica Kylin
+1506	Hypnea coulteri	Hypnea coulteri Harvey
+1507	Hypnea johnstonii	Hypnea johnstonii Setchell & N.L. Gardner
+1508	Hypnea musciformis var. valentiae	Hypnea musciformis var. valentiae (Turner) Harvey
+1509	Hypnea ustulata	Hypnea ustulata (Turner) Montagne
+1510	Hypnea valentiae	Hypnea valentiae (Turner) Montagne
+1511	Hypnea valentiae var. gardneri	Hypnea valentiae var. gardneri G.J. Hollenberg
+1512	Hypnea variabilis	Hypnea variabilis Okamura
+1513	Hypnophycus valentiae	Hypnophycus valentiae (Turner) Kuntze
+1514	Hypoglossum bipinnatifidum	Hypoglossum bipinnatifidum (Montagne) Ku*:tzing
+1515	Hypoglossum gregarium	Hypoglossum gregarium E.Y. Dawson
+1516	Ilea caespitosa	Ilea caespitosa (J.Agardh) Nordstedt
+1517	Ilea clathrata	Ilea clathrata (Roth) Gaillon
+1518	Ilea compressa	Ilea compressa (Linnaeus) Gaillon
+1519	Ilea fascia	Ilea fascia (O.F. M&uuml;ller) Fries
+1520	Ilea fascia f. caespitosa	Ilea fascia f. caespitosa (J.Agardh) Setchell & N.L.Gardner
+1521	Ilea fascia f. crispa	Ilea fascia f. crispa A.D.Zinova
+1522	Ilea fascia f. debilis	Ilea fascia f. debilis (K&uuml;tzing) Setchell & N.L.Gardner
+1523	Ilea intestinalis	Ilea intestinalis (Linnaeus) Leiblein
+1524	Ingenhouzella flacca	Ingenhouzella flacca (Dillwyn) Gaillon  (invalid)
+1525	Iridaea agardhiana	Iridaea agardhiana (Setchell & Gardner) Kylin
+1526	Iridaea californica	Iridaea californica (De Toni f.) Kylin
+1527	Iridaea cordata	Iridaea cordata (Turner) Bory
+1528	Iridaea cordata var. splendens	Iridaea cordata var. splendens  (Setchell & Gardner) I.A. Abbott
+1529	Iridaea cordata var. splendens	Iridaea cordata var. splendens (Setchell & Gardner) I.A. Abbott
+1530	Iridaea cornucopiae	Iridaea cornucopiae Postels & Ruprecht
+1531	Iridaea dubyi	Iridaea dubyi (Chauvin ex Duby) Montagne
+1532	Iridaea flaccida	Iridaea flaccida (Setchell & Gardner) P. C. Silva
+1533	Iridaea fulgens	Iridaea fulgens (Setchell & Gardner) Papenfuss
+1534	Iridaea heterocarpa	Iridaea heterocarpa Postels & Ruprecht
+1535	Iridaea laminarioides var. cornucopiae	Iridaea laminarioides var. cornucopiae (Postels & Ruprecht) J. Agardh
+1536	Iridaea lilacina	Iridaea lilacina Postels & Ruprecht
+1537	Iridaea lineare	Iridaea lineare (Setchell & Gardner) Kylin
+1538	Iridaea linearis	Iridaea linearis (Setchell & Gardner) Kylin
+1539	Iridaea minor	Iridaea minor J.Agardh
+1540	Iridaea oblongifructa	Iridaea oblongifructa Setchell
+1541	Iridaea oregona	Iridaea oregona (M.S. Doty) Papenfuss
+1542	Iridaea papillata	Iridaea papillata (C. Agardh) Greville
+1543	Iridaea parksii	Iridaea parksii (Setchell & Gardner) Papenfuss
+1544	Iridaea punicea	Iridaea punicea Postels & Ruprecht
+1545	Iridaea rosea	Iridaea rosea Kylin
+1546	Iridaea sanguinea	Iridaea sanguinea (Setchell & Gardner) Hollenberg & Abbott
+1547	Iridaea splendens	Iridaea splendens (Setchell & Gardner) Papenfuss
+1548	Iridaea volans	Iridaea volans (C. Agardh) Greville
+1549	Iridea fluitans	Iridea fluitans Stackhouse
+1550	Iridophycus agardhianus	Iridophycus agardhianus Setchell & N.L.Gardner
+1551	Iridophycus californicus	Iridophycus californicus (De Toni f.) Dawson
+1552	Iridophycus cornucopiae	Iridophycus cornucopiae (Postels & Ruprecht) Setchell & Gardner
+1553	Iridophycus flaccidus	Iridophycus flaccidus ('flaccidum') Setchell & Gardner
+1554	Iridophycus fulgens	Iridophycus fulgens Setchell & Gardner
+1555	Iridophycus heterocarpus	Iridophycus heterocarpus (Postels & Ruprecht) Setchell & Gardner
+1556	Iridophycus lineare	Iridophycus lineare Setchell & Gardner
+1557	Iridophycus oregonus	Iridophycus oregonus (`oregonum') M.S. Doty
+1558	Iridophycus parksii	Iridophycus parksii Setchell & Gardner
+1559	Iridophycus sanguineus	Iridophycus sanguineus Setchell & Gardner
+1560	Iridophycus splendens	Iridophycus splendens Setchell & Gardner
+1561	Irtugovia pacifica	Irtugovia pacifica (Harvey) L.P. Perestenko
+1562	Irtugovia spirographidis	Irtugovia spirographidis (Schiffner) Perestenko
+1563	Irvinea hancockii	Irvinea hancockii (E.Y. Dawson) R.J. Wilkes, L.M. McIvor, & M.D. Guiry
+1564	Isabbottia ovalifolia	Isabbottia ovalifolia (Kylin) M.S. Balakrishnan
+1565	Janczewskia gardneri	Janczewskia gardneri Setchell & Guernsey
+1566	Janczewskia lappacea	Janczewskia lappacea Setchell
+1567	Janczewskia moriformis	Janczewskia moriformis Setchell
+1568	Janczewskia solmsii	Janczewskia solmsii Setchell & Guernsey
+1569	Jania adhaerens	Jania adhaerens Lamouroux
+1570	Jania comosa	Jania comosa P.Crouan & H.Crouan
+1571	Jania compressa	Jania compressa J.V.Lamouroux
+1572	Jania crassa	Jania crassa Lamouroux
+1573	Jania crispata	Jania crispata (J.V.Lamouroux) Decaisne
+1574	Jania cuvieri	Jania cuvieri (J.V.Lamouroux) Decaisne
+1575	Jania decussatodichotoma	Jania decussatodichotoma (Yendo) Yendo
+1576	Jania gracilis	Jania gracilis (J.V.Lamouroux) Montagne
+1577	Jania micrarthrodia var. crassa	Jania micrarthrodia var. crassa (J.V.Lamouroux) Areschoug
+1578	Jania natalensis	Jania natalensis Harvey
+1579	Jania natalensis var. tenuior	Jania natalensis var. tenuior Harvey
+1580	Jania pedunculata	Jania pedunculata J.V.Lamouroux
+1581	Jania robusta	Jania robusta Dawson
+1582	Jania rosea	Jania rosea (Lamarck) Decaisne
+1583	Jania rubens var. tenella	Jania rubens var. tenella (Ku*:tzing) Piccone
+1584	Jania tenella	Jania tenella (Ku*:tzing) Grunow
+1585	Jania verrucosa	Jania verrucosa Lamouroux
+1586	Jantinella verrucaeformis	Jantinella verrucaeformis ((Setchell & McFadden) Kylin
+1587	Jantinella verruciformis	Jantinella verruciformis (Setchell & M.E. McFadden) Kylin
+1588	Joculator delicatulus	Joculator delicatulus Doty
+1589	Joculator pinnatifolius	Joculator pinnatifolius Manza
+1590	Johansenia macmillanii	Johansenia macmillanii (Yendo) K. Hind & G.W. Saunders
+1591	Kaliformis dasyphyllus	Kaliformis dasyphyllus (Woodward) Stackhouse
+1592	Kallymenia angustata	Kallymenia angustata Setchell & Gardner
+1593	Kallymenia californica	Kallymenia californica Farlow
+1594	Kallymenia dubyi	Kallymenia dubyi (Chauvin ex Duby) Harvey
+1595	Kallymenia norrisii	Kallymenia norrisii G.J. Hollenberg & I.A. Abbott
+1596	Kallymenia oblongifructa	Kallymenia oblongifructa (Setchell) Setchell
+1597	Kallymenia pacifica	Kallymenia pacifica Kylin
+1598	Kallymeniopsis oblongifructa	Kallymeniopsis oblongifructa (Setchell) G.I. Hansen
+1599	Kornmannia leptoderma	Kornmannia leptoderma (Kjellman) Bliding
+1600	Kornmannia zostericola	Kornmannia zostericola (Tilden) Bliding
+1601	Krobylopteris oltmannsii	Krobylopteris oltmannsii Schmidt
+1602	Kuckuckia catalinae	Kuckuckia catalinae G.J. Hollenberg
+1603	Kylinia arcuata	Kylinia arcuata (K.M. Drew) Kylin
+1604	Kylinia catenulata	Kylinia catenulata (Howe) Kylin
+1605	Kylinia hirsuta	Kylinia hirsuta (K.M.Drew) Kylin
+1606	Kylinia microscopica	Kylinia microscopica (Na*:geli ex Ku*:tzing) Kylin
+1607	Kylinia porphyrae	Kylinia porphyrae (K.M. Drew) Papenfuss
+1608	Kylinia rosulata	Kylinia rosulata Rosenvinge
+1609	Laminaria andersonii	Laminaria andersonii (Areschoug) Farlow in Anderson
+1610	Laminaria caespitosa	Laminaria caespitosa (J.Agardh) J.Agardh
+1611	Laminaria cordata	Laminaria cordata E.Y. Dawson
+1612	Laminaria costata	Laminaria costata C. Agardh
+1613	Laminaria dentigera	Laminaria dentigera Kjellman
+1614	Laminaria fascia	Laminaria fascia (O.F. M&uuml;ller) C. Agardh
+1615	Laminaria herbacea	Laminaria herbacea (Turner) C. Agardh
+1616	Laminaria phyllopus	Laminaria phyllopus Kjellman
+1617	Laminaria porra	Laminaria porra Leman
+1618	Laminaria pyrifera	Laminaria pyrifera (Linnaeus) Lamouroux
+1619	Laminaria saccharina	Laminaria saccharina (Linnaeus) J.V.Lamouroux
+1620	Laminaria saccharina f. bullata	Laminaria saccharina f. bullata (C.Agardh) Kylin
+1621	Laminaria saccharina f. caperata	Laminaria saccharina f. caperata (De la Pylaie) Setchell
+1622	Laminaria saccharina f. sublaevis	Laminaria saccharina f. sublaevis (Kjellman) Kylin
+1623	Laminaria sessilis	Laminaria sessilis C. Agardh
+1624	Laminariocolax aecidioides	Laminariocolax aecidioides (Rosenvinge) A.F. Peters
+1625	Laurencia blinksii	Laurencia blinksii G.J. Hollenberg & I.A. Abbott
+1626	Laurencia blinksii	Laurencia blinksii Hollenberg & I.A. Abbott
+1627	Laurencia crispa	Laurencia crispa G.J. Hollenberg
+1628	Laurencia dasyphylla	Laurencia dasyphylla (Woodward) Greville
+1629	Laurencia decidua	Laurencia decidua E.Y. Dawson
+1630	Laurencia diegoensis	Laurencia diegoensis E.Y. Dawson
+1631	Laurencia gardneri	Laurencia gardneri G.J. Hollenberg
+1632	Laurencia lajolla	Laurencia lajolla E.Y.Dawson
+1633	Laurencia masonii	Laurencia masonii Setchell & N.L. Gardner
+1634	Laurencia maxineae	Laurencia maxineae Dawson
+1635	Laurencia ovalis var. subarticulata	Laurencia ovalis var. subarticulata (Turner) Frauenfeld
+1636	Laurencia pacifica	Laurencia pacifica Kylin
+1637	Laurencia pinnatifida var. spectabilis	Laurencia pinnatifida var. spectabilis (Postels & Ruprecht) Farlow, Anderson, & Eaton
+1638	Laurencia scrippsiensis	Laurencia scrippsiensis E.Y.Dawson
+1639	Laurencia sinicola	Laurencia sinicola Setchell & Gardner
+1640	Laurencia snyderae	Laurencia snyderae Dawson
+1641	Laurencia snyderae var. guadalupensis	Laurencia snyderae var. guadalupensis Dawson
+1642	Laurencia snyderiae	Laurencia snyderiae Dawson
+1643	Laurencia spectabilis	Laurencia spectabilis Postels & Ruprecht
+1644	Laurencia spectabilis var. diegoensis	Laurencia spectabilis var. diegoensis (Dawson) Dawson
+1645	Laurencia spectabilis var. tenuis	Laurencia spectabilis var. tenuis Dawson
+1646	Laurencia splendens	Laurencia splendens G.J. Hollenberg
+1647	Laurencia subdisticha	Laurencia subdisticha Dawson, Neushul, & Wildman
+1648	Laurencia subopposita	Laurencia subopposita (J. Agardh) Setchell
+1649	Leachiella pacifica	Leachiella pacifica Kugrens
+1650	Leathesia amplissima	Leathesia amplissima Setchell & N.L.Gardner
+1651	Leathesia difformis	Leathesia difformis Areschoug
+1652	Leathesia difformis var. tingitana	Leathesia difformis var. tingitana Schousboe ex Bornet
+1653	Leathesia marina	Leathesia marina (C. Agardh) J. Agardh
+1654	Leathesia marina	Leathesia marina (Lyngbye) Decaisne
+1655	Leathesia nana	Leathesia nana Setchell & N.L.Gardner
+1656	Leathesia tuberiformis	Leathesia tuberiformis S.F.Gray
+1657	Lejolisea pusilla	Lejolisea pusilla E.Y. Dawson & Neushul
+1658	Lejolisia pusilla	Lejolisia pusilla E.Y. Dawson & Neushul
+1659	Leptocladia binghamiae	Leptocladia binghamiae J. Agardh
+1660	Leptocladia conferta	Leptocladia conferta Setchell
+1661	Leptofauchea pacifica	Leptofauchea pacifica E.Y. Dawson
+1662	Leptophytum lamellicola	Leptophytum lamellicola A. Athanasiadis & W.H. Adey
+1663	Leptophytum microsporum	Leptophytum microsporum (Foslie) A. Athanasiadis & W.H. Adey
+1664	Leptophytum microsporum	Leptophytum microsporum (Foslie) Athanasiadis & W.H.Adey
+1665	Lessonia littoralis	Lessonia littoralis Farlow & Setchell ex Tilden
+1666	Lessonia sinclairii	Lessonia sinclairii Harvey ex J.D. Hooker & Harvey
+1667	Letterstedtia petiolata	Letterstedtia petiolata J.Agardh
+1668	Levringiella gardneri	Levringiella gardneri (Setchell) Kylin
+1669	Liagora californica	Liagora californica Zeh
+1670	Lictoria taxiformis	Lictoria taxiformis (Delile) J. Agardh
+1671	Linckia punctiforme	Linckia punctiforme Lyngbye
+1672	Lithoderma lignicola	Lithoderma lignicola Kjellman
+1673	Lithoderma maculiforme	Lithoderma maculiforme Wollny
+1674	Lithophyllum australe	Lithophyllum australe (Foslie) Lemoine
+1675	Lithophyllum decipiens	Lithophyllum decipiens (Foslie) Foslie
+1676	Lithophyllum dispar	Lithophyllum dispar (Foslie) Foslie
+1677	Lithophyllum farlowii	Lithophyllum farlowii Foslie 1901 not Heydrich
+1678	Lithophyllum grumosum	Lithophyllum grumosum (Foslie) Foslie
+1679	Lithophyllum imitans	Lithophyllum imitans Foslie
+1680	Lithophyllum lichenare	Lithophyllum lichenare Mason
+1681	Lithophyllum marginatum	Lithophyllum marginatum (Setchell & Foslie) Setchell & Foslie
+1682	Lithophyllum mediocre	Lithophyllum mediocre (Foslie) Foslie
+1683	Lithophyllum muricatum	Lithophyllum muricatum (Foslie) Foslie
+1684	Lithophyllum neofarlowii	Lithophyllum neofarlowii Setchell & Mason
+1685	Lithophyllum proboscideum	Lithophyllum proboscideum (Foslie) Foslie
+1686	Lithophyllum pustulatum f. ascripticium	Lithophyllum pustulatum f. ascripticium Foslie
+1687	Lithophyllum tumidulum f. dispar	Lithophyllum tumidulum f. dispar Foslie
+1688	Lithophyllum tumidum	Lithophyllum tumidum Foslie
+1689	Lithophyllum zostericola f. mediocre	Lithophyllum zostericola f. mediocre Foslie
+1690	Lithothamnion aculeiferum	Lithothamnion aculeiferum L.R.Mason
+1691	Lithothamnion australe	Lithothamnion australe Foslie
+1692	Lithothamnion californicum f. microsporum	Lithothamnion californicum f. microsporum Foslie
+1693	Lithothamnion californicum f. microsporum	Lithothamnion californicum f. microsporum Foslie
+1694	Lithothamnion californicum	Lithothamnion californicum Foslie
+1695	Lithothamnion conchatum f. reclinatum	Lithothamnion conchatum f. reclinatum Foslie
+1696	Lithothamnion conchatum	Lithothamnion conchatum Setchell & Foslie
+1697	Lithothamnion crassiusculum	Lithothamnion crassiusculum (Foslie) L.R. Mason
+1698	Lithothamnion crassiusculum	Lithothamnion crassiusculum (Foslie) L.R.Mason
+1699	Lithothamnion decipiens	Lithothamnion decipiens Foslie
+1700	Lithothamnion deformans	Lithothamnion deformans (Solms-Laubach) Foslie
+1701	Lithothamnion giganteum	Lithothamnion giganteum Mason
+1702	Lithothamnion grumosum	Lithothamnion grumosum Foslie
+1703	Lithothamnion lamellatum	Lithothamnion lamellatum Setchell & Foslie
+1704	Lithothamnion marginatum	Lithothamnion marginatum (Setchell & Foslie) Setchell & Foslie
+1705	Lithothamnion mediocre	Lithothamnion mediocre (Foslie) Foslie & Nichols
+1706	Lithothamnion microsporum	Lithothamnion microsporum (Foslie) Foslie
+1707	Lithothamnion microsporum	Lithothamnion microsporum (Foslie) Foslie
+1708	Lithothamnion montereyicum	Lithothamnion montereyicum Foslie
+1709	Lithothamnion muricatum	Lithothamnion muricatum (Foslie) De Toni
+1710	Lithothamnion pacificum	Lithothamnion pacificum (Foslie) Foslie
+1711	Lithothamnion pacificum f. crassiusculum	Lithothamnion pacificum f. crassiusculum (Foslie) Foslie
+1712	Lithothamnion parcum	Lithothamnion parcum Setchell & Foslie
+1713	Lithothamnion phymatodeum	Lithothamnion phymatodeum Foslie
+1714	Lithothamnion proboscideum	Lithothamnion proboscideum Foslie
+1715	Lithothamnion reclinatum	Lithothamnion reclinatum (Foslie) Foslie
+1716	Lithothamnion rugosum f. crassiusculum	Lithothamnion rugosum f. crassiusculum Foslie
+1717	Lithothamnion rugosum f. crassiusculum	Lithothamnion rugosum f. crassiusculum Foslie
+1718	Lithothamnion setchellii	Lithothamnion setchellii Foslie
+1719	Lithothamnion sonderi f. pacifica	Lithothamnion sonderi f. pacifica Foslie
+1720	Lithothamnion volcanum	Lithothamnion volcanum E.Y. Dawson
+1721	Lithothamnium aculeiferum	Lithothamnium aculeiferum L.R. Mason
+1722	Lithothamnium australe	Lithothamnium australe (Foslie)
+1723	Lithothamnium californicum	Lithothamnium californicum Foslie
+1724	Lithothamnium crassiusculum	Lithothamnium crassiusculum (Foslie) L.R.Mason
+1725	Lithothamnium giganteum	Lithothamnium giganteum Mason
+1726	Lithothamnium microsporum	Lithothamnium microsporum (Foslie) Foslie
+1727	Lithothamnium montereyicum	Lithothamnium montereyicum Foslie
+1728	Lithothamnium pacificum	Lithothamnium pacificum (Foslie) Foslie
+1729	Lithothamnium phymatodeum	Lithothamnium phymatodeum Foslie
+1730	Lithothamnium volcanum	Lithothamnium volcanum E.Y. Dawson
+1731	Lithothrix aspergillum f. nana	Lithothrix aspergillum f. nana (Setchell & Gardner) Yendo
+1732	Lithothrix aspergillum	Lithothrix aspergillum J.E. Gray
+1733	Lola californica	Lola californica (Collins) V.J. Chapman
+1734	Lola lubrica	Lola lubrica (Setchell & Gardner) A. Hamel & G. Hamel
+1735	Lola tortuosa	Lola tortuosa (Dillwyn) V. Chapman
+1736	Lomentaria articulata var. parvula	Lomentaria articulata var. parvula (C. Agardh) Rabenhorst
+1737	Lomentaria caseae	Lomentaria caseae E.Y. Dawson
+1738	Lomentaria hakodatensis	Lomentaria hakodatensis Yendo
+1739	Lomentaria ovalis var. coulteri	Lomentaria ovalis var. coulteri Harvey
+1740	Lomentaria ovalis var. subarticulata	Lomentaria ovalis var. subarticulata (Turner) Zanardini
+1741	Lomentaria parvula	Lomentaria parvula (C. Agardh) Zanardini
+1742	Lomentaria parvula var. vaga	Lomentaria parvula var. vaga K&uuml;tzing
+1743	Lomentaria saccata	Lomentaria saccata (J. Agardh) J. Agardh
+1744	Lomentaria sinensis	Lomentaria sinensis M.A.Howe
+1745	Lophosiphonia villum	Lophosiphonia villum (J. Agardh) Setchell & Gardner
+1746	Lophura floccosa	Lophura floccosa (Esper) K&uuml;tzing
+1747	Lophura larix	Lophura larix (Turner) K&uuml;tzing
+1748	Lophura macracantha	Lophura macracantha K&uuml;tzing
+1749	Loranthophycus californicus	Loranthophycus californicus E.Y. Dawson
+1750	Lychaete linum	Lychaete linum (O.F. M&uuml;ller) Areschoug
+1751	Lyngbya carmichaelii	Lyngbya carmichaelii Harvey
+1752	Lyngbya flacca	Lyngbya flacca (Dillwyn) Harvey
+1753	Lyngbya siliculosa	Lyngbya siliculosa (Dillwyn) Gaillon
+1754	Macrocystis angustifolia	Macrocystis angustifolia (`angustifolius') Bory
+1755	Macrocystis angustifolia	Macrocystis angustifolia Bory
+1756	Macrocystis communis	Macrocystis communis Bory
+1757	Macrocystis humboldtii	Macrocystis humboldtii (Bonpland) C.Agardh
+1758	Macrocystis integrifolia	Macrocystis integrifolia (`integrifolius') Bory
+1759	Macrocystis laevis	Macrocystis laevis C.H.Hay
+1760	Macrocystis latifolia	Macrocystis latifolia Bory
+1761	Macrocystis luxurians	Macrocystis luxurians (J.D.Hooker & Harvey) J.Agardh
+1762	Macrocystis menziesii	Macrocystis menziesii (Turner) C. Agardh
+1763	Macrocystis orbigniana	Macrocystis orbigniana Montagne
+1764	Macrocystis pelagica	Macrocystis pelagica Areschoug
+1765	Macrocystis planicaulis	Macrocystis planicaulis C.Agardh
+1766	Macrocystis pomifera	Macrocystis pomifera Bory
+1767	Macrocystis pyrifera var. humboldtii	Macrocystis pyrifera var. humboldtii Bonpland
+1768	Macrocystis pyrifera var. longibullata	Macrocystis pyrifera var. longibullata Reinsch
+1769	Macrocystis pyrifera var. luxurians	Macrocystis pyrifera var. luxurians J.D.Hooker & Harvey
+1770	Macrocystis tenuifolia	Macrocystis tenuifolia Postels & Ruprecht
+1771	Mammillaria canaliculata	Mammillaria canaliculata (Harvey) Kuntze
+1772	Mammillaria corymbifera	Mammillaria corymbifera (K&uuml;tzing) Kuntze
+1773	Mammillaria exasperata	Mammillaria exasperata (Harvey & Bailey) Kuntze
+1774	Mammillaria jardinii	Mammillaria jardinii (J. Agardh) O. Kuntze
+1775	Mammillaria leptorhynchos	Mammillaria leptorhynchos (J. Agardh) Kuntze
+1776	Mammillaria microphylla	Mammillaria microphylla (Harvey) Kuntze
+1777	Mammillaria mollis	Mammillaria mollis (Harvey & Bailey) Kuntze
+1778	Mammillaria papillata	Mammillaria papillata (C. Agardh) Kuntze
+1779	Mammillaria spinosa	Mammillaria spinosa (K&uuml;tzing) Kuntze
+1780	Mammillaria volans	Mammillaria volans (C. Agardh) Kuntze
+1781	Maripelta rotata	Maripelta rotata (Dawson) Dawson
+1782	Maschalosporium byssoides	Maschalosporium byssoides (Arnott ex Harvey) N_geli
+1783	Mastocarpus agardhii	Mastocarpus agardhii (Setchell & Gardner) S.C. Lindstrom, J.R. Hughey & P.T. Martone
+1784	Mastocarpus alaskensis	Mastocarpus alaskensis S.C. Lindstrom, J.R. Hughey & P.T. Martone
+1785	Mastocarpus californianus	Mastocarpus californianus S.C. Lindstrom, J.R. Hughey & P.T. Martone
+1786	Mastocarpus corymbiferus	Mastocarpus corymbiferus K&uuml;tzing
+1787	Mastocarpus cristatus	Mastocarpus cristatus (Setchell) S.C. Lindstrom, J.R. Hughey & P.T. Martone
+1788	Mastocarpus harveyanus	Mastocarpus harveyanus K&uuml;tzing
+1789	Mastocarpus intermedius	Mastocarpus intermedius S.C. Lindstrom, J.R. Hughey & P.T. Martone
+1790	Mastocarpus jardinii	Mastocarpus jardinii (J. Agardh) J.A. West
+1791	Mastocarpus latissimus	Mastocarpus latissimus (Harvey) S.C. Lindstrom, J.R. Hughey & P.T. Martone
+1792	Mastocarpus pachenicus	Mastocarpus pachenicus L. Le Gall & G.W. Saunders
+1793	Mastocarpus papillatus	Mastocarpus papillatus (C. Agardh)  K&uuml;tzing
+1794	Mastocarpus rigidus	Mastocarpus rigidus S.C. Lindstrom, J.R. Hughey & P.T. Martone
+1795	Mastocarpus spinosus	Mastocarpus spinosus K&uuml;tzing
+1796	Mastocarpus vancouveriensis	Mastocarpus vancouveriensis S.C. Lindstrom, J.R. Hughey & P.T. Martone
+1797	Mastocarpus volans	Mastocarpus volans (C. Agardh) K&uuml;tzing
+1798	Mazzaella affinis	Mazzaella affinis (Harvey) S. Fredericq
+1799	Mazzaella californica	Mazzaella californica De Toni f.
+1800	Mazzaella coriacea	Mazzaella coriacea (E.Y. Dawson) J. Hughey
+1801	Mazzaella cornucopiae	Mazzaella cornucopiae (Postels & Ruprecht) M.H. Hommersand
+1802	Mazzaella dewreedei	Mazzaella dewreedei G.W. Saunders & K.R. Millar
+1803	Mazzaella flaccida	Mazzaella flaccida (Setchell & Gardner) S. Fredericq
+1804	Mazzaella leptorhynchos	Mazzaella leptorhynchos (J. Agardh) G.L. Leister
+1805	Mazzaella lilacina	Mazzaella lilacina (Postels & Ruprecht) G.L. Leister
+1806	Mazzaella linearis	Mazzaella linearis (Setchell & Gardner) S. Fredericq
+1807	Mazzaella oregona	Mazzaella oregona (M.S. Doty) J.R. Hughey, P.C. Silva, & M.H. Hommersand
+1808	Mazzaella parksii	Mazzaella parksii (Setchell & Gardner) J.R. Hughey, P.C. Silva, & M.H. Hommersand
+1809	Mazzaella parva	Mazzaella parva (G.M. Smith & Hollenberg) J.R. Hughey, P.C. Silva, & M.H. Hommersand
+1810	Mazzaella rosea	Mazzaella rosea (Kylin) S. Fredericq
+1811	Mazzaella sanguinea	Mazzaella sanguinea (Setchell & Gardner) M.H. Hommersand
+1812	Mazzaella splendens	Mazzaella splendens (Setchell & Gardner) Fredericq
+1813	Mazzaella splendens subsp. fulgens	Mazzaella splendens subsp. fulgens (Setchell & Gardner) J.R. Hughey & M.H. Hommersand
+1814	Mazzaella volans	Mazzaella volans (C. Agardh) S. Fredericq
+1815	Meiodiscus concrescens	Meiodiscus concrescens (K.M. Drew) P.W. Gabrielson
+1816	Melanosiphon intestinalis	Melanosiphon intestinalis (Saunders) M. Wynne
+1817	Melanosiphon intestinalis f. tenuis	Melanosiphon intestinalis f. tenuis (Setchell & Gardner) M. Wynne
+1818	Melobesia deformans	Melobesia deformans Solms-Laubach
+1819	Melobesia marginata	Melobesia marginata Setchell & Foslie
+1820	Melobesia mediocris	Melobesia mediocris (Foslie) Setchell & Mason
+1821	Melobesia paschalis	Melobesia paschalis Lemoine
+1822	Melobesia thuretii	Melobesia thuretii Bornet
+1823	Melobesia zostericola var. mediocris	Melobesia zostericola var. mediocris (Foslie) Setchell & Gardner
+1824	Membranella nitens	Membranella nitens G.J. Hollenberg & I.A. Abbott
+1825	Membranifolia clevelandii	Membranifolia clevelandii (Farlow) Kuntze
+1826	Membranoptera bipinnatifida	Membranoptera bipinnatifida (Montagne) Kuntze
+1827	Membranoptera decipiens	Membranoptera decipiens (J. Agardh) Kuntze
+1828	Membranoptera dimorpha	Membranoptera dimorpha N.L. Gardner
+1829	Membranoptera multiramosa	Membranoptera multiramosa N.L. Gardner
+1830	Membranoptera ovifolia	Membranoptera ovifolia (Ku*:tzing) Kuntze
+1831	Membranoptera platyphylla	Membranoptera platyphylla (Setchell & Gardner) Kylin
+1832	Membranoptera spatulata	Membranoptera spatulata E.Y. Dawson
+1833	Membranoptera tenuis	Membranoptera tenuis Kylin
+1834	Membranoptera weeksiae	Membranoptera weeksiae Setchell & Gardner
+1835	Membranoptera woodii	Membranoptera woodii (J.Agardh) Kuntze
+1836	Meredithia californica	Meredithia californica J. Agardh
+1837	Mertensia parvula	Mertensia parvula (C. Agardh) Kuntze
+1838	Mesogloia andersonii	Mesogloia andersonii Farlow
+1839	Mesogloia crassa	Mesogloia crassa Suringar
+1840	Mesogloia hudsonii	Mesogloia hudsonii C.Agardh
+1841	Mesogloia rubra	Mesogloia rubra (Hudson) Areschoug
+1842	Mesophyllum australe	Mesophyllum australe (Foslie) Lemoine
+1843	Mesophyllum conchatum	Mesophyllum conchatum (Setchell & Foslie) Adey
+1844	Mesophyllum crassiusculum	Mesophyllum crassiusculum (Foslie) Lebednik
+1845	Mesophyllum crassiusculum	Mesophyllum crassiusculum (Foslie) P.A. Lebednik
+1846	Mesophyllum crassiusculum	Mesophyllum crassiusculum (Foslie) P.A. Lebednik (invalid)
+1847	Mesophyllum lamellatum	Mesophyllum lamellatum (Setchell & Foslie) Adey
+1848	Microcladia borealis	Microcladia borealis Ruprecht
+1849	Microcladia californica	Microcladia californica Farlow
+1850	Microcladia coulteri	Microcladia coulteri Harvey
+1851	Microspongium gelatinosum	Microspongium gelatinosum Reinke
+1852	Microspongium saundersii	Microspongium saundersii Setchell & Gardner
+1853	Minium parvum	Minium parvum Moe
+1854	Monosporus tenuis	Monosporus tenuis Okamura
+1855	Monostroma crepidinium	Monostroma crepidinium Farlow
+1856	Monostroma fuscum f. splendens	Monostroma fuscum f. splendens (Ruprecht) Collins
+1857	Monostroma fuscum var. splendens	Monostroma fuscum var. splendens (Ruprecht) Rosenvinge
+1858	Monostroma fuscum	Monostroma fuscum Wittrock
+1859	Monostroma grevillei	Monostroma grevillei (Thuret) Wittrock
+1860	Monostroma leptodermum	Monostroma leptodermum Kjellman
+1861	Monostroma orbiculatum	Monostroma orbiculatum Thuret
+1862	Monostroma oxycoccum	Monostroma oxycoccum Thuret
+1863	Monostroma oxyspermum	Monostroma oxyspermum (Ku*:tzing) M.S. Doty
+1864	Monostroma oxyspermum f. orbiculatum	Monostroma oxyspermum f. orbiculatum (Thuret) Feldmann & Magne
+1865	Monostroma splendens	Monostroma splendens (Ruprecht) Wittrock
+1866	Monostroma tubiforme	Monostroma tubiforme Iwamoto
+1867	Monostroma zostericola	Monostroma zostericola Tilden
+1868	Monostroma zostericola	Monostroma zostericola Tilden
+1869	Murrayellopsis dawsonii	Murrayellopsis dawsonii Post
+1870	Musaefolium marginatum	Musaefolium marginatum (Postels & Ruprecht) Kuntze
+1871	Mutimo cylindricus	Mutimo cylindricus (Okamura) H. Kawai & T. Kitayama
+1872	Myelophycus intestinalis f. tenuis	Myelophycus intestinalis f. tenuis Setchell & Gardner
+1873	Myelophycus intestinalis	Myelophycus intestinalis Saunders
+1874	Myriactula lubrica	Myriactula lubrica (Ruprecht) Jaasund
+1875	Myriocladia andersonii	Myriocladia andersonii (Farlow) Setchell & N.L.Gardner
+1876	Myriogloea andersonii	Myriogloea andersonii (Farlow) Kuckuck ex Oltmanns
+1877	Myriogramme caespitosa	Myriogramme caespitosa E.Y. Dawson
+1878	Myriogramme hollenbergii	Myriogramme hollenbergii Kylin
+1879	Myriogramme multiloba	Myriogramme multiloba (J. Agardh) Kylin
+1880	Myriogramme repens	Myriogramme repens G.J. Hollenberg
+1881	Myriogramme spectabilis	Myriogramme spectabilis (Eaton) Kylin
+1882	Myriogramme variegata	Myriogramme variegata Yamada
+1883	Myrionema aecidioides	Myrionema aecidioides (Rosenvinge) Sauvageau
+1884	Myrionema balticum	Myrionema balticum (Reinke) Foslie
+1885	Myrionema corunnae	Myrionema corunnae Sauvageau
+1886	Myrionema fucicola	Myrionema fucicola (Velley) Endlicher
+1887	Myrionema intermedium	Myrionema intermedium Foslie
+1888	Myrionema leclancherii	Myrionema leclancherii Harvey
+1889	Myrionema maculiforme	Myrionema maculiforme K&uuml;tzing
+1890	Myrionema magnusii	Myrionema magnusii (Sauvageau) Loiseaux
+1891	Myrionema primarium	Myrionema primarium W.A. Setchell & N.L. Gardner
+1892	Myrionema punctiforme	Myrionema punctiforme (Lyngbye) Areschoug
+1893	Myrionema punctiforme	Myrionema punctiforme (Lyngbye) Harvey
+1894	Myrionema strangulans	Myrionema strangulans Greville
+1895	Myrionema strangulans var. punctiforme	Myrionema strangulans var. punctiforme (Harvey) Lyle
+1896	Myrionema vulgare f. strangulans	Myrionema vulgare f. strangulans (Greville) Van Heurck  (inval.)
+1897	Myrionema vulgare	Myrionema vulgare Thuret
+1898	Myrionema vulgare var. maculaeformis	Myrionema vulgare var. maculaeformis (K&uuml;tzing) Piccone
+1899	Myrionema vulgare var. strangulans	Myrionema vulgare var. strangulans (Greville) Dufour
+1900	Myxonema flaccum	Myxonema flaccum (Dillwyn) Liebman
+1901	Neevea repens	Neevea repens Batters
+1902	Nemalion andersonii	Nemalion andersonii Farlow
+1903	Nemalion elminthoides	Nemalion elminthoides (Velley) Batters
+1904	Nemalion helminthoides	Nemalion helminthoides (Velley) Batters
+1905	Nemalion hudsonii	Nemalion hudsonii (C.Agardh) Chauvin
+1906	Nemastoma californicum	Nemastoma californicum Farlow
+1907	Nemastoma minus	Nemastoma minus J.Agardh
+1908	Neoagardhiella baileyi	Neoagardhiella baileyi (Harvey ex K&uuml;tzing) Wynne
+1909	Neogastroclonium subarticulatum	Neogastroclonium subarticulatum (Turner) L. Le Gall, J. Dalen, & G. Saunders
+1910	Neogoniolithon setchellii	Neogoniolithon setchellii (Foslie) W.H. Adey
+1911	Neomonospora furcellata	Neomonospora furcellata (J. Agardh) G. Feldmann-Mazoyer & R. Meslin
+1912	Neopolyporolithon reclinatum	Neopolyporolithon reclinatum (Foslie) W.H. Adey & H.W. Johansen
+1913	Neoptilota californica	Neoptilota californica (Ruprecht ex Harvey) Kylin
+1914	Neoptilota densa	Neoptilota densa (C. Agardh) Kylin ex Abbott & Hollenberg
+1915	Neoptilota hypnoides	Neoptilota hypnoides (Harvey) Kylin ex Abbott & Hollenberg
+1916	Neorhodomela larix	Neorhodomela larix (Turner) Masuda
+1917	Neorhodomela oregona	Neorhodomela oregona (Doty) Masuda
+1918	Neosiphonia bajacali	Neosiphonia bajacali (G.J. Hollenberg) N.R. Mamoozadeh & D.W. Freshwater
+1919	Neosiphonia concinna	Neosiphonia concinna (G.J. Hollenberg) J.N. Norris
+1920	Neosiphonia confusa	Neosiphonia confusa (Hollenberg) J.N. Norris
+1921	Neosiphonia eastwoodae	Neosiphonia eastwoodae (Setchell & N.L. Gardner) J.N. Norris
+1922	Neosiphonia flaccidissima	Neosiphonia flaccidissima (G.J. Hollenberg) M.S. Kim & I.K. Lee
+1923	Neosiphonia harveyi	Neosiphonia harveyi (J.W. Bailey) M.-S. Kim, H.-G. Choi, Guiry, & G.W. Saunders
+1924	Neosiphonia johnstonii	Neosiphonia johnstonii (Setchell & N.L. Gardner) J.N. Norris
+1925	Neosiphonia paniculata	Neosiphonia paniculata (Montagne) J.N. Norris
+1926	Neosiphonia savatieri	Neosiphonia savatieri (Hariot) M.S. Kim & I.K. Lee
+1927	Neosiphonia sertularioides	Neosiphonia sertularioides (Grateloup) K.W. Nam & P.J. Kang
+1928	Neosiphonia simplex	Neosiphonia simplex (G.J. Hollenberg) Y.P. Lee
+1929	Nereocystis gigantea	Nereocystis gigantea J. E. Areschoug
+1930	Nereocystis priapus	Nereocystis priapus (Gmelin) D. A. Saunders
+1931	Neurocarpus undulatus	Neurocarpus undulatus (E.M. Holmes) Okamura
+1932	Neurocarpus undulatus f. planus	Neurocarpus undulatus f. planus Okamura
+1933	Neurocarpus zonarioides	Neurocarpus zonarioides (Farlow) M.A.Howe
+1934	Neuroglossum andersonianum	Neuroglossum andersonianum J. Agardh
+1935	Neuroglossum lobuliferum	Neuroglossum lobuliferum J. Agardh
+1936	Nienburgia andersoniana	Nienburgia andersoniana (J. Agardh) Kylin
+1937	Nitophyllum ciliolatum	Nitophyllum ciliolatum Harvey
+1938	Nitophyllum cincinnatum	Nitophyllum cincinnatum I.A. Abbott
+1939	Nitophyllum corallinarium	Nitophyllum corallinarium Nott
+1940	Nitophyllum dotyi	Nitophyllum dotyi Abbott
+1941	Nitophyllum farlowianum	Nitophyllum farlowianum J.Agardh
+1942	Nitophyllum flabelligerum	Nitophyllum flabelligerum J. Agardh
+1943	Nitophyllum fryeanum	Nitophyllum fryeanum Nott
+1944	Nitophyllum hollenbergii	Nitophyllum hollenbergii (Kylin) Abbott
+1945	Nitophyllum latissimum	Nitophyllum latissimum (Harvey) J. Agardh
+1946	Nitophyllum multilobum	Nitophyllum multilobum J. Agardh
+1947	Nitophyllum northii	Nitophyllum northii G.J. Hollenberg & I.A. Abbott
+1948	Nitophyllum nottii	Nitophyllum nottii R.E.Norris & M.J.Wynne
+1949	Nitophyllum ruprechtianum	Nitophyllum ruprechtianum J. Agardh
+1950	Nitophyllum spectabile	Nitophyllum spectabile Eaton
+1951	Nitophyllum venulosum	Nitophyllum venulosum Zanardini
+1952	Nitophyllum violaceum	Nitophyllum violaceum J. Agardh
+1953	Norrissia setchellii	Norrissia setchellii (Kylin) M.S. Balakrishnan
+1954	Nostoc marinum	Nostoc marinum C. Agardh
+1955	Nostoc mesentericum	Nostoc mesentericum C.Agardh
+1956	Notophyllum	Notophyllum (Neuroglossum) andersonianum J. Agardh [msc.]
+1957	Odonthalia aleutica	Odonthalia aleutica (C. Agardh) J. Agardh
+1958	Odonthalia floccosa	Odonthalia floccosa (Esper) Falkenberg
+1959	Odonthalia floccosa f. macracantha	Odonthalia floccosa f. macracantha (K&uuml;tzing) Setchell & N.L. Gardner
+1960	Odonthalia floccosa f. typica	Odonthalia floccosa f. typica Setchell & Gardner
+1961	Odonthalia oregona	Odonthalia oregona Doty
+1962	Odonthalia washingtoniensis	Odonthalia washingtoniensis Kylin
+1963	Olivia ustulata	Olivia ustulata (Turner) Montagne
+1964	Ophidocladus simpliciusculus	Ophidocladus simpliciusculus (P. Crouan & H. Crouan) Falkenberg
+1965	Opospermum fucicola	Opospermum fucicola (Velley) Kuntze
+1966	Opuntiella californica	Opuntiella californica (Farlow) Kylin
+1967	Orgyra marginata	Orgyra marginata (Postels & Ruprecht) Trevisan
+1968	Osmundea blinksii	Osmundea blinksii (G.J. Hollenberg & I.A. Abbott) K.W. Nam
+1969	Osmundea crispa	Osmundea crispa (G.J. Hollenberg) K.W. Nam
+1970	Osmundea sinicola	Osmundea sinicola (Setchell & Gardner) K.W. Nam
+1971	Osmundea spectabilis	Osmundea spectabilis (Postels & Ruprecht) K.W. Nam
+1972	Osmundea spectabilis var. diegoensis	Osmundea spectabilis var. diegoensis (E.Y. Dawson) K.W. Nam
+1973	Osmundea splendens	Osmundea splendens (G.J. Hollenberg) K.W. Nam
+1974	Ozophora californica	Ozophora californica J.Agardh
+1975	Ozophora clevelandii	Ozophora clevelandii (Farlow) Abbott
+1976	Ozophora latifolia	Ozophora latifolia I.A. Abbott
+1977	Pachyarthron californicum	Pachyarthron californicum (Decaisne) C.W. Schneider & M.J. Wynne
+1978	Pachyarthron californicum subsp. schmittii	Pachyarthron californicum subsp. schmittii (Manza) C.W. Schneider & M.J. Wynne
+1979	Pachyarthron chiloense	Pachyarthron chiloense (Decaisne) C.W.Schneider & M.J.Wynne
+1980	Pachyarthron cooperi	Pachyarthron cooperi (E.Y. Dawson & P.C.Silva) C.W. Schneider & M.J. Wynne
+1981	Pachyarthron corymbiferum	Pachyarthron corymbiferum (Manza) C.W.Schneider & M.J.Wynne
+1982	Pachyarthron frondescens	Pachyarthron frondescens (Postels & Ruprecht) C.W. Schneider & M.J. Wynne
+1983	Pachyarthron gardneri	Pachyarthron gardneri (Manza) C.W.Schneider & M.J.Wynne
+1984	Pachyarthron insulare	Pachyarthron insulare (E.Y.Dawson & P.C. Silva) C.W.Schneider & M.J.Wynne
+1985	Pachyarthron interruptum	Pachyarthron interruptum (Manza) C.W.Schneider & M.J.Wynne
+1986	Pachyarthron ligulatum	Pachyarthron ligulatum (E.Y.Dawson) C.W.Schneider & M.J.Wynne
+1987	Pachyarthron orbignianum	Pachyarthron orbignianum (Decaisne) C.W. Schneider & M.J. Wynne
+1988	Pachyarthron orbignianum subsp. dichotomum	Pachyarthron orbignianum subsp. dichotomum (Manza) C.W. Schneider & M.J. Wynne
+1989	Pachyarthron pachycladum	Pachyarthron pachycladum (W.R.Taylor) C.W.Schneider & M.J.Wynne
+1990	Pachyarthron plumosum	Pachyarthron plumosum (Manza) C.W. Schneider & M.J. Wynne
+1991	Pachyarthron sagittatum	Pachyarthron sagittatum (E.Y.Dawson & P.C.Silva) C.W.Schneider & M.J.Wynne
+1992	Pachydictyon binghamiae	Pachydictyon binghamiae (J. Agardh) Dawson
+1993	Pachydictyon coriaceum	Pachydictyon coriaceum (Holmes) Okamura
+1994	Pachymeniopsis lanceolata	Pachymeniopsis lanceolata (Okamura) Yamada ex S. Kawabata
+1995	Palmaria hecatensis	Palmaria hecatensis M. Hawkes
+1996	Palmaria mollis	Palmaria mollis (Setchell & Gardner) van der Meer & Bird
+1997	Palmaria palmata f. mollis	Palmaria palmata f. mollis (Setchell & Gardner) Guiry
+1998	Palmella elminthoides	Palmella elminthoides (Velley) S.F. Gray
+1999	Palmella rubra	Palmella rubra (Sommerfelt) E.M. Fries
+2000	Palmophyllum umbracola	Palmophyllum umbracola W.A. Nelson & K.G. Ryan
+2001	Pelagophycus giganteus	Pelagophycus giganteus (Areschoug) Areschoug
+2002	Pelagophycus intermedius	Pelagophycus intermedius Parker & Bleck
+2003	Pelvetia compressa f. gracilis	Pelvetia compressa f. gracilis (Setchell & Gardner) P.C. Silva
+2004	Pelvetia fastigiata	Pelvetia fastigiata (J. Agardh) De Toni
+2005	Pelvetia fastigiata f. gracilis	Pelvetia fastigiata f. gracilis Setchell & Gardner
+2006	Pelvetia fastigiata f. limitata	Pelvetia fastigiata f. limitata Setchell
+2007	Pelvetiopsis arborescens	Pelvetiopsis arborescens Gardner
+2008	Pelvetiopsis arborescens	Pelvetiopsis arborescens Gardner
+2009	Pelvetiopsis limitata	Pelvetiopsis limitata (Setchell) Gardner
+2010	Pelvetiopsis limitata f. lata	Pelvetiopsis limitata f. lata Gardner
+2011	Pelvetiopsis limitata f. lata	Pelvetiopsis limitata f. lata Gardner
+2012	Pelvetiopsis limitata f. typica	Pelvetiopsis limitata f. typica Gardner
+2013	Percursaria dawsonii	Percursaria dawsonii G.J. Hollenberg & I.A. Abbott
+2014	Percursaria percursa	Percursaria percursa (C. Agardh) Kjellman
+2015	Percursaria percursa	Percursaria percursa (C. Agardh) Rosenvinge
+2016	Petalonia binghamiae	Petalonia binghamiae (J. Agardh) Vinogradova
+2017	Petalonia debilis	Petalonia debilis (K&uuml;tzing) Derb&eacute;s & Solier
+2018	Petalonia fascia	Petalonia fascia (O.F. M&uuml;ller) Kuntze
+2019	Petalonia fascia var. debilis	Petalonia fascia var. debilis (K&uuml;tzing) Hamel
+2020	Petrocelis franciscana	Petrocelis franciscana Setchell & Gardner
+2021	Petrocelis haematis	Petrocelis haematis G.J. Hollenberg
+2022	Petroderma maculiforme	Petroderma maculiforme (Wollny) Kuckuck
+2023	Petroglossum pacificum	Petroglossum pacificum G.J. Hollenberg
+2024	Petroglossum parvum	Petroglossum parvum G.J. Hollenberg
+2025	Petrospongium rugosum	Petrospongium rugosum (Okamura) Setchell & Gardner
+2026	Peyssonellia hairii	Peyssonellia hairii G.J. Hollenberg & I.A. Abbott
+2027	Peyssonellia meridionalis	Peyssonellia meridionalis G.J. Hollenberg & I.A. Abbott
+2028	Peyssonellia profunda	Peyssonellia profunda G.J. Hollenberg & I.A. Abbott
+2029	Peyssonellia rubra var. orientalis	Peyssonellia rubra var. orientalis A. Weber-van Bosse [invalid]
+2030	Peyssonnelia codana	Peyssonnelia codana (Rosenvinge) Denizot
+2031	Peyssonnelia dubyi	Peyssonnelia dubyi P.Crouan & H.Crouan
+2032	Peyssonnelia hairii	Peyssonnelia hairii G.J. Hollenberg & I.A. Abbott
+2033	Peyssonnelia meridionalis	Peyssonnelia meridionalis G.J. Hollenberg & I.A. Abbott
+2034	Peyssonnelia orientalis	Peyssonnelia orientalis (A. Weber-van Bosse) C.-F. Boudouresque & Denizot  (invalid)
+2035	Peyssonnelia orientalis	Peyssonnelia orientalis (A. Weber-van Bosse) M. Cormaci & G. Furnari
+2036	Peyssonnelia pacifica	Peyssonnelia pacifica Kylin
+2037	Peyssonnelia profunda	Peyssonnelia profunda G.J. Hollenberg & I.A. Abbott
+2038	Peyssonnelia rubra f. orientalis	Peyssonnelia rubra f. orientalis A. Weber-van Bosse
+2039	Peyssonnelia rupestris	Peyssonnelia rupestris P.Crouan & H.Crouan
+2040	Peyssonneliopsis epiphytica	Peyssonneliopsis epiphytica W.A. Setchell & G.W. Lawson
+2041	Phaeophila viridis	Phaeophila viridis (Reinke) Burrows
+2042	Phaeosphaerium punctiforme	Phaeosphaerium punctiforme (Lyngbye) Kjellman
+2043	Phaeostrophion irregulare	Phaeostrophion irregulare Setchell & Gardner
+2044	Phasganon marginatum	Phasganon marginatum (Postels & Ruprecht) Ruprecht
+2045	Phloeospora pumila	Phloeospora pumila Kjellman
+2046	Phloeospora tortilis	Phloeospora tortilis (Gobi) Areschoug
+2047	Phrix gregarium	Phrix gregarium (E.Y.Dawson) J.G. Stewart
+2048	Phycocelis aecidioides	Phycocelis aecidioides (Rosenvinge) Kuckuck
+2049	Phycocelis baltica	Phycocelis baltica (Reinke) De Toni
+2050	Phycodendrum sessile	Phycodendrum sessile (C. Agardh) Kuntze
+2051	Phycodendrum sinclairii	Phycodendrum sinclairii (Harvey ex Hooker f. & Harvey) O. Kuntze
+2052	Phycodrys isabellae	Phycodrys isabellae R.E. Norris & M.J. Wynne
+2053	Phycodrys isabelliae	Phycodrys isabelliae R.E. Norris & M.J. Wynne
+2054	Phycodrys ovifolia	Phycodrys ovifolia (Ku*:tzing) Wynne
+2055	Phycodrys profunda	Phycodrys profunda E.Y. Dawson
+2056	Phycodrys setchellii	Phycodrys setchellii Skottsberg
+2057	Phycolapathum cuneatum	Phycolapathum cuneatum K&uuml;tzing
+2058	Phycoseris crispata	Phycoseris crispata (Bertoloni) K&uuml;tzing
+2059	Phycoseris gigantea var. perforata	Phycoseris gigantea var. perforata K&uuml;tzing
+2060	Phycoseris latissima	Phycoseris latissima (Linnaeus) Fraudenfeld
+2061	Phycoseris linza	Phycoseris linza (Linnaeus) K&uuml;tzing
+2062	Phycoseris lobata	Phycoseris lobata Ku*:tzing
+2063	Phycoseris rigida	Phycoseris rigida (C.Agardh) K&uuml;tzing
+2064	Phycoseris ulva	Phycoseris ulva Sonder
+2065	Phyllactidium lens	Phyllactidium lens (P.Crouan & H.Crouan) P.Crouan & H.Crouan
+2066	Phyllitis caespitosa	Phyllitis caespitosa Le Jolis
+2067	Phyllitis debilis	Phyllitis debilis K&uuml;tzing
+2068	Phyllitis fascia	Phyllitis fascia (O.F. M&uuml;ller) K&uuml;tzing
+2069	Phyllitis fascia var. curvata	Phyllitis fascia var. curvata K&uuml;tzing
+2070	Phyllitis fascia var. debilis	Phyllitis fascia var. debilis (C.Agardh) Hauck
+2071	Phyllitis fascia var. latior	Phyllitis fascia var. latior Hariot
+2072	Phyllitis fascia var. tenuissima	Phyllitis fascia var. tenuissima (J.Agardh) Batters
+2073	Phyllona amplissima	Phyllona amplissima (Kjellman) Kuntze
+2074	Phyllona purpurea	Phyllona purpurea (Roth) Wallroth
+2075	Phyllona suborbiculata	Phyllona suborbiculata (Kjellman) Kuntze
+2076	Phyllophora californica	Phyllophora californica (J.Agardh) Kylin
+2077	Phyllophora clevelandii	Phyllophora clevelandii Farlow
+2078	Phyllophora pacifica	Phyllophora pacifica (Hollenberg) Kylin
+2079	Phyllospora menziesii	Phyllospora menziesii (Turner) C. Agardh
+2080	Phyllotylus australis	Phyllotylus australis J. Agardh
+2081	Phymatolithon muricatum	Phymatolithon muricatum Foslie
+2082	Pikea californica	Pikea californica Harvey
+2083	Pikea pinnata	Pikea pinnata Setchell
+2084	Pikea robusta	Pikea robusta I.A. Abbott
+2085	Pikea woodii	Pikea woodii J. Agardh
+2086	Pilaiella tenella	Pilaiella tenella Setchell & N.L.Gardner
+2087	Pilayella gardneri	Pilayella gardneri Collins
+2088	Pilayella littoralis	Pilayella littoralis  (Linnaeus) Kjellman
+2089	Pilinella californica	Pilinella californica Hollenberg
+2090	Platymenia undulata	Platymenia undulata linearis J. Agardh
+2091	Platysiphonia clevelandii	Platysiphonia clevelandii (Farlow) Papenfuss
+2092	Platysiphonia decumbens	Platysiphonia decumbens M.J. Wynne
+2093	Platysiphonia parva	Platysiphonia parva P.C. Silva & Cleary
+2094	Platythamnion heteromorphum	Platythamnion heteromorphum (J. Agardh) J. Agardh
+2095	Platythamnion pectinatum	Platythamnion pectinatum Kylin
+2096	Platythamnion recurvatum	Platythamnion recurvatum Wollaston
+2097	Platythamnion villosum	Platythamnion villosum Kylin
+2098	Pleonosporium abysicola	Pleonosporium abysicola Gardner
+2099	Pleonosporium codicola	Pleonosporium codicola Dawson
+2100	Pleonosporium dasyoides	Pleonosporium dasyoides (J. Agardh) De Toni
+2101	Pleonosporium polycarpum	Pleonosporium polycarpum Gardner
+2102	Pleonosporium squarrosum	Pleonosporium squarrosum Kylin
+2103	Pleonosporium squarrosum var. obovatum	Pleonosporium squarrosum var. obovatum Gardner
+2104	Pleonosporium squarrulosum	Pleonosporium squarrulosum (Harvey) Abbott
+2105	Pleonosporium vancouverianum	Pleonosporium vancouverianum (J. Agardh) Setchell & Gardner
+2106	Plocamiocolax pulvinata	Plocamiocolax pulvinata Setchell
+2107	Plocamiocolax pulvinatus	Plocamiocolax pulvinatus Setchell
+2108	Plocamium cartilagineum	Plocamium cartilagineum (Linnaeus) Dixon
+2109	Plocamium cartilagineum subsp. pacificum	Plocamium cartilagineum subsp. pacificum (Kylin) P.C. Silva
+2110	Plocamium coccineum	Plocamium coccineum Lyngbye
+2111	Plocamium coccineum var. pacificum	Plocamium coccineum var. pacificum (Kylin) Dawson
+2112	Plocamium oregonum	Plocamium oregonum Doty
+2113	Plocamium pacificum	Plocamium pacificum Kylin
+2114	Plocamium violaceum	Plocamium violaceum Farlow
+2115	Plumaria californica	Plumaria californica (Ruprecht ex Harvey) Kuntze
+2116	Plumaria densa	Plumaria densa (C. Agardh) Kuntze
+2117	Plumaria filicina	Plumaria filicina (J. Agardh) Kuntze
+2118	Plumaria hypnoides	Plumaria hypnoides (Harvey) Kuntze
+2119	Pneophyllum nicholsii	Pneophyllum nicholsii (Setchell & L.R. Mason) P.C. Silva & P.W. Gabrielson
+2120	Pogonophora californica	Pogonophora californica J. Agardh
+2121	Pogonophorella californica	Pogonophorella californica (J. Agardh) P. C. Silva
+2122	Pollexfenia anacapensis	Pollexfenia anacapensis E.Y. Dawson & Neushul
+2123	Polycoryne gardneri	Polycoryne gardneri W.A. Setchell
+2124	Polycoryne phycodricola	Polycoryne phycodricola E.Y.Dawson
+2125	Polyneura latissima	Polyneura latissima (Harvey) Kylin
+2126	Polyneurella hancockii	Polyneurella hancockii E.Y. Dawson
+2127	Polyneuropsis stolonifera	Polyneuropsis stolonifera Wynne, McBride & West
+2128	Polyocetum filamentosa	Polyocetum filamentosa (Wulfen) Chevallier
+2129	Polyocetum secundum	Polyocetum secundum (C. Agardh) Chevallier
+2130	Polyochetum brodiei	Polyochetum brodiei (Dillwyn) Chevallier
+2131	Polyopes bushiae	Polyopes bushiae Farlow
+2132	Polyostea bipinnata	Polyostea bipinnata (Postels & Ruprecht) Postels
+2133	Polyostea brodiei	Polyostea brodiei (Dillwyn) Ruprecht
+2134	Polyporolithon conchatum	Polyporolithon conchatum (Setchell & Foslie) Mason
+2135	Polyporolithon parcum	Polyporolithon parcum (Setchell & Foslie) L.R. Mason
+2136	Polyporolithon reclinatum	Polyporolithon reclinatum (Foslie) Mason
+2137	Polysiphonia acuminata	Polysiphonia acuminata N.L. Gardner
+2138	Polysiphonia baileyi	Polysiphonia baileyi (Harvey) J. Agardh
+2139	Polysiphonia bajacali	Polysiphonia bajacali G.J. Hollenberg
+2140	Polysiphonia bipinnata	Polysiphonia bipinnata Postels & Ruprecht
+2141	Polysiphonia brodiaei	Polysiphonia brodiaei (Dillwyn) Sprengel
+2142	Polysiphonia brodiei	Polysiphonia brodiei (Dillwyn) Sprengel
+2143	Polysiphonia californica	Polysiphonia californica Harvey
+2144	Polysiphonia carettia	Polysiphonia carettia G.J. Hollenberg
+2145	Polysiphonia collinsii var. compacta	Polysiphonia collinsii var. compacta G.J. Hollenberg
+2146	Polysiphonia collinsii var. deliquescens	Polysiphonia collinsii var. deliquescens G.J. Hollenberg
+2147	Polysiphonia concinna	Polysiphonia concinna G.J. Hollenberg
+2148	Polysiphonia confusa	Polysiphonia confusa Hollenberg
+2149	Polysiphonia decussata	Polysiphonia decussata G.J. Hollenberg
+2150	Polysiphonia dendroidea	Polysiphonia dendroidea Montagne
+2151	Polysiphonia denudata	Polysiphonia denudata (Dillwyn) Greville
+2152	Polysiphonia dichotoma	Polysiphonia dichotoma G.J. Hollenberg (illegitimate)
+2153	Polysiphonia dictyurus var. clevelandii	Polysiphonia dictyurus var. clevelandii Farlow
+2154	Polysiphonia filamentosa	Polysiphonia filamentosa (Wulfen) Sprengel
+2155	Polysiphonia flaccidissima	Polysiphonia flaccidissima G.J. Hollenberg
+2156	Polysiphonia flaccidissima var. smithii	Polysiphonia flaccidissima var. smithii G.J. Hollenberg
+2157	Polysiphonia gardneri	Polysiphonia gardneri Kylin
+2158	Polysiphonia harveyi	Polysiphonia harveyi J.W. Bailey
+2159	Polysiphonia hendryi	Polysiphonia hendryi N.L. Gardner
+2160	Polysiphonia hendryi var. compacta	Polysiphonia hendryi var. compacta (G.J. Hollenberg) G.J. Hollenberg
+2161	Polysiphonia hendryi var. deliquescens	Polysiphonia hendryi var. deliquescens (G.J. Hollenberg) G.J. Hollenberg
+2162	Polysiphonia hendryi var. gardneri	Polysiphonia hendryi var. gardneri (Kylin) Hollenberg
+2163	Polysiphonia hillebrandii	Polysiphonia hillebrandii Bornet
+2164	Polysiphonia indigena	Polysiphonia indigena G.J. Hollenberg
+2165	Polysiphonia japonica var. savatieri	Polysiphonia japonica var. savatieri (Hariot) H.Y. Yoon
+2166	Polysiphonia japonica var. savatieri	Polysiphonia japonica var. savatieri (Hariot) Yoon
+2167	Polysiphonia johnstonii	Polysiphonia johnstonii Setchell & N.L. Gardner
+2168	Polysiphonia johnstonii var. concinna	Polysiphonia johnstonii var. concinna (G.J. Hollenberg) G.J. Hollenberg
+2169	Polysiphonia mollis	Polysiphonia mollis J. Hooker & Harvey
+2170	Polysiphonia nathanielii	Polysiphonia nathanielii G.J. Hollenberg
+2171	Polysiphonia pacifica	Polysiphonia pacifica G.J. Hollenberg
+2172	Polysiphonia pacifica var. delicatula	Polysiphonia pacifica var. delicatula G.J. Hollenberg
+2173	Polysiphonia pacifica var. determinata	Polysiphonia pacifica var. determinata G.J. Hollenberg
+2174	Polysiphonia pacifica var. distans	Polysiphonia pacifica var. distans G.J. Hollenberg
+2175	Polysiphonia pacifica var. disticha	Polysiphonia pacifica var. disticha G.J. Hollenberg
+2176	Polysiphonia pacifica var. gracilis	Polysiphonia pacifica var. gracilis G.J. Hollenberg
+2177	Polysiphonia paniculata	Polysiphonia paniculata Montagne
+2178	Polysiphonia parasitica f. dendroidea	Polysiphonia parasitica f. dendroidea (Montagne) J. Agardh
+2179	Polysiphonia plumula	Polysiphonia plumula J. Agardh
+2180	Polysiphonia rufolanosa	Polysiphonia rufolanosa Harvey
+2181	Polysiphonia savatieri	Polysiphonia savatieri Hariot
+2182	Polysiphonia savatieri	Polysiphonia savatieri Hariot
+2183	Polysiphonia scopulorum var. villum	Polysiphonia scopulorum var. villum (J. Agardh) Hollenberg
+2184	Polysiphonia secunda	Polysiphonia secunda (C. Agardh) Zanardini
+2185	Polysiphonia simplex	Polysiphonia simplex G.J. Hollenberg
+2186	Polysiphonia simpliciuscula	Polysiphonia simpliciuscula P. Crouan & H. Crouan
+2187	Polysiphonia vagabunda	Polysiphonia vagabunda Harvey
+2188	Polysiphonia verticillata	Polysiphonia verticillata Harvey
+2189	Polysiphonia villum	Polysiphonia villum J. Agardh
+2190	Polysiphonia woodii	Polysiphonia woodii Harvey
+2191	Porphyra amethystea	Porphyra amethystea K&uuml;tzing
+2192	Porphyra amplissima	Porphyra amplissima (Kjellman) Setchell & Hus
+2193	Porphyra boryana	Porphyra boryana Montagne
+2194	Porphyra ceramicola	Porphyra ceramicola (Lyngbye) P.Crouan & H.Crouan
+2195	Porphyra elegans	Porphyra elegans (Chauvin) P.Crouan & H.Crouan
+2196	Porphyra gardneri	Porphyra gardneri (G.M. Smith & G.J. Hollenberg) M.W. Hawkes
+2197	Porphyra hiberna	Porphyra hiberna S.C. Lindstrom & K.M. Cole
+2198	Porphyra hollenbergii	Porphyra hollenbergii E.Y. Dawson
+2199	Porphyra kanakaensis	Porphyra kanakaensis T.F. Mumford
+2200	Porphyra lanceolata	Porphyra lanceolata (Setchell & Hus) G.M. Smith
+2201	Porphyra leucosticta f. suborbiculata	Porphyra leucosticta f. suborbiculata (Kjellman) Yendo
+2202	Porphyra miniata	Porphyra miniata (C. Agardh) C. Agardh
+2203	Porphyra miniata var. amplissima	Porphyra miniata var. amplissima (Kjellman) Rosenvinge
+2204	Porphyra mumfordii	Porphyra mumfordii S.C. Lindstrom & K.M. Cole
+2205	Porphyra naiadum	Porphyra naiadum C.L. Anderson
+2206	Porphyra nereocystis	Porphyra nereocystis C.L. Anderson
+2207	Porphyra occidentalis	Porphyra occidentalis Setchell & Hus
+2208	Porphyra papenfussii	Porphyra papenfussii V. Krishnamurthy
+2209	Porphyra perforata f. lanceolata	Porphyra perforata f. lanceolata Setchell & Hus
+2210	Porphyra perforata	Porphyra perforata J. Agardh
+2211	Porphyra pseudolanceolata	Porphyra pseudolanceolata V. Krishnamurthy
+2212	Porphyra pulchra	Porphyra pulchra G.J. Hollenberg
+2213	Porphyra purpurea	Porphyra purpurea (Roth) C. Agardh
+2214	Porphyra purpureo-violacea	Porphyra purpureo-violacea (Roth) V. Krishnamurthy
+2215	Porphyra rediviva	Porphyra rediviva J.W. Stiller & J.R. Waaland
+2216	Porphyra schizophylla	Porphyra schizophylla G.J. Hollenberg
+2217	Porphyra smithii	Porphyra smithii G.J. Hollenberg & I.A. Abbott
+2218	Porphyra suborbiculata	Porphyra suborbiculata Kjellman
+2219	Porphyra thuretii	Porphyra thuretii Setchell & E.Y. Dawson
+2220	Porphyra umbilicalis f. purpurea	Porphyra umbilicalis f. purpurea (Roth) Jadin
+2221	Porphyra umbilicalis subsp. purpurea	Porphyra umbilicalis subsp. purpurea (Roth) J. Agardh
+2222	Porphyra vulgaris	Porphyra vulgaris C. Agardh
+2223	Porphyrella californica	Porphyrella californica G.J. Hollenberg
+2224	Porphyrella gardneri	Porphyrella gardneri G.M. Smith & G.J. Hollenberg
+2225	Porphyropsis coccinea var. dawsonii	Porphyropsis coccinea var. dawsonii G.J. Hollenberg & I.A. Abbott
+2226	Porphyrostromium boryanum	Porphyrostromium boryanum (Montagne) P.C. Silva
+2227	Porphyrostromium pulvinatum	Porphyrostromium pulvinatum (N.L.Gardner) J.A.West & Zuccarello
+2228	Prasinocladus ascus	Prasinocladus ascus J. Proskauer
+2229	Prasinocladus marinus	Prasinocladus marinus (Cienkowski) Waern
+2230	Prasiola crispa f. radicans	Prasiola crispa f. radicans (Ku*:tzing) Brand
+2231	Predaea masonii	Predaea masonii (Setchell & Gardner) De Toni f.
+2232	Prionitis andersoniana	Prionitis andersoniana Eaton
+2233	Prionitis angusta	Prionitis angusta (Harvey) Okamura
+2234	Prionitis angusta	Prionitis angusta (Harvey) Setchell  (illeg.)
+2235	Prionitis australis	Prionitis australis (J. Agardh) J. Agardh
+2236	Prionitis cornea	Prionitis cornea  (Okamura) E.Y. Dawson
+2237	Prionitis cornea	Prionitis cornea (Okamura) E.Y. Dawson
+2238	Prionitis filiformis	Prionitis filiformis Kylin
+2239	Prionitis jubata	Prionitis jubata J. Agardh
+2240	Prionitis lanceolata	Prionitis lanceolata (Harvey) Harvey
+2241	Prionitis lanceolata var. angusta	Prionitis lanceolata var. angusta Harvey
+2242	Prionitis linearis	Prionitis linearis Kylin
+2243	Prionitis lyalii	Prionitis lyalii Harvey
+2244	Prionitis lyallii	Prionitis lyallii Harvey
+2245	Prionitis lyallii var. densissima	Prionitis lyallii var. densissima Harvey
+2246	Prionitis lyallii var. depauperata	Prionitis lyallii var. depauperata Harvey
+2247	Prionitis lyallii var. dilatata	Prionitis lyallii var. dilatata Harvey
+2248	Prionitis lyallii var. lanceolata	Prionitis lyallii var. lanceolata Harvey
+2249	Prionitis lyallii var. normalis	Prionitis lyallii var. normalis Harvey
+2250	Prionitis lyallii var. ornata	Prionitis lyallii var. ornata Harvey
+2251	Prionitis simplex	Prionitis simplex G.J. Hollenberg & I.A. Abbott
+2252	Prionitis sternbergii	Prionitis sternbergii (C. Agardh) J. Agardh
+2253	Prionitis vizcainensis	Prionitis vizcainensis (E.Y.Dawson) E.Y.Dawson, Neushul & WIldman
+2254	Psammophyllum californicum	Psammophyllum californicum (J. Agardh) P.C. Silva & Moe  (inval.)
+2255	Pseudodictyon geniculatum	Pseudodictyon geniculatum N.L. Gardner
+2256	Pseudogloiophloea confusa	Pseudogloiophloea confusa (Setchell) Levring
+2257	Pseudolithophyllum decipiens	Pseudolithophyllum decipiens (Foslie) R.S. Steneck & R.T. Paine
+2258	Pseudolithophyllum grumosum	Pseudolithophyllum grumosum (Foslie) Lemoine
+2259	Pseudolithophyllum muricatum	Pseudolithophyllum muricatum (Foslie) R.S. Steneck & R.T. Paine
+2260	Pseudolithophyllum neofarlowii	Pseudolithophyllum neofarlowii (Setchell & Mason) W.H. Adey (illegitimate)
+2261	Pseudopringsheimia apiculata	Pseudopringsheimia apiculata Setchell & Gardner
+2262	Pseudoscinaia snyderae	Pseudoscinaia snyderae Setchell
+2263	Pseudulvella applanata	Pseudulvella applanata Setchell & N.L.Gardner
+2264	Pseudulvella consociata	Pseudulvella consociata Setchell & Gardner
+2265	Pseudulvella prostrata	Pseudulvella prostrata (Gardner) Setchell & Gardner
+2266	Pteridium serratum f. platyphyllum	Pteridium serratum f. platyphyllum Setchell & Gardner
+2267	Pterigospermum dubyi	Pterigospermum dubyi (P. Crouan & H. Crouan) Kuntze
+2268	Pterochondria pygmaea	Pterochondria pygmaea (Setchell) Hollenberg
+2269	Pterochondria woodii	Pterochondria woodii (Harvey) G.J. Hollenberg
+2270	Pterochondria woodii var. pygmaea	Pterochondria woodii var. pygmaea (Setchell) Dawson
+2271	Pterocladia caloglossoides	Pterocladia caloglossoides (Howe) E.Y. Dawson
+2272	Pterocladia capillacea	Pterocladia capillacea (S.G. Gmelin) Bornet
+2273	Pterocladia complanata	Pterocladia complanata N.H. Loomis
+2274	Pterocladia densa	Pterocladia densa Okamura
+2275	Pterocladia lindaueri	Pterocladia lindaueri K.C. Fan
+2276	Pterocladiella luxurians	Pterocladiella luxurians (Collins) G.H.Boo & K.A.Miller
+2277	Pterocladia media	Pterocladia media E.Y. Dawson
+2278	Pterocladia mexicana	Pterocladia mexicana W.R. Taylor
+2279	Pterocladia okamurae	Pterocladia okamurae (Setchell & N.L. Gardner) W.R. Taylor
+2280	Pterocladia pinnata	Pterocladia pinnata (Hudson) Papenfuss
+2281	Pterocladia pyramidalis	Pterocladia pyramidalis (N.L. Gardner) E.Y. Dawson
+2282	Pterocladia robusta	Pterocladia robusta W.R.Taylor
+2283	Pterocladiella caloglossoides	Pterocladiella caloglossoides (Howe) B. Santelices
+2284	Pterocladiella capillacea	Pterocladiella capillacea (S.G. Gmelin) B. Santelices & M.H. Hommersand
+2285	Pterosiphonia baileyi	Pterosiphonia baileyi (Harvey) Falkenberg
+2286	Pterosiphonia bipinnata	Pterosiphonia bipinnata (Postels & Ruprecht) Falkenberg
+2287	Pterosiphonia californica	Pterosiphonia californica Kylin
+2288	Pterosiphonia clevelandii	Pterosiphonia clevelandii G.J. Hollenberg  (invalid)
+2289	Pterosiphonia dendroidea	Pterosiphonia dendroidea (Montagne) Falkenberg
+2290	Pterosiphonia farlowii	Pterosiphonia farlowii G.J. Hollenberg
+2291	Pterosiphonia parasitica var. dendroidea	Pterosiphonia parasitica var. dendroidea (Montagne) Collins, Holden, & Setchell
+2292	Pterosiphonia pennata	Pterosiphonia pennata (C. Agardh) P. Falkenberg
+2293	Pterosiphonia plumula	Pterosiphonia plumula (J. Agardh) Collins
+2294	Pterosiphonia pygmaea	Pterosiphonia pygmaea (Setchell) Kylin
+2295	Pterosiphonia tanakae	Pterosiphonia tanakae Uwai & Masuda
+2296	Pterosiphonia woodii	Pterosiphonia woodii (Harvey) Falkenberg
+2297	Pterosiphonia woodii f. pygmaea	Pterosiphonia woodii f. pygmaea Setchell
+2298	Pterota californica	Pterota californica (Ruprecht ex Harvey) Cramer
+2299	Pterota densa	Pterota densa (C. Agardh) Cramer
+2300	Pterothamnion heteromorphum	Pterothamnion heteromorphum (J. Agardh) A. Athanasiadis & G.T. Kraft
+2301	Pterothamnion pectinatum	Pterothamnion pectinatum (Kylin) A. Athanasiadis & G.T. Kraft
+2302	Pterothamnion plumula	Pterothamnion plumula (J. Agardh) Collins  (err. cit.)
+2303	Pterothamnion recurvatum	Pterothamnion recurvatum (Wollaston) A. Athanasiadis & G.T. Kraft
+2304	Pterothamnion villosum	Pterothamnion villosum (Kylin) A. Athanasiadis & G.T. Kraft
+2305	Ptilota californica	Ptilota californica Ruprecht ex Harvey
+2306	Ptilota densa	Ptilota densa C. Agardh
+2307	Ptilota filicina	Ptilota filicina J. Agardh
+2308	Ptilota hypnoides	Ptilota hypnoides Harvey in Hooker & Arnott
+2309	Ptilota pectinata	Ptilota pectinata Harvey
+2310	Ptilothamnion codicola	Ptilothamnion codicola (Dawson) Abbott
+2311	Ptilothamnionopsis lejolisea	Ptilothamnionopsis lejolisea (Farlow) P. Dixon
+2312	Pugetia firma	Pugetia firma Kylin
+2313	Pugetia fragilissima	Pugetia fragilissima Kylin
+2314	Pulvinia epiphytica	Pulvinia epiphytica G.J. Hollenberg
+2315	Punctaria caespitosa	Punctaria caespitosa J.Agardh
+2316	Punctaria debilis	Punctaria debilis (K&uuml;tzing) Trevisan
+2317	Punctaria fascia	Punctaria fascia (O.F. M&uuml;ller) Trevisan
+2318	Punctaria hesperia	Punctaria hesperia Setchell & N.L.Gardner
+2319	Punctaria occidentalis	Punctaria occidentalis Setchell & N.L.Gardner
+2320	Punctaria winstonii	Punctaria winstonii C. L.Anderson
+2321	Punctaria winstonii	Punctaria winstonii C.L. Anderson
+2322	Pylaiella gardneri	Pylaiella gardneri Collins
+2323	Pylaiella littoralis	Pylaiella littoralis  (Linnaeus) Kjellman
+2324	Pylaiella tenella	Pylaiella tenella Setchell & N.L.Gardner
+2325	Pyropia bajacaliforniensis	Pyropia bajacaliforniensis L.E. Aguilar Rosas & J.R. Hughey
+2326	Pyropia columbiensis	Pyropia columbiensis S.C. Lindstrom
+2327	Pyropia conwayae	Pyropia conwayae (S.C.Lindstrom & K.M.Cole) S.C.Lindstrom
+2328	Pyropia gardneri	Pyropia gardneri (G.M. Smith & G.J. Hollenberg) S.C. Lindstrom
+2329	Pyropia hiberna	Pyropia hiberna (S.C.Lindstrom & K.M.Cole) S.C.Lindstrom
+2330	Pyropia hollenbergii	Pyropia hollenbergii (E.Y. Dawson) J.E. Sutherland, L.E. Aguilar-Rosas & R. Aguilar-Rosas
+2331	Pyropia kanakaensis	Pyropia kanakaensis (T.F. Mumford) S.C. Lindstrom
+2332	Pyropia lanceolata	Pyropia lanceolata (Setchell & Hus) S.C. Lindstrom
+2333	Pyropia montereyensis	Pyropia montereyensis S.C. Lindstrom & J.R. Hughey
+2334	Pyropia nereocystis	Pyropia nereocystis (C.L. Anderson) S.C. Lindstrom
+2335	Pyropia nitida	Pyropia nitida L.K. Harden, K.M. Morales, & J.R. Hughey
+2336	Pyropia perforata	Pyropia perforata (J. Agardh) S.C. Lindstrom
+2337	Pyropia protolanceolata	Pyropia protolanceolata S.C. Lindstrom & J.R. Hughey
+2338	Pyropia pseudolanceolata	Pyropia pseudolanceolata (V. Krishnamurthy) S.C. Lindstrom
+2339	Pyropia pulchra	Pyropia pulchra (G.J. Hollenberg) S.C. Lindstrom & J.R. Hughey
+2340	Pyropia smithii	Pyropia smithii (G.J. Hollenberg & I.A. Abbott) S.C. Lindstrom
+2341	Pyropia suborbiculata	Pyropia suborbiculata (Kjellman) J.E. Sutherland, H.G. Choi, M.S. Hwang & W.A. Nelson
+2342	Pyropia thuretii	Pyropia thuretii (Setchell & E.Y. Dawson) J.E. Sutherland, L.E. Aguilar-Rosas & R. Aguilar-Rosas
+2343	Ralfsia californica	Ralfsia californica Setchell & N.L.Gardner
+2344	Ralfsia confusa	Ralfsia confusa G.J. Hollenberg
+2345	Ralfsia deusta	Ralfsia deusta (C.Agardh) Berkeley
+2346	Ralfsia fungiformis	Ralfsia fungiformis (Gunnerus) Setchell & N.L. Gardner
+2347	Ralfsia hesperia	Ralfsia hesperia Setchell & N.L. Gardner
+2348	Ralfsia integra	Ralfsia integra G.J. Hollenberg
+2349	Ralfsia occidentalis	Ralfsia occidentalis Hollenberg
+2350	Ralfsia pacifica	Ralfsia pacifica G.J. Hollenberg
+2351	Renfrewia ephemera	Renfrewia ephemera (Setchell) Griggs
+2352	Renfrewia parvula	Renfrewia parvula Griggs
+2353	Reticulobotrys catalinae	Reticulobotrys catalinae E.Y. Dawson
+2354	Rhabdonia baileyi	Rhabdonia baileyi Harvey
+2355	Rhabdonia coulteri	Rhabdonia coulteri (Harvey) Harvey
+2356	Rhizoclonium flaccum	Rhizoclonium flaccum (Dillwyn) J.E. Gray
+2357	Rhizoclonium hieroglyphicum var. tortuosum	Rhizoclonium hieroglyphicum var. tortuosum (Dillwyn) Stockmayer
+2358	Rhizoclonium implexum	Rhizoclonium implexum (Dillwyn) Ku*:tzing
+2359	Rhizoclonium kerneri	Rhizoclonium kerneri Stockmayer
+2360	Rhizoclonium lubricum	Rhizoclonium lubricum Setchell & Gardner
+2361	Rhizoclonium riparium var. implexum	Rhizoclonium riparium var. implexum (Dillwyn) Rosenvinge
+2362	Rhizoclonium salinum	Rhizoclonium salinum K&uuml;tzing
+2363	Rhizoclonium tortuosum	Rhizoclonium tortuosum (Dillwyn) Ku*:tzing
+2364	Rhodochorton amphiroae	Rhodochorton amphiroae K.M. Drew
+2365	Rhodochorton angustum	Rhodochorton angustum K.M. Drew
+2366	Rhodochorton arcuatum	Rhodochorton arcuatum K.M. Drew
+2367	Rhodochorton catenulatum	Rhodochorton catenulatum (Howe) Nakamura
+2368	Rhodochorton coccineum	Rhodochorton coccineum K.M. Drew
+2369	Rhodochorton concrescens	Rhodochorton concrescens K.M. Drew
+2370	Rhodochorton daviesii	Rhodochorton daviesii (Dillwyn) K.M. Drew
+2371	Rhodochorton desmarestiae	Rhodochorton desmarestiae (Kylin) K.M. Drew
+2372	Rhodochorton gymnogongri	Rhodochorton gymnogongri K.M. Drew
+2373	Rhodochorton hirsutum	Rhodochorton hirsutum K.M.Drew
+2374	Rhodochorton macounii	Rhodochorton macounii (Collins) K.M. Drew
+2375	Rhodochorton magnificum	Rhodochorton magnificum Drew
+2376	Rhodochorton microscopicum	Rhodochorton microscopicum (Na*:geli ex Ku*:tzing) K.M. Drew
+2377	Rhodochorton pacificum	Rhodochorton pacificum (Kylin) Drew
+2378	Rhodochorton pectinatum	Rhodochorton pectinatum (Kylin) Rosenvinge
+2379	Rhodochorton plumosum	Rhodochorton plumosum K.M. Drew
+2380	Rhodochorton porphyrae	Rhodochorton porphyrae K.M. Drew
+2381	Rhodochorton purpureum	Rhodochorton purpureum (Lightf.) Rosenvinge
+2382	Rhodochorton rhizoideum	Rhodochorton rhizoideum K.M. Drew
+2383	Rhodochorton subimmersum	Rhodochorton subimmersum Setchell & N.L. Gardner
+2384	Rhodochorton tenuissimum	Rhodochorton tenuissimum (Collins) Drew
+2385	Rhodochorton thuretii	Rhodochorton thuretii (Bornet) K.M.Drew
+2386	Rhodochorton thuretii var. agama	Rhodochorton thuretii var. agama (Rosenvinge) K.M.Drew
+2387	Rhodochorton vagum	Rhodochorton vagum K.M.Drew
+2388	Rhodochorton variabile	Rhodochorton variabile K.M. Drew
+2389	Rhododermis elegans f. polystromatica	Rhododermis elegans f. polystromatica Batters
+2390	Rhododermis elegans	Rhododermis elegans P.Crouan & H.Crouan ex J.Agardh
+2391	Rhododermis parasitica	Rhododermis parasitica Batters
+2392	Rhododermis polystromatica	Rhododermis polystromatica (Batters) Batters
+2393	Rhododiscus carmelita	Rhododiscus carmelita G.J. Hollenberg & I.A. Abbott
+2394	Rhododrewia porphyrae	Rhododrewia porphyrae (K.M. Drew) S.L. Clayden & G.W. Saunders
+2395	Rhodoglossum affine	Rhodoglossum affine (Harvey) Kylin
+2396	Rhodoglossum californicum	Rhodoglossum californicum (De Toni f.) Abbott
+2397	Rhodoglossum coriaceum	Rhodoglossum coriaceum E.Y. Dawson
+2398	Rhodoglossum linguiforme	Rhodoglossum linguiforme E.Y.Dawson
+2399	Rhodoglossum owensiae	Rhodoglossum owensiae Hollenberg & Abbott
+2400	Rhodoglossum parvum	Rhodoglossum parvum G.M. Smith & Hollenberg
+2401	Rhodoglossum roseum	Rhodoglossum roseum (Kylin) G.M. Smith
+2402	Rhodomela aleutica	Rhodomela aleutica C. Agardh
+2403	Rhodomela floccosa	Rhodomela floccosa (Esper) C. Agardh
+2404	Rhodomela larix	Rhodomela larix (Turner) C. Agardh
+2405	Rhodonematella subimmersa	Rhodonematella subimmersa (Setchell & N.L. Gardner) S. Clayden & G.W. Saunders
+2406	Rhodophysema elegans	Rhodophysema elegans (Crouan frat. ex J. Agardh) Dixon
+2407	Rhodophysema elegans	Rhodophysema elegans (P.L. & H.M. Crouan) Batters
+2408	Rhodophysema elegans var. polystromatica	Rhodophysema elegans var. polystromatica (Batters) P.S.Dixon
+2409	Rhodophysema minus	Rhodophysema minus Hollenberg & Abbott
+2410	Rhodophysema odonthaliae	Rhodophysema odonthaliae Masuda & M.Ohta
+2411	Rhodoptilum densum	Rhodoptilum densum (G.M.Smith) E.Y.Dawson
+2412	Rhodoptilum plumosum	Rhodoptilum plumosum (Harvey & Bailey) Kylin
+2413	Rhodothamniella rhizoidea	Rhodothamniella rhizoidea (K.M. Drew) C. Bidoux & F. Magne  (invalid)
+2414	Rhodymenia arborescens	Rhodymenia arborescens Dawson
+2415	Rhodymenia attenuata	Rhodymenia attenuata Dawson
+2416	Rhodymenia californica	Rhodymenia californica Kylin
+2417	Rhodymenia californica var. attenuata	Rhodymenia californica var. attenuata (Dawson) Dawson
+2418	Rhodymenia callophyllidoides	Rhodymenia callophyllidoides Hollenberg & Abbott
+2419	Rhodymenia ciliata var. microphylla	Rhodymenia ciliata var. microphylla Harvey
+2420	Rhodymenia gardneri	Rhodymenia gardneri (Setchell) Kylin
+2421	Rhodymenia hancockii	Rhodymenia hancockii E.Y. Dawson
+2422	Rhodymenia lobata	Rhodymenia lobata Dawson
+2423	Rhodymenia pacifica	Rhodymenia pacifica Kylin
+2424	Rhodymenia palmata f. mollis	Rhodymenia palmata f. mollis Setchell & Gardner
+2425	Rhodymenia palmata f. mollis	Rhodymenia palmata f. mollis Setchell & Gardner
+2426	Rhodymenia palmata var. mollis	Rhodymenia palmata var. mollis Setchell & N.L. Gardner
+2427	Rhodymenia rhizoides	Rhodymenia rhizoides Dawson
+2428	Rhodymenia sympodiophyllum	Rhodymenia sympodiophyllum E.Y. Dawson & Neushul
+2429	Rhodymeniocolax botryoidea	Rhodymeniocolax botryoidea Setchell
+2430	Rhodymeniocolax botryoideus	Rhodymeniocolax botryoideus Setchell
+2431	Ricardia montagnei var. gigantea	Ricardia montagnei var. gigantea Farlow
+2432	Ricardia saccata	Ricardia saccata (J. Agardh) Kylin
+2433	Rivularia rubra	Rivularia rubra (Hudson) Wahlenberg
+2434	Rivularia tuberiformis	Rivularia tuberiformis Smith
+2435	Rosenvingea antillarum	Rosenvingea antillarum (P. Crouan & H. Crouan) M.J. Wynne
+2436	Rosenvingea floridana	Rosenvingea floridana (W.R. Taylor) W.R. Taylor
+2437	Rosenvingiella constricta	Rosenvingiella constricta (Setchell & Gardner) P.C. Silva
+2438	Rytiphlaea baileyi	Rytiphlaea baileyi Harvey
+2439	Saccharina caespitosa	Saccharina caespitosa (J.Agardh) Kuntze
+2440	Saccharina fascia	Saccharina fascia (O.F. M&uuml;ller) Kuntze
+2441	Saccharina groenlandica	Saccharina groenlandica (Rosenvinge) C.E.Lane, C.Mayes, Druehl & G.W.Saunders
+2442	Saccharina latissima	Saccharina latissima C.E. Lane, C. Mayes, L.D. Druehl, & G.W. Saunders
+2443	Sahlingia subintegra	Sahlingia subintegra (Rosenvinge) P. Kornmann
+2444	Salishia firma	Salishia firma (Kylin) B.E. Clarkston & G.W. Saunders
+2445	Sarcodiotheca furcata	Sarcodiotheca furcata (Setchell & Gardner) Kylin
+2446	Sarcodiotheca gaudichaudii	Sarcodiotheca gaudichaudii (Montagne) P. Gabrielson
+2447	Sarcophyllis californica f. pygmaea	Sarcophyllis californica f. pygmaea Setchell
+2448	Sarcophyllis californica	Sarcophyllis californica J. Agardh
+2449	Sarcophyllis pygmaea	Sarcophyllis pygmaea (Setchell) Setchell
+2450	Sargassum agardhianum	Sargassum agardhianum Farlow
+2451	Sargassum filicinum	Sargassum filicinum Harvey
+2452	Sargassum horneri	Sargassum horneri (Turner) C. Agardh
+2453	Sargassum horneri f. furcatodentatum	Sargassum horneri f. furcatodentatum Kuntze
+2454	Sargassum horneri var. densum	Sargassum horneri var. densum C.Agardh
+2455	Sargassum horneri var. spathulatum	Sargassum horneri var. spathulatum (J.Agardh) Okamura
+2456	Sargassum kjellmanianum f. muticum	Sargassum kjellmanianum f. muticum (`muticus') Yendo
+2457	Sargassum muticum	Sargassum muticum (Yendo) Fensholt
+2458	Sargassum palmeri	Sargassum palmeri Grunow
+2459	Sargassum spathulatum	Sargassum spathulatum J.Agardh
+2460	Scagelia corallina var. occidentalis	Scagelia corallina var. occidentalis (Kylin) Hansen & Scagel
+2461	Scagelia occidentalis	Scagelia occidentalis (Kylin) Wollaston
+2462	Schimmelmannia plumosa	Schimmelmannia plumosa (Setchell) I.A. Abbott
+2463	Schizogonium julianum	Schizogonium julianum Meneghini ex De Toni (illeg.)
+2464	Schizogonium percursum	Schizogonium percursum (C. Agardh) Ku*:tzing
+2465	Schizogonium radicans	Schizogonium radicans (Ku*:tzing) F. Gay
+2466	Schizogonium tortum var. percursum	Schizogonium tortum var. percursum (C. Agardh) Rabenhorst
+2467	Schizomeris constricta	Schizomeris constricta (Setchell & Gardner) Beger & Knebel
+2468	Schizymenia coccinea	Schizymenia coccinea Harvey
+2469	Schizymenia dawsonii	Schizymenia dawsonii I.A. Abbott
+2470	Schizymenia dubyi	Schizymenia dubyi (Chauvin ex Duby) J. Agardh
+2471	Schizymenia epiphytica	Schizymenia epiphytica (W.A. Setchell & G.W. Lawson) G.M. Smith & Hollenberg
+2472	Schizymenia minor	Schizymenia minor (J.Agardh) J.Agardh
+2473	Schizymenia pacifica	Schizymenia pacifica (Kylin) Kylin
+2474	Schizymenia undulata	Schizymenia undulata J.Agardh
+2475	Sciadophycus stellatus	Sciadophycus stellatus E.Y. Dawson
+2476	Scinaia articulata	Scinaia articulata Setchell
+2477	Scinaia confusa	Scinaia confusa (Setchell) Huisman
+2478	Scinaia johnstoniae	Scinaia johnstoniae Setchell
+2479	Scinaia snyderae	Scinaia snyderae (Setchell) Huisman
+2480	Scutarius ciliolatus	Scutarius ciliolatus (Harvey) Kuntze
+2481	Scutarius ciliolatus	Scutarius ciliolatus (Harvey) Kuntze
+2482	Scutarius latissimus	Scutarius latissimus (Harvey) Kuntze
+2483	Scutarius ruprechtianus	Scutarius ruprechtianus (J. Agardh) Kuntze
+2484	Scytosiphon bullosus	Scytosiphon bullosus D.A. Saunders
+2485	Scytosiphon canaliculatus	Scytosiphon canaliculatus (Setchell & Gardner) K. Kogame
+2486	Scytosiphon clathratus	Scytosiphon clathratus (Roth) Lyngbye
+2487	Scytosiphon clathratus var. uncinatus	Scytosiphon clathratus var. uncinatus Lyngbye
+2488	Scytosiphon compressus	Scytosiphon compressus (Linnaeus) Lyngbye
+2489	Scytosiphon compressus var. confervoideus	Scytosiphon compressus var. confervoideus Lyngbye
+2490	Scytosiphon dotyi	Scytosiphon dotyi Wynne
+2491	Scytosiphon fascia	Scytosiphon fascia (O.F. M&uuml;ller) P.Crouan & H.Crouan
+2492	Scytosiphon filum var. lomentaria	Scytosiphon filum var. lomentaria (Lyngbye) C. Agardh
+2493	Scytosiphon gracilis	Scytosiphon gracilis Kogame
+2494	Scytosiphon intestinalis	Scytosiphon intestinalis (Linnaeus) Lyngbye
+2495	Scytosiphon intestinalis var. nematodes	Scytosiphon intestinalis var. nematodes Wallroth
+2496	Scytosiphon intestinalis var. plynthodes	Scytosiphon intestinalis var. plynthodes Wallroth
+2497	Scytosiphon lomentaria	Scytosiphon lomentaria (Lyngbye) Link
+2498	Scytosiphon percursus	Scytosiphon percursus (C. Agardh) Wallroth
+2499	Scytosiphon simplicissimus	Scytosiphon simplicissimus ('simplicissima') (Clemente) J. Cremades
+2500	Scytosiphon tortilis	Scytosiphon tortilis Ruprecht
+2501	Sebdenia dawsonii	Sebdenia dawsonii (I.A. Abbott) G.I. Hansen
+2502	Segestria rubra	Segestria rubra (Sommerfelt) E.M. Fries
+2503	Segestria rubra	Segestria rubra (Sommerfelt) E.M. Fries
+2504	Seirospora byssoides	Seirospora byssoides (Arnott ex Harvey) De Toni
+2505	Seirospora tenuissima	Seirospora tenuissima (Bonnemaison) De Toni
+2506	Siliquarius osmundaceus	Siliquarius osmundaceus (Turner) Kuntze
+2507	Silvetia compressa	Silvetia compressa (J. Agardh) E.A. Serr&acirc;o, T.O. Cho, S.M. Boo, & S.H. Brawley
+2508	Silvetia compressa f. deliquescens	Silvetia compressa f. deliquescens P.C. Silva
+2509	Silvetia compressa subsp. deliquescens	Silvetia compressa subsp. deliquescens P.C. Silva
+2510	Smithora naiadum	Smithora naiadum (C.L. Anderson) G.J. Hollenberg
+2511	Smithora naiadum	Smithora naiadum (C.L. Anderson) G.J. Hollenberg
+2512	Solenia clathrata	Solenia clathrata (Roth) C. Agardh
+2513	Solenia compressa	Solenia compressa (Linnaeus) C. Agardh
+2514	Solenia compressa var. prolifera	Solenia compressa var. prolifera (O.F. M&uuml;) C. Agardh
+2515	Solenia intestinalis	Solenia intestinalis (Linnaeus) C. Agardh
+2516	Solenia linza	Solenia linza (Linnaeus) C. Agardh
+2517	Solenia percursa	Solenia percursa (C. Agardh) C. Agardh
+2518	Soranthera leathesiformis	Soranthera leathesiformis P.L.Crouan & H.M.Crouan
+2519	Soranthera ulvoidea	Soranthera ulvoidea Postels & Ruprecht
+2520	Sorella delicatula	Sorella delicatula (N.L. Gardner) Hollenberg
+2521	Sorella pinnata	Sorella pinnata G.J. Hollenberg
+2522	Sorocarpus pacificus	Sorocarpus pacificus Hollenberg
+2523	Spermothamnion phycophilum	Spermothamnion phycophilum W.R. Taylor
+2524	Spermothamnion snyderae	Spermothamnion snyderae Farlow
+2525	Sphacelaria apicalis	Sphacelaria apicalis Takamatsu
+2526	Sphacelaria caespitosa	Sphacelaria caespitosa Takamatsu
+2527	Sphacelaria californica	Sphacelaria californica (Sauvageau) Setchell & N.L. Gardner
+2528	Sphacelaria didichotoma	Sphacelaria didichotoma DeA. Saunders
+2529	Sphacelaria divaricata f. japonica	Sphacelaria divaricata f. japonica Takamatsu
+2530	Sphacelaria divaricata	Sphacelaria divaricata Montagne
+2531	Sphacelaria expansa	Sphacelaria expansa Noda
+2532	Sphacelaria furcigera	Sphacelaria furcigera K&uuml;tzing
+2533	Sphacelaria hizikiae	Sphacelaria hizikiae Ohta & Noda
+2534	Sphacelaria iridaeophytica	Sphacelaria iridaeophytica Nagai
+2535	Sphacelaria iwagaskensis	Sphacelaria iwagaskensis Noda
+2536	Sphacelaria linearis	Sphacelaria linearis Takamatsu
+2537	Sphacelaria plumigera	Sphacelaria plumigera Holmes
+2538	Sphacelaria plumula var. californica	Sphacelaria plumula var. californica Sauvageau
+2539	Sphacelaria prostrata	Sphacelaria prostrata Takamatsu
+2540	Sphacelaria racemosa	Sphacelaria racemosa Greville
+2541	Sphacelaria rigidula	Sphacelaria rigidula K&uuml;tzing
+2542	Sphacelaria variabilis	Sphacelaria variabilis Sauvageau
+2543	Sphaerococcus capillaceus	Sphaerococcus capillaceus (S.G. Gmelin) Naccari
+2544	Sphaerococcus corneus var. capillaceus	Sphaerococcus corneus var. capillaceus (S.G. Gmelin) C. Agardh
+2545	Sphaerococcus dasyphyllus	Sphaerococcus dasyphyllus (Woodward) Stackhouse
+2546	Sphaerococcus floccosa	Sphaerococcus floccosa (Esper) C. Agardh
+2547	Sphaerococcus linearis	Sphaerococcus linearis C. Agardh
+2548	Sphaerococcus musciformis var. valentiae	Sphaerococcus musciformis var. valentiae (Turner) C. Agardh
+2549	Sphaerococcus papillatus	Sphaerococcus papillatus C. Agardh
+2550	Sphaerococcus pedunculatus	Sphaerococcus pedunculatus (Hudson) Stackhouse
+2551	Sphaerococcus sternbergii	Sphaerococcus sternbergii C. Agardh
+2552	Sphaerococcus ustulatus	Sphaerococcus ustulatus (Turner) C. Agardh
+2553	Sphaerococcus valentiae	Sphaerococcus valentiae (Turner) C. Agardh
+2554	Sphaerococcus volans	Sphaerococcus volans C. Agardh
+2555	Sphaerophorus granulosus	Sphaerophorus granulosus (J.E. Smith) J.E. Gray
+2556	Spinularia latifrons	Spinularia latifrons Ruprecht
+2557	Spinularia viridis	Spinularia viridis (M&uuml;ller) Ruprecht
+2558	Spongites decipiens	Spongites decipiens (Foslie) Y.M. Chamberlain
+2559	Spongites tumidus	Spongites tumidus (Foslie) K.A. Miller, P.W. Gabrielson, Miklasz, E. van der Merwe & Maneveldt
+2560	Spongocarpus horneri	Spongocarpus horneri (Turner) K&uuml;tzing
+2561	Spongomorpha coalita	Spongomorpha coalita (Ruprecht) Collins
+2562	Spongomorpha mertensii	Spongomorpha mertensii (Yendo) Setchell & Gardner
+2563	Spongomorpha saxatilis	Spongomorpha saxatilis (Ruprecht) Collins
+2564	Sporochnus herbaceus	Sporochnus herbaceus (Turner) C. Agardh
+2565	Sporochnus herbaceus var. firma	Sporochnus herbaceus var. firma C. Agardh
+2566	Sporochnus pedunculatus	Sporochnus pedunculatus (Hudson) C. Agardh
+2567	Sporochnus viridis	Sporochnus viridis (M&uuml;ller) C. Agardh
+2568	Spyridia clavulata	Spyridia clavulata (C. Agardh) J. Agardh
+2569	Spyridia clavulatum	Spyridia clavulatum (C. Agardh) J. Agardh
+2570	Spyridia filamentosa	Spyridia filamentosa (Wulfen) Harvey
+2571	Stenogramma californicum	Stenogramma californicum Harvey
+2572	Stenogramma interruptum	Stenogramma interruptum ('interrupta') (C.A. Agardh) J.P.F.C. Montagne
+2573	Stephanocystis dioica	Stephanocystis dioica (Gardner) S. Draisma, E. Ballesteros, F. Rousseau, & T. Thibaut
+2574	Stephanocystis neglecta	Stephanocystis neglecta (Setchell & Gardner) S. Draisma, E. Ballesteros, F. Rousseau, & T. Thibaut
+2575	Stephanocystis osmundacea	Stephanocystis osmundacea (Turner) Trevisan
+2576	Stephanocystis setchellii	Stephanocystis setchellii (N.L. Gardner) S. Draisma, E. Ballesteros, F. Rousseau, & T. Thibaut
+2577	Stictyosiphon tortilis	Stictyosiphon tortilis (Gobi) Reinke
+2578	Stilophora antillarum	Stilophora antillarum P. Crouan & H. Crouan
+2579	Stilophora clathrata	Stilophora clathrata (C. Agardh?) C. Agardh
+2580	Stilophora sinuosa	Stilophora sinuosa (Mertens ex Roth) C. Agardh
+2581	Stilophora vesicata	Stilophora vesicata Harvey
+2582	Streblonema aecidioides	Streblonema aecidioides (Rosenvinge) De Toni
+2583	Streblonema anomalum	Streblonema anomalum Setchell & N.L. Gardner
+2584	Streblonema corymbiferum	Streblonema corymbiferum Setchell & N.L. Gardner
+2585	Streblonema evagatum	Streblonema evagatum Setchell & N.L. Gardner
+2586	Streblonema investiens	Streblonema investiens (Collins) Setchell & N.L. Gardner (illeg.)
+2587	Streblonema myrionematoides	Streblonema myrionematoides Setchell & N.L. Gardner
+2588	Streblonema pacificum	Streblonema pacificum DeA. Saunders
+2589	Streblonema penetrale	Streblonema penetrale Setchell & N.L. Gardner
+2590	Streblonema porphyrae	Streblonema porphyrae Setchell & N.L. Gardner
+2591	Streblonema scabiosum	Streblonema scabiosum Setchell & N.L. Gardner
+2592	Streblonema transfixum	Streblonema transfixum Setchell & N.L. Gardner
+2593	Strepsithalia investiens	Strepsithalia investiens Collins
+2594	Stromatocarpus gardneri	Stromatocarpus gardneri Setchell
+2595	Stylonema alsidii	Stylonema alsidii (Zanardini) K. Drew
+2596	Stylonema cornu-cervi	Stylonema cornu-cervi Reinsch
+2597	Stylonema elegans	Stylonema elegans (Chauvin) V.May
+2598	Syringoderma abyssicola	Syringoderma abyssicola (Setchell & N.L. Gardner) Levring
+2599	Taenioma clevelandii	Taenioma clevelandii Farlow
+2600	Taonia lennebackerae	Taonia lennebackerae Farlow ex J. Agardh
+2601	Tenarea ascripticia	Tenarea ascripticia (Foslie) Adey
+2602	Tenarea dispar	Tenarea dispar (Foslie) Adey
+2603	Tetranema percursum	Tetranema percursum (C. Agardh) Areschoug
+2604	Tetraselmis ascus	Tetraselmis ascus (Proskauer) R.E. Norris, Hori, & Chihara
+2605	Tetraspora intestinalis	Tetraspora intestinalis (Linnaeus) Desvaux
+2606	Tiffaniella phycophila	Tiffaniella phycophila (W.R. Taylor) Gordon
+2607	Tiffaniella phycophilum	Tiffaniella phycophilum (W.R. Taylor) Gordon
+2608	Tiffaniella snyderae	Tiffaniella snyderae (Farlow) Abbott
+2609	Tinocladia crassa	Tinocladia crassa (Suringar) Kylin
+2610	Tiresias riparia	Tiresias riparia (Roth) Areschoug
+2611	Titanoderma dispar	Titanoderma dispar (Foslie) Woelkerling, Chamberlain, & Silva
+2612	Titanoderma pustulatum	Titanoderma pustulatum (J.V.Lamouroux) N_geli
+2613	Trailliella intricata	Trailliella intricata Batters
+2614	Tremella cerina	Tremella cerina Clemente
+2615	Tremella difformis	Tremella difformis Linnaeus
+2616	Tremella rugosula	Tremella rugosula Clemente
+2617	Trentepohlia daviesii	Trentepohlia daviesii (Dillwyn) Harvey
+2618	Trentepohlia purpurea	Trentepohlia purpurea C. Agardh
+2619	Trentepohlia purpurea	Trentepohlia purpurea C. Agardh
+2620	Tubularia compressa	Tubularia compressa (Linnaeus) Roussel
+2621	Turnerella atlantica	Turnerella atlantica Kylin
+2622	Turnerella pacifica	Turnerella pacifica Kylin
+2623	Tylotus cunninghamii	Tylotus cunninghamii (J. Agardh) Kylin
+2624	Ulothrix acrorhiza	Ulothrix acrorhiza Kornmann
+2625	Ulothrix consociata var. islandica	Ulothrix consociata var. islandica J&uuml;nsson
+2626	Ulothrix consociata	Ulothrix consociata Wille
+2627	Ulothrix flacca	Ulothrix flacca (Dillwyn) Thuret
+2628	Ulothrix implexa	Ulothrix implexa (Ku*:tzing) Ku*:tzing
+2629	Ulothrix islandica	Ulothrix islandica (H.J&oacute;nsson) Printz
+2630	Ulothrix laetevirens	Ulothrix laetevirens (Harvey) F.S. Collins
+2631	Ulothrix pseudoflacca	Ulothrix pseudoflacca Wille
+2632	Ulothrix radicans	Ulothrix radicans Ku*:tzing
+2633	Ulothrix scutata	Ulothrix scutata H.J&uuml;nsson
+2634	Ulva angusta	Ulva angusta Setchell & N.L. Gardner
+2635	Ulva armoricana	Ulva armoricana P.Dion, B.de Reviers & G.Coat
+2636	Ulva bertolonii	Ulva bertolonii C.Agardh
+2637	Ulva bulbosa var. intestinalis	Ulva bulbosa var. intestinalis (Linnaeus) Hariot
+2638	Ulva clathrata	Ulva clathrata (Roth) C. Agardh
+2639	Ulva clathrata f. gracilis	Ulva clathrata f. gracilis Le Jolis
+2640	Ulva clathrata f. prostrata	Ulva clathrata f. prostrata Le Jolis
+2641	Ulva clathrata var. rothiana	Ulva clathrata var. rothiana Le Jolis  (invalid)
+2642	Ulva clathratioides	Ulva clathratioides L.G.Kraft, Kraft & R.F.Waller
+2643	Ulva compressa	Ulva compressa Linnaeus
+2644	Ulva compressa var. prolifera	Ulva compressa var. prolifera (O.F. M&uuml;) C. Agardh
+2645	Ulva costata	Ulva costata (M.Howe) Hollenberg
+2646	Ulva crispata	Ulva crispata Bertoloni
+2647	Ulva dactylifera	Ulva dactylifera Setchell & N.L.Gardner
+2648	Ulva elminthoides	Ulva elminthoides (Velley) Withering
+2649	Ulva enteromorpha f. prolifera	Ulva enteromorpha f. prolifera (O.F. M&uuml;) Van Heurck
+2650	Ulva enteromorpha f. crispata	Ulva enteromorpha var. [lanceloata] f. crispata (Bertoloni) Le Jolis
+2651	Ulva enteromorpha var. compressa	Ulva enteromorpha var. compressa (Linnaeus) Le Jolis
+2652	Ulva enteromorpha var. intestinalis	Ulva enteromorpha var. intestinalis (Linnaeus) Le Jolis
+2653	Ulva enteromorpha var. lanceolata	Ulva enteromorpha var. lanceolata (Linnaeus) Le Jolis
+2654	Ulva fascia	Ulva fascia (O.F. M&uuml;ller) Lyngbye
+2655	Ulva fascia var. tenuior	Ulva fascia var. tenuior Lyngbye
+2656	Ulva fasciata f. costata	Ulva fasciata f. costata M.Howe
+2657	Ulva fasciata f. expansa	Ulva fasciata f. expansa Setchell
+2658	Ulva fasciata f. taeniata	Ulva fasciata f. taeniata Setchell
+2659	Ulva fasciata	Ulva fasciata S.F.Gray
+2660	Ulva flexuosa	Ulva flexuosa Wulfen
+2661	Ulva fusca	Ulva fusca Postels & Ruprecht
+2662	Ulva glandiformis	Ulva glandiformis Gmelin
+2663	Ulva grevillei	Ulva grevillei (Thuret) Le Jolis
+2664	Ulva intestinalis var. asexualis	Ulva intestinalis var. asexualis (Bliding) E.Taskin
+2665	Ulva intestinalis var. nana	Ulva intestinalis var. nana Sommerfelt
+2666	Ulva intybacea	Ulva intybacea Lamarck
+2667	Ulva lactuca var. latissima	Ulva lactuca var. latissima (Linnaeus) A.P.De Candolle
+2668	Ulva lactuca var. rigida	Ulva lactuca var. rigida (C. Agardh) Le Jolis
+2669	Ulva lanceolata	Ulva lanceolata Linnaeus
+2670	Ulva latissima	Ulva latissima Linnaeus
+2671	Ulva linkiana	Ulva linkiana (Greville) Trevisan
+2672	Ulva linza var. lanceolata	Ulva linza var. lanceolata (Linnaeus) C. Agardh
+2673	Ulva muscoides	Ulva muscoides Clemente
+2674	Ulva nematoidea	Ulva nematoidea Bory
+2675	Ulva oxycocca	Ulva oxycocca K&uuml;tzing
+2676	Ulva oxycocca	Ulva oxycocca Ku*:tzing
+2677	Ulva oxysperma	Ulva oxysperma Ku*:tzing
+2678	Ulva percursa	Ulva percursa (C. Agardh) C. Agardh
+2679	Ulva pertusa	Ulva pertusa Kjellman
+2680	Ulva petiolata	Ulva petiolata (J.Agardh) Womersley
+2681	Ulva priapus	Ulva priapus Gmelin
+2682	Ulva procera	Ulva procera (K.Ahlner) Hayden, Blomster, Maggs, P.C.Silva, M.J.Stanhope & J.R.Waaland
+2683	Ulva prolifera	Ulva prolifera O.F.M&uuml;ller
+2684	Ulva pseudocurvata	Ulva pseudocurvata Koeman & Hoek
+2685	Ulva purpurea	Ulva purpurea Roth  (nom. cons.)
+2686	Ulva purpureoviolacea	Ulva purpureoviolacea Roth
+2687	Ulva ramulosa	Ulva ramulosa Smith
+2688	Ulva rigida	Ulva rigida C. Agardh
+2689	Ulva rubra	Ulva rubra Hudson
+2690	Ulva scagelii	Ulva scagelii M. Chihara
+2691	Ulva scandinavica	Ulva scandinavica Bliding
+2692	Ulva simplicissima	Ulva simplicissima Clemente
+2693	Ulva sinuosa	Ulva sinuosa Mertens ex Roth
+2694	Ulva spathulata	Ulva spathulata Papenfuss
+2695	Ulva splendens	Ulva splendens Ruprecht
+2696	Ulva stenophylla	Ulva stenophylla Setchell & N.L.Gardner
+2697	Ulva thuretii	Ulva thuretii B.F&uuml;yn
+2698	Ulva umbilicalis var. purpurea	Ulva umbilicalis var. purpurea (Roth) Wahlenberg
+2699	Ulva usneoides	Ulva usneoides Bonnemaison
+2700	Ulva vexata	Ulva vexata Setchell & Gardner
+2701	Ulvaria fusca	Ulvaria fusca (Wittrock) Vinogradova
+2702	Ulvaria oxysperma	Ulvaria oxysperma (Ku*:tzing) Bliding
+2703	Ulvaria oxysperma f. wittrockii	Ulvaria oxysperma f. wittrockii (Bornet) Bliding
+2704	Ulvaria splendens	Ulvaria splendens (Ruprecht) K.L.Vinogradova
+2705	Ulvella apiculata	Ulvella apiculata (Setchell & N.L. Gardner) C.J. O'Kelly
+2706	Ulvella applanata	Ulvella applanata (Setchell & Gardner) G.R.South & Tittley
+2707	Ulvella cingens	Ulvella cingens (Setchell & N.L. Gardner) R. Nielsen, C.J. O'Kelly & B. Wysor
+2708	Ulvella codicola	Ulvella codicola (Setchell & N.L. Gardner) R. Nielsen, C.J. O'Kelly & B. Wysor
+2709	Ulvella geniculata	Ulvella geniculata (N.L. Gardner) R. Nielsen, C.J. O'Kelly & B. Wysor
+2710	Ulvella lens	Ulvella lens P. Crouan & H. Crouan
+2711	Ulvella prostrata	Ulvella prostrata Gardner
+2712	Ulvella ramosa	Ulvella ramosa (N.L. Gardner) R. Nielsen, C.J. O'Kelly & B. Wysor
+2713	Ulvella setchellii	Ulvella setchellii P.J.L.Dangeard
+2714	Ulvella viridis	Ulvella viridis (Reinke) R. Nielsen, C.J. O'Kelly & B. Wysor
+2715	Ulvopsis grevillei	Ulvopsis grevillei (Thuret) P. Gayral
+2716	Urospora collabens	Urospora collabens (C.Agardh) Holmes & Batters
+2717	Urospora doliifera	Urospora doliifera (Setchell & N.L.Gardner) Doty
+2718	Urospora flacca	Urospora flacca (Dillwyn) Holmes & Batters
+2719	Urospora gregaria	Urospora gregaria (A.K.H. Braun) G.L. Floyd & C.J. O'Kelly
+2720	Urospora isogona	Urospora isogona (Smith) Batters
+2721	Urospora mirabilis	Urospora mirabilis Areschoug
+2722	Urospora vancouveriana	Urospora vancouveriana (Tilden) Scagel 1966
+2723	Urospora wormskioldii	Urospora wormskioldii (Mertens ex Hornemann) Rosenvinge
+2724	Urospora wormskioldii f. vancouveriana	Urospora wormskioldii f. vancouveriana Tilden
+2725	Valonia ovalis	Valonia ovalis (Lyngbye) C. Agardh
+2726	Vaucheria marina	Vaucheria marina Lyngbye
+2727	Vaucheriella marina	Vaucheriella marina (Lyngbye) Gaillon
+2728	Veleroa subulata	Veleroa subulata E.Y. Dawson
+2729	Verrucaria rubra	Verrucaria rubra Sommerfelt
+2730	Vertebrata baileyi	Vertebrata baileyi (Harvey) Kuntze
+2731	Vertebrata bipinnata	Vertebrata bipinnata (Postels & Ruprecht) Kuntze
+2732	Vertebrata denudata	Vertebrata denudata (Dillwyn) Kuntze
+2733	Vertebrata harveyi	Vertebrata harveyi (J.W. Bailey) Kuntze
+2734	Vertebrata paniculata	Vertebrata paniculata (Montagne) Kuntze
+2735	Vertebrata secunda	Vertebrata secunda (C. Agardh) Kuntze
+2736	Vertebrata simpliciuscula	Vertebrata simpliciuscula (P. Crouan & H. Crouan) Kuntze
+2737	Vertebrata verticillata	Vertebrata verticillata (Harvey) Kuntze
+2738	Vertebrata woodii	Vertebrata woodii (Harvey) Kuntze
+2739	Virsodes furcatum	Virsodes furcatum Kuntze
+2740	Weeksia coccinea	Weeksia coccinea (Harvey) S.C. Lindstrom
+2741	Weeksia digitata	Weeksia digitata I.A. Abbott
+2742	Weeksia howellii	Weeksia howellii Setchell & N.L. Gardner
+2743	Weeksia reticulata	Weeksia reticulata Setchell
+2744	Weeksia templetonii	Weeksia templetonii Setchell & N.L.Gardner
+2745	Wildemania amplissima	Wildemania amplissima (Kjellman) Foslie
+2746	Wildemania occidentalis	Wildemania occidentalis (Setchell & Hus) S.C. Lindstrom
+2747	Wildemania perforata	Wildemania perforata (J. Agardh) De Toni
+2748	Wildemania schizophylla	Wildemania schizophylla (G.J. Hollenberg) S.C. Lindstrom
+2749	Wittrockiella amphibia	Wittrockiella amphibia (F.S. Collins) C. Boedeker & G.I. Hansen
+2750	Wittrockiella paradoxa	Wittrockiella paradoxa Wille
+2751	Wosnessenskia californica	Wosnessenskia californica (Ruprecht) Kuntze
+2752	Yamadaea melobesioides	Yamadaea melobesioides Segawa
+2753	Yamadaia americana	Yamadaia americana E.Y. Dawson & R.L. Steele
+2754	Yamadaia melobesioides	Yamadaia melobesioides Segawa
+2755	Zanardinula andersoniana	Zanardinula andersoniana (Eaton) Papenfuss
+2756	Zanardinula australis	Zanardinula australis (J. Agardh) Papenfuss
+2757	Zanardinula cornea	Zanardinula cornea (Okamura) E.Y. Dawson
+2758	Zanardinula kylinii	Zanardinula kylinii Doty
+2759	Zanardinula lanceolata	Zanardinula lanceolata (Harvey) De Toni f.
+2760	Zanardinula linearis	Zanardinula linearis (Kylin) Papenfuss
+2761	Zanardinula lyallii	Zanardinula lyallii (Harvey) De Toni f.
+2762	Zanardinula sternbergii	Zanardinula sternbergii (C. Agardh) De Toni f.
+2763	Zanardinula vizcainensis	Zanardinula vizcainensis E.Y.Dawson
+2764	Zignoa clathrata	Zignoa clathrata (Roth) Trevisan
+2765	Zignoa percursa	Zignoa percursa (C. Agardh) Trevisan
+2766	Zignoa ramulosa	Zignoa ramulosa (J.E.Smith) Trevisan
+2767	Zonaria deusta	Zonaria deusta C.Agardh
+2768	Zonaria farlowii	Zonaria farlowii Setchell & Gardner
+2769	Zonaria sinuosa	Zonaria sinuosa (Mertens ex Roth) C. Agardh
+2770	Bangia atropurpurea subsp. fuscopurpurea	Bangia atropurpurea subsp. fuscopurpurea (Dillwyn) De Toni
+2771	Bangia atropurpurea var. fuscopurpurea	Bangia atropurpurea var. fuscopurpurea (Dillwyn) C. Agardh
+2772	Bangia fuscopurpurea	Bangia fuscopurpurea (Dillwyn) Lyngbye
+2773	Bangiella fuscopurpurea	Bangiella fuscopurpurea (Dillwyn) Gaillon
+2774	Conferva fuscopurpurea	Conferva fuscopurpurea Dillwyn
+2775	Diadenus fuscopurpureus	Diadenus fuscopurpureus (Dillwyn) Kuntze
+2776	Girardia fuscopurpurea	Girardia fuscopurpurea (Dillwyn) S.F. Gray
+2777	Lyngbya fuscopurpurea	Lyngbya fuscopurpurea (Dillwyn) Hassall
+2778	Oscillatoria fuscopurpurea	Oscillatoria fuscopurpurea (Dillwyn) C. Agardh
+2779	Porphyra fuscopurpurea	Porphyra fuscopurpurea (Dillwyn) P. Crouan & H. Crouan
+2780	Rosenvingiella radicans	Rosenvingiella radicans (K&uuml;tzing) F. Rindi, L. McIvor, & M.D. Guiry
+2781	Rosenvingiellopsis constricta	Rosenvingiellopsis constricta (Setchell & Gardner) S. Heesch, M. Pazoutov&aacute; & F. Rindi
+2782	Streblonema collinsii	Streblonema collinsii E. Taskin, M.J. Wynne, & M. &Ouml;zt&uuml;rk
+2782	Acrochaetium barbadense	Acrochaetium barbadense (Vickers) B&egrave;rgesen
+2783	Audouinella crassipes	Audouinella crassipes (B&egrave;rgesen) Garbary
+2784	Ceramiella procumbens	Ceramiella procumbens (Setchell & N.L.Gardner) D&ecirc;az-Piferrer
+2785	Chantransia crassipes	Chantransia crassipes B&egrave;rgesen
+2786	Ectocarpus coniger	Ectocarpus coniger B&egrave;rgesen
+2787	Enteromorpha intestinalis f. tubulosa	Enteromorpha intestinalis f. tubulosa (K&ocirc;tzing) V.J.Chapman
+2788	Enteromorpha intestinalis var. tubulosa	Enteromorpha intestinalis var. tubulosa K&ocirc;tzing
+2789	Enteromorpha prolifera var. tubulosa	Enteromorpha prolifera var. tubulosa (K&ocirc;tzing) Batters
+2790	Enteromorpha tubulosa	Enteromorpha tubulosa (K&ocirc;tzing) K&ocirc;tzing
+2791	Kylinia crassipes	Kylinia crassipes (B&egrave;rgesen) Kylin
+2792	Laminaria faeroensis	Laminaria faeroensis (B&egrave;rgesen) B&egrave;rgesen
+2793	Laminaria faeroensis f. sacchariniformis	Laminaria faeroensis f. sacchariniformis B&egrave;rgesen
+2794	Spongomorpha spinescens	Spongomorpha spinescens (K&uuml;tzing) Kjellman
+2795	Syringoderma phinneyi	Syringoderma phinneyi E.C.Henry & D.G.M&Egrave;ller
