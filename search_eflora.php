@@ -93,7 +93,7 @@ if (isset($SearchTerm)){
 //The WHERE statement is set up so that the $SearchTerm needs to match the start of the name (i.e. they start with the genus)
 //OR their search term matches anywhere in the ScientificName as long as it's preceded by a space (i.e. they start with the specific or infra epithet)
 //One problem with this is if someone searches "var" or "subsp", and in general it may be too permissible
-$stmt = $db->prepare("SELECT a.ScientificName as ScientificName, a.TaxonID as TaxonID, a.NativeStatus as NativeStatus, a.AcceptedNameTID as AcceptedNameTID, b.ScientificName as AcceptedName
+$stmt = $db->prepare("SELECT a.ScientificName as ScientificName, a.TaxonID as TaxonID, a.NativeStatus as NativeStatus, a.MajorGroup as MajorGroup, a.AcceptedNameTID as AcceptedNameTID, b.ScientificName as AcceptedName
 						FROM eflora_taxa a
 						LEFT OUTER JOIN eflora_taxa b on a.AcceptedNameTID = b.TaxonID
 						WHERE a.ScientificName LIKE '".$SearchTerm."%' OR a.ScientificName LIKE '% ".$SearchTerm."%'
@@ -105,27 +105,31 @@ $results = $stmt->execute();
 //so if the first row isn't printed before the while loop, the results will start with the second row.
 	if ($row = $results->fetchArray()) {
 		echo '<div class="eFloraTable"><table border="1">';
-		echo '<tr><td>Scientific Name</td><td></td></tr>';
+		echo '<tr><td>Scientific Name</td><td>Native Status</td><td>Major Group</td></tr>';
 		if ($row['AcceptedNameTID']){ //if it has an AcceptedNameTID, then it's a synonym, so print the synonym line
 			$row['NativeStatus'] = str_replace("Noted Name", "Mentioned in<br>a note", $row['NativeStatus']);
 			echo '<tr><td><a href="eflora_display.php?tid='.$row['AcceptedNameTID'].'">'.$row['ScientificName'].'</a><br>(Under '.$row['AcceptedName'].')</td>';
 			echo '<td>'.ucfirst(strtolower($row['NativeStatus'])).'</td>';
+			echo '<td>'.ucfirst(strtolower($row['MajorGroup'])).'</td>';
 			echo '</tr>';
 		}
 		else { //else it is an accepted name, so print the full line
 			echo '<tr><td><a href="eflora_display.php?tid='.$row['TaxonID'].'">'.$row['ScientificName'].'</a></td>';
 			echo '<td>'.ucfirst(strtolower($row['NativeStatus'])).'</td>';
+			echo '<td>'.ucfirst(strtolower($row['MajorGroup'])).'</td>';
 		}
 		while ($row = $results->fetchArray()) {
 			if ($row['AcceptedNameTID']){ //if it has an AcceptedNameTID, then it's a synonym, so print the synonym line
 				$row['NativeStatus'] = str_replace("Noted Name", "Mentioned in<br>a note", $row['NativeStatus']);			
 				echo '<tr><td><a href="eflora_display.php?tid='.$row['AcceptedNameTID'].'">'.$row['ScientificName'].'</a><br>(Under '.$row['AcceptedName'].')</td>';
 				echo '<td>'.ucfirst(strtolower($row['NativeStatus'])).'</td>';
+				echo '<td>'.ucfirst(strtolower($row['MajorGroup'])).'</td>';
 				echo '</tr>';		
 			}
 			else { //else it is an accepted name, so print the full line
 				echo '<tr><td><a href="eflora_display.php?tid='.$row['TaxonID'].'">'.$row['ScientificName'].'</a></td>';
 				echo '<td>'.ucfirst(strtolower($row['NativeStatus'])).'</td>';
+				echo '<td>'.ucfirst(strtolower($row['MajorGroup'])).'</td>';
 			}	
 		}
 		echo '</table></div>';
