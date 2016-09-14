@@ -88,6 +88,7 @@ while(<IN>){
 		if ($syn_name_status=~/accepted/i) {
 			if ($syn_scientific_name =~ /^$treated_names_list$/){
 				warn "name $syn_scientific_name already has entry. No skeletal entry created\n";
+				next;
 			}
 		}
 		
