@@ -78,6 +78,9 @@ $/="";
 my $output_file = "outputs/load_taxon_table.sql";
 open(OUT, ">outputs/load_taxon_table.sql") || die;
 
+#This file is made here and subsequently used by the synonymy script
+open(FILE, ">outputs/treated_names_list.txt") || die;
+
 foreach my $filename (@content_files) {
 warn "now processing file $filename";
 	open(IN, "inputs/$filename") || die "couldn't find content file $filename\n";
@@ -123,6 +126,8 @@ warn "now processing file $filename";
 			next;
 		} 
 
+		#print out the plain matched taxon names to treated_names file used by synonymy script
+		print FILE "$scientific_name\n";
 
 		$scientific_name = "'$scientific_name'";
 

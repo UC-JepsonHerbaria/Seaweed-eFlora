@@ -25,6 +25,19 @@ while(<IN>){
 }
 close(IN);
 
+#prepare list of treated names. This is used to check if an accepted name has a treatment
+#if it doesn't, an entry needs to be created in this script
+#this creates a $treated_name_list variable which is used later
+my $file = "outputs/treated_names_list.txt";
+open(FILE, "< $file") or die "Can't open $file for read: $!";
+my @names;
+while (<FILE>) {
+	push (@names, $_);
+}
+my $treated_names_list = join ('$|^',@names);
+$treated_names_list =~ s/\n//g;
+close FILE or die "Cannot close $file: $!";
+
 #open output file
 my $output_file = "outputs/load_synonymy_table.sql";
 open(OUT, ">outputs/load_synonymy_table.sql") || die;
@@ -54,8 +67,10 @@ while(<IN>){
 		$syn_additions,
 		$syn_non_native)=@columns;
 		
-		#skip all accepted names
-		next if $syn_name_status=~/accepted/i;
+#		#skip all accepted names
+#		next if $syn_name_status=~/accepted/i;
+
+		
 		#clean up name status
 		$syn_name_status=~s/ *$//;
 		$syn_name_status=~s/s$//;
@@ -67,14 +82,28 @@ while(<IN>){
 		$syn_accepted_name=~s/  +/ /;
 		$syn_accepted_name=~s/^ *//;
 		$syn_accepted_name=~s/ *$//;
-
 		
-		#get $AcceptedNameTID and confirm that it exists
-		my $AcceptedNameTID = $TID{$syn_accepted_name};
-		unless ($AcceptedNameTID){
-			warn "no taxon id for accepted name $syn_accepted_name\tfor synonym $syn_scientific_name\nadd $syn_accepted_name to seaweed_taxon_ids.txt\n";
-			&log_issue("no taxon id for $syn_accepted_name\t$syn_scientific_name");
-			next;
+		#check if accepted names already have database entries from make_taxon_table.pl
+		#if they do, then skip them
+		if ($syn_name_status=~/accepted/i) {
+			if ($syn_scientific_name =~ /^$treated_names_list$/){
+				warn "name $syn_scientific_name already has entry. No skeletal entry created\n";
+			}
+		}
+		
+		#for synonyms, get $AcceptedNameTID and confirm that it exists
+		#for others (accepted names and misapplications), AcceptedNameTID is null
+		my $AcceptedNameTID;
+		if ($syn_name_status =~ /synonym/i) {
+			$AcceptedNameTID = $TID{$syn_accepted_name};
+			unless ($AcceptedNameTID){
+				warn "no taxon id for accepted name $syn_accepted_name\tfor synonym $syn_scientific_name\t$syn_name_status\nadd $syn_accepted_name to seaweed_taxon_ids.txt\n";
+				&log_issue("no taxon id for accepted name '$syn_accepted_name'\t$syn_scientific_name\t$syn_name_status");
+				next;
+			}
+		}
+		else {
+			$AcceptedNameTID="NULL";
 		}
 		
 		#format other fields to be printed to SQL insert statement

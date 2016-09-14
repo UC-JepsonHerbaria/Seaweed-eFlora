@@ -20,3 +20,4 @@ echo "create database indexes"
 sqlite3 outputs/seaweedflora.db < create_indexes.sql
 echo "clean up intermediate files"
 rm inputs/4solr_algae.csv
+rm outputs/treated_names_list.txt
