@@ -26,7 +26,8 @@ CREATE TABLE eflora_taxa (
 	NameStatus TEXT,
 	DescriptionDate TEXT,
 	MajorGroup TEXT,
-	Additions TEXT
+	Additions TEXT,
+	HasSpeciesPage TEXT
 );
 
 DROP TABLE eflora_media;
