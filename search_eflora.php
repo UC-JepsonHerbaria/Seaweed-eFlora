@@ -104,10 +104,14 @@ $results = $stmt->execute();
 //because when the while loop runs fetchArray, it is moving on to the second row
 //so if the first row isn't printed before the while loop, the results will start with the second row.
 	if ($row = $results->fetchArray()) {
+		//expand major group
+		if ($row['MajorGroup'] == "C") { $row['MajorGroup'] = str_replace("C", "Chlorophyceae (green)", $row['MajorGroup']); }
+		if ($row['MajorGroup'] == "P") { $row['MajorGroup'] = str_replace("P", "Phaeophyceae (brown)", $row['MajorGroup']); }
+		if ($row['MajorGroup'] == "R") { $row['MajorGroup'] = str_replace("R", "Rhodophyceae (red)", $row['MajorGroup']); }			
+		//print row
 		echo '<div class="eFloraTable"><table border="1">';
 		echo '<tr><td>Scientific Name</td><td>Native Status</td><td>Major Group</td></tr>';
 		if ($row['AcceptedNameTID']){ //if it has an AcceptedNameTID, then it's a synonym, so print the synonym line
-			$row['NativeStatus'] = str_replace("Noted Name", "Mentioned in<br>a note", $row['NativeStatus']);
 			echo '<tr><td><a href="eflora_display.php?tid='.$row['AcceptedNameTID'].'">'.$row['ScientificName'].'</a><br>(Under '.$row['AcceptedName'].')</td>';
 			echo '<td>'.ucfirst(strtolower($row['NativeStatus'])).'</td>';
 			echo '<td>'.ucfirst(strtolower($row['MajorGroup'])).'</td>';
@@ -119,8 +123,12 @@ $results = $stmt->execute();
 			echo '<td>'.ucfirst(strtolower($row['MajorGroup'])).'</td>';
 		}
 		while ($row = $results->fetchArray()) {
+			//expand major group
+			if ($row['MajorGroup'] == "C") { $row['MajorGroup'] = str_replace("C", "Chlorophyceae (green)", $row['MajorGroup']); }
+			if ($row['MajorGroup'] == "P") { $row['MajorGroup'] = str_replace("P", "Phaeophyceae (brown)", $row['MajorGroup']); }
+			if ($row['MajorGroup'] == "R") { $row['MajorGroup'] = str_replace("R", "Rhodophyceae (red)", $row['MajorGroup']); }			
+			//print row
 			if ($row['AcceptedNameTID']){ //if it has an AcceptedNameTID, then it's a synonym, so print the synonym line
-				$row['NativeStatus'] = str_replace("Noted Name", "Mentioned in<br>a note", $row['NativeStatus']);			
 				echo '<tr><td><a href="eflora_display.php?tid='.$row['AcceptedNameTID'].'">'.$row['ScientificName'].'</a><br>(Under '.$row['AcceptedName'].')</td>';
 				echo '<td>'.ucfirst(strtolower($row['NativeStatus'])).'</td>';
 				echo '<td>'.ucfirst(strtolower($row['MajorGroup'])).'</td>';
