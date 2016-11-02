@@ -93,7 +93,7 @@ if (isset($SearchTerm)){
 //The WHERE statement is set up so that the $SearchTerm needs to match the start of the name (i.e. they start with the genus)
 //OR their search term matches anywhere in the ScientificName as long as it's preceded by a space (i.e. they start with the specific or infra epithet)
 //One problem with this is if someone searches "var" or "subsp", and in general it may be too permissible
-$stmt = $db->prepare("SELECT a.ScientificName as ScientificName, a.TaxonID as TaxonID, a.NativeStatus as NativeStatus, a.MajorGroup as MajorGroup, a.AcceptedNameTID as AcceptedNameTID, b.ScientificName as AcceptedName
+$stmt = $db->prepare("SELECT a.ScientificName as ScientificName, a.TaxonID as TaxonID, a.NativeStatus as NativeStatus, a.MajorGroup as MajorGroup, a.NameStatus as NameStatus, a.DescriptionDate as DescriptionDate, a.AcceptedNameTID as AcceptedNameTID, b.ScientificName as AcceptedName
 						FROM eflora_taxa a
 						LEFT OUTER JOIN eflora_taxa b on a.AcceptedNameTID = b.TaxonID
 						WHERE a.ScientificName LIKE '".$SearchTerm."%' OR a.ScientificName LIKE '% ".$SearchTerm."%'
@@ -110,17 +110,24 @@ $results = $stmt->execute();
 		if ($row['MajorGroup'] == "R") { $row['MajorGroup'] = str_replace("R", "Rhodophyceae (red)", $row['MajorGroup']); }			
 		//print row
 		echo '<div class="eFloraTable"><table border="1">';
-		echo '<tr><td>Scientific Name</td><td>Native Status</td><td>Major Group</td></tr>';
+		echo '<tr><td>Major Group</td><td>Scientific Name</td><td>Year</td><td>Name Status</td><td>Accepted Name</td><td>Native Status</td></tr>';
 		if ($row['AcceptedNameTID']){ //if it has an AcceptedNameTID, then it's a synonym, so print the synonym line
-			echo '<tr><td><a href="eflora_display.php?tid='.$row['AcceptedNameTID'].'">'.$row['ScientificName'].'</a><br>(Under '.$row['AcceptedName'].')</td>';
+			echo '<tr><td>'.ucfirst(strtolower($row['MajorGroup'])).'</td>';
+			echo '<td>'.$row['ScientificName'].'</td>';
+			echo '<td>'.$row['DescriptionDate'].'</td>';
+			echo '<td>'.$row['NameStatus'].'</td>';
+			echo '<td><a href="eflora_display.php?tid='.$row['AcceptedNameTID'].'">'.$row['AcceptedName'].'</td>';
 			echo '<td>'.ucfirst(strtolower($row['NativeStatus'])).'</td>';
-			echo '<td>'.ucfirst(strtolower($row['MajorGroup'])).'</td>';
 			echo '</tr>';
 		}
 		else { //else it is an accepted name, so print the full line
-			echo '<tr><td><a href="eflora_display.php?tid='.$row['TaxonID'].'">'.$row['ScientificName'].'</a></td>';
+			echo '<tr><td>'.ucfirst(strtolower($row['MajorGroup'])).'</td>';
+			echo '<td><a href="eflora_display.php?tid='.$row['TaxonID'].'">'.$row['ScientificName'].'</td>';
+			echo '<td>'.$row['DescriptionDate'].'</td>';
+			echo '<td>'.$row['NameStatus'].'</td>';
+			echo '<td></td>'; // accepted name column is blank for accepted names
 			echo '<td>'.ucfirst(strtolower($row['NativeStatus'])).'</td>';
-			echo '<td>'.ucfirst(strtolower($row['MajorGroup'])).'</td>';
+			echo '</tr>';
 		}
 		while ($row = $results->fetchArray()) {
 			//expand major group
@@ -129,15 +136,22 @@ $results = $stmt->execute();
 			if ($row['MajorGroup'] == "R") { $row['MajorGroup'] = str_replace("R", "Rhodophyceae (red)", $row['MajorGroup']); }			
 			//print row
 			if ($row['AcceptedNameTID']){ //if it has an AcceptedNameTID, then it's a synonym, so print the synonym line
-				echo '<tr><td><a href="eflora_display.php?tid='.$row['AcceptedNameTID'].'">'.$row['ScientificName'].'</a><br>(Under '.$row['AcceptedName'].')</td>';
+				echo '<tr><td>'.ucfirst(strtolower($row['MajorGroup'])).'</td>';
+				echo '<td>'.$row['ScientificName'].'</td>';
+				echo '<td>'.$row['DescriptionDate'].'</td>';
+				echo '<td>'.$row['NameStatus'].'</td>';
+				echo '<td><a href="eflora_display.php?tid='.$row['AcceptedNameTID'].'">'.$row['AcceptedName'].'</td>';
 				echo '<td>'.ucfirst(strtolower($row['NativeStatus'])).'</td>';
-				echo '<td>'.ucfirst(strtolower($row['MajorGroup'])).'</td>';
-				echo '</tr>';		
+				echo '</tr>';
 			}
 			else { //else it is an accepted name, so print the full line
-				echo '<tr><td><a href="eflora_display.php?tid='.$row['TaxonID'].'">'.$row['ScientificName'].'</a></td>';
+				echo '<tr><td>'.ucfirst(strtolower($row['MajorGroup'])).'</td>';
+				echo '<td><a href="eflora_display.php?tid='.$row['TaxonID'].'">'.$row['ScientificName'].'</td>';
+				echo '<td>'.$row['DescriptionDate'].'</td>';
+				echo '<td>'.$row['NameStatus'].'</td>';
+				echo '<td></td>'; // accepted name column is blank for accepted names
 				echo '<td>'.ucfirst(strtolower($row['NativeStatus'])).'</td>';
-				echo '<td>'.ucfirst(strtolower($row['MajorGroup'])).'</td>';
+				echo '</tr>';
 			}	
 		}
 		echo '</table></div>';
