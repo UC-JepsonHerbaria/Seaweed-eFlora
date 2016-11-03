@@ -95,7 +95,7 @@ $specimen_results = $db->query('SELECT FileName, MediaURL, Creator, ThumbURL
 //Before doing anything, if the TID isn't recognized, give a plain error screen
 if (!$ID){ //if TaxonID (pulled from URL) did not match a line in the database...
 	echo "<html xmlns='http://www.w3.org/1999/xhtml'>";
-	echo "Taxon not recognized TID=".$TaxonID.":  <a href='http://ucjeps.berkeley.edu/seaweedflora/'>Return to the front page</a>";
+	echo "Taxon not recognized TID=".$TaxonID.":  <a href='http://ucjeps.berkeley.edu/seaweedflora/seaweedflora/'>Return to the front page</a>";
 	echo "</html>";
 	die();
 }
@@ -154,7 +154,7 @@ function initialize() {
 
 	var MapName = "<?php echo $name4GoogleMap;?>";
 
-  var pmlLayer = new google.maps.KmlLayer("http://herbaria4.herb.berkeley.edu/SW_coords/"+MapName+".kml", { });
+  var pmlLayer = new google.maps.KmlLayer("http://ucjeps.berkeley.edu/seaweedflora/SW_coords/"+MapName+".kml", { });
   pmlLayer.setMap(map);
 
 }
@@ -222,7 +222,7 @@ a.internal:hover {
 <?php echo '<a href="eflora_display.php?tid='.$previousTaxonID.'"><IMG SRC="http://ucjeps.berkeley.edu/icons/left.gif" BORDER=2 ALT="Previous taxon"></a>'?>
 </td>
 <td width=40%>
-<span class="pageName"><a href="http://herbaria4.berkeley.edu/seaweedflora/">California Seaweeds eFlora</a></span>
+<span class="pageName"><a href="http://ucjeps.berkeley.edu/seaweedflora/seaweedflora/">California Seaweeds eFlora</a></span>
 
 
 </td>
@@ -238,7 +238,7 @@ a.internal:hover {
 </table>
 
 
-<?php include($_SERVER['DOCUMENT_ROOT'].'/seaweedflora/common/php/seaweed_menu.php'); ?>
+<?php include('common/php/seaweed_menu.php'); ?>
 <!-- end top matter-->
 
 <div id="content">
