@@ -4,7 +4,13 @@ date_default_timezone_set('America/Los_Angeles');
 //get user input from POST
 if (isset($_POST['query'])){
 	$SearchTerm = $_POST['query'];
+	$SearchTermPrintStatement = "Scientific Name = ".$SearchTerm."; ";
 }	
+if (isset($_GET['majgrp'])){
+	$URLMajorGroup = $_GET['majgrp'];
+	$MajGrpAndStatement = "AND a.MajorGroup LIKE '".$URLMajorGroup."'";
+	$MajGrpPrintStatement = "Major Group = ".$URLMajorGroup."; ";
+}
 
 //connect to the database
 require 'config/config.php';
@@ -80,9 +86,11 @@ $db = new SQLite3($database_location);
 </form>
 
 <?php
-if (isset($SearchTerm)){
+if (isset($SearchTerm) OR isset($URLMajorGroup)){
 	$SearchTerm = trim( $SearchTerm, $character_mask = " \t\n\r\0\x0B");
-	echo '<p class="bodyText">You searched for: "'.$SearchTerm.'"<p>';
+	echo '<p class="bodyText">You searched for: '.$SearchTermPrintStatement;
+	echo $MajGrpPrintStatement;
+	echo '</p>';
 	if (strpos($SearchTerm, " ssp. ") !== false) { #in case someone uses ssp.
 		$SearchTerm = str_replace(" ssp. ", " subsp. ", $SearchTerm);
 	}
@@ -96,7 +104,8 @@ if (isset($SearchTerm)){
 $stmt = $db->prepare("SELECT a.ScientificName as ScientificName, a.TaxonID as TaxonID, a.NativeStatus as NativeStatus, a.MajorGroup as MajorGroup, a.NameStatus as NameStatus, a.DescriptionDate as DescriptionDate, a.AcceptedNameTID as AcceptedNameTID, b.ScientificName as AcceptedName
 						FROM eflora_taxa a
 						LEFT OUTER JOIN eflora_taxa b on a.AcceptedNameTID = b.TaxonID
-						WHERE a.ScientificName LIKE '".$SearchTerm."%' OR a.ScientificName LIKE '% ".$SearchTerm."%'
+						WHERE (a.ScientificName LIKE '".$SearchTerm."%' OR a.ScientificName LIKE '% ".$SearchTerm."%')
+						".$MajGrpAndStatement."
 						ORDER BY ScientificName");
 $results = $stmt->execute();
 
