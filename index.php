@@ -63,7 +63,7 @@ function openwindowphylo()
 <table align="center" width="100%" border=0>
 <tr>
 <td align="center"><img height="120px" src="images/frontpage/sw1.png" alt=""></td>
-<td align="center"><img height="120px" src="images/frontpage/sw2.png" alt="Arctostaphylos ohloneana, Neal Kramer"></td>
+<td align="center"><img height="120px" src="images/frontpage/sw2.png" alt=""></td>
 <td align="center"><center><span class="pageName"><font size="5">California Seaweeds eFlora</font></span></center></td>
 <td align="center"><img height="120px" src="images/frontpage/sw3.png"></td>
 <td align="center"><img height="120px" src="images/frontpage/sw4.png"></td>
@@ -78,7 +78,7 @@ function openwindowphylo()
 
 
 <!-- Being seaweed link bar -->
-<?php include($_SERVER['DOCUMENT_ROOT'].'/seaweedflora/common/php/seaweed_menu.php'); ?>
+<?php include($_SERVER['DOCUMENT_ROOT'].'/common/php/seaweed_menu.php'); ?>
 <!-- end link bar-->
 
 <br>
@@ -101,7 +101,7 @@ function openwindowphylo()
 </form>
 </td>
 <td width="25%" align="center" valign="top">
-<form action="pages/new_species.html">
+<form action="pages/californiaseaweeds.html">
         <input type="submit" value="Species reported since 1976">
         
 </form>
