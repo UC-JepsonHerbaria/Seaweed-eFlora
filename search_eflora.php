@@ -11,7 +11,16 @@ if (isset($_GET['majgrp'])){
 	$MajGrpAndStatement = "AND a.MajorGroup LIKE '".$URLMajorGroup."'";
 	$MajGrpPrintStatement = "Major Group = ".$URLMajorGroup."; ";
 }
-
+if (isset($_GET['MacAdd'])){
+	$MacAddition = $_GET['MacAdd'];
+	$MacAddAndStatement = "AND a.Additions = IS NOT NULL";//value is an "x" in this field, otherwise field is blank
+	$MacAddPrintStatement = "Additions = "x"; ";
+} 
+if (isset($_GET['SpPage'])){
+	$HasSpeciesPage = $_GET['SpPage'];
+	$SpPageAndStatement = "AND a.HasSpeciesPage = IS NOT NULL";//What value is expressed here?, this column not yet added
+	$SpPagePrintStatement = "Species Page = "x"; ";//I assume Kathy Ann is have a value of "x" in this field, otherwise field is blank
+}
 //connect to the database
 require 'config/config.php';
 $db = new SQLite3($database_location);
@@ -101,11 +110,13 @@ if (isset($SearchTerm) OR isset($URLMajorGroup)){
 //The WHERE statement is set up so that the $SearchTerm needs to match the start of the name (i.e. they start with the genus)
 //OR their search term matches anywhere in the ScientificName as long as it's preceded by a space (i.e. they start with the specific or infra epithet)
 //One problem with this is if someone searches "var" or "subsp", and in general it may be too permissible
-$stmt = $db->prepare("SELECT a.ScientificName as ScientificName, a.TaxonID as TaxonID, a.NativeStatus as NativeStatus, a.MajorGroup as MajorGroup, a.NameStatus as NameStatus, a.DescriptionDate as DescriptionDate, a.AcceptedNameTID as AcceptedNameTID, b.ScientificName as AcceptedName
+$stmt = $db->prepare("SELECT a.ScientificName as ScientificName, a.TaxonID as TaxonID, a.NativeStatus as NativeStatus, a.MajorGroup as MajorGroup, a.NameStatus as NameStatus, a.DescriptionDate as DescriptionDate, a.AcceptedNameTID as AcceptedNameTID, a.Additions as Additions, a.HasSpeciesPage as HasSpeciesPage, b.ScientificName as AcceptedName
 						FROM eflora_taxa a
 						LEFT OUTER JOIN eflora_taxa b on a.AcceptedNameTID = b.TaxonID
 						WHERE (a.ScientificName LIKE '".$SearchTerm."%' OR a.ScientificName LIKE '% ".$SearchTerm."%')
 						".$MajGrpAndStatement."
+						".$MacAddAndStatement."
+						".$SpPageAndStatement."
 						ORDER BY ScientificName");
 $results = $stmt->execute();
 
