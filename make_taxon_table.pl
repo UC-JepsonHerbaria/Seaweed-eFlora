@@ -6,7 +6,7 @@ use Text::CSV;
 #declare input files
 my $taxon_id_file = "inputs/seaweed_taxon_ids.txt";
 my $synonymy_file = "inputs/names_synonyms.csv";
-my @content_files = ("KELP_species_pages.txt", "GREEN_species_pages.txt");
+my @content_files = ("RED_species_pages.txt","BROWN_species_pages.txt", "GREEN_species_pages.txt");
 
 #declare taxonID hash
 my %TID;
