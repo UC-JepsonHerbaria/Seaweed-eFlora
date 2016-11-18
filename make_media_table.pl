@@ -4,7 +4,7 @@ use strict;
 
 #declare input files
 my $taxon_id_file = "inputs/seaweed_taxon_ids.txt";
-my @treatment_files = ("KELP_species_pages.txt", "GREEN_species_pages.txt");
+my @treatment_files = ("RED_species_pages.txt","BROWN_species_pages.txt", "GREEN_species_pages.txt");
 my $cspace_specimen_file = "inputs/4solr_algae.csv";
 my $cspace_media_file = "inputs/4solr.ucjeps.media.csv";
 
