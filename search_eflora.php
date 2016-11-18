@@ -19,7 +19,7 @@ if (isset($_GET['MacAdd'])){
 if (isset($_GET['SpPage'])){
 	$HasSpeciesPage = $_GET['SpPage'];
 	$SpPageAndStatement = "AND a.HasSpeciesPage = IS NOT NULL";//What value is expressed here?, this column not yet added
-	$SpPagePrintStatement = "Species Page = "x"; ";//I assume Kathy Ann is have a value of "x" in this field, otherwise field is blank
+	$SpPagePrintStatement = "Species Page = "x"; ";//I assume Kathy Ann has a value of "x" in this field, otherwise field is blank
 }
 //connect to the database
 require 'config/config.php';
