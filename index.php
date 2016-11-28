@@ -90,52 +90,61 @@ function openwindowphylo()
 <td width="50%" height="" valign="top">
 <form action="search_eflora.php" method="POST">
 <b>Scientific Name<br></b>		<input type="text" id="query_text" name="query"></input>
-		<input type="submit" value="Current and former names for California seaweeds" />
+		<input type="submit" value="Submit Name" />
 
 </form>
 
-<td width="25%" align="center" valign="top">
+<td width="25%" align="left" valign="top">
 <form action="pages/non_native_list.html">
         <input type="submit" value="Non-native species">
         
 </form>
 </td>
-<td width="25%" align="center" valign="top">
+<td width="25%" align="left" valign="top">
 <form action="pages/californiaseaweeds.html">
-        <input type="submit" value="Species reported since 1976">
+        <input type="submit" value="Current and former names for California seaweeds">
         
 </form>
 
 
 </td>
 </tr>
-
 <tr>
 <td>
 <?php include('common/php/eflora_index_bar.php'); ?>  
 </td>
-<td colspan="2" align="center">
-<FORM>Voucher-based species lists: <SELECT WIDTH=20 onChange="JumpToIt(this)"><OPTION VALUE="None">Select a county
-<OPTION VALUE="#">Del Norte
-<OPTION VALUE="#">Humboldt
-<OPTION VALUE="#">Mendocino
-<OPTION VALUE="#">Sonoma
-<OPTION VALUE="#">Marin
-<OPTION VALUE="#">San Francisco
-<OPTION VALUE="#">San Mateo
-<OPTION VALUE="#">Santa Cruz
-<OPTION VALUE="#">Monterey
-<OPTION VALUE="#">San Luis Obispo
-<OPTION VALUE="#">Santa Barbara
-<OPTION VALUE="#">Ventura
-<OPTION VALUE="#">Los Angeles
-<OPTION VALUE="#">Orange
-<OPTION VALUE="#">San Diego
-</SELECT>
-<br><a href="javascript: openwindowmap()">map of coastal counties</a></FORM>
+<td>
 
+<p class="pageSubheading">
+<span class="pageAuthorLine">Voucher-based Species Lists:</span>
+<select onchange="window.location=this.value">
+<option>Select a county</option>
+<?php 
+$CSpace_URL='https://webapps.cspace.berkeley.edu/ucjeps/publicsearch/publicsearch/?county=';
+echo "<OPTION VALUE='".$CSpace_URL."Del Norte&country=USA&state=CA&majorgroup=Algae&displayType=list&maxresults=5000'>Del Norte"; 
+echo "<OPTION VALUE='".$CSpace_URL."Humboldt&country=USA&state=CA&majorgroup=Algae&displayType=list&maxresults=5000'>Humboldt"; 
+echo "<OPTION VALUE='".$CSpace_URL."Mendocino&country=USA&state=CA&majorgroup=Algae&displayType=list&maxresults=5000'>Mendocino";
+echo "<OPTION VALUE='".$CSpace_URL."Sonoma&country=USA&state=CA&majorgroup=Algae&displayType=list&maxresults=5000'>Sonoma";
+echo "<OPTION VALUE='".$CSpace_URL."Marin&country=USA&state=CA&majorgroup=Algae&displayType=list&maxresults=5000'>Marin";
+echo "<OPTION VALUE='".$CSpace_URL."San Francisco&country=USA&state=CA&majorgroup=Algae&displayType=list&maxresults=5000'>San Francisco";
+echo "<OPTION VALUE='".$CSpace_URL."San Mateo&country=USA&state=CA&majorgroup=Algae&displayType=list&maxresults=5000'>San Mateo";
+echo "<OPTION VALUE='".$CSpace_URL."Santa Cruz&country=USA&state=CA&majorgroup=Algae&displayType=list&maxresults=5000'>Santa Cruz";
+echo "<OPTION VALUE='".$CSpace_URL."Monterey&country=USA&state=CA&majorgroup=Algae&displayType=list&maxresults=5000'>Monterey";
+echo "<OPTION VALUE='".$CSpace_URL."San Luis Obispo&country=USA&state=CA&majorgroup=Algae&displayType=list&maxresults=5000'>San Luis Obispo";
+echo "<OPTION VALUE='".$CSpace_URL."Santa Barbara&country=USA&state=CA&majorgroup=Algae&displayType=list&maxresults=5000'>Santa Barbara";
+echo "<OPTION VALUE='".$CSpace_URL."Ventura&country=USA&state=CA&majorgroup=Algae&displayType=list&maxresults=5000'>Ventura";
+echo "<OPTION VALUE='".$CSpace_URL."Los Angeles&country=USA&state=CA&majorgroup=Algae&displayType=list&maxresults=5000'>Los Angeles";
+echo "<OPTION VALUE='".$CSpace_URL."Orange&country=USA&state=CA&majorgroup=Algae&displayType=list&maxresults=5000'>Orange";
+echo "<OPTION VALUE='".$CSpace_URL."San Diego&country=USA&state=CA&majorgroup=Algae&displayType=list&maxresults=5000'>San Diego";
+?>
+</SELECT>
+</p>
+<a href="javascript: openwindowmap()">map of coastal counties</a></FORM>
 </td>
 </tr>
+
+<tr><td><br><br></td></tr>
+
 <tr><td colspan="3">&nbsp;</td></tr>
 <tr>
 <td valign="top" width="50%">
