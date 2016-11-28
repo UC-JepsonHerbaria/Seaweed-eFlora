@@ -238,7 +238,6 @@
 238	Audouinella vaga	Audouinella vaga (Drew) Garbary, Hansen & Scagel
 239	Audouinella variabilis	Audouinella variabilis (K.M. Drew) D.J. Garbary
 240	Baillouviana plumosa	Baillouviana plumosa (Harvey & Bailey) Kuntze
-241	Bangia	Bangia
 242	Bangia alsidii	Bangia alsidii Zanardini
 243	Bangia carnea	Bangia carnea (Dillwyn) Harvey
 244	Bangia ciliaris subsp. pulchella	Bangia ciliaris subsp. pulchella (Harvey) De Toni
@@ -2794,3 +2793,8 @@
 2793	Laminaria faeroensis f. sacchariniformis	Laminaria faeroensis f. sacchariniformis B&egrave;rgesen
 2794	Spongomorpha spinescens	Spongomorpha spinescens (K&uuml;tzing) Kjellman
 2795	Syringoderma phinneyi	Syringoderma phinneyi E.C.Henry & D.G.M&Egrave;ller
+2796	Bryopsis pennata	Bryopsis pennata J.V.Lamouroux
+2797	Desmarestia dudresnayi	Desmarestia dudresnayi J.V.Lamouroux ex Leman
+2798	Colaconema pacificum	Colaconema pacificum (Kylin) Woelkerling
+2799	Erythrophyllum delesserioides	Erythrophyllum delesserioides J. Agardh
+2800	Pseudolithoderma nigrum	Pseudolithoderma nigrum G.J. Hollenberg
