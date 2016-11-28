@@ -4,7 +4,7 @@ use strict;
 
 #declare input files
 my $taxon_id_file = "inputs/seaweed_taxon_ids.txt";
-my @treatment_files = ("RED_species_pages.txt","BROWN_species_pages.txt", "GREEN_species_pages.txt");
+my @treatment_files = ("RED_species_pages.txt", "BROWN_species_pages.txt", "KELP_species_pages.txt", "GREEN_species_pages.txt");
 my $cspace_specimen_file = "inputs/4solr_algae.csv";
 my $cspace_media_file = "inputs/4solr.ucjeps.media.csv";
 
@@ -84,7 +84,7 @@ foreach my $filename (@treatment_files) {
 
 		my $taxon_id = $TID{$scientific_name};
 		unless ($taxon_id){
-			warn "no taxon id for scientific name $scientific_name\n add $scientific_name to seaweed_taxon_ids.txt\n";
+			warn "no taxon id for scientific name $scientific_name\t-----\tadd $scientific_name to seaweed_taxon_ids.txt\n";
 			next;
 		} 
 		
