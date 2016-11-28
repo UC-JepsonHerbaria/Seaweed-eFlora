@@ -6,7 +6,7 @@ use Text::CSV;
 #declare input files
 my $taxon_id_file = "inputs/seaweed_taxon_ids.txt";
 my $synonymy_file = "inputs/names_synonyms.csv";
-my @content_files = ("RED_species_pages.txt","BROWN_species_pages.txt", "GREEN_species_pages.txt");
+my @content_files = ("RED_species_pages.txt", "BROWN_species_pages.txt", "KELP_species_pages.txt", "GREEN_species_pages.txt");
 
 #declare taxonID hash
 my %TID;
@@ -57,7 +57,7 @@ while(<IN>){
 		#this may be superfluous as only accepted names are processed in this script
 		my $syn_taxon_id = $TID{$syn_scientific_name};
 		unless ($syn_taxon_id){
-			warn "no taxon id for scientific name $syn_scientific_name\n add $syn_scientific_name to seaweed_taxon_ids.txt\n";
+			warn "no taxon id for scientific name $syn_scientific_name\t-----\tadd $syn_scientific_name to seaweed_taxon_ids.txt\n";
 			&log_issue("no taxon id\t$syn_scientific_name\t$syn_scientific_name_author");
 			next;
 		} 
@@ -66,6 +66,7 @@ while(<IN>){
 		$MAJGRP{$syn_scientific_name}=$syn_major_group;
 		$DATE{$syn_scientific_name}=$syn_date;
 		$ADDITIONS{$syn_scientific_name}=$syn_additions;
+
 	}
 	else{ warn "synonymy file parsing error $_\n"; }
 }
@@ -121,8 +122,8 @@ warn "now processing file $filename";
 		#assign taxon id
 		my $taxon_id = $TID{$scientific_name};
 		unless ($taxon_id){
-			warn "no taxon id for scientific name $scientific_name\n add $scientific_name to seaweed_taxon_ids.txt\n";
-			&log_issue("no taxon id for scientific name $scientific_name\n add $scientific_name to seaweed_taxon_ids.txt");
+			warn "no taxon id for scientific name $scientific_name\t------\tadd $scientific_name to seaweed_taxon_ids.txt\n";
+			&log_issue("no taxon id for scientific name $scientific_name\t-----\tadd $scientific_name to seaweed_taxon_ids.txt");
 			next;
 		}
 		
@@ -133,9 +134,10 @@ warn "now processing file $filename";
 		$scientific_name = "'$scientific_name'";
 
 		#all names with a treatment paragraph are accepted names and will have a species page
-		my $name_status="'accepted name'";
-		my $HasSpeciesPage="'1'";
 
+		my $name_status="'accepted name'";
+		my $HasSpeciesPage="'Y'";
+		
 		#print SQL insert statement to output
 		print OUT "INSERT INTO eflora_taxa(TaxonID, ScientificName, TaxonAuthor, NativeStatus, KeyCharacteristics, Status, Habitat, LifeHistory, Conservation, DistributionNotes, MACDescription, MACNotes, VerticalDistribution, Frequency, Substrate, Associates, Epiphytes, TypeLocality, NameStatus, DescriptionDate, MajorGroup, Additions, HasSpeciesPage)\n";
 		print OUT "VALUES($taxon_id, $scientific_name, $taxon_author, $native_status, $key_characteristics, $status, $habitat, $life_history, $conservation, $distribution_notes, $MAC_description, $MAC_notes, $vertical_distribution, $frequency, $substrate, $associates, $epiphytes, $type_locality, $name_status, $date, $major_group, $additions, $HasSpeciesPage)\n";
@@ -168,7 +170,7 @@ sub get_native_status {
     }
     else {
     	warn "no/strange native status for paragraph starting with $lines[0]\n$lines[1]\n";
-    	&log_issue("no/strange native status for paragraph starting with $lines[0]\n$lines[1]");
+    	&log_issue("no/strange native status for paragraph starting with $lines[0]\t----\t$lines[1]");
     	return "NULL";
     }
 }
