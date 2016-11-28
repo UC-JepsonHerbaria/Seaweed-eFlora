@@ -3,6 +3,9 @@
 #With the AcceptedNameTID in the AcceptedNameTID field of the database
 #NOTE that the current workflow only processes names with treatments and not-accepted names
 #meaning that accepted names that do not have a species page treatment are not indexed
+#As of Nov 2016, the seaweedflora index was indexing taxon without species pages, so the code was 
+#not working as intended.  Additions were made to correct this problem.  As species pages are created, new names are added 
+#to treated_names_list text file, the synonyms for those taxa will also be displayed as a result of the added code.
 
 #!usr/bin/perl
 use warnings;
@@ -91,15 +94,29 @@ while(<IN>){
 				next;
 			}
 		}
-		
+				
+		#check if accepted names have a species page
+		#if they do, then allow the filter in eflora_index.php to display it on index and searches
+		my $HasSpeciesPage;
+			if ($syn_accepted_name =~ /^$treated_names_list$/){
+				$HasSpeciesPage = "'Y'";
+				&log_issue("$syn_scientific_name----$HasSpeciesPage HasSpeciesPage added\n");
+			}
+
+			
+			else {
+				$HasSpeciesPage = "NULL";
+				warn "$HasSpeciesPage-----$syn_accepted_name, accepted name for $syn_scientific_name, does not have a species page. It will be not displayed in searches yet\n";
+				&log_issue("$HasSpeciesPage-----$syn_accepted_name, accepted name for $syn_scientific_name, does not have a species page. It will be not displayed in searches yet\n");
+			}
 		#for synonyms, get $AcceptedNameTID and confirm that it exists
 		#for others (accepted names and misapplications), AcceptedNameTID is null
 		my $AcceptedNameTID;
 		if ($syn_name_status =~ /synonym/i) {
 			$AcceptedNameTID = $TID{$syn_accepted_name};
 			unless ($AcceptedNameTID){
-				warn "no taxon id for accepted name $syn_accepted_name\tfor synonym $syn_scientific_name\t$syn_name_status\nadd $syn_accepted_name to seaweed_taxon_ids.txt\n";
-				&log_issue("no taxon id for accepted name '$syn_accepted_name'\t$syn_scientific_name\t$syn_name_status");
+				warn "no taxon id for accepted name $syn_accepted_name\tfor synonym $syn_scientific_name\t$syn_name_status\t-----\tadd $syn_accepted_name to seaweed_taxon_ids.txt\n";
+				&log_issue("no taxon id for accepted name '$syn_accepted_name'\t$syn_scientific_name\t$syn_name_status\n");
 				next;
 			}
 		}
@@ -125,8 +142,8 @@ while(<IN>){
 
 		
 		#print SQL insert statement to output
-		print OUT "INSERT INTO eflora_taxa(ScientificName, NativeStatus, NameStatus, DescriptionDate, MajorGroup, Additions, AcceptedNameTID)\n";
-		print OUT "VALUES($syn_scientific_name, $native_status, $syn_name_status, $syn_date, $syn_major_group, $syn_additions, $AcceptedNameTID)\n";
+		print OUT "INSERT INTO eflora_taxa(ScientificName, NativeStatus, NameStatus, DescriptionDate, MajorGroup, Additions, AcceptedNameTID, HasSpeciesPage)\n";
+		print OUT "VALUES($syn_scientific_name, $native_status, $syn_name_status, $syn_date, $syn_major_group, $syn_additions, $AcceptedNameTID, $HasSpeciesPage)\n";
 		print OUT ";\n";
 	}
 	
