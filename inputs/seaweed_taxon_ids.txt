@@ -238,6 +238,7 @@
 238	Audouinella vaga	Audouinella vaga (Drew) Garbary, Hansen & Scagel
 239	Audouinella variabilis	Audouinella variabilis (K.M. Drew) D.J. Garbary
 240	Baillouviana plumosa	Baillouviana plumosa (Harvey & Bailey) Kuntze
+#241	Bangia sp.	Bangia sp.
 242	Bangia alsidii	Bangia alsidii Zanardini
 243	Bangia carnea	Bangia carnea (Dillwyn) Harvey
 244	Bangia ciliaris subsp. pulchella	Bangia ciliaris subsp. pulchella (Harvey) De Toni
@@ -2798,3 +2799,6 @@
 2798	Colaconema pacificum	Colaconema pacificum (Kylin) Woelkerling
 2799	Erythrophyllum delesserioides	Erythrophyllum delesserioides J. Agardh
 2800	Pseudolithoderma nigrum	Pseudolithoderma nigrum G.J. Hollenberg
+2801	Crusticorallina muricata	Crusticorallina muricata (Foslie) P.W.Gabrielson, Martone, K.R.Hind, & C.P.Jensen
+2802	Bangia	Bangia
+2803	Pelvetiopsis californicus	Pelvetiopsis californicus (P.C. Silva) J. Neiva, P.T. Raimondi, G.A. Pearson, & E.A. Serr&atilde;o
