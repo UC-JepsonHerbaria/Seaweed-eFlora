@@ -1,0 +1,381 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>California Seaweed eFlora: Front Page</title> 
+<meta name="keywords">
+<link href="http://ucjeps.berkeley.edu/common/styles/dropdowns.css" rel="stylesheet" type="text/css">
+
+   <meta charset='utf-8'>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="http://ucjeps.berkeley.edu/seaweedflora/seaweedflora/common/css/globalmenu.css">
+   <script src="http://ucjeps.berkeley.edu/seaweedflora/seaweedflora/common/js/globalmenu.js"></script>
+   <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+
+</head>
+
+
+
+<style> 
+a.internal {
+	color: #CC6600;
+	text-decoration: none;
+	}
+a.internal:hover {
+	color: #3366CC;
+	text-decoration: underline;
+}
+
+p.one {
+	border-top: 5px double black ;
+    
+}
+
+p.two {
+    border-bottom: 5px double black;
+    
+}
+	
+p.three {
+    border-bottom: 3px solid black;
+
+li.embed {
+    display: list-item;
+}	
+	
+}
+#accordion .ui-accordion-content {
+    max-height: 410px;
+}
+	
+
+</style>
+
+<!-- Google analytics -->
+<!-- goes here, once it is made -->
+
+<!-- jquery functions -->
+<!-- jQuery UI stuff-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+<link rel="stylesheet" href="http://ucjeps.berkeley.edu/common/styles/sw-custom-jquery-ui.css">
+
+ <script>
+  $(function() {
+    $( "#accordion" ).accordion({
+      heightStyle: "fill"
+    });
+  });
+  </script>
+
+<!-- end jQuery -->
+<!--JQ Tabs-->
+<script>
+  $(function() {
+    $( "#tabs" ).tabs();
+  });
+</script>
+
+
+<script>
+function openwindowphylo()
+{
+	window.open ("about_phylogeny.html", "About the algal phylogeny", "resizable=1,scrollbars=1,toolbar=0")
+}
+</script>
+
+
+<!-- fancybox -->
+<script>
+   $(document).ready(function() {
+	   $(".fancybox").fancybox({
+		    type        : 'image',
+	    	openEffect  : 'none',
+	    	closeEffect : 'none'
+		});
+    });
+    $(document).ready(function() {
+		$('.fancybox2').fancybox();
+    });
+</script>
+<!-- end fancybox-->
+
+
+
+
+
+<!-- end jQuery -->
+<body onLoad="initialize()">
+
+<!-- Begin banner -->
+<?php include($_SERVER['DOCUMENT_ROOT'].'/seaweedflora/seaweedflora/common/php/seaweed_header.php'); ?>
+<!-- End banner -->
+
+<!-- Beginning of horizontal menu -->
+<?php include($_SERVER['DOCUMENT_ROOT'].'/seaweedflora/seaweedflora/common/php/globalnav.php'); ?> 
+<!-- End of horizontal menu -->
+
+<!-- Top matter -->
+<table align="center" width="100%"><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</td>
+<td width=40%>
+<span class="pageName">California Seaweeds eFlora</a></span>
+
+
+</td>
+<td width=55%>
+<!--eFlora index-->
+
+<?php include($_SERVER['DOCUMENT_ROOT'].'/seaweedflora/seaweedflora/common/php/glossary_index_bar.php'); ?>
+<!--end eFlora index-->
+</td>
+<td align="right">
+
+</td></tr>
+</table>
+
+
+<?php include($_SERVER['DOCUMENT_ROOT'].'/seaweedflora/seaweedflora/common/php/seaweed_menu.php'); ?>
+<!-- end top matter-->
+
+
+<div align="center">
+<p class="one">	</p>
+<span class="pageName">New to Seaweeds? <i>Join Us</i></a></span>
+<p class="two">	</p>
+</div>
+
+
+<table align="center" width="100%"><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<tbody>
+<tr>
+
+<td width="5px">&nbsp;</td>
+<td width="20%" height="" valign="top" align="left">
+	
+	<span class="pageAuthorLine">UC:&nbsp;&nbsp;<a href="https:////ww2.kqed.org/quest/2013/02/05/science-on-the-spot-preserving-the-forest-of-the-sea/">Seaweeds <br /> in the Herbarium</a>
+ 	</span>
+<!--	<form action="https:////ww2.kqed.org/quest/2013/02/05/science-on-the-spot-preserving-the-forest-of-the-sea/">
+        <input type="submit" value="UC: Seaweeds &#x00A; in the Herbarium">
+	</form> -->
+
+<br /><br /><br /><br /><br /><br /><br /><br />
+	<span class="pageAuthorLine">55 Common Seaweeds:<br /><a href="http://ucjeps.berkeley.edu/cgi-bin/picture_key.pl?sortfield=name">Point Reyes <br /> National Seashore</a>
+ 	</span>
+	
+<!--<form action="http://ucjeps.berkeley.edu/cgi-bin/picture_key.pl?sortfield=name">
+        <input type="submit" value="55 Common Seaweeds:&#x00A; Point Reyes &#x00A; National Seashore">
+	</form>-->
+
+</td>	
+	 
+<td width="60%" height="" valign="top" align="left">
+
+<div align="center"><img src="Nereocystis2.jpg"></div>
+
+</td>
+<td width="20px">&nbsp;&nbsp;</td>
+<td width="20%" height="" valign="top" align="right">
+<p class="pageSubheading" align="left">
+<span class="pageAuthorLine">Visual Interactive Keys</span><br />
+<span class="pageAuthorLine">to Common Species</span>
+<select onchange="window.location=this.value">
+<option>Select a group</option>
+<?php 
+$eFlora_URL='https://ucjeps.berkeley.edu/seaweedflora/';
+echo "<OPTION VALUE='http://ucjeps.berkeley.edu/seaweedflora/green/index.html'>Greens";
+echo "<OPTION VALUE='http://ucjeps.berkeley.edu/seaweedflora/kelp/index.html'>Kelps";
+echo "<OPTION VALUE='http://ucjeps.berkeley.edu/seaweedflora/brown/index.html'>Browns";
+?>
+</select>
+</p>
+
+<!-- need to change to ucjeps directory when known URL and add the other groups when available -->
+
+</td>	
+
+</tr>
+
+<td width="5px">&nbsp;</td>
+	<td align="left">
+	<img height="600px" src="sidebars.jpg"><br />
+<!-- <a href="http://www.josieiselin.com/about/"><img height="200px" src="ocean_garden.jpeg"></a><br>
+<span class="pageAuthorLine">www.josieiselin.com</span>-->
+ 	</td>
+
+<td valign="top" align="center" style="padding-left:25px">
+<h4 class="pageMajorHeading">California Seaweeds</h4> 
+  <div align="left" id="accordion">
+      <h3>WHAT ARE SEAWEEDS?</h3>
+    <div>
+<p>When you visit the coast, there is so much to see — the sweep of the waves, the dramatic rocks and cliffs, and the plants and animals straddling the land and sea, in that magical transition called the intertidal zone.  When the tides are low, the marine creatures are exposed for a few hours. What do you see first?  The seaweeds, cloaking the rocks in gleaming pinks, reds, greens and browns, providing habitat for the more familiar crabs and snails that hide among them. This web site is a way for you to learn to see more at the water's edge, to educate your eye, and to increase your appreciation for the rich legacy of natural history that is yours.  The more you know, the more you will see.</p>
+<p>Seaweeds are the first plant-like organisms on earth.  Plant-like?  They are multicellular and attached, usually to rock or sometimes anchored in sand; the shapes of their bodies are designed to use light energy to power photosynthesis and to absorb carbon dioxide and nutrients from the ocean; the by-product of photosynthesis is oxygen; they form the meadows and forests of the intertidal and subtidal zones, providing habitat for other seaweeds and for animals.  Some seaweeds live inside the tissues of other seaweeds or animals; others are tiny parasites on other seaweeds.</p>
+<p>Other organisms called "algae" also produce oxygen through photosynthesis but live in fresh water, or terrestrially.  They include cyanobacteria (blue-green algae), phytoplankton (unicells or colonies in fresh or salt water), crusts and slimes on bark, mud or sand, and symbionts (unicells living inside organisms) in lichens or animals.</p>
+<p>Algae, including seaweeds, have chloroplasts, tiny organelles that contain chlorophyll a, the pigment that initiates photosynthesis.  The great classes of the algae are partly defined by the pigments they contain in addition to chl a, and by the compounds in their cell walls.</p>
+<p>The ancestors of the <b>green algae</b> (Chlorophyceae) are the ancestors of green land plants &mdash; mosses, ferns, flowering and cone-bearing plants. Many of today's green algae live in fresh water habitats and are part of the single-celled plankton in fresh and salt water.</p>
+<p>The <b>brown algae</b> (Phaeophyceae) are part of a large diverse lineage or organisms. Some relatives in other classes include diatoms (unicells with silica walls that are an important component of the plankton), water molds, and the malaria parasite. Brown algae are multicellular and most are marine. The kelps, conspicuous for their size and the kelp forests they form, belong to one order (Laminariales) of the brown algae.</p>
+<p>The <b>red algae</b> (Rhodophyceae) comprise the largest group; most are multicellular and marine.  They are diverse in form and habitat, often dominating intertidal shores and kelp forest understory communities.</p>
+    </div>
+  
+    <h3>EVOLUTIONARY HISTORY</h3>
+    <div>
+<p>Seaweeds are ancient, but most have a poor fossil record, due to their soft bodies.  Nevertheless, ages of the major lineages can be estimated on the basis of DNA sequences and those estimates can be ground-truthed with fossils, when possible.</p>
+<p><a class = "normalLink" href="javascript: openwindowphylo()">This tree is based on sequences from chloroplast DNA</a>.  It is rooted in the cyanobacteria (blue-green algae), the first organisms to use oxygen-producing photosynthesis and the ancestors of today's chloroplasts.  They are chiefly responsible for establishing our oxygen-rich atmosphere.  The red algae, the oldest lineage (~1200 million years old) and the green algae (~600 million years old) acquired their chloroplasts by engulfing and enslaving ancestral cyanobacteria in an evolutionary process called primary endosymbiosis.  In turn, an ancestral red algae was engulfed and enslaved, evolving into the chloroplast of the brown algae, via secondary endosymbiosis.</p>
+<p>The red algae are represented by the relictual Glaucophyte lineage and the robust Bangiophyte/Florideophyte lineage.  The green algal lineage includes the ancestors of the bryophytes and vascular plants.  The brown algal lineage is part of a diverse group of organisms, the stramenopiles, that includes water molds, the malaria parasite and other "protists".</p>
+
+<p><img height="400px" src="phylogeny.png"><br>
+    </div>
+
+    <h3>MORPHOLOGY AND ANATOMY</h3>
+    <div>
+<p>Most seaweeds are modular organisms with indeterminate growth (no "final" form, like our noses and ears, but more so).  This means that their adult form varies as a function of age, reproductive status, environment and whether they've been chewed on by herbivores. This is called morphological plasticity &mdash; and it makes identifying species difficult.  Seaweeds have less regional specialization than terrestrial plants &mdash; they lack leaves and roots.  Instead, they maximize their surface area for absorption of light and nutrients by having broad flat blades, many narrow branches, aggregations of fine filaments, simple cylindrical or tubular axes, or flat, extensive crustose thalli (bodies).  They attach to the substrate with holdfasts, that may be tiny disks or more complex, finger-like structures.  Stem-like stipes in some species transition between the holdfast and the upper expanded portion of the body.</p> 
+<table><tr>
+<!--<td><img height="400px" src="morphology_1.jpeg"></td></tr>-->
+<td><img height="400px" src="morphology_2.jpeg"></td>
+</tr>
+</table>
+
+<p>Seaweeds range from simple bubbles filled with seawater, complexes of twisted siphons (tubes of cytoplasm without cross walls), and chains of cells (filaments) to more complex tissues with internal, supportive  cells (medulla) and a skin-like layer of smaller, tighter cells (cortex) that contain chloroplasts. Transport between cells is limited to diffusion except for the kelps, which have specialized transport cells (trumpet hyphae).  It makes sense that most seaweeds have a high surface area to volume ratio to emphasize the chloroplast-containing layers and minimize the inner, supportive tissue, since water supports the thallus and structural needs are minimal.  Flexibility is better!</p>
+<table><tr>
+<td><img height="400px" src="anatomy_1.jpeg"></td></tr>
+<td><img height="400px" src="anatomy_2.jpeg"></td>
+</tr>
+</table>
+	</div>
+
+    <h3>REPRODUCTION</h3>
+    <div>
+<p>Seaweed reproduction is amazing. Many different modes of producing and dispersing reproductive structures have evolved, with many twists and modifications.  It seems as though they all work, or they would have been eliminated by natural selection.  Here are some examples.</p>
+<p>Life cycles are the pattern of growth and reproduction that characterizes a species in time and space.  This pattern is genetic, involving our chromosome complement; developmental, defining growth of the thallus or body, and reproductive, highlighting how the organism produces reproductive bodies to multiply and disperse the species. Life cycles are important on the individual, population and species level.</p>
+<ul><li>We humans have two sets of chromosomes, one from each of our parents, and are thus DIPLOID. Cells in our ovaries and testes undergo gametic <b>MEIOSIS</b> (reduction division), during which chromosomes exchange genes and then separate to form <b>HAPLOID GAMETES</b> (eggs and sperm) that have one set of chromosomes.  When sex occurs, those <b>HAPLOID GAMETES</b> unite to form a <b>DIPLOID ZYGOTE</b> &mdash; a cell with chromosomes from both parents.  The <b>ZYGOTE</b> then develops into another <b>DIPLOID</b> person. This is <b>DIPLONTIC</b> life cycle, in which the <b>DIPLOID</b> phase is the sole <b>FREE-LIVING</b> phase.</li>
+
+<table><tr>
+<td><img height="400px" src="LIFE_CYCLES_1.jpeg"></td>
+</tr>
+</table>
+
+<li>The rockweeds (species in the genera <i>Fucus</i>, <i>Pelvetiopsis</i>, <i>Silvetia</i>, <i>Hesperophycus</i>) are good examples of species with diplontic life cycles.  Each thallus (=body) is diploid.  Some species bear both eggs and sperm (<b>MONOECIOUS</b>:  one house) while others bear eggs and sperm on separate thalli (<b>DIOECIOUS</b>: two houses).  Gametic <b>meiosis</b> takes place in the development of <b>haploid gametes</b> (eggs and sperm); they are shed, meet, and fuse to form <b>diploid zygotes</b>.  These <b>zygotes</b> wash away, usually close to the parent thallus) and develop into new <b>diploid</b> rockweed individuals.</li>
+
+<table><tr>
+<td><img height="400px" src="LIFE_CYCLES_2.jpeg"></td>
+</tr>
+</table>
+
+<li>Some seaweeds develop a <b>HAPLOID</b> thallus as well as a <b>DIPLOID</b> thallus. In this kind of life cycle, cells in the diploid thallus, called the <b>SPOROPHYTE</b>, undergo sporic <b>meiosis</b> and are shed as <b>haploid meiospores</b>.</li>
+</ul>
+		
+	<p>These <b>haploid meiospores</b> develop into <b>haploid</b> thalli, called <b>GAMETOPHYTES</b>, that grow and become mature.</p>
+	
+	<p><b>Haploid gametophytes</b> develop <b>haploid</b> gametes that are shed.  Male gametes fuse with female gametes to form <b>diploid zygotes</b>, which develop into <b>diploid sporophytes</b> that grow and mature.  And the cycle continues, an <b>ALTERNATION OF GENERATIONS</b>, in which two <b>FREE-LIVING</b> phases, one <b>haploid</b> and one <b>diploid</b>, occur.</p>
+	
+<p>Sometimes the gametophytes and the sporophytes are very similar in form; these are called <b>ISOMORPHIC</b> phases.  In other species, the two phases look very different and are called <b>HETEROMORPHIC</b> phases.  For example, the kelps have a large, often massive, <b>sporophyte</b> phase and a tiny, microscopic, filamentous <b>gametophyte</b> phase.</p> 
+
+<table><tr>
+<td><img height="400px" src="LIFE_CYCLES_3.jpeg"></td>
+</tr>
+</table> 
+
+<p>In many <b>red seaweeds</b>, there is a third life cycle. The <b>haploid</b> female <b>gametophyte</b> bears an egg cell (carpogonium) that is not released.  Instead, it is fertilized by the male gamete (spermatium) and the resulting <b>diploid zygote</b> is retained on the female gametophyte, developing into a knot of <b>diploid</b> tissue called the <b>CARPOSPOROPHYTE</b>.
+</p>
+<p>The <b>carposporophyte</b> is a <b>diploid</b> phase living on the <b>haploid</b> female gametophyte. It is not, therefore, <b>free-living</b>, like the gametophyte and sporophyte phases.</p>
+<p>The <b>diploid carposporophyte</b> produces <b>diploid carpospores</b>, that are released, settle and grow into the <b>diploid tetrasporophyte</b>, the second <b>free-living</b> phase. </p>
+<p>Cells of the <b>diploid tetrasporophyte</b> undergo <b>sporic meiosis</b> to produce <b>haploid tetraspores</b>.  These are released and grow into <b>haploid gametophytes</b>, the other <b>free-living</b> phase in this <b>TRIPHASIC</b> life cycle. </p>		
+<p>The two free-living phases can be identical or very different; some species (in <i>Mastocarpus</i>, for example) alternate between a crustose sporophyte and a blade-like gametophyte. </p>		
+<table><tr>
+<td><img height="400px" src="LIFE_CYCLES_4.jpeg"></td>
+</tr>
+</table>
+   </div>
+   
+    <h3>HABITATS</h3>
+    <div>
+<p>In California, seaweeds attach firmly to rock (bedrock, boulders, pebbles), shells (living and dead) or to other seaweeds (as <b>EPIPHYTES</b>, growing on other seaweeds).  Some specialize in sandy habitats; some are strictly intertidal, others subtidal, and still others can live in both regions of the shore. Intertidal zones depend on the shape of the land (topography) and the way the land faces the sea (fetch), and can differ greatly in steep vs. horizontal shore or sheltered vs. exposed areas.</p>
+
+<table><tr>
+<td><img height="400px" src="zonation.jpeg"></td>
+</tr>
+</table>
+<ul>
+<li>The <b>UPPER INTERTIDAL</b> zone is characterized by long exposure to air.  The uppermost part, where the land meets the sea, is called the SPLASH zone.  This where <i>Prasiola meridionalis</i> and <i>Rhodochorton purpureum</i>, the latter on cave walls, live.  Animals in the upper zones include barnacles and small littorine snails.  Seaweeds here often grow in dense clusters to keep water entrained in their branches.</li>
+<li>The <b>MIDDLE (or MID) INTERTIDAL</b> zone is diverse, but species are can be limited in size by exposure to air. This zone is sometimes divided into upper and lower mid-intertidal zones.  Animals include mussels, aggregating anenomes, isopods, and larger snails. </li>
+<li>The <b>LOW INTERTIDAL</b> zone is defined by the 0 tide (officially called mean low low water, or MLLW).  Tides below 0 are called negative tides and is also very diverse in invertebrate species (bryozoa, hydrozoa, sponges, crabs. </li>
+<li>The <b>SUBTIDAL</b> zone is not uncovered by the tides.  This is the realm of the forest-forming kelps, like <i>Macrocystis pyrifera</i> and <i>Nereocystis luetkeana</i>.  Many red, green and brown species flourish in the subtidal, with diverse invertebrates and fish.</li>
+<li>The <b>DEEP-WATER</b> (>30m or >100 ft.) zone off central California (and probably in other areas with suitable substrate for attachment) supports an extensive community of brown and red seaweeds, including <i>Pleurophycus gardneri</i>, <i>Desmarestia</i> spp., and diverse reds, including  <i>Callophyllis flabellulata</i>, <i>Rhodymenia</i> spp., <i>Polyneura latissima</i>, <i>Fryeella gardneri</i>, and <i>Maripelta rotata</i>.  The Channel Islands of southern California also have a deep-water community (dominated by <i>Pelagophycus porra</i> and <i>Laminaria farlowii</i>) because the water is so clear, but seaweeds are limited by soft sediment at that depth &mdash; they cannot attach.</li></ul>
+    </div>
+    
+    
+    <h3>NOMENCLATURE: THE NAME GAME</h3>
+    <div>
+<p>Names are essential for precise communication about species and communities, but they are assigned with the information at hand &mdash; they can be considered hypotheses that are tested by time and new technologies.  Names change when new information is available to identify new characters that help us delineate species and understand relationships among them.</p>
+<p>The art and science of naming is regulated by the International Code of Nomenclature for algae, fungi, and plants (Melbourne Code).  Names are tied to type specimens, those plants on which original descriptions are based.  The original name (basionym) is permanently linked to the type, even if opinions about the species change &mdash; and they frequently do &mdash; resulting in a change in name and a refinement of description of a species.  The type locality is the site where the type was collected.  It does not represent the center of distribution (in fact, the species may be rare at that site), but it anchors a name to a place, and is an important part of the history of a species.  To validate a name, the type specimen, its type locality and its description must be published in a botanical journal.</p>
+
+<p>Here's an example, using information in Paul Silva's <i>Index Nominum Algarum</i>, a database of algal nomenclature:</p>
+
+<p><i>Laminaria porra</i> Leman<br />
+Dict. Sc. Nat. [Levrault] 25: 189. 1822. (F) <br />
+Type locality: "dans la mer du Sud"<br />
+Collector: G.J.H.J.-B. Le Gentil</p>
+
+<p><i>Pelagophycus porra</i> (Leman) W. A. Setchell<br />
+Bot. Gaz. 45: 134. 1908. </p>
+
+<p>Basionym: See <i>Laminaria porra</i> Leman 1822</p>
+<p>Here, the basionym is <i>Laminaria porra</i>, described by Leman in 1822, based on a specimen collected by Le Gentil somewhere in the South Pacific.  In 1908, 86 years later, Setchell transferred this species to the genus <i>Pelagophycus</i> because he did not believe that it was closely related to other species in the genus <i>Lamniaria</i>.  The original author's name is remembered (in parentheses) and the author who made the transfer follows.</p> 
+<p>When two species are merged into one species as a result of new information (morphological variability, life history linkage, DNA sequences, etc.), the revised description of that species takes the older name by "priority".  The later name, now a synonym of this species rather than the accepted name, is still attached to its type specimen.  If both accepted name and the later name are based on the same type, the newer name is called a homotypic synonym.  If the synonym is based on a different type than the accepted name, it is called a heterotypic synonym.</p>
+		
+<p>Species can also be split into two or more species; often the basionyms of earlier species can be "resurrected" for application to one of these "new" species if the description of (or DNA sequence from) its type specimen matches one of the segregated species.  This process highlights the importance of obtaining DNA sequences type material, where possible, to determine the correct application of existing names to cryptic species identified using molecular techniques.</p>
+		
+<p>History of the Type Method</p>
+<p>The concept of anchoring a name to a specimen, the so-called type method, evolved in the first decade of the 1800s. Initially only generitypes, that is, type species of generic names, arose as an answer to the question: When the Linnaean genera with their overly broad circumscriptions are fractionated, which fraction retains the Linnaean name? For example, Linnaeus's <i>Lacerta</i> included all known lizards. Which lizards will remain in <i>Lacerta</i> after the genus has been split? The center of systematic natural history at that time was the Museum of Natural History in Paris. In the dictionaries of natural history published by the celebrated French naturalists, type species for many Linnaean generic names are designated. Among zoologists the concept soon expanded to include type specimens for specific names. For example, Linnaeus's <i>Lacerta monitor</i> included all known monitor lizards. Which one &mdash; the one from Indonesia, the one from Africa, or the one from America &mdash; would be designated type and thus retain the epithet monitor?</p>
+<p>Botanists were slow to appreciate the role of type specimens in anchoring specific names, which they allowed to float from one circumscription to another. Carl Agardh was exceptional: he had visited the museum in Paris and was at least aware of the type method, which he employed sporadically. When describing <i>Sporochnus</i>, he designated <i>Fucus pedunculatus</i> Turner as the type species.</p>
+<p>The type method was not incorporated in the botanical code of nomenclature until the Cambridge Congress in 1930 and the designation of a type was not a requirement for valid publication until 1958. Because few authors prior to 1958 designated type specimens for newly described species or infraspecific taxa, monographers were faced with the task of locating material used by the author of a name and choosing a lectotype if more than one specimen had been used in describing the taxon.</p>
+<p>See Silva, P.C. 2007.  Historical review of attempts to decrease subjectivity in species identification, with particular regard to algae. Protist 159:153-161. doi:10.1016/j.protis.2007.10.001</p>
+   </div>
+  
+      <h3>IDENTIFYING SEAWEEDS</h3>
+    <div>
+  <p>Seaweeds can be difficult to identify from a single specimen, because they vary depending upon age, environment and reproductive status.  Some specimens (and species) cannot be identified with confidence. Some species within a genus are "cryptic":  they have evolved apart genetically but they look alike, so they cannot be distinguished by morphology alone.</p>
+
+<p>Location is important.  The maps on the species pages give you an idea of the distribution of the species.  This will help you eliminate some guesses.  Be sure to look at the map from the Consortium of Pacific Northwest Herbaria to see the ranges of northern species.</p>	
+
+<p>For most species, it's best to look at a population of your species, if possible, so you can look at variation.  Even if you are looking at drift seaweeds, cast up from the subtidal zone, you can usually find more than one specimen, though you may know little about its habitat.  You can usually identify your specimens to the genus level based on their location, habitat, and morphology (form). </p>
+		
+<p>Habitat determines where a species can live.  Some are strictly upper intertidal, or only found at very low tides.  This is called "vertical distribution".  This can be a clue.  See the tab called HABITATS for a guide.  Another factor to notice is the substrate to which the seaweed is attached.  Most live on rocks, boulders or pebbles, but others live on rock swept by sand, or attached to other seaweeds or animals.  Some species live only in sheltered sites; others tolerate exposure to wave action. </p>
+		
+<p>Look at the parts of the seaweed thallus (=body).  Note the holdfast and the shape of the upper parts.  See the tab called MORPHOLOGY to help you with shapes and forms.  Note the color, texture, smell.  These can be unique for species and also help you remember them.</p>
+		
+<p>Try out the keys.  Select the county that you are in, then check the boxes that apply to your specimen.  With additional information, the photos are winnowed, leaving the best possibilities.  See if you recognize your specimen in a photo, and click on that photo for more information.  Then find the species page, which has more photos, images of specimens and information, plus some ideas for similar species that you may wish to compare with yours.</p>		
+		
+	</div>
+  
+ </div> 
+   
+</td>
+	<td width="20px">&nbsp;&nbsp;&nbsp;&nbsp;</td>
+	<td align="right">
+		
+<p class="pageSubheading" align="left">
+	<img height="600px" src="sidebars.jpg"><br />
+<!--<a href="http://www.jillpowers.com/"><img height="200px" src="SEA_TRACES.jpg"></a><br>
+ <span class="pageAuthorLine">www.jillpowers.com</span>-->
+</p>		
+ 	</td>
+
+
+</tbody></table>
+
+<table>
+<tr >
+    <td valign="top">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    
+	<td valign="top" width="50%" style="padding-left:25px">&nbsp;</td>
+
+</tr>
+</table>
+<p class="three"></p>
+
+<!-- Begin footer --> 
+<?php include($_SERVER['DOCUMENT_ROOT'].'/seaweedflora/seaweedflora/common/php/seaweed_footer.php'); ?>  
+<!-- End footer -->
+</body></html>
+
