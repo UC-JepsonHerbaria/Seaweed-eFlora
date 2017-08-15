@@ -2,14 +2,28 @@
 fancybox*
 
 #config files
-config/config.php
+config/config_new.php
+config/config_old.php
 
 #content
 images/
 inputs/*species_pages.txt
 inputs/4solr*
 inputs/names_synonyms*
+inputs/old_files/
+inputs/R*.gif
 audio/
+guide_scans/
+pages/list*
+pages/List*
+pages/californiaseaweeds*
+pages/*.xlsx
+pages/*.xls
+pages/*.docx
+pages/*.jpg
+pages/DQ*
+random.php
+pages/make_gif*
 
 #generated files
 outputs/
