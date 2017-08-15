@@ -12,7 +12,8 @@
 	<a href="eflora_index.php?index=K">K</a> | 
 	<a href="eflora_index.php?index=L">L</a> | 
 	<a href="eflora_index.php?index=M">M</a> | 
-	<a href="eflora_index.php?index=N">N</a> | 
+	<br />
+|	<a href="eflora_index.php?index=N">N</a> | 
 	<a href="eflora_index.php?index=O">O</a> | 
 	<a href="eflora_index.php?index=P">P</a> | 
 	<a href="eflora_index.php?index=Q">Q</a> | 
