@@ -6,7 +6,7 @@ use strict;
 my $taxon_id_file = "inputs/seaweed_taxon_ids.txt";
 my @treatment_files = ("RED_species_pages.txt", "BROWN_species_pages.txt", "KELP_species_pages.txt", "GREEN_species_pages.txt");
 my $cspace_specimen_file = "inputs/4solr_algae.csv";
-my $cspace_media_file = "inputs/4solr.ucjeps.media.csv";
+my $cspace_media_file = "inputs/4solr.ucjeps.media.txt";
 
 #declare hashes
 my %TID;
@@ -97,7 +97,7 @@ foreach my $filename (@treatment_files) {
 		foreach my $element (@illustration_array){
 			#check if is DeCew
 			my $IsDecew;
-			if ($element=~/(^C-|^P-|R-).*gif$/) { #illustrations in this format are from DeCew's Guide so get the DeCew citation on the website
+			if ($element=~/(^C-|^P-|^R_).*gif$/) { #illustrations in this format are from DeCew's Guide so get the DeCew citation on the website
 				$IsDecew=1;
 			}
 			else {$IsDecew=0;}
