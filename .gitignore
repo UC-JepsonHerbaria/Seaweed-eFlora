@@ -22,6 +22,9 @@ pages/*.xls
 pages/*.docx
 pages/*.jpg
 pages/DQ*
+index_o*
+eflora_display_o*
+eflora_display_n*
 random.php
 pages/make_gif*
 
