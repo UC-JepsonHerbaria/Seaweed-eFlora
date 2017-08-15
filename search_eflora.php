@@ -60,7 +60,7 @@ $db = new SQLite3($database_location);
    <tr>
        <td>&nbsp;</td>
        <td>&nbsp;</td>
-       <td width="100%"><span class="pageName"><a href="http://ucjeps.berkeley.edu/seaweedflora/seaweedflora/">California Seaweeds eFlora:</a> Search page</span>
+       <td width="100%"><span class="pageName"><a href="http://ucjeps.berkeley.edu/seaweedflora/">California Seaweeds eFlora:</a> Search page</span>
 		<br>
 <!--			<span class="pageAuthorLine">
 				<a href="http://ucjeps.berkeley.edu/IJM_fam_key.html">Key to families</a>
