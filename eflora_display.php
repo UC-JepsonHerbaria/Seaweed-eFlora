@@ -95,7 +95,7 @@ $specimen_results = $db->query('SELECT FileName, MediaURL, Creator, ThumbURL
 //Before doing anything, if the TID isn't recognized, give a plain error screen
 if (!$ID){ //if TaxonID (pulled from URL) did not match a line in the database...
 	echo "<html xmlns='http://www.w3.org/1999/xhtml'>";
-	echo "Taxon not recognized TID=".$TaxonID.":  <a href='http://ucjeps.berkeley.edu/seaweedflora/seaweedflora/'>Return to the front page</a>";
+	echo "Taxon not recognized TID=".$TaxonID.":  <a href='http://ucjeps.berkeley.edu/seaweedflora/'>Return to the front page</a>";
 	echo "</html>";
 	die();
 }
@@ -121,8 +121,8 @@ if (!$ID){ //if TaxonID (pulled from URL) did not match a line in the database..
 <link rel="stylesheet" href="fancybox/source/jquery.fancybox.css" type="text/css" media="screen" />
 <script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js"></script>
 
-<!-- google maps files and scripts -->
-<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<!-- google maps files and scripts 
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>-->
 
 <!-- Google analytics -->
 <script type="text/javascript">
@@ -143,21 +143,155 @@ if (!$ID){ //if TaxonID (pulled from URL) did not match a line in the database..
 // Apparently there are better ways to do this using AJAX
 $name4GoogleMap = str_replace(" ", '_', $ScientificName);
 ?>
-<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<!--<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>-->
 <script type="text/javascript"> 
-function initialize() {
-  var myOptions = {
-    mapTypeId: google.maps.MapTypeId.ROADMAP
-  }
 
-  var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+	var map; //If we want access "map" outside of initialize(), this must be a global variable
+	var kml;
+	
+     function ZoomControl(controlDiv, map) {
 
-	var MapName = "<?php echo $name4GoogleMap;?>";
+        // Set CSS for the controlDiv border.
+        var controlUI = document.createElement('div');
+        controlUI.style.backgroundColor = '#fff';
+        controlUI.style.border = '2px solid #fff';
+        controlUI.style.borderRadius = '3px';
+        controlUI.style.boxShadow = '0 2px 6px rgba(0,0,0,.3)';
+        controlUI.style.cursor = 'pointer';
+        controlUI.style.marginBottom = '10px';
+        controlUI.style.textAlign = 'center';
+        controlUI.title = 'Click to Zoom';
+        controlDiv.appendChild(controlUI);
 
-  var pmlLayer = new google.maps.KmlLayer("http://ucjeps.berkeley.edu/seaweedflora/SW_coords/"+MapName+".kml", { });
-  pmlLayer.setMap(map);
+   
+        
+        // Set CSS for the zoomIn
+  var zoomInButton = document.createElement('div');
+  zoomInButton.style.color = 'rgb(25,25,25)';
+        zoomInButton.style.fontFamily = 'Roboto,Arial,sans-serif';
+        zoomInButton.style.fontSize = '12px';
+        zoomInButton.style.lineHeight = '5px';
+        zoomInButton.style.paddingLeft = '2px';
+        zoomInButton.style.paddingRight = '2px';
+        zoomInButton.innerHTML = 'IN + ';
+  controlUI.appendChild(zoomInButton);
+        
+      // Set CSS for the zoomOut
+  var zoomOutButton = document.createElement('div');
+  zoomOutButton.style.color = 'rgb(25,25,25)';
+        zoomOutButton.style.fontFamily = 'Roboto,Arial,sans-serif';
+        zoomOutButton.style.fontSize = '12px';
+        zoomOutButton.style.lineHeight = '5px';
+        zoomOutButton.style.paddingLeft = '2px';
+        zoomOutButton.style.paddingRight = '2px';
+        zoomOutButton.innerHTML = ' - OUT';
+  controlUI.appendChild(zoomOutButton);  
+        
+        
 
+  // Setup the click event listener - zoomIn
+  google.maps.event.addDomListener(zoomInButton, 'click', function() {
+    map.setZoom(map.getZoom() + 1);
+  });
+    
+  // Setup the click event listener - zoomOut
+  google.maps.event.addDomListener(zoomOutButton, 'click', function() {
+    map.setZoom(map.getZoom() - 1);
+  });  
+    
 }
+	
+//    function initMap() {
+    
+  //  map = new google.maps.Map(document.getElementById("map_canvas"); //this can't have var
+    
+    //var mapOptions = {
+//          minzoom: 2,
+ //         zoomControl: false,
+  //        mapTypeId: google.maps.MapTypeId.ROADMAP
+//	}
+
+//	var MapName = "<?php echo $name4GoogleMap;?>";
+//		
+//		kml = new google.maps.KmlLayer("http://ucjeps.berkeley.edu/seaweedflora/SW_coords/"+MapName+".kml?122", {  });
+  //			kml.setMap(map);
+
+  //      });
+
+        
+
+function initialize() {
+  var mapDiv = document.getElementById('map_canvas');
+    
+  var mapOptions = {
+    zoomControl: false,
+    streetViewControl: false, //disable pegman/street view
+//    fullscreenControl: true,  
+    scrollwheel: false, //disable mouse zoom
+    mapTypeId: google.maps.MapTypeId.TERRAIN
+  }
+  
+  map = new google.maps.Map(mapDiv, mapOptions);
+  
+    
+  var MapName = "<?php echo $name4GoogleMap;?>";
+  
+  kml = new google.maps.KmlLayer("http://ucjeps.berkeley.edu/seaweedflora/SW_coords/"+MapName+".kml?122", {  });
+  
+  kml.setMap(map);
+
+  // Create the DIV to hold the control and call the ZoomControl() constructor
+  // passing in this DIV.
+  var zoomControlDiv = document.createElement('div');
+  var zoomControl = new ZoomControl(zoomControlDiv, map);
+
+  zoomControlDiv.index = 1;
+  map.controls[google.maps.ControlPosition.LEFT_BOTTOM].push(zoomControlDiv);
+}
+
+                               
+ 
+initialize();	
+	
+	
+	//	function initialize() {
+	//		var mapOptions = {
+	//			mapTypeId: google.maps.MapTypeId.ROADMAP
+	//		};
+	//		map = new google.maps.Map(document.getElementById("map_canvas"),mapOptions); //this can't have var
+	//		
+	//		var MapName = "<?php echo $name4GoogleMap;?>";
+	//		
+	//		kml = new google.maps.KmlLayer("http://ucjeps.berkeley.edu/seaweedflora/SW_coords/"+MapName+".kml?122", {  });
+  	//		kml.setMap(map);
+  		  			
+
+ //}
+ 
+
+	 
+		
+//		$(document).ready(function(){
+
+			/* set tab change */
+//			$('.tab-content').not(':first').hide();
+//			$('.tabs').click(function(e){
+//				e.preventDefault();
+//				$('.tab-content').hide();
+//				$($(this).attr('href')).show();
+//				if($(this).attr('href')=='#tabs-1'){
+//					//we have to set center for map after resize, but we need to know center BEFORE we resize it
+//					var centerx = map.getCenter();
+//					google.maps.event.trigger(map, 'resize'); //this fix the problem with not completely map
+//					map.setCenter(centerx);
+//				
+//				}
+				
+///			});
+	//	});
+
+
+
 
 function JumpToIt(list) {
     var newPage = list.options[list.selectedIndex].value
@@ -166,6 +300,9 @@ function JumpToIt(list) {
     }
 }
 </script>
+
+<script async defer src="https://maps.googleapis.com/maps/api/js?callback=initMap">
+    </script>
 
 <?php //for inside the jquery ui tabs. For some reason it is not working from this style in seaweed.css?>
 <style> 
@@ -188,13 +325,15 @@ a.internal:hover {
   $(function() {
     $( "#tabs" ).tabs();
   });
+
+
 </script>
 
 
 <!-- fancybox -->
 <script>
    $(document).ready(function() {
-	   $(".fancybox").fancybox({
+	   $('.fancybox').fancybox({
 		    type        : 'image',
 	    	openEffect  : 'none',
 	    	closeEffect : 'none'
@@ -203,6 +342,9 @@ a.internal:hover {
     $(document).ready(function() {
 		$('.fancybox2').fancybox();
     });
+    
+   
+    
 </script>
 <!-- end fancybox-->
 </head>
@@ -222,9 +364,7 @@ a.internal:hover {
 <?php echo '<a href="eflora_display.php?tid='.$previousTaxonID.'"><IMG SRC="http://ucjeps.berkeley.edu/icons/left.gif" BORDER=2 ALT="Previous taxon"></a>'?>
 </td>
 <td width=40%>
-<span class="pageName"><a href="http://ucjeps.berkeley.edu/seaweedflora/seaweedflora/">California Seaweeds eFlora</a></span>
-
-
+<span class="pageName"><a href="http://ucjeps.berkeley.edu/seaweedflora/">California Seaweeds eFlora</a></span>
 </td>
 <td width=55%>
 <!--eFlora index-->
@@ -250,7 +390,7 @@ a.internal:hover {
 	echo "<h2><a href='http://ucjeps.berkeley.edu/cgi-bin/search_ina.pl?lookfor=".$Name4INA."'><i><b>".$ScientificName."</b></i></h2> <b>".$TaxonAuthor."</b></a>";
 	if (isset($AudioFile)){ // AudioFile is included as part of the heading
 		echo '<audio controls>';
-		echo '<source src="audio/'.$AudioFile.'" type="audio/ogg">';
+		echo '<source src="http://ucjeps.berkeley.edu/seaweedflora/audio/'.$AudioFile.'" type="audio/ogg">';
 		echo 'Your browser does not support the audio element.';
 		echo '</audio>';
 	}
@@ -302,6 +442,7 @@ a.internal:hover {
 	</ul>
 </div>
 
+
 <div id="content-main">
 	<div id="tabs">
 		  <ul>
@@ -311,7 +452,7 @@ a.internal:hover {
 		    <li><a href="#tabs-4">Description</a></li>
 		    <!-- <li><a href="#tabs-5">Similar Species</a></li> --> <!-- SIMILAR SPECIES not in CALIFORNIA_SEAWEEDS.txt yet -->
 		  </ul>
-		<div id="tabs-1"> <!-- map tab -->
+		<div id="tabs-1" class="tab-content"> <!-- map tab -->
 			<p><div id="map_canvas"></div></p>
 			<p>UC specimens and range limits for <i><?php echo "$ScientificName"; ?></i></p>
 			<UL>
@@ -328,7 +469,7 @@ a.internal:hover {
 				}
 			?>
 		</div>
-		<div id="tabs-2"> <!-- notes tab -->
+		<div id="tabs-2" class="tab-content"> <!-- notes tab -->
 			<?php
 				if ($Status) {
 					$Status = str_replace("|",'</p><p>',$Status);
@@ -361,23 +502,25 @@ a.internal:hover {
 				echo '<p><b><a class="internal" href="http://www.ncbi.nlm.nih.gov/nuccore/?term='.$name4Smithso.'">Search Sequences in GenBank</a></b></p>'; // GENBANK LINK to be imported from Dick Moe's SW table
 			?>
 		</div>
-		<div id="tabs-3"> <!-- illustrations tab -->
+		<div id="tabs-3" class="tab-content"> <!-- illustrations tab -->
 			<!--<p>Illustrations are from <a href="http://ucjeps.berkeley.edu/guide/">DeCew's Guide to the Seaweeds of British Columbia, Washington, Oregon, and Northern California</a>, unless otherwise stated.</p>-->
 			<?php
 		    	while ($row = $illustration_results->fetchArray()) {
 					$illu_name = $row['FileName'];
 					$IsDecew = $row['IsDecew'];
-					echo '<img style="max-width:528px;" src="images/'.$illu_name.'"><br>';
-					//Add Decew citation if from Decew
-					if ($IsDecew) {
-						echo "<p>Illustration from <a href='http://ucjeps.berkeley.edu/guide/'>DeCew's Guide to the Seaweeds of British Columbia, Washington, Oregon, and Northern California</a></p>";
-					}
-					
+					if ($IsDecew) {//Add image and citation if from Decew
+					    echo '<img style="max-width:500px;" src="http://ucjeps.berkeley.edu/guide/'.$illu_name.'"><br>';
+					    echo "<p>Illustration from <a href='http://ucjeps.berkeley.edu/guide/'>DeCew's Guide to the Seaweeds of British Columbia, Washington, Oregon, and Northern California</a></p><br>";				
+					} else {
+					//list other non-Decew  images
+    					echo '<img style="max-width:500px;" src="/seaweedflora/images/'.$illu_name.'"><br>';
+					} 
+				
 					//echo '<br>';
 				}
 			?>
 		</div>
-		<div id="tabs-4"> <!-- MAC Tab -->
+		<div id="tabs-4" class="tab-content"> <!-- MAC Tab -->
 			<?php
 				if ($MACDescription) {
 					$MACDescription = str_replace("|",'</p><p>',$MACDescription);
@@ -390,7 +533,7 @@ a.internal:hover {
 				}
 			?>
 		</div>
-		<!-- <div id="tabs-5"></div> --> <!-- similar species tab -->
+		<!-- </div> id="tabs-5" class="tab-content"></div> --> <!-- similar species tab -->
 	</div>	
 </div>
 
