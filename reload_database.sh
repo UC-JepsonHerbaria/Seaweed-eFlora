@@ -1,5 +1,5 @@
 echo "create algae-only specimen file to get around duplicate accession numbers"
-grep "\tAlgae\t" inputs/4solr.ucjeps.public.csv > inputs/4solr_algae.csv
+grep "\tAlgae\t" inputs/4solr.ucjeps.public.txt > inputs/4solr_algae.csv
 echo "create new log file"
 rm outputs/log.txt
 touch outputs/log.txt
